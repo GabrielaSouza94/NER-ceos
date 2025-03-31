@@ -1,0 +1,91 @@
+ID=DOC2025022300000A-Areas-a-Cobrir-No-Trabalho
+
+ChatGpt: Este documento contém uma visão inicial da Estrutura que deveríamos cobrir para fazer o diagnóstico deste trabalho, tanto do ponto de vista organizacional, quanto de integrações de sistemas. Entretanto, é a visão inicial antes de fazermos o trabalho. Está visão poderá ser complementada com os achados realizados durante as reuniões, ou seja, não é necessariamente a versão final.
+
+Visão Geral
+A estrutura de sistemas e integrações do projeto "Planejamento & Alocação de Recursos" para o Grupo Globo foi organizada em uma hierarquia clara e lógica, abrangendo as macroáreas, áreas específicas, sistemas principais e suas respectivas integrações. Essa abordagem permite uma visão holística e detalhada dos fluxos de informação, automação de processos e principais desafios tecnológicos.
+
+1. Macroárea: Gestão de P&R, TA e RH
+1.1. Área: Planejamento e Alocação de Recursos
+1.1.1. Equipe: Longo Prazo
+* Descrição: Responsável pelo planejamento estratégico das produções, abrangendo o período de 12 a 18 meses, onde são definidas as necessidades de recursos críticos e desenvolvidos os planos de produção em planilhas de Excel.
+* Sistemas Envolvidos:
+* Planilhas Excel: Utilizadas para simulação de cenários e planejamento de recursos críticos, como estúdios, UPs (Unidades de Produção) e equipamentos de iluminação.
+* BI e Data Lake: Integram dados das planilhas e geram relatórios gerenciais para análise de capacidade e orçado vs. realizado.
+* Integrações:
+* O BI cruza informações do orçamento do Hyperion (PBCS) e o realizado proveniente do MediaPulse.
+1.1.2. Equipe: Curto Prazo
+* Descrição: Foca na execução operacional do planejamento a curto prazo, geralmente dentro do horizonte de 30 dias, com a alocação efetiva de recursos e validação financeira.
+* Sistemas Envolvidos:
+* MediaPulse: Principal sistema para gestão de ordens de trabalho (WOs), alocação de recursos humanos e materiais, e formalização das demandas operacionais.
+* Sistemas Financeiros: SAP BRIM, Rico, EBS para o controle de custos e faturamento das produções.
+* Integrações:
+* Camada de Desacoplamento: Atua como um middleware para conectar o MediaPulse a sistemas financeiros e de RH, garantindo flexibilidade nas integrações e minimizando impactos de futuras substituições de sistemas.
+* RH: Integrações bidirecionais com FPW, HCM (Oracle), SGTMOT para controle de alocação, disponibilidade de recursos humanos e apropriação de horas trabalhadas.
+
+1.2. Área: Talentos Artísticos
+1.2.1. Equipe: Captação
+* Descrição: Recruta novos talentos artísticos, gerencia o cadastro inicial e a atualização de dados.
+* Sistemas Envolvidos:
+* Captação: Solução própria da Globo que alimenta a Base Única de Talentos.
+* Integrações:
+* Conexão direta com a Base Única de Talentos, centralizando informações de elenco, criação, direção e talentos de bastidor.
+1.2.2. Equipe: Planejamento
+* Descrição: Realiza a curadoria de talentos artísticos e prepara o planejamento de médio e longo prazo.
+* Sistemas Envolvidos:
+* Star: Sistema central para o planejamento de talentos, também integrado à Base Única de Talentos e ao HCM.
+* Integrações:
+* HCM: Fornece dados cadastrais e de disponibilidade de talentos.
+* Arte: Sistema de contratação e gestão de talentos, conectado ao Star.
+1.2.3. Equipe: Contratação
+* Descrição: Formaliza a contratação de talentos artísticos e gerencia os contratos.
+* Sistemas Envolvidos:
+* Arte: Sistema responsável pela negociação, formalização e registro dos contratos.
+* Integrações:
+* MOT: Gerenciamento de mão de obra temporária, especialmente em cenários de picos de demanda.
+1.2.4. Equipe: Pagamento
+* Descrição: Garante o pagamento correto e tempestivo dos talentos, baseado nas alocações realizadas.
+* Sistemas Envolvidos:
+* Space: Sistema de gestão de pagamentos, integrado à Base Única de Talentos.
+* Integrações:
+* Com sistemas financeiros para processamento de folha de pagamento e cumprimento de obrigações fiscais.
+
+1.3. Área: RH
+1.3.1. Equipe: RDAC (Recrutamento, Desenvolvimento e Acompanhamento de Carreira)
+* Sistemas Envolvidos:
+* Oracle HCM: Principal ferramenta para recrutamento, contratação e gestão de talentos, incluindo desenvolvimento e treinamento.
+* Gupy: Solução de recrutamento e seleção, integrada ao HCM.
+* Integrações:
+* Comunicação bidirecional com FPW e plataformas de treinamento, como LinkedIn Learning.
+1.3.2. Equipe: Remuneração
+* Sistemas Envolvidos:
+* FPW: Sistema central para cálculo da folha de pagamento e apropriação de horas trabalhadas.
+* Integrações:
+* Com Rico para gestão de rateios financeiros e com o MediaPulse para envio das apropriações de horas.
+1.3.3. Equipe: Core & Benefícios
+* Descrição: Gerencia benefícios corporativos e programas de bem-estar para os colaboradores.
+* Sistemas Envolvidos:
+* HCM: Para registro e controle de benefícios, ausências e licenças.
+* SOC: Sistema de segurança do trabalho, integrado ao HCM para acompanhamento de ocorrências e cumprimento de requisitos legais.
+1.3.4. Equipe: Folha de Pagamento
+* Descrição: Executa o fechamento da folha e integra com sistemas bancários para pagamento.
+* Sistemas Envolvidos:
+* FPW: Gera a folha de pagamento e envia os arquivos ao e-Social e bancos parceiros.
+* Integrações:
+* Com o HCM para recebimento de dados cadastrais e eventos de folha.
+
+2. Sistemas e Integrações - Visão Sistêmica
+2.1. Sistemas Principais
+* MediaPulse: Gerencia o planejamento de curto prazo, alocação de recursos e controle de custos.
+* Star: Sistema de planejamento de talentos artísticos, focado em médio e longo prazo.
+* Captação: Front-end da Base Única de Talentos, utilizado na prospecção de talentos.
+* Arte: Sistema de contratação e formalização de talentos.
+* Space: Focado em pagamentos de talentos artísticos.
+* Oracle HCM: Master de informações de recursos humanos e benefícios.
+* FPW: Folha de pagamento e apropriação de horas.
+* SAP BRIM, Rico, EBS: Soluções financeiras para faturamento e gestão de custos.
+2.2. Camada de Integração
+* Camada de Desacoplamento: Middleware que conecta o MediaPulse a diversos sistemas internos e externos, utilizando APIs padronizadas e orquestração de dados via brokers.
+* BI e Data Lake: Centralizam dados do orçamento (Hyperion) e informações realizadas (MediaPulse) para gerar dashboards e relatórios gerenciais.
+
+

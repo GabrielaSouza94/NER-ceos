@@ -1,0 +1,96 @@
+ID= PPT202503PLA001I
+NOME = 2025_XX_XX_Planejamento_Etapa_01 - VersaoAreas
+
+Descrição Geral
+O documento apresenta um plano de trabalho para a Etapa 01 do projeto de planejamento e alocação de recursos da Globo, conduzido pela NTConsult. Ele inclui:
+
+Diagnóstico dos sistemas e processos existentes.
+Identificação de problemas operacionais e técnicos.
+Oportunidades de melhoria para tornar os processos mais eficientes.
+Propostas de soluções estratégicas, considerando custos e investimentos necessários.
+O foco principal está nas áreas de: 
+1️ Planejamento & Alocação de Recursos (P&A)
+2️ Talentos Artísticos (TA)
+3️ Recursos Humanos (RH)
+
+Resumo do Conteúdo
+O documento cobre os seguintes aspectos:
+
+1️ Levantamento de Processos
+
+Mapeamento do planejamento de longo e curto prazo.
+Uso de modelagem BPMN para processos atuais (AS-IS).
+Identificação de sinergias entre áreas e sistemas.
+
+2️ Levantamento de Sistemas
+
+Mapeamento das ferramentas utilizadas para P&A, TA e RH.
+Identificação de gaps e desafios técnicos.
+Análise das integrações e fluxos de dados entre sistemas.
+
+3️ Problemas Identificados
+
+Excesso de processos manuais e uso intensivo de planilhas Excel.
+Falta de automação e integração entre sistemas.
+Dificuldade na transição entre planejamento de longo e curto prazo.
+Problemas na gestão de talentos e contratos.
+Limitações técnicas do MediaPulse.
+Baixa sincronização entre planejamento financeiro e operacional.
+
+4️ Oportunidades de Melhoria
+
+Automação de processos repetitivos.
+Melhoria na integração entre MediaPulse, SAP BRIM e RH.
+Otimização na criação e gestão de ordens de serviço (WOs).
+Maior rastreabilidade e controle de custos.
+Redução de retrabalho e inconsistências nos processos financeiros.
+
+5️ Plano de Produção e Gestão de Recursos
+
+Planejamento de longo prazo (12 a 18 meses).
+Ajustes operacionais de curto prazo (30 dias antes da produção).
+Faturamento e rateio de alocações financeiras.
+
+6️ Análise de Problemas e Incidentes
+
+265 chamados analisados entre fevereiro de 2024 e março de 2025.
+Principais dificuldades com MediaPulse, Star, Arte e Space.
+Erros na integração de dados e processamento de pagamentos.
+
+Metadados do Documento
+Título: Planejamento Etapa 01 - Versão Áreas
+Data: 2025
+Empresa responsável: NTConsult
+Áreas envolvidas: P&A, TA e RH
+Conteúdo: Planejamento estratégico, levantamento de processos e sistemas, oportunidades e desafios.
+
+Análise Quantitativa
+Número de reuniões realizadas: 13.
+Chamados analisados: 265 chamados registrados entre 2024 e 2025.
+Principais áreas analisadas: 3 (P&A, TA e RH).
+Número de sistemas identificados: 15+.
+Principais desafios listados: 6+.
+Principais oportunidades identificadas: 5+.
+
+Principais Insights
+
+1️ Globo ainda depende de processos manuais e planilhas Excel.
+O uso excessivo de Excel impacta eficiência, colaboração e controle de processos.
+A transição entre planejamento de longo e curto prazo ocorre manualmente, sem um fluxo integrado.
+
+2️ MediaPulse apresenta sérios problemas de desempenho e integração.
+Sistema legado, sujeito a descontinuação.
+Não suporta simulação de cenários, exigindo trabalho manual.
+Integração deficiente com sistemas financeiros e de talentos.
+
+3️ A gestão de talentos é fragmentada entre múltiplos sistemas.
+Star, Arte, Space, HCM e outros não se comunicam bem.
+A falta de uma visão única dificulta a tomada de decisão e a alocação eficiente.
+
+4️ O faturamento e controle financeiro possuem desafios operacionais.
+SAP BRIM e MediaPulse não estão bem sincronizados, o que gera ajustes manuais.
+O tempo médio de processamento financeiro é de 30 a 50 dias, impactando a previsibilidade orçamentária.
+
+5️ A falta de integração entre áreas compromete a eficiência operacional.
+As equipes de planejamento e execução operam isoladamente, dificultando ajustes rápidos.
+Processos manuais geram erros e retrabalho.

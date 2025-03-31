@@ -1,0 +1,95 @@
+ID=DOC2025022300000A
+NOME= Areas-a-Cobrir-No-Trabalho
+
+Resumo do Conteúdo
+O documento apresenta um mapeamento inicial das áreas organizacionais, sistemas utilizados e integrações necessárias para o diagnóstico do projeto "Planejamento & Alocação de Recursos". Ele divide o escopo em macroáreas (P&R, TA e RH) e detalha as equipes envolvidas, suas funções e os sistemas que utilizam.
+
+A Globo atualmente opera com um ecossistema complexo de ferramentas, sendo as principais:
+
+MediaPulse: Planejamento de curto prazo e alocação de recursos.
+Star, Arte e Space: Gestão de talentos artísticos.
+SAP BRIM, Rico, EBS: Faturamento e controle financeiro.
+FPW, Oracle HCM: Gestão de RH e folha de pagamento.
+A camada de integração é fundamental para conectar os diferentes sistemas e garantir a fluidez de informações entre áreas.
+
+Essa estrutura pode ser ajustada conforme os achados das reuniões, garantindo que o diagnóstico reflita a realidade do ambiente de trabalho da Globo.
+
+Principais Informações Contidas
+Macroáreas do Projeto:
+
+Gestão de Planejamento & Alocação de Recursos (P&R), Talentos Artísticos (TA) e RH.
+Áreas específicas e equipes:
+
+Planejamento e Alocação de Recursos
+Longo Prazo: Define planejamento estratégico (12-18 meses).
+Curto Prazo: Executa alocação efetiva dos recursos em um horizonte de 30 dias.
+Talentos Artísticos:
+Captação: Recruta e cadastra talentos.
+Planejamento: Curadoria de talentos e definição de necessidades futuras.
+Contratação: Formaliza contratos e negociações.
+Pagamento: Gerencia remunerações dos talentos.
+RH:
+RDAC: Recrutamento, desenvolvimento e acompanhamento de carreira.
+Remuneração: Cálculo de folha de pagamento e rateios financeiros.
+Core & Benefícios: Gestão de benefícios corporativos.
+Folha de Pagamento: Processa pagamentos e cumprimento de obrigações fiscais.
+Sistemas Principais Envolvidos:
+
+Planejamento de Recursos:
+Planilhas Excel: Simulação de cenários e planejamento.
+BI e Data Lake: Consolidação de dados e geração de relatórios.
+MediaPulse: Gestão de ordens de serviço, alocação de recursos e custos.
+Financeiro e RH:
+SAP BRIM, Rico, EBS: Controle financeiro e faturamento.
+FPW, Oracle HCM: Gestão de folha de pagamento e benefícios.
+Talentos Artísticos:
+Captação, Star, Arte, Space: Gestão de talentos, contratação e pagamentos.
+Principais Integrações:
+
+BI cruza dados do orçamento do Hyperion com os registros do MediaPulse.
+MediaPulse integra-se a SAP BRIM, Rico, EBS para controle de custos.
+Camada de Desacoplamento conecta o MediaPulse a sistemas financeiros e de RH.
+HCM se conecta ao Star e Arte para gerir talentos artísticos.
+FPW se integra a MediaPulse para apropriação de horas trabalhadas.
+Camada de Integração:
+
+Middleware de desacoplamento para conectar sistemas internos e externos via APIs.
+BI e Data Lake para centralização de dados e relatórios gerenciais.
+
+
+Metadados do Documento
+Título: ID=DOC2025022300000A - Áreas a Cobrir no Trabalho
+Data: 23/02/2025
+Natureza: Visão preliminar do escopo a ser analisado
+Foco: Estrutura organizacional, sistemas e integrações
+
+
+Análise Quantitativa
+Número de Macroáreas analisadas: 3 (P&R, TA, RH).
+Número de áreas específicas: 9.
+Número de equipes descritas: 12.
+Principais sistemas mencionados: 14.
+Principais integrações destacadas: 7.
+Principais Insights
+A estrutura de planejamento da Globo é altamente segmentada:
+
+Diferentes equipes trabalham em horizontes de tempo distintos (longo e curto prazo).
+Sistemas e processos são fragmentados, exigindo maior integração.
+O MediaPulse ainda é um elemento central, mas há desafios:
+
+Utilizado no curto prazo, mas não cobre planejamento de longo prazo.
+Integrações com sistemas financeiros e RH são críticas, mas precisam de otimização.
+A Globo utiliza múltiplos sistemas para talentos artísticos:
+
+Captação, Star, Arte, Space cobrem diferentes fases do ciclo de talentos.
+Conexão entre esses sistemas e o RH é essencial para evitar inconsistências.
+A integração via middleware é um ponto estratégico:
+
+A camada de desacoplamento reduz impactos de mudanças nos sistemas.
+BI e Data Lake são fundamentais para análises estratégicas.
+Necessidade de otimizar o fluxo de informações e tomada de decisão:
+
+A atual segmentação por áreas pode gerar redundâncias e desafios operacionais.
+Uma solução integrada deveria permitir maior visibilidade dos dados e automação.
+
+A próxima etapa do trabalho deve aprofundar o diagnóstico, identificando gaps, pontos de otimização e possíveis soluções tecnológicas para uma melhor fluidez entre os processos e sistemas.

@@ -1,0 +1,124 @@
+ID=DOC2025022300004A
+NOME= Catálogo de Ferramentas e Sistemas
+
+Descrição Geral
+O documento apresenta um mapeamento completo das ferramentas e sistemas utilizados em cada macroprocesso das principais áreas da Globo. Ele detalha quais soluções tecnológicas são aplicadas para planejamento, alocação de recursos, talentos artísticos, RH, esportes, jornalismo e integrações tecnológicas.
+
+A estrutura do documento segue uma abordagem hierárquica, onde cada macroprocesso tem seus sistemas específicos listados, indicando quais plataformas são utilizadas para planejamento, execução, monitoramento e integração de dados.
+
+Principais Informações Contidas
+Áreas e Macroprocessos Analisados:
+
+Planejamento e Alocação de Recursos
+Talentos Artísticos
+Recursos Humanos
+Esportes
+Jornalismo
+Integrações e Tecnologia
+Principais Sistemas/Ferramentas por Área:
+
+1️ Planejamento e Alocação de Recursos
+
+Planejamento de Longo Prazo:
+MediaPulse (parcial), Planilhas Excel, ADEGA, Hyperion (PBCS), Data Lake e BI, Camunda BPM.
+Planejamento de Curto Prazo:
+MediaPulse, SAP BRIM, Oracle EBS, BigQuery e BI.
+Transição entre Longo e Curto Prazo:
+MediaPulse, Planilhas Excel e E-mails.
+Alocação de Recursos:
+MediaPulse, Camunda BPM, SAP BRIM, Oracle EBS.
+Gestão de Custeio:
+MediaPulse, SAP BRIM, Hyperion, Data Lake e BI.
+Integração de Sistemas:
+Decoupling Layer (Camada de Desacoplamento), Grafana, Prometheus, APIs do MediaPulse.
+
+2️ Talentos Artísticos
+Captação de Talentos:
+Sistema "Captação".
+Curadoria e Planejamento:
+Sistema "Star", Base Única de Talentos.
+Contratação e Pagamento:
+Sistema "Arte", Sistema "Space".
+Gestão de Talentos no Esporte:
+Feita manualmente (Planilhas, e-mails, sem sistema estruturado).
+
+3️ Recursos Humanos
+Recrutamento e Seleção:
+Oracle HCM, Gupy, LinkedIn Learning.
+Gestão de Talentos Internos:
+Oracle HCM (desenvolvimento e performance), Academias Globo, Pulse/Valorai.
+Folha de Pagamento e Benefícios:
+FPW, Oracle HCM, Sistema Bancário.
+Integração de Dados:
+Barramento de Serviços Interno.
+
+4️ Esportes
+Planejamento e Alocação de Recursos:
+MediaPulse, Planilhas Excel.
+Gestão de Eventos Esportivos:
+MediaPulse, E-mails e Planilhas (manual).
+
+5️ Jornalismo
+Processo de Produção:
+MediaPulse, Planilhas Excel.
+Alocação de Recursos:
+MediaPulse, sem sistema específico na área de tecnologia.
+
+6️ Integrações e Tecnologia
+Arquitetura de Integração:
+Decoupling Layer, APIs customizadas.
+Monitoramento e Suporte:
+Grafana, Prometheus.
+Automatização de Processos:
+Camunda BPM, Automação com filas e brokers de dados.
+
+Metadados do Documento
+Título: Catálogo de Ferramentas e Sistemas
+Formato: Documento estruturado em árvore
+Conteúdo: Listagem de ferramentas utilizadas por área e macroprocesso
+Áreas cobertas: Planejamento, Talentos, RH, Esportes, Jornalismo, Integrações Tecnológicas
+
+Resumo do Conteúdo
+O documento apresenta um levantamento detalhado das tecnologias utilizadas pela Globo para suporte aos macroprocessos operacionais. Cada área possui um conjunto de ferramentas específico, muitas vezes com soluções legadas ou customizadas.
+
+Os sistemas utilizados variam de planilhas Excel a ferramentas avançadas como SAP BRIM, Oracle HCM e Camunda BPM, demonstrando a complexidade da infraestrutura tecnológica da Globo.
+
+A integração entre sistemas é um ponto crítico, com a Decoupling Layer desempenhando um papel fundamental na comunicação entre ferramentas. Ferramentas como Grafana e Prometheus são usadas para monitoramento e suporte, enquanto BigQuery, Data Lake e BI auxiliam na análise de dados.
+
+
+Análise Quantitativa
+Número total de macroprocessos descritos: 16.
+Número total de ferramentas/sistemas citados: 25+.
+Áreas com maior número de sistemas:
+Planejamento e Alocação de Recursos (6 macroprocessos, 12+ ferramentas).
+Recursos Humanos (4 macroprocessos, 6 ferramentas).
+Talentos Artísticos (4 macroprocessos, 4 ferramentas).
+Principais ferramentas usadas para integração: Decoupling Layer, APIs, Grafana, Prometheus.
+Principais desafios tecnológicos:
+Dependência de planilhas Excel e e-mails.
+Falta de um sistema estruturado para gestão de talentos no Esporte.
+Integrações complexas entre sistemas financeiros, planejamento e RH.
+
+Principais Insights
+
+1️ A Globo depende de múltiplas ferramentas para diferentes processos:
+MediaPulse, SAP BRIM e Oracle EBS são fundamentais para planejamento e gestão financeira.
+Oracle HCM e FPW são cruciais para gestão de talentos e RH.
+A diversidade de ferramentas gera desafios de integração e complexidade operacional.
+
+2️ Ainda há forte dependência de processos manuais:
+Planilhas Excel e e-mails são amplamente utilizados, principalmente na transição entre longo e curto prazo e na gestão de talentos esportivos.
+Isso gera riscos operacionais, atrasos e dificuldades na atualização de informações.
+
+3️ A integração de sistemas precisa ser robusta:
+A Decoupling Layer desempenha um papel central na comunicação entre sistemas distintos.
+APIs customizadas são utilizadas para conectar MediaPulse, SAP BRIM, FPW e Oracle HCM.
+Monitoramento ativo (Grafana, Prometheus) é essencial para evitar falhas e gargalos.
+
+4️ A área de Talentos Artísticos possui um modelo tecnológico fragmentado:
+O processo de gestão de talentos no Esporte ainda é manual, sem um sistema estruturado.
+Diferentes ferramentas são usadas para captação, planejamento, contratação e pagamento, mas não há um sistema único que integre essas funções.
+
+5️ Há espaço para automação e otimização:
+Camunda BPM e automação via filas e brokers já são utilizados, mas podem ser expandidos para reduzir tarefas manuais.
+A implementação de um sistema unificado para talentos e esportes poderia melhorar a eficiência.

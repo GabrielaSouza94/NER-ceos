@@ -1,0 +1,103 @@
+ID= PPT202503STA000I
+NOME = 2025_03_14_Stakeholders
+
+Resumo do Conteúdo
+O documento identifica e detalha diversos perfis profissionais que atuam ou são impactados ao longo do ciclo de planejamento e produção audiovisual da Globo. Ele estrutura os stakeholders em categorias e apresenta suas principais funções.
+
+🔹 Principais grupos de stakeholders mapeados: 
+1️ Planejamento de Produção
+2️ Gestão de Talentos Artísticos
+3️ Gestão Operacional e Técnica
+4️ Gestão Financeira e Rateio
+
+🔹 Principais Stakeholders e suas Responsabilidades
+1️ Analista de Conteúdo
+Atua no início do planejamento das produções audiovisuais.
+Responsável por coletar e estruturar informações para definir quais conteúdos serão produzidos e em quais períodos.
+Trabalha junto às áreas de entretenimento, jornalismo e esportes.
+Depende fortemente de planilhas Excel para simulação de cenários e planejamento inicial.
+
+2️ Gestor de Talentos Artísticos
+Supervisiona o recrutamento, curadoria e alocação de talentos.
+Garante a atualização da Base Única de Talentos e que a seleção esteja alinhada às necessidades das produções.
+
+3️ Produtor de Tecnologia
+Responsável por traduzir a demanda artística para a realidade técnica.
+Determina os recursos necessários para viabilizar as produções:
+Horas de estúdio.
+Equipamentos e iluminação.
+Ligações externas e pós-produção.
+
+4️ Time de Planejamento de Longo Prazo
+Trabalha 12 a 18 meses antes das produções.
+Projeta necessidades operacionais sem alocar os recursos de forma definitiva.
+Realiza simulações de cenários e antecipa demandas críticas.
+Identifica gargalos e necessidade de locação de recursos externos.
+
+5️ Especialista de Capacidade
+Gerencia a alocação eficiente dos recursos disponíveis.
+Analisa a disponibilidade de estúdios, equipamentos e equipes.
+Trabalha na transição do planejamento de longo para curto prazo.
+
+6️ Coordenador de Alocação
+Planeja a distribuição operacional de talentos e recursos técnicos.
+Garante que profissionais e equipamentos estejam disponíveis no momento certo.
+Faz ajustes de alocação conforme mudanças na produção.
+
+7️ Coordenador de Operações e Alocação
+Gerencia e integra o sistema de planejamento e alocação de recursos.
+Supervisiona a entrada de dados no MediaPulse para garantir consistência.
+Coordena integrações com sistemas financeiros e de RH.
+Busca oportunidades de automação dos processos operacionais.
+
+8️ Especialista em Chargeback e Rateio
+Gerencia a alocação de custos internos das produções.
+Distribui corretamente os valores entre áreas e centros de custo.
+Automatiza processos de faturamento e integração financeira.
+
+9️ Coordenador de Pagamentos e Contratos
+Supervisiona pagamentos a fornecedores, talentos e prestadores de serviço.
+Garante a correta execução dos contratos dentro dos prazos estabelecidos.
+Colabora com áreas de planejamento para validar previsões financeiras.
+
+Principais Informações Contidas
+1️ Mapeamento dos stakeholders impactados pelo planejamento de produções.
+2️ Definição clara das funções e responsabilidades de cada perfil profissional.
+3️ Identificação das interações entre planejamento estratégico e operação.
+4️ Mapeamento dos desafios operacionais enfrentados por cada stakeholder.
+5️ Análise da dependência de sistemas, processos e integrações.
+
+Metadados do Documento
+Título: 2025_03_14_Stakeholders
+Data: 14/03/2025
+Empresa responsável: NTConsult
+Áreas envolvidas: Planejamento, Talentos Artísticos e RH
+Conteúdo: Identificação e descrição de stakeholders nos processos de planejamento audiovisual.
+
+Análise Quantitativa
+Número total de stakeholders descritos: 9 perfis profissionais mapeados.
+Número total de categorias: 4 grandes áreas de atuação.
+Principais desafios mapeados: 6 principais dificuldades operacionais.
+Número de processos analisados: Planejamento de longo e curto prazo, alocação de recursos, faturamento e pagamento de contratos.
+Número de sistemas mencionados: 3 principais (MediaPulse, SAP BRIM, Base Única de Talentos).
+
+Principais Insights
+1️ A transição entre planejamento de longo e curto prazo ainda apresenta desafios.
+Não há um fluxo contínuo e estruturado para garantir a passagem das informações entre essas fases.
+O planejamento de longo prazo depende de projeções, mas a execução de curto prazo é feita de forma independente.
+
+2️ A alocação de talentos e recursos ainda depende de múltiplos sistemas não integrados.
+A Base Única de Talentos não conversa bem com os sistemas de alocação operacional.
+Gestão de contratos e pagamentos exige consulta em vários sistemas diferentes.
+
+3️ O uso de planilhas Excel ainda é um problema estrutural.
+Muitos stakeholders ainda dependem de Excel para simulação de cenários e planejamento.
+Isso aumenta a complexidade, gera retrabalho e torna o processo menos eficiente.
+
+4️ A integração entre planejamento e financeiro precisa ser otimizada.
+Chargeback e rateio de custos ainda são feitos manualmente em muitos casos.
+O tempo médio de processamento financeiro varia entre 30 a 50 dias, o que impacta a previsibilidade orçamentária.
+
+5️ Há espaço para maior automação e padronização de processos.
+Os processos de alocação, faturamento e controle financeiro poderiam ser mais automatizados.
+A adoção de workflows digitais ajudaria a evitar inconsistências e melhorar a rastreabilidade.

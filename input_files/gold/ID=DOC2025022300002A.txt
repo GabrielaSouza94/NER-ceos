@@ -1,0 +1,100 @@
+ID=DOC2025022300002A
+NOME= Macroprocessos de Planejamento e Alocação de Recursos
+
+Descrição Geral
+O documento apresenta um mapeamento detalhado dos macroprocessos envolvidos na gestão de planejamento e alocação de recursos da Globo. Ele organiza os processos por área, detalhando atividades, sistemas utilizados e integrações. Essa estrutura abrange desde o planejamento estratégico até a execução operacional e gestão financeira.
+
+As informações foram extraídas de reuniões com a equipe da Globo, identificando como cada setor opera e quais desafios existem na integração de sistemas e automação de processos.
+
+Principais Informações Contidas
+Áreas Analisadas:
+
+Planejamento e Alocação de Recursos (MediaPulse)
+Talentos Artísticos
+Recursos Humanos (RH)
+Esportes
+Jornalismo
+Integrações e Tecnologia
+Principais Macroprocessos por Área:
+
+Planejamento e Alocação de Recursos:
+
+Planejamento de Longo Prazo: Simulação de cenários e orçamento.
+Planejamento de Curto Prazo: Execução da alocação e gestão de ordens de trabalho (WOs).
+Transição entre Longo e Curto Prazo: Passagem de informações para execução no MediaPulse.
+Alocação de Recursos: Gerenciamento de WOs e comunicação com áreas envolvidas.
+Gestão de Custeio: Integração com SAP BRIM e Hyperion para controle financeiro.
+Integração de Sistemas: Uso de middleware para comunicação entre soluções da Globo.
+Talentos Artísticos:
+
+Captação de Talentos: Uso do sistema Captação.
+Curadoria e Planejamento: Feito no sistema Star, que se integra à Base Única de Talentos.
+Contratação e Pagamento: Gerenciado pelos sistemas Arte e Space.
+Gestão de Talentos no Esporte: Processo menos automatizado, dependente de planilhas.
+Recursos Humanos (RH):
+
+Recrutamento e Seleção: Oracle HCM e Gupy.
+Gestão de Talentos Internos: Acompanhamento de desenvolvimento e desligamento.
+Folha de Pagamento e Benefícios: Integrado ao FPW.
+Integração de Dados: Uso de um barramento para evitar replicação de dados.
+Esportes:
+
+Planejamento e Alocação de Recursos: Semelhante ao entretenimento, mas feito diretamente pelo time de conteúdo.
+Gestão de Eventos Esportivos: Processos específicos para eventos e ajustes de última hora.
+Jornalismo:
+
+Processo de Produção: Mantém uma estrutura estável com poucas variações anuais.
+Alocação de Recursos: Executada pela área de tecnologia sem envolvimento direto do conteúdo.
+Integrações e Tecnologia:
+
+Arquitetura de Integração: Uso da Decap Layer como middleware.
+Monitoramento e Suporte: Ferramentas Grafana e Prometheus.
+Automatização de Processos: Uso de filas e brokers para sincronizar dados.
+
+
+Metadados do Documento
+Título: Macroprocessos de Planejamento e Alocação de Recursos
+Fonte: Compilação de reuniões com a equipe da Globo
+Áreas analisadas: 6
+Sistemas mencionados: 10+
+Foco: Estruturar os processos operacionais e suas integrações tecnológicas.
+Resumo do Conteúdo
+O documento fornece um panorama completo dos macroprocessos relacionados ao planejamento e alocação de recursos na Globo. Ele detalha como diferentes áreas operam, quais sistemas utilizam e como essas soluções se integram.
+
+Os processos são divididos em Planejamento de Longo e Curto Prazo, com o MediaPulse sendo o sistema principal para a execução das ordens de trabalho. Há uma forte dependência de planilhas, sistemas isolados e integrações via middleware para garantir o fluxo de informações.
+
+O setor de Talentos Artísticos conta com sistemas específicos, mas sua integração ainda apresenta desafios, especialmente na gestão esportiva. O RH opera majoritariamente via Oracle HCM, e a camada de desacoplamento (Decap Layer) é essencial para manter a comunicação entre sistemas.
+
+O Jornalismo tem um processo mais estável e estruturado, enquanto o Esporte exige adaptação constante a eventos dinâmicos.
+
+A parte de integrações tecnológicas é crítica, pois a Globo utiliza diversas soluções e precisa garantir que os dados fluam entre diferentes plataformas de maneira eficiente e sem redundâncias.
+
+Análise Quantitativa
+Número de áreas abordadas: 6
+Número de macroprocessos descritos: 15+
+Principais sistemas mencionados: 10+
+Principais desafios identificados: 5+
+Ferramentas de monitoramento citadas: Grafana, Prometheus
+
+
+Principais Insights
+O Planejamento de Recursos é dividido entre Longo e Curto Prazo:
+
+O MediaPulse gerencia o curto prazo, mas não cobre planejamento estratégico.
+A transição entre esses períodos ainda depende de processos manuais.
+A Globo depende fortemente de sistemas legados e middleware:
+
+A Decap Layer é crucial para integrar soluções como SAP BRIM, MediaPulse e Oracle HCM.
+Isso evita replicação de dados, mas também pode criar pontos únicos de falha.
+O setor de Talentos Artísticos opera com múltiplos sistemas desconectados:
+
+O Star, Captação, Arte e Space precisam de maior integração.
+No esporte, a gestão de talentos ainda depende de planilhas, dificultando automação.
+O RH utiliza soluções robustas, mas enfrenta desafios de integração:
+
+Oracle HCM e FPW centralizam a maior parte dos processos.
+A necessidade de evitar redundâncias e garantir conformidade é um desafio recorrente.
+Monitoramento e automação são essenciais para eficiência operacional:
+
+Ferramentas como Grafana e Prometheus ajudam a rastrear problemas em tempo real.
+Uso de filas e brokers melhora a orquestração de processos financeiros e de RH.

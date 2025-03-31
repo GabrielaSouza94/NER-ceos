@@ -1,0 +1,122 @@
+ID= PPT202502STA001I
+NOME = 2025_02_26_StatusSamuel
+
+Descrição Geral
+Este documento apresenta um relatório de status sobre o andamento do projeto de Planejamento & Alocação de Recursos (P&A), Talentos Artísticos (TA) e Recursos Humanos (RH). Ele fornece:
+
+Uma visão geral do progresso do trabalho até o momento.
+Principais desafios identificados.
+Oportunidades de melhoria e otimização de processos.
+Integrações entre sistemas e suas dependências.
+Próximos passos para evolução do projeto.
+O foco do relatório é alinhar as expectativas do projeto, consolidar o diagnóstico técnico e operacional e sugerir ações estratégicas para aprimorar os processos de planejamento.
+
+Resumo do Conteúdo
+O documento está estruturado nas seguintes seções principais:
+
+1️ Objetivo
+Apresentar o andamento do trabalho e discutir os resultados alcançados.
+Identificar pontos de melhoria e alinhar estratégias para as próximas etapas.
+Obter sugestões para garantir alinhamento aos objetivos do negócio.
+
+2️ Status Atual
+Mapeamento das áreas envolvidas:
+Planejamento & Alocação de Recursos (P&A).
+Talentos Artísticos (TA).
+Recursos Humanos (RH).
+
+Processos analisados:
+Planejamento de longo prazo (12 a 18 meses antes da produção).
+Planejamento de curto prazo (30 dias antes da execução).
+Gestão de contratação, remuneração e folha de pagamento.
+
+3️ Cadeia de Valor – Atividades Principais
+Plano de Produção:
+Definição da programação anual (novelas, jornalismo, entretenimento).
+Refinamento da estrutura narrativa e definição das equipes criativas.
+Projeção de recursos críticos (estúdios, equipamentos, equipes).
+Alocação de recursos 30 dias antes da produção.
+Execução das filmagens e ajustes operacionais.
+Pós-produção, mixagem de som e edição antes da distribuição.
+Exibição do conteúdo nos canais planejados.
+
+4️ Dependência Sistêmica
+Mapeamento dos sistemas integrados no fluxo de planejamento:
+HCM (Oracle): Gestão de talentos e RH.
+FPW: Controle de folha de pagamento e carga horária.
+SAP BRIM: Gestão financeira e faturamento.
+MediaPulse: Planejamento e alocação de recursos.
+Base Única de Talentos: Centraliza dados cadastrais.
+Space e Arte: Gestão de contratos e pagamentos.
+Hyperion: Planejamento financeiro e orçamento.
+
+5️ Sinergia Operacional
+Gargalos identificados na transição entre longo e curto prazo:
+Falta de integração entre sistemas impacta a eficiência da alocação.
+Excesso de processos manuais torna a operação lenta e propensa a erros.
+Baixa visibilidade dos recursos disponíveis afeta o planejamento financeiro.
+Falta de automação no fluxo de pagamentos e contratos.
+
+6️ Oportunidades Identificadas
+Planejamento de médio e longo prazo:
+Reduzir a dependência de planilhas e e-mails no planejamento estratégico.
+Automatizar a transição entre longo e curto prazo.
+Melhorar a gestão da disponibilidade de recursos.
+
+Integração entre sistemas:
+Otimizar a camada de desacoplamento para evitar ações manuais repetitivas.
+Integrar o MediaPulse com FPW e SAP BRIM para melhorar a rastreabilidade.
+Gestão financeira:
+
+O tempo médio de processamento financeiro é de 30 a 50 dias, impactando a operação.
+A sensibilização do orçamento é lenta, dificultando a previsibilidade financeira.
+
+7️ Próximos Passos
+Aprofundar a análise das soluções de RH.
+Validar cenários atuais (AS-IS) e revisar insumos com stakeholders.
+Construção de cenários de evolução (TO-BE) considerando custo-benefício.
+Propor alternativas para reduzir falhas operacionais e retrabalho.
+
+Principais Informações Contidas
+1️ Mapeamento completo dos processos de planejamento e execução.
+2️ Identificação dos sistemas e suas interdependências no fluxo de planejamento e financeiro.
+3️ Diagnóstico dos desafios operacionais, como excesso de processos manuais e baixa automação.
+4️ Propostas de integração para reduzir gargalos e aumentar eficiência.
+5️ Definição de ações estratégicas para otimizar o fluxo de trabalho e diminuir tempo de resposta financeiro.
+
+Metadados do Documento
+Título: 2025_02_26_StatusSamuel
+Data: 26/02/2025
+Empresa responsável: NTConsult
+Áreas envolvidas: Planejamento & Alocação de Recursos, Talentos Artísticos, RH
+Conteúdo: Diagnóstico operacional, dependências sistêmicas, oportunidades de melhoria.
+
+Análise Quantitativa
+Número de áreas analisadas: 3 (P&A, TA, RH).
+Número de sistemas mapeados: 10+ (MediaPulse, SAP BRIM, FPW, Oracle HCM, etc.).
+Principais desafios operacionais listados: 6 principais problemas.
+Número de processos analisados: Gestão de produção, alocação de talentos, controle financeiro.
+Número de oportunidades identificadas: 5 principais melhorias sugeridas.
+
+Principais Insights
+1️ Falta de integração entre os sistemas compromete a eficiência operacional.
+A transição entre planejamento estratégico e execução não é fluida.
+O planejamento financeiro não está sincronizado com a alocação de recursos.
+
+2️ A dependência de planilhas e e-mails ainda é um grande gargalo.
+Muitos processos são manuais, aumentando o risco de erro e retrabalho.
+O planejamento de longo prazo poderia ser mais automatizado.
+
+3️ A gestão financeira tem baixa previsibilidade e controle.
+O tempo médio de processamento financeiro é de 30 a 50 dias.
+Falta visibilidade de custos e orçamento em tempo real.
+
+4️ A alocação de talentos artísticos ainda é descentralizada.
+Os dados estão fragmentados em diferentes sistemas (Base Única, Arte, Space, HCM).
+É necessário um modelo mais coeso para otimizar alocações.
+
+5️ Automação e otimização de fluxos podem gerar ganhos operacionais significativos.
+A integração entre MediaPulse, FPW e SAP BRIM pode melhorar o faturamento e controle financeiro.
+A criação de um fluxo unificado para talentos pode reduzir retrabalho e aumentar a eficiência.
+
+

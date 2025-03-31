@@ -1,0 +1,47 @@
+ID=DOC2025022300001A-Estrutura
+Nome = Estrutura
+
+Organização das Àreas à Cobrir:
+Macroarea: Gestão de P&R, TA e RH
+* Àrea: Planejamento e Alocação de Recursos
+    ** Equipe: Longo Prazo
+    ** Equipe: Curto Prazo
+* Àrea: Talentos Artísticos
+    ** Equipe: Captação
+    ** Equipe: Planejamento
+    ** Equipe: Contratação
+    ** Equipe: Pagamento
+* Àrea: RH
+    ** Equipe: RDAC
+    ** Equipe: Remuneração
+    ** Equipe: Core & Benefícios
+    ** Equipe: Folha de Pagamento
+
+Organização dos Sistemas à cobrir:
+
+Área: de Talentos Artísticos
+*Sistema: Captação
+    ** Integração: Base Única de Talentos
+*Sistema: Star
+    ** Integração: Base Única de Talentos
+    ** Integração: HCM
+    ** Integração: Arte
+    ** Integração: MOT
+* Sistema: Arte
+    ** Integração: Base Única de Talentos
+    ** Integração: HCM
+    ** Integração: Arte
+    ** Integração: FPW
+Área Planejamento e Alocação de Recursos
+* Sistema: MediaPulse
+    ** Usa: Camada de Desacoplamento (para encapsular o mundo MediaPulse do mundo Globo).
+    *** Integraçaõ: BI
+    *** Integração: RH
+        ****Subintegraçaõ: FPW
+        ****Subintegraçaõ: HCM
+        ****Subintegraçaõ: SGTMOT
+    *** Integração: Financeiro
+        ****Subintegraçaõ: Rico
+        ****Subintegraçaõ: SAP Brim
+        ****Subintegraçaõ: EBS
+

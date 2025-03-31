@@ -1,0 +1,97 @@
+ID=DOC2025022300003I
+NOME= Macroprocessos
+
+Descrição Geral
+O diagrama ilustra a organização dos macroprocessos de planejamento e alocação de recursos na Globo. Ele apresenta uma visão estruturada das principais áreas envolvidas, seus subprocessos e a relação entre eles. A estrutura é hierárquica, com a Globo no topo, seguida por seis áreas principais:
+
+Área de Planejamento e Alocação de Recursos
+Área de Talentos Artísticos
+Área de Recursos Humanos
+Área de Esportes
+Área de Jornalismo
+Integrações e Tecnologia
+Cada uma dessas áreas possui processos específicos, detalhados no diagrama.
+
+Principais Informações Contidas
+Cada área desdobra-se em subprocessos, conforme segue:
+
+1️ Area de Planejamento e Alocação de Recursos
+Planejamento de Longo Prazo
+Planejamento de Curto Prazo
+Transição do Longo para o Curto Prazo
+Alocação de Recursos
+Gestão de Custeio
+
+2️ Área de Talentos Artísticos
+Captação de Talentos
+Curadoria e Planejamento
+Contratação e Pagamento
+Gestão de Talentos no Esporte
+
+3️ Área de Recursos Humanos
+Recrutamento e Seleção
+Gestão de Talentos Internos
+Folha de Pagamento e Benefícios
+Integração de Dados
+
+4 Área de Esportes
+Planejamento e Alocação de Recursos
+Gestão de Eventos Esportivos
+
+5️ Área de Jornalismo
+Processo de Produção
+Alocação de Recursos
+
+6️ Integrações e Tecnologia
+Arquitetura de Integração
+Monitoramento e Suporte
+Automatização de Processos
+
+A estrutura sugere que todas as áreas são interdependentes e que a gestão de planejamento e alocação de recursos impacta diretamente Talentos, RH, Esportes e Jornalismo.
+
+
+Metadados do Documento
+Título: Macroprocessos de Planejamento e Alocação de Recursos
+Formato: Fluxograma (Imagem)
+Conteúdo: Estrutura organizacional e subprocessos
+Ferramenta utilizada: Whimsical (ferramenta de diagramação)
+
+Resumo do Conteúdo
+O fluxo apresentado na imagem sintetiza os principais macroprocessos e a forma como diferentes áreas operam dentro da Globo. A estrutura destaca:
+Divisão clara entre áreas funcionais, cada uma com sua responsabilidade específica.
+Foco no planejamento, execução e gestão de recursos.
+Relação entre planejamento de recursos e outras áreas estratégicas.
+Importância das integrações tecnológicas para a eficiência dos processos.
+A organização hierárquica sugere um fluxo top-down, onde as decisões e planejamentos estratégicos se desdobram em ações operacionais específicas por área.
+
+Análise Quantitativa
+Número total de macroprocessos descritos: 16
+Número total de áreas principais: 6
+Número médio de subprocessos por área: ~3
+Áreas com mais detalhamento:
+Planejamento e Alocação de Recursos (5 subprocessos)
+Talentos Artísticos (4 subprocessos)
+RH (4 subprocessos)
+Outras áreas possuem entre 2 e 3 subprocessos.
+A organização sugere que Planejamento e Alocação de Recursos, Talentos Artísticos e RH são as áreas mais críticas e interconectadas com outros setores.
+
+Principais Insights
+
+1️ A Globo tem um processo altamente segmentado, mas interdependente:
+Cada área tem um papel específico, mas todas dependem de um fluxo eficiente de informações e planejamento.
+A integração entre Planejamento, Talentos e RH é essencial para garantir eficiência na produção.
+
+2️ A gestão de recursos está dividida em planejamento de longo e curto prazo:
+A transição entre esses dois momentos é um ponto crítico e pode envolver desafios na integração entre planejamento e execução.
+
+3️ A tecnologia desempenha um papel fundamental na coordenação dos processos:
+Monitoramento e suporte são fundamentais para garantir que todas as áreas funcionem sem interrupções.
+A arquitetura de integração é um fator estratégico, pois conecta sistemas distintos e evita inconsistências.
+
+4️ Os setores de Esportes e Jornalismo possuem fluxos distintos:
+O jornalismo opera de forma mais contínua e previsível.
+O esporte exige adaptação constante a eventos, o que pode gerar desafios na alocação de recursos e otimização de custos.
+
+5️ Automação de processos pode trazer melhorias significativas:
+O uso de tecnologia para reduzir dependência de processos manuais (como planilhas) pode melhorar eficiência.
+A integração entre diferentes setores é essencial para reduzir redundâncias e facilitar a tomada de decisão.

@@ -1,0 +1,52 @@
+ID=DOC2025022300001A
+NOME= Estrutura
+
+Descrição Geral
+O documento estrutura os processos internos relacionados à gestão de talentos, planejamento de recursos, contratação, pagamento e benefícios, destacando as conexões entre diferentes áreas e os sistemas utilizados para essas operações.
+
+Ele apresenta uma visão ampla dos fluxos de trabalho e das equipes envolvidas em processos críticos, garantindo integração entre setores como RH, financeiro, planejamento e tecnologia.
+
+Principais Informações Contidas
+Áreas e Equipes a Cobrir
+
+Gestão de P&R, TA e RH
+Planejamento e Alocação de Recursos
+Talentos Artísticos (RH)
+Longo Prazo e Curto Prazo
+Captação, Planejamento e Contratação
+Remuneração, Benefícios e Pagamento
+Principais Processos
+
+Planejamento de talentos e contratos
+Captação e contratação de profissionais
+Gestão de remuneração e benefícios
+Execução da folha de pagamento
+Sistemas Utilizados e Integrações
+
+HCM (Gerenciamento de Recursos Humanos)
+MediaPulse (Gestão Operacional e de Produção)
+SAP (Sistema Financeiro e de Remuneração)
+BI e FPW (Análises e Planejamento Financeiro)
+EBS, Brim e Rico (Sistemas de Pagamento e Contratos)
+Camada de desacoplamento e integrações entre sistemas
+
+Metadados do Documento
+Nome do Arquivo: Estrutura.pdf
+Tipo de Documento: Documento de Mapeamento e Integração de Processos
+Formato: PDF
+Áreas-Chave:
+Gestão de Talentos Artísticos e RH
+Planejamento e Alocação de Recursos
+Processos de Remuneração e Benefícios
+Integração de Sistemas e Automação
+
+Resumo do Conteúdo
+O documento apresenta um mapeamento detalhado das áreas envolvidas na gestão de talentos e alocação de recursos, integrando informações sobre contratação, pagamento, planejamento de longo e curto prazo e sistemas utilizados.
+
+Além disso, ele destaca as integrações sistêmicas necessárias para garantir um fluxo eficiente de informações entre diferentes plataformas, evitando reprocessos, falhas de comunicação e gargalos operacionais.
+
+Análise Quantitativa
+Vários setores mapeados: O documento cobre diversas áreas do RH, financeiro e planejamento, estruturando os processos internos.
+Múltiplos sistemas listados: São apresentados mais de 8 sistemas diferentes, detalhando suas integrações e funções específicas.
+Diferentes etapas do ciclo de talentos abordadas: Desde captação e contratação até remuneração e benefícios.
+

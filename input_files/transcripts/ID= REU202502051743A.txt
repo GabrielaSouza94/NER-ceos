@@ -1,0 +1,928 @@
+ID= REU202502051743A
+Media Pulse Planejamento Curto Prazo
+Participantes:
+Júlio Cesar Freitag Schweikart - Email: julio.cesar@ntconsult.com.br 
+Rodrigo Carlstrom - Email: rodrigo.carlstrom@ntconsult.com.br
+Marcelle Machado De Almeida / Globo - Email: marcellem@g.globo 
+
+
+RESUMO DA REUNIÃO:
+Foram discutidos os processos de planejamento de curto prazo no MediaPulse, desde o cadastro de recursos e criação de jornadas até a execução e validação financeira. A Globo detalhou como o MediaPulse é utilizado para gerenciar as Ordens de Trabalho (WOs), incluindo a alocação de recursos humanos e equipamentos, e a complexidade do fluxo manual no sistema, onde cada área tem responsabilidades específicas no processo. Foi ressaltada a falta de automação e notificação do sistema, obrigando os usuários a monitorarem manualmente as demandas. Além disso, o sistema apresenta limitações na usabilidade e problemas de performance em relatórios extensos, levando a Globo a utilizar o BigQuery e o BI para relatórios históricos. Também foram abordadas as integrações do MediaPulse com outros sistemas, como SAP BRIM, Oracle EBS e ferramentas de RH, além da importância da camada de desacoplamento (Decap Layer) para facilitar as integrações e manter flexibilidade no ambiente tecnológico.
+
+TRANSCRIÇÃO: 
+
+00:07
+Júlio - NT
+Vamos lá. Então, só recapitulando pouco aqui, a gente começou lá conversando com o Rissuti, onde ele nos apontou os processos e trabalhos realizados desde o ADEGA, passando pelo plano de produção, orçamento, plano de alocação e, na última agenda, falamos sobre como isso entra no MediaPulse. Agora, a ideia é a gente entender o que acontece ali dentro do MediaPulse. A gente já falou de algumas ações que são realizadas, tanto ali pelo pessoal de tecnologia, como também pelos painéis que vocês têm para execução depois. Mas acho que seria legal a gente ver ali o fluxo do processo, o dia-a-dia do processo, pouquinho sobre as funcionalidades do MediaPulse, também são relevantes. 
+
+01:06
+Marcelle Machado - Globo
+Tá, então vamos lá. Para fazer o curto prazo, a gente, eu acho até que a gente tem aquela primeira reunião que eu tive com você, que o Zé participou, eu acho que eu passei no processo desde esse momento que é na nossa cabeça, os recursos, eles têm que estar cadastrados no MediaPulse. Para fazer qualquer coisa dentro do MediaPulse, em termos de curto prazo, longo prazo, seja lá o que for, tem que ter o recurso lá. Os recursos humanos, eles vêm por integração. Então, a gente tem uma integração que traz o cadastro de recursos humanos, esse é uma coisa, e a gente tem uma integração que diz sobre a disponibilidade do recurso humano, no quer dizer, relativo às férias, relativo à licença, algum tipo de licença médica que a pessoa tenha, ou qualquer coisa que tenha a ver com licença. 
+
+01:55
+Marcelle Machado - Globo
+E a pessoa não vai estar disponível por algum motivo, isso vem pela integração fpw e hcm, fpw.hcm, vem e é cadastrado e é colocado dentro do MídiaPulse. Então, em relação ao recurso humano, é isso, essa parte do cadastro. A gente tem os equipamentos. Os equipamentos, que são os serviços, kits, etc., isso é cadastrado na mão, para a gente poder usar e tal, é cadastrado pela tecnologia, a tecnologia é responsável por isso, eles que sabem quais são os recursos, eles que nomeiam, eles que fazem toda essa parte. Então, na hora que o Rissuti lá, como Rissuti falou, pelo que a gente estava falando ontem, né? Tem a AWO, tem o plano de produção, tem etc. São duas coisas que acontecem hoje separadamente, assim, não tem .. Como não tem no sistema o longo prazo, isso acontece quase que completamente desconectado ali do MediaPulse. 
+
+02:50
+Marcelle Machado - Globo
+Então, o que é feito é... São áreas que são focadas em longo prazo e tem áreas que são focadas no curto prazo. Então, a galera do curto, que a gente chama de curto prazo, ali é mês, né? Até mês ali. Então, com antecedência de mês, mais ou menos, né? Então, o que eles fazem é, eles olham aquilo que a gente falou que recebe por planilha, que é plano de produção, ou seja lá o que for, e eles alocam de acordo com aquilo ali. Eles criam a demanda, a WO no sistema, E aí tem fluxo ali que começa. Se for alguma coisa de esporte, começa no que a gente falou ontem, que é o próprio conteúdo que abre. Se não for esporte, é a própria tecnologia, tem uma área que abre, que é a área de orquestração. 
+
+03:35
+Marcelle Machado - Globo
+Tem a parte, tem gente, às vezes, algumas coisas que são, que o pessoal da Vertical que abre. Então, Vertical abriu, a orquestração abriu. Como vocês falaram, é só o ator que muda, o processo é o mesmo. A Abre, a WO tá lá aberta. Cada tem áreas específicas responsáveis por determinados serviços, por determinadas alocações ali. Então, por exemplo, a orquestração, ela coloca às vezes o serviço, mas não é a orquestração que diz quem vai trabalhar naquele serviço, por exemplo, é o Rodrigo. Não é a orquestração que diz que o serviço que vai usar uma câmera, que a câmera vai ser a 1, 2, 3, 4. A orquestração diz, eu preciso de serviço que tenha uma câmera e que tenha cameraman. 
+
+04:21
+Marcelle Machado - Globo
+E aí tem uma área que a área, a pessoa específica que gerencia os câmeras mains ali, que vai dizer se é o Rodrigo ou se é o Júlio que vão estar alocados dentro daquela demanda. Tem uma área que diz especificamente se é a câmera 1 ou a 2 que vai ser a câmera daquela demanda. Então, por isso que tem aquele monte de fase, porque as fases elas meio que indicam, as áreas sabem em que momento que elas têm que entrar E de novo, é processo manual, não tem uma lógica, não tem ninguém avisando a ninguém. A pessoa sabe, a pessoa sabe que ela tem que ficar com a timeline do sistema aberto, olhando e verificando. E ó, chegou aqui uma demanda. Ó, eu tenho esse jogo aqui. Eles já sabem. Eles têm também essa... Esse Excel que chega para todo mundo. 
+
+05:03
+Marcelle Machado - Globo
+Ó, tem jogo aqui que vai ser daqui a duas semanas, que vai ser daqui a mês. Até... Acontece muito isso. Eles, às vezes, entram em contato com a gente. Cara, até agora não estou vendo a WA no sistema. Eu não tô conseguindo enxergar a W.O. Aí a gente fala, agora não que eles já estão mais safos, mas no começo era como se fosse problema. A gente falou, se ninguém criado, não tá no sistema mesmo. Alguém tem que ir lá e tem que criar. Então, a gente fala, você tem que falar com a área X, você tem que falar com a área Y, porque eles não devem ter criado. Então, eles vão lá e entram em contato. Gente, já tem uma W.O. Aí para daqui a duas semanas e eu não tô vendo essa W.O. Aí a pessoa tem que ir lá e criar, enfim. 
+
+05:41
+Marcelle Machado - Globo
+Então, basicamente, são subdivididos em áreas, cada área responsável por pedacinho do processo, cada área vai lá e faz a sua parte. Então tem uma área que abre a W.O., tem a área que faz a alocação das pessoas e dos equipamentos, o CPF e o ID daquele equipamento, é ela que coloca, e assim vai. Então, até o final, que é basicamente o pagamento ali quando a WA vai no completed, e aí tem toda uma geração, que eu acho que foi tudo que o Risu te falou, em relação a pagamento e cobrança de produto. Tudo isso fica dentro da demanda. E aí, em relação às pessoas, quando você faz a alocação da pessoa ali, é justamente baseado no... E aí tem passo atrás ali, que é a jornada, que a gente falou ontem, ou as pessoas elas têm jornadas, que são as escalas delas. 
+
+06:36
+Marcelle Machado - Globo
+Eu trabalho de 8 às 5, não trabalho sábado, não trabalho domingo, ou então aí eu trabalho só de madrugada, enfim. 
+
+06:43
+Marcelle Machado - Globo
+Então quando a pessoa cria uma demanda, a AWO, e ela precisa de alguém ela vai na nessa disponibilidade da que ele tem ali a eu preciso de uma de editor ele olha a timeline que ele tem os editores ele vê quem são os editores que estão disponíveis a hoje esses caras aqui estão disponíveis ou a esse cara aqui não tá disponível esse aqui não tá disponível enfim ele consegue ver no sistema também na hora que a gente clica e aloca uma pessoa para alocar uma pessoa ele já lista e coloque em vermelhinho as pessoas que não podem ser alocados naquele dia porque por algum momento ela não tá disponível por algum motivo ela não tá disponível ou porque ela já foi alocada ou porque tá de férias tá não sei que enfim ela nem tem vez que nem aparece. 
+
+07:27
+Rodrigo Carlstrom - NT
+Deixa eu ver se eu entendi. Então temos a W. Aí chegou o momento de fazer a alocação. Eu não entendi a demanda. A demanda é criada para poder fazer a alocação ela é feita depois da alocação. 
+
+07:41
+Marcelle Machado - Globo
+Não não a demanda é a W. 
+
+07:44
+Rodrigo Carlstrom - NT
+A demanda é a W. Entendi isso. 
+
+07:49
+Marcelle Machado - Globo
+É a própria W.A. 
+
+07:50
+Rodrigo Carlstrom - NT
+Achei que dentro da W.A. Você ia criar várias demandas para fazer alocações. 
+
+07:54
+Marcelle Machado - Globo
+Não, não, não. A gente cria... Não sei se você lembra o que o Risu te mostrou ontem. Deixa eu compartilhar aqui, peraí. 
+
+07:59
+Rodrigo Carlstrom - NT
+Você consegue mostrar para a gente como é que faz a alocação no Mediapulse? 
+
+08:04
+Marcelle Machado - Globo
+Sim, vou mostrar. Isso aqui é uma timeline, tá? Deixa eu botar uma data. Isso aqui é uma timeline. Então, aqui eu tenho todos os canais, por exemplo, nesse caso específico, e eu tenho as demandas, que são as WOs, que estão acontecendo dentro dessas salas que estão aqui, tá? Então, e tem pessoas responsáveis, não é todo mundo olhando para tudo que é lugar. Então, eu tenho uma galera que vai olhar daqui até aqui, eu tenho outra galera que vai olhar até aqui, eu tenho outra galera que nem olha isso aqui, vai olhar em outro lugar. Então, cada área é responsável por uma parte ali do subdividido ali internamente. Isso aqui é uma demanda. Se eu abrir, é uma WO. Aqui é o que a gente falou, que é o header, tem qual é o produto, qual é o cliente que está fazendo. 
+
+09:59
+Marcelle Machado - Globo
+Então, é jornal, que ainda vai sair o dinheiro aqui do CPC de Jornalismo, e é plantão, edição das seis, domingo. Está sendo produzido no estúdio. Essas são as informações que a gente tem aqui no header. E aqui são as transações. Quando a gente abre a W.O., se você olhar até aqui, deixa eu ver se tem log aqui. Se você olhar no log, deixa eu ver quem é que tá mexendo. Porra, só de sacanagem que só tem integração. Aqui, tá vendo? Se você reparar, quantas pessoas mexeram nessa WO. Isso aqui é integração, é usuário de integração. A Ariana, o Edson. Ariana de novo. E é isso. Então, esses dois caras foram os que ficaram indo e vindo dentro da WA. Alguém criou, o outro alterou e o outro voltou aqui e mexeu alguma coisa. E além da integração em si, tá? Por que acontece isso? 
+
+11:08
+Marcelle Machado - Globo
+Cada é isso que eu falei, cada é responsável por uma parte. Então, por exemplo, a Ariana, ela vai chegar aqui e ela vai colocar isso aqui, exibição, que é a sala que a gente viu ali, o cliente, foi onde ela abriu. Ela chegou aqui, ela arrastou, E na hora que ela faz isso, ela está colocando automaticamente esse cara aqui dentro dessa demanda, que é o que a gente está abrindo ali. Então, eu estou aqui com essa sala. Isso aqui, a gente chama de requisição. Na hora que eu coloco uma linha dessa, eu estou dizendo que eu vou precisar dessa sala de exibição ao vivo. Vou precisar aqui, por exemplo, é serviço, produção interna, controle, operação, padrão. Eu estou colocando isso aqui. Isso aqui são os recursos. Esse aqui são os grupos desses recursos. Eu consigo colocar, por exemplo, só o grupo sem o recurso. 
+
+12:01
+Marcelle Machado - Globo
+Isso aqui é uma requisição. Eu estou dizendo que eu preciso de operador de câmera. Eu estou dizendo que eu preciso de CCU. Eu preciso, entendeu? Isso é uma requisição. Isso é alguém que coloca isso aqui avisando que vai precisar. Uma outra pessoa vai chegar aqui teoricamente, vai colocar aqui o nome da pessoa desse operador de câmera. Isso aqui é uma alocação. Eu tô colocando aqui, nomeando quem é esse operador de câmera. 
+
+12:29
+Rodrigo Carlstrom - NT
+Perfeito. 
+
+12:29
+Marcelle Machado - Globo
+Que vai trabalhar aqui. Isso que eu chamo aqui de alocação e requisição. Requisição é quando eu tenho uma solicitação, mas eu não tenho nada pontuado ainda aqui. Tem uma outra pessoa que vai chegar aqui e vai fazer essa parte. Certo? 
+
+12:44
+Rodrigo Carlstrom - NT
+Tem algum facilitador, por exemplo, para esse grupo de serviço aqui é essas pessoas que trabalham. 
+
+12:52
+Marcelle Machado - Globo
+Então na hora que você clicar aqui esses três pontinhos que é onde fica o recurso. Teoricamente ele vai vir filtrado por operador de câmera que foi aquilo que eu falei do vermelhinho. Vamos ver se vai aparecer. Porque aí vem uma lista com todos os operadores de câmera que tem. E aí você pode ou buscar alguma pessoa específica ou escolher dentre os que estão disponíveis ali para alocar. Ainda bem que dá rápido. O Jesus. Gente de Techefano. Travou. 
+
+13:37
+Rodrigo Carlstrom - NT
+Meu Deus hoje é o dia é o dia. 
+
+13:42
+Júlio - NT
+Mas como o Suti estava nos mostrando aqui também tinha não é não o. 
+
+13:47
+Marcelle Machado - Globo
+Ambiente de teste é muito meleca. Mas só para você ter uma ideia é aquilo que a gente falou então aqui está ali está vendo é o mesmo operador de câmera. E aí aqui tem o nome das pessoas. E aí repara que aqui está vermelhinho. Está vendo eu não estou a ver. Eu não estava vendo. Está vendo. Então aqui você já sabe quem é que pode ou não você não pode. Veja é aquilo que eu falei. Você pode escolher o Josiel apesar dele estar pode. O sistema não vai, e se você colocar ele, o sistema vai deixar. Se eu salvar aqui... Pior que tá completo, de repente ele dá até outro erro. Vamos ver que erro que ele vai dar. Ele deveria avisar que o Josiel tá errado, mas enfim, ele nem avisou, mas pode ser por causa data e porque tá completo já. 
+
+14:34
+Marcelle Machado - Globo
+Mas o certo mas ele deixa entender o que eu falei ontem. Ele te avisa mas ele deixa. Mas isso aqui que é a alocação quando eu falo de alocar isso aqui. E aí só para você entender toda vez que a gente faz isso aqui ou até mesmo numa jornada. A jornada são os chifres que mostrar o chifre. A jornada, tanto a jornada quanto... Toda vez que você coloca uma pessoa em alguma coisa, em alguma locação, enfim, isso aqui é shift, tá vendo? Então, o Aécio, ele tá trabalhando de seis da manhã às cinco da tarde, e ele tá dentro dessa W.O. Aqui, ó, que é de oito às nove, tá? E aí, esse cara aqui, toda vez que a gente tem isso aqui, ó, isso aqui veio de integração, férias. 
+
+15:47
+Marcelle Machado - Globo
+Toda vez que a gente coloca uma pessoa ou na WO ou aqui, isso aqui também vai pela integração lá para o FPW. Porque lá a gente precisa que o planejamento esteja lá, para poder quando chegar na hora do realizado, ele conseguir fazer o cruzamento de o que foi planejado com o que foi realizado, principalmente por conta de folga. 
+
+16:07
+Marcelle Machado - Globo
+Então, se você colocar aqui, por exemplo, férias, e aí no dia 6 de fevereiro, o cara chegou lá e bateu o ponto na hora que foram realizado e que ele veio o cara bateu o ponto é mas ele estava de férias errou isso aqui é até demissão no RH assim é isso então tem que ter o planejado e para ter se planejado isso aqui é enviado para o FPW então tudo isso aqui vai para o FPW por isso que às vezes a gente lá naquele log lá que eu mostrei tem usuário de integração também tá Thanks. 
+
+16:48
+Rodrigo Carlstrom - NT
+Aí beleza depois que fez a locação aí faz a jornada as jornadas que você falou né. 
+
+16:55
+Marcelle Machado - Globo
+Depois a jornada é a jornada depois que você faz a locação você vai a locação ela vai aquilo que a gente falou do ajuste até o dia do realizado. Então, o Carlos fez o planejamento. Ele planejou ali, colocou o Rodrigo e colocou o Júlio para trabalharem ali no dia... Hoje é dia 5 de fevereiro. Ele colocou lá para o dia 15 de fevereiro, em algum evento que vai acontecer dentro de uma W.O., botou o Júlio, o Rodrigo e o Marcelo para trabalhar. Sei lá, de 8 às meia-dia. Conforme vai chegando perto, às vezes vai acontecendo ajuste. Se a Marcele não vai poder, ou então vai abrir outro evento, eu preciso mexer. Marcele sai, Marcele coloca outra pessoa. Esse planejamento, ele vai acontecendo durante esse período. Vai sendo ajustado de acordo com qualquer coisa que aconteça. Em algum momento, acabou. 
+
+17:43
+Marcelle Machado - Globo
+Não precisa mais fazer nada, está tudo certo. Foi realizado. Então, aconteceu aquele evento. Então, aquele evento foi lá, teve uma filmagem, teve uma gravação, teve alguma coisa. E aí tudo que está ali agora vai ser ajustado que é aquela parte que a gente falou é vamos. Cara realizou esse serviço mesmo foi de oito ao meio dia. Se não foi eles vão lá no Mediapulse e eles ajustam. Eles não mexem no planejado mas tem lugar que é o realizado que ele vai lá e mexe por conta da cobrança por conta do pagamento e da cobrança tanto do da cobrança ao conteúdo porque o conteúdo que isso deve ter falado do SAP Brim e tal se não falou ele vai falar. E também da do pagamento ao fornecedor se tiver alguma coisa que foi alugado e etc. 
+
+18:28
+Marcelle Machado - Globo
+É nesse momento que eles vão fazer o cruzamento por. Sei lá quebrou é nessa hora que ele vai colocar lá no Mediapulse falar ó amiguinho não foi legal o seu a sua câmera que você emprestou estava horrível ou então quebrou ou chegou com problema ou não tinha qualidade que a gente acordou ou foi tudo certo. Vou gerar aqui o ar e aí ele gera uma integração também é gerado uma R.C. Vai para lá, o fornecedor recebe essa RCA, diz se está ok ou não, aí depois que ele diz que está tudo bem, isso volta para a gente, enfim, aí vai para a parte de pagamento lá do financeiro. É isso que acontece basicamente. 
+
+19:10
+Rodrigo Carlstrom - NT
+Então ontem a gente tinha falado daqueles processos que a gente Tinha citado que tem até alguns desenhos de processos já feitos, né? 
+
+19:19
+Marcelle Machado - Globo
+Sim, eu pedi acesso, vocês viram, vocês liberaram? 
+
+19:23
+Júlio - NT
+Eu não tentei acessar de novo, deixa eu ver se eu consigo. 
+
+19:29
+Rodrigo Carlstrom - NT
+É que aí, meu, eu queria entender assim, em que momento que chega a iniciar esses processos, né? Que a gente sabe que são processos manuais, mas... Deixa eu abrir aqui, eu. 
+
+19:40
+Marcelle Machado - Globo
+Vou compartilhar para você ter uma ideia. 
+
+19:43
+Rodrigo Carlstrom - NT
+Até onde eu entendi começa a partir da locação, né? Porque aí você, por exemplo, faz, sei lá, uma... Você já consegue definir, ó, o tipo de trabalho vai ser esse aqui, então o tipo de processo a seguir é esse, né? 
+
+19:56
+Marcelle Machado - Globo
+Isso. Na hora da... Na verdade, não é nem na locação. Na criação da demanda, da W.O., você já sabe o que é que você vai fazer. Deixa eu compartilhar aqui pra você ver. É o tipo... O que diz o que eu vou fazer, qual é o processo que eu vou seguir, é o tipo daquela W.O. A gente tem aqui, só para você entender, isso aqui são os processos que a gente criou junto com a área de negócio na época do início do projeto. Isso pode ter mudado pouco porque já tem muito tempo e a gente não atualizou aqui, de repente eles têm lá na área deles atualizados. Mas só para vocês entenderem, a gente tem aqui, por exemplo, evento e grande evento. Então, evento e grande evento segue esse processo aqui. Então, se eu abrir uma W.O. 
+
+20:38
+Marcelle Machado - Globo
+Quando eu abro a W.O., eu abro lá. Rock in Rio. Rock in Rio é grande evento. Eu já abro a W.O. Apontando para o produto Rock in Rio. Na hora que eu abrir, eu já sei que aquilo ali é grande evento. Seja lá o quer que eu vá alocar, ele vai seguir o fluxo de grande evento. Entendeu? Se for jogo importante, mesma coisa. Se for alguma coisa que eu vou fazer para pós produção, por exemplo, específico, eu vou seguir o processo de pós produção. Então não é na hora da alocação, é na hora da criação da demanda. Eu já sei qual é o processo que eu vou seguir. Tá. Deixa eu abrir aqui só para vocês terem, para você ter uma ideia. 
+
+21:16
+Júlio - NT
+Eu testei aqui de novo, não tem acesso ainda não. 
+
+21:19
+Marcelle Machado - Globo
+É porque não sou eu que dou, eles têm que pedir, eu pedi lá para eles liberarem para vocês dois. 
+
+21:24
+Rodrigo Carlstrom - NT
+Feitibizagem. 
+
+21:26
+Marcelle Machado - Globo
+Isso. 
+
+21:33
+Júlio - NT
+Só para relembrar, esse processo é processo manual a ser seguido, a ferramenta não tem restringida, não tem direcionamento nenhum. 
+
+21:43
+Marcelle Machado - Globo
+Não, não tem. Aí só para vocês entenderem, tá? Aqui tem as piscinas, cote, Área de Conteúdo, Vertical e P&A. P&A era o que é a orquestração hoje, tá? E Plataforma. Então, repara que cada uma dessas piscinas tem coisas que cada área dessas são responsáveis em algum momento do processo, tá? Então, aqui chegou... Aqui, tá vendo? Aqui chega pela Vertical. Então, chegou pela Vertical evento de entretenimento, jornalismo ou alguma coisa do esporte. Tá então chegou aqui jogo do Flamengo e Vasco ou algum Jornal Nacional alguma coisa que não chegou. Por e-mail também é o e-mailzinho. Isso aqui é melhor decupar o conteúdo da demanda do evento. Eles vão lá entrar ver o que precisa o que não precisa. Essas são todas aquelas planilhas que a gente foi falando certo. A linha demanda com a plataforma e com o PIA. Aí aqui começa no sistema. 
+
+22:50
+Marcelle Machado - Globo
+Cria a W.O. E solicita recursos técnicos. Então ele foi lá no a vertical entrou no mídia pulse criou aquela caixinha lá que eu mostrei da W.O. E solicitou recursos, quer dizer, ele colocou aquele grupo que eu falei, aquela linha com o grupo, mas ele não disse qual era a pessoa ou qual era o equipamento específico daquele grupo. Então, ele solicitou aquilo ali. Ele solicita para quê, tá vendo? Solicita recursos técnicos no MediaPulse. Aí tem duas idas e vindas aqui, né? Aí, para o jornalismo, essas solicitações serão feitas pela vertical e fora do sistema, porque é aquilo que a gente falou. O jornalismo, a parte de conteúdo, não está dentro do MediaPulse, tá? Enfim, verificar se todas as demandas foram solicitadas na W.O., blá, blá, blá, enfim. E aí aqui vai indo, tem uma porrada de coisa. 
+
+23:39
+Marcelle Machado - Globo
+A parte da área de conteúdo, por exemplo, faz a mesma coisa aqui. Aquilo que eu falei ontem da mudança, do Change Request. Se tem Change Request, ele tem que solicitar. Então, ele abre uma solicitação de alteração na W.O., que é o Change Request, está vendo? Isso aqui, teoricamente, deveria ir para a PIA. Olha lá, está aqui, está vendo? PIA é que tem que fazer. Então, o processo... 
+
+24:03
+Rodrigo Carlstrom - NT
+O que esse relógio vem até? 
+
+24:06
+Marcelle Machado - Globo
+Dê menos três antes do evento. Três dias antes do evento. Então, eles só recebem e fazem isso aqui. Aí, verificar o impacto, ver se tem, avaliar a capacidade de atendimento. Se não tem, ele vai ter que buscar fornecedor. Aí, vai buscar fornecedor. Enfim, consegue atender, não consegue? Aí, vai indo. Aí, atualiza aqui os WOs no sistema. Informa para a plataforma se teve alguma mudança e etc. Atualiza o status. Porque quando você faz atingir com essa, você tem que mudar para o status já correto. Informa a plataforma o detalhamento das mudanças. Aqui, a plataforma normalmente é a galera que coloca a pessoa ali. Ela é que sabe qual é a escala da galera. Então, normalmente são eles. Eles planejam a jornada. Isso aqui são as escalas, aquilo que eu falei. Disponibilizam. Então, eles jogam lá relatório ou pelo sistema mesmo. Enfim, isso depende. 
+
+25:02
+Marcelle Machado - Globo
+É por conta deles. Eles é que decidem o que é melhor. Aqui está até esse livrinho, essa folhinha aqui, como se fosse relatório mesmo que é enviado. Disponibiliza isso, e quando tem alteração, eles também têm que fazer a mesma coisa depois de novo. Aí eles alocam os profissionais nas funções, quer dizer, aquilo que eu mostrei de colocar o nomezinho, e muda o status da WO, para dizer que já foi tudo bem, já colocou a pessoa, não está mais pendente de ninguém. E aí, de novo, disponibiliza a escala atualizada, porque teve uma mudança, então ele tem que disponibilizar de novo essa escala. Então, basicamente, o processo é isso, são várias áreas envolvidas, Então, plataforma, vários atores, e cada área tem a sua responsabilidade. E isso vai passando, dependendo de em que momento você está, vai passando por elas. Deixa eu ver esse Cote aqui, tá? 
+
+25:53
+Marcelle Machado - Globo
+Cote, eu acho que não tem nada aqui nesse... Tá aqui. Aqui, para que Cote está aqui? Cote, ele vai alocar os recursos do Cote. Então, ele é responsável para alocar os recursos do Cote. Então, satélite, processador, aí é tudo o POD que aloca. Se for negócio do esporte, é do esporte, então é a galera do esporte, aloca e solicita recursos no MediaPulse, é a galera do esporte, que é a área de conteúdo, por exemplo. Então, a área de conteúdo é a galera do esporte, que se for no caso do esporte, que mexe. E aí vai. E pode reparar que PIA, aqui é vertical e PIA. Os dois são os que têm mais atuação dentro do sistema. A área de orquestração e a área da vertical. 
+
+26:40
+Rodrigo Carlstrom - NT
+Engraçado que eles misturaram no mesmo fluxo, né? O esporte com eventos, com jornalismo, né? 
+
+26:49
+Marcelle Machado - Globo
+É porque não é só esporte, é área de conteúdo. Pode ser o esporte e pode ser o entretenimento, outra área de conteúdo. É só para dizer que não é de tecnologia. Então eles têm alguma ação dentro dessa W.O. Se for uma W.O. De esporte, ele botou aqui dentro do padrão do esporte, eles abrem uma W.O. Porque lembra que a gente falou que no caso do esporte eles mesmos que abrem, senão quem abre é a própria vertical. E aí vai, aqui é a alteração, solicitar change request, que a área de conteúdo não pode mexer, depois de uma hora, aí ela solicita o change request, que vai para vertical, e aí vai, enfim. Alinhar não-atendimento, negociar, enfim, isso aqui é mais detalhe que eu acho que não... 
+
+27:40
+Marcelle Machado - Globo
+Mas é isso, o processo no sistema é basicamente criar a demanda, criar as jornadas, alocar, essas jornadas dentro do sistema, os recursos dentro das demandas, e a partir daí segue o fluxo do financeiro. É basicamente isso que acontece. O Change Request tem uma notificação, então toda vez que alguém aqui dessa área cria Change Request, as pessoas que são responsáveis, que normalmente é PIA, elas recebem uma notificação avisando que tem Change Request para desfazer, então o sistema faz isso, E aí eles fazem toda essa parte aqui de verificar se consegue atender, se não consegue, se tem que chamar, o que tem que fazer, devolve para a galera e pergunta, ó, vocês conseguem? A gente consegue ou a gente não vai conseguir, tem que fazer outra coisa, enfim. Tem todo esse vai e vem ali. 
+
+28:32
+Rodrigo Carlstrom - NT
+Tá legal. Bom, esse aí é de eventos, né? Tem algum outro exemplo? Tem. 
+
+28:40
+Marcelle Machado - Globo
+Deixe-me ver isso aqui, alocação de recursos, que é a produção externa. Deixe-me ver como é que é a produção externa e a produção interna. Deixe-me ver como é que está a produção interna. Aí repare que é a mesma coisa que o... As piscinas, plataforma, PIA. Não sei o que ele fez. 
+
+29:13
+Rodrigo Carlstrom - NT
+Partiu para o cancelamento da terceirização. 
+
+29:16
+Marcelle Machado - Globo
+Não não é não sei por que ele mudou eu em. 
+
+29:27
+Rodrigo Carlstrom - NT
+Já havia uma setinha que aparece ali. 
+
+29:33
+Marcelle Machado - Globo
+Nem sei onde que estava o fechado de novo. Por que você está fazendo isso? Plataforma de produção, PIA vertical. Começa aqui. Aí aqui, traduzir a demanda em serviço de catálogo. Então, chegou aquele Excel, ele vai pegar aquilo lá e vai fazer. O que é isso? Tem uma notícia, alguma coisa, sei lá, uma gravação para ser feita no centro da cidade. O que eu preciso? Isso que é a tradução dos serviços. O que essa gravação requer de mim? Que tipo de serviço eu tenho que alocar na minha demanda? Então é isso que ele vai fazer aqui na hora que ele diz que vai traduzir aqui, mesma coisa. Aí a demanda variável, aí tem vários tipos demanda, tem padrão, tem variável e tem padrão variável. 
+
+30:30
+Marcelle Machado - Globo
+E aí ele vai colocar, fazer a solicitação ali, abrir a AWI e solicitar os serviços, recursos e as funções do MediaPulse, de acordo com o tipo que ele está recebendo. E aí foi aquilo que a gente falou, o processo é basicamente o mesmo, é abrir a demanda, solicitar os serviços, alguém vai chegar aqui, vai alocar, e é isso, e vai indo, muda de fase, solicita change request, se tiver que cancelar uma W.O., tá aqui, cancela a W.O., negocia com fornecedor, negocia com conteúdo, enfim, é a mesma coisa sempre, não interessa o que está chegando, o processo é basicamente o mesmo. 
+
+31:09
+Rodrigo Carlstrom - NT
+Bem bem semelhante. 
+
+31:10
+Marcelle Machado - Globo
+É muito semelhante. 
+
+31:11
+Rodrigo Carlstrom - NT
+Esses processos mais sérios para que eles são utilizados esses diagramas aí para treinamento só o pessoal consulta direto como é que funciona. 
+
+31:20
+Marcelle Machado - Globo
+Não eu não sei nem se eles estão consultando hoje em dia. Isso aí foi feito no começo do projeto por eles para poder quando tinha reuniões e tal a gente ajudar e eles assim acharem porque antes do planilha. Então como é que eu sei que eu tenho que ir no sistema nesse momento. Agora está no automático. Eles não olham mais isso aqui. Inclusive fazem errado por causa disso. Por exemplo a fase eles nunca mudam. Mas teoricamente isso aqui era para isso era para poder cada saber aonde que ele tinha que trabalhar e qual era o passo que ele tinha que fazer. Hoje em dia ninguém olha mais mas o que a gente até estava conversando que eu falei que teve na nossa plena e nesse quartil a gente trouxe eles trouxeram a galera Os coordenadores trouxeram esses pontos de... Cara, tem muita W.O. 
+
+32:09
+Marcelle Machado - Globo
+Com a fase errada, por exemplo. A gente precisa retornar. Então, uma das ideias desse quartil é justamente a gente voltar no processo, eles olharem... Por isso que eu falei, que isso aqui pode estar pouco desatualizado, porque a gente está na nossa pasta, não é deles, e eles estão revendo isso. Então, eles têm que olhar isso aí, revisar, repassar com as áreas, para poder lembrar. Você tem que mudar a WEA mudar o status. Você não está mudando. Você tem que enviar o relatório para os amiguinhos. Você não está enviando. Então isso aqui era para isso. Porque na época não tinha sistema. 
+
+32:41
+Rodrigo Carlstrom - NT
+Então o Mídia Pulse não tem nenhuma espécie de. Não tem de notificação alguma coisa que faça a pessoa não. 
+
+32:53
+Marcelle Machado - Globo
+Não tem nada disso aqui ligado ao sistema. 
+
+32:56
+Rodrigo Carlstrom - NT
+Por exemplo, se você deixar alguma WO lá, por exemplo, se ela já terminou o prazo dela lá, o prazo final dela lá, o último recurso que tinha alocado lá já foi na semana passada, só que ela ainda está aberta. Mesmo numa situação dessa, ela não fala nada. 
+
+33:17
+Marcelle Machado - Globo
+Não, é aquilo até que eu falei, que a gente tem problema... Na verdade, as poucas coisas que eles apresentam para a gente, qualquer funcionalidade que tem, que poderia ajudar, são funcionalidades que são genéricas. O que é genérica? Ou é para todo mundo ou não é para ninguém. E aí não serve, porque eu não posso fazer a mesma coisa que eu faço para uma área de administrativo, para cara que é por hard use da ferramenta, eu não posso fazer para o cara que entra ali de vez em quando. Então assim não dá para ser assim. Então isso é problema da ferramenta que eles até têm às vezes alguma funcionalidade interessante e a gente não consegue usar porque é 880. Eu não quero que o recurso que está de férias apareça. 
+
+34:05
+Marcelle Machado - Globo
+O recurso que está doente aparece ou é 880 ou todo mundo que se alguma área que não eu quero que meu recurso apareça ali. Não posso fazer porque isso é igual para todo mundo. Então tem umas coisas assim. E aí tem notificação que é assim. Às vezes a gente não faz porque não adianta. De qualquer forma, o SLA não tem. O workflow dentro do sistema não tem. 
+
+34:32
+Júlio - NT
+Marcelo, naquela primeira reunião que nós tivemos lá... 
+
+34:35
+Marcelle Machado - Globo
+Não. 
+
+34:38
+Júlio - NT
+Sei se eu estou quebrando a linha de raciocínio aí, Causton. Mas foi comentado sobre catálogo de serviços e agora tu falou sobre a locação de equipamentos, né? Como é que funciona isso dentro do MediaPulse? Como é que o pessoal faz esse processo? É dentro do próprio MediaPulse? Tem esse catálogo de serviço? Tem esse processo de locação? Tu consegue dar uma... Apresentar pouquinho sobre isso? No MediaPulse? 
+
+35:08
+Marcelle Machado - Globo
+Isso aqui é o seguinte, o catálogo de serviço é catálogo de serviço que alguém montou lá fora do MediaPulse, eles financeiramente falando, junto com a área de produção de tecnologia e etc, governança, eles montam lá, baseado em histórico e tudo, quais são os melhores kits, o que eu preciso ter e qual é o serviço. É como se fosse o combo do McDonald's, o que vende mais? E aí é tudo realmente marketing, é negociação. Se eu colocar essa câmera junto com esse recurso, essa câmera aqui eu preciso de câmera, nem dois. Enfim, são esses kits que eles juntam. Isso é questão de serviço. Então eles fazem isso lá e eles carregam manualmente. A gente tem uma carga em lote que a gente faz para o planilho e tal, mas enfim, não é uma integração. Eles entram e cadastram. Está vendo aqui? 
+
+36:18
+Marcelle Machado - Globo
+Serviço de catálogo, serviço operacional. 
+
+36:27
+Júlio - NT
+Só te interrompendo pouco, o operacional seria a contratação de mão de obra terceira, no caso. 
+
+36:35
+Marcelle Machado - Globo
+Não. O operacional é serviço também, só que não é do catálogo. Porque, às vezes, é serviço que eu tenho aqui dentro do Media Pool. Eu uso muito uma combinação de dois editores com uma ilha. Eu uso. Operacionalmente, eu uso. Não tem no catálogo de serviço, não tem valor, não tem nada disso, mas eu uso muito. Então, eu crio como operacional. Ele não está no catálogo. Essa é a diferença. Ele não é serviço do catálogo. Não foi a empresa que criou e colocou ali o valor para aquele serviço. Isso é meu. É da operação do dia a dia. Fica mais fácil. Eu sei que toda vez que eu tenho jogo e eu vou alocar eu aloco sempre cinco editores. Eu vou criar para mim serviço que é mais fácil do que eu ficar toda hora na mão. Aí é isso que é o serviço operacional. 
+
+37:28
+Marcelle Machado - Globo
+Basicamente o serviço de catálogo são esses aqui. A gente está com 100% de serviços de catálogos que fazem sentido para a gente dentro do Mídia Pública. Então, tem o serviço de catálogo design, de exibição, de produção interna, externa, pós, gerador de recepção de sinais e efeitos especiais. Quando você entra aqui dentro de cada desses, tem os recursos que fazem parte de cada serviço. Então, eu tenho serviço de produtor de efeitos visuais, acompanhamento, tudo isso aqui. Então, todos esses serviços estão dentro do grupo do catálogo design. Se eu entrar aqui dentro desse, por exemplo... Aqui mostra todas as... Descrições deste serviço específico que eu estou falando. Ele faz... O que é esse serviço? Esse serviço aqui é estúdio, mockup, esse aqui é o billing code dele, que é o valor. Esse aqui é uma template. Template é aquele kit que eu falei. É. 
+
+38:38
+Marcelle Machado - Globo
+E aqui tem o número da template até, deixa eu ver se não vai... 
+
+38:41
+Júlio - NT
+E aí são os kits, né? Os combos aí que são alocados nas WOs. 
+
+38:46
+Marcelle Machado - Globo
+Isso, aí quando a gente chega aqui na WO, se eu pegar aqui, por exemplo, a 2285, é esse estúdio mocado. Coloco uma linha aqui. E aí, por exemplo, se eu ver aqui... Igualzinho eles fizeram aqui, tá vendo? Eles botaram estúdio, caixa pequena. Aí aqui eu vou procurar o que eu quero. Aí a gente põe aqui, sei lá, eu quero... Quero serviço de catálogo. Eu quero... Isso que é a alocação. Nossa, muito lento. O que é a reclama? Boa. Bravo, minha. 
+
+40:52
+Júlio - NT
+Enquanto ele está pensando aí, o fluxo macro assim dentro do MediaPulse, né? Seria o cadastro das WOs, né? Em seguida, a locação e o planejamento dos recursos. 
+
+41:09
+Marcelle Machado - Globo
+Na verdade, eu diria que é o cadastro dos recursos. Tá. 
+
+41:15
+Júlio - NT
+Sim, antes... 
+
+41:16
+Marcelle Machado - Globo
+Isso, antes, né? Então... A primeira coisa é cadastro dos recursos e aí a gente tá falando de serviço de tudo. Então isso aqui por exemplo serviço de catálogo tem momento todo ano isso é feito. É revisado porque isso muda normalmente muda de ano para ano. Cada serviço tem período de validade que normalmente dura ano de 16 até 16 dezembro. Então vai lá e enfim. Até 15 dezembro, então termina e começa outro, tá? Então todo ano é feito novo cadastro desses recursos, fecha os antigos e tal. O recurso em si, o recurso normalmente não tem muita mexida não, o recurso equipamento isolado, mas os serviços todo ano tem uma mexida ali. A revisão do catálogo exatamente é uma revisão de catar valor. Às vezes até estudo histórico que a gente até falou ontem. 
+
+42:16
+Marcelle Machado - Globo
+Eu vi que toda vez eu alugo esse serviço aqui e esse serviço aqui eu nunca uso a câmera tem três câmeras e eu só uso duas em sei lá 20 vezes que eu usei. 19, eu usei só duas câmeras. Então, não tem por que eu estar colocando mais uma câmera aqui. Vamos tirar. E aí, eles... Então, tem esse estudo, essas análises e ajustes no serviço de catálogo e valor. Também. As coisas vão se ajustando ali. Negociações e etc. Eles ajustam os valores por conta disso. Que merda isso aqui. 
+
+42:50
+Júlio - NT
+Então, seria o cadastro de recursos, né? Catálogo de serviços. Na sequência ali vem a criação das WOs. 
+
+43:00
+Marcelle Machado - Globo
+Criação de jornadas. Antes da AWO, teoricamente, a gente faz o cadastro, as jornadas dos profissionais são criadas, que é para dizer se aquele profissional está disponível ou não, ou vem por integração, ou manualmente alguém vai lá e coloca. Aí você recebe o plano de produção, enfim, você recebe a informação por algum e-mail, alguma coisa, dizendo que vão ter as demandas. Essas demandas são criadas, demandas são as AWOs. Eu falo demanda é a AWO. Eu recebo essa demanda e eu vou criar o que eu preciso para essa demanda. Então é o jornal. Então eu vou criar uma W.A. Aí eu crio a W.A., faço as solicitações, solicitação de equipamento, de serviço, de recurso humano, enfim, seja lá o que for que eu preciso. Alguém faz a alocação. Eu faço, eu digo, então, solicitaram uma pessoa que sabe pintar. 
+
+43:54
+Marcelle Machado - Globo
+Eu vou lá e coloco quem é essa pessoa que vai pintar, porque eu sei que está disponível ou não. Aí entrou ali a alocação. Depois que eu faço essa alocação, e aí tem toda a mudança de fase, etc., que acontece durante esse período. Quando é? Se eu tenho capacidade, ok? Se eu não tenho capacidade, eu faço aluguel. Então, eu tenho que colocar recurso de terceiro e aí faço uma... No final das contas, eu tenho que criar uma RC para poder pagar o fornecedor. E no final? Eu também volto e cobro para o conteúdo. Então, aquilo tudo que eu gastei ali dentro, eu tenho que... É estaleca, acho que o Jesus deve ter falado isso, internamente é estaleca, a gente volta para o conteúdo e fala, ó, esse conteúdo aqui que eu produzi para você, eu gastei tudo isso aqui. 
+
+44:39
+Marcelle Machado - Globo
+E aí volta para eles esse valor. É isso basicamente que acontece. 
+
+44:48
+Júlio - NT
+Vou partilhar a minha tela aqui para ver se... Pessoal, estou tentando fazer rapidinho aqui, gente. É bem simples esse fluxo macro aí. 
+
+45:01
+Rodrigo Carlstrom - NT
+Perceba aí do Mídia Plus que ele tem uma riqueza muito boa de informação, né? Mas a tela é ruim, né? 
+
+45:07
+Marcelle Machado - Globo
+É. É aquilo que a gente falou ontem, que as pessoas... Que a gente falou, é feio, sabe? Não é bonito, a usabilidade não é legal, assim, e aí tem os comparativos, tipo, no esquerdo, Quando a gente vai, falando ali do fornecedor, quando a gente vai alocar terceiro, a gente faz uma, naquela linha da W.O., a gente faz uma associação com a P.O., que é a purchase order ali, que é aquilo ali. Então, para cada ciclo, para aquele fornecedor, então, nesse mês, o fornecedor 1, 2, 3, 4, eu tenho uma P.O. Que eu vou colocar todos os serviços que eu aluguei com esse terceiro. Essa P.O. É associada na transação. E isso é uma coisa que eles reclamam muito, porque a gente perde muito tempo nos cliques. Não é que não tem a funcionalidade. Tem, funciona perfeitamente. 
+
+45:58
+Marcelle Machado - Globo
+Associa a P.O.A., a gente coloca as coisas ali dentro, mas a quantidade de clique que a gente tem que dar para que aquilo ali tudo seja feito e associado corretamente é muito maior do que o último sistema que eles tinham. Então eles ainda por cima têm essa comparação que é uma comparação para a gente ruim, porque eles têm uma ideia melhor. Porra, por que aquele lá conseguiu, por que você não consegue? Enfim, mas teoricamente o Remedia Pulse é bem rico em feature, mas não é da melhor forma às vezes. 
+
+46:28
+Rodrigo Carlstrom - NT
+É, eu percebo assim que você gasta muito tempo às vezes procurando, porque tem uma quantidade de informação muito extensiva para o trabalho que você quer fazer naquele momento. 
+
+46:39
+Marcelle Machado - Globo
+Rápido, isso. 
+
+46:40
+Rodrigo Carlstrom - NT
+E aí você tem que ficar procurando, procurando para depois dar clique, para depois procurar de novo e dar outro clique e assim por diante, né? 
+
+46:47
+Marcelle Machado - Globo
+O pessoal trabalha muito até por conta disso com notinho. O Notepad aqui do lado coloca monte de as pessoas normalmente de cada área usam. Eu uso aqui sempre. Então eles têm todos os códigos ali e aí eles vão de copo e peixe copo e peixe. É assim que eles fazem para poder andar mais rápido para eles não terem justamente que procurar como eles já sabem o que é. Eles já colocam lá no copo e peixe deles e vão só fazendo assim para andar pouco mais rápido. 
+
+47:27
+Júlio - NT
+Seria mais ou menos isso? 
+
+47:29
+Marcelle Machado - Globo
+Mais ou menos isso. 
+
+47:31
+Júlio - NT
+Cadastro recursos, cadastro da jornada. Está faltando uma coisa aqui que você comentou que é o catálogo de serviços, né? Tem que estar pronto nesse momento também, né? 
+
+47:44
+Marcelle Machado - Globo
+Mas o catálogo de serviço, ele é transparente para a gente, para você. Ele, na verdade, ele faz parte ali do cadastro. Ele é cadastro, o catálogo de serviço para a gente é recurso. Cada serviço é recurso. Não interessa se tem 10 recursos dentro daquele recurso, mas cada serviço é recurso. Então, aquele cadastro de recursos ali é justamente o cadastro que inclui tudo. O cadastro de recurso humano, o cadastro de equipamento, o cadastro de serviços, o cadastro de tudo. É aquele cadastro de recursos que está ali. Isso, aí você pode botar ali em cima. Tá. 
+
+48:15
+Júlio - NT
+Criação das WOs. E aí tem aqui, de acordo com os times ali, que fazem isso aí, que é... 
+
+48:23
+Marcelle Machado - Globo
+Vertical, PA. 
+
+48:24
+Júlio - NT
+Próprio tipo de entretenimento para esportes e o tipo da integração. 
+
+48:32
+Marcelle Machado - Globo
+Orquestração. É a orquestração que faz a pintura de W.O. Vertical e conteúdo do esporte, no caso. E do entretenimento também. Solicitação de serviço. E aí, aqui eu colocaria solicitação de serviços barra recursos. Porque não é só... Ele faz solicitação do que ele precisa. Isso. Alocação... Eu colocaria só alocação. Planejamento teóricamente ele acontece antes daquela parte lá de fora toda do MediaPulse. 
+
+49:08
+Júlio - NT
+Alocação aqui tem uma tomada decisão se existe a necessidade... 
+
+49:15
+Marcelle Machado - Globo
+Aluguel. Então, eles verificam se a gente tem capacidade interna, verificação de capacidade interna, fica ali até às vezes antes da alocação, ali até. Ou no momento da alocação, que acontece, eles têm que verificar até. Porque ele só vai alocar se tiver... Se tiver eu aloco o interno se não tiver eu tenho que alocar terceiro. 
+
+49:41
+Rodrigo Carlstrom - NT
+De repente foi na mesma caixinha ali. 
+
+49:44
+Júlio - NT
+É só para facilitar agora a locação. Aí depois a gente vai a execução que é o pessoal metendo a mão na massa para realizar as filmagens e tudo mais o realizado. Que é voltar no MediaPulse e colocar as diferenças daquilo que foi planejado. Por fim, tem uma questão financeira aqui também, né? 
+
+50:14
+Marcelle Machado - Globo
+Tem. 
+
+50:16
+Júlio - NT
+E aí é... 
+
+50:21
+Marcelle Machado - Globo
+Tem a cobrança do conteúdo, tem o pagamento do fornecedor quando você está falando de terceiro, tem o custeio quando a gente está falando dos profissionais de entretenimento. Até agora a tecnologia também está fazendo, mas a tecnologia ainda está no showback, Mas tem entretenimento, faz o custeio, enfim, tudo de financeiro também acontece aí nesse momento. 
+
+50:37
+Rodrigo Carlstrom - NT
+Tem trabalho de volta ali, Júlia, que é depois de realizado muitas coisas, você periodicamente volta ali para fazer uma reavaliação dos serviços, não é isso? 
+
+50:53
+Marcelle Machado - Globo
+É eles fazem internamente lá e não tem nada de sistema é por eles lá eu não sei nem se tem time para isso acontecer mas eles obviamente durante todo ano isso aí é porque além disso aí eu não sei se também se vale a colocar aí porque isso vai para o BI né que é onde é e gera os grandes indicadores ali aonde eles justamente vão ter esses insights de Estou gastando muito, estou gastando pouco, estou pagando muita hora extra, estou alugando demais. Tem equipamento aqui que então é melhor comprar porque o gasto é tão alto de aluguel que é melhor eu ter interno. Enfim, eles vão fazendo essa coisa gerencial. É uma coisa mais gerencial mesmo, uma coisa mais executiva. Eles vão olhar para aquilo ali e vão entender o que tem que ser feito. 
+
+51:33
+Marcelle Machado - Globo
+E aí isso vai sempre sendo o entrando de novo no ciclo. Então você vai, analisa, verifica e tal e entra de novo para ver se então vamos ajustar. E aí entra e funcionou. Enfim, é isso. 
+
+51:49
+Júlio - NT
+Também existe uma integração com o SAP, não é? 
+
+51:53
+Marcelle Machado - Globo
+É o... Não é SAP, não. É SAP, gente? É o SAP? Não é SAP Breen, não. O SAP Breen? Tem o SAP BRIN também, tem o SAP BRIN também. Mas põe SAP BRIN mesmo. Mas tem a integração com o Oracle, que é o que gera as R6. 
+
+52:17
+Júlio - NT
+O EBS aqui provavelmente. 
+
+52:21
+Marcelle Machado - Globo
+Isso. 
+
+52:21
+Júlio - NT
+Se não me engano. Onde é que o SAP BRIN entra? 
+
+52:25
+Marcelle Machado - Globo
+O SAP BRIN também é aí, mas ele é aqui no financeiro também. Mas é outra caixinha, não é? Tem o EBS e tem o SAP BRIN. São duas coisas diferentes. 
+
+52:34
+Júlio - NT
+São três, porque tem o RH também, né? 
+
+52:36
+Marcelle Machado - Globo
+Também. 
+
+52:38
+Júlio - NT
+Sim, mas o RH, eu acho que ele entra aqui, né? Com as horas executadas pelos profissionais. Ele não entraria na questão financeira, não entraria. 
+
+52:47
+Marcelle Machado - Globo
+Mas é porque tem o rico. Eu não sei em que momento, se o rico, se ele pega no realizado logo depois do realizado. Porque o rico é o que justamente faz essa questão do, esse cruzamento. Eu acho que é no financeiro, porque é cruzamento de horas do realizado com a parte do custeio, que é a parte do custeio. Faz parte do financeiro, apesar de ser realizada ali. 
+
+53:17
+Júlio - NT
+Tem alguém que a gente possa falar sobre esses detalhes de integração, de o que cada ferramenta necessita nessa automação? A gente tem o Sérgio... 
+
+53:34
+Marcelle Machado - Globo
+Ele é a pessoa da nossa integração. 
+
+53:37
+Júlio - NT
+Tá, aí só o que o Sérgio me explicou, né? Só fazer desenho rapidinho que vai ficar fácil. Tem o MediaPulse. E aí eles construem, eles, o Sérgio, que eu entendi, ele trabalha aqui, ó, numa camada desacoplamento. 
+
+53:55
+Marcelle Machado - Globo
+Exatamente. Eles têm uma DL. O que a gente faz? A ideia é que a gente pegue todos os dados de todos os sistemas que a gente precisa, ficam lá num saco de gato. E aí a ideia é que o sistema se eu em algum momento há algum sistema quer integrar com o Mídia Pulse preciso de dado do Mídia Pulse sei lá de recurso humano. Ele encaixa que pluga nessa DL e puxa só o de recurso humano. Eu quero eu quero então não preciso toda hora teoricamente ficar construindo alguma coisa por isso desacoplamento. Ele vai pulga ali e puxa essas informações onde a gente joga tudo ali dentro. O BI está aí também. 
+
+54:36
+Júlio - NT
+O fluxo seria esse aqui, né? Mas aí o que o Sérgio me comentou? Ele não sabe como são estas integrações aqui. 
+
+54:51
+Marcelle Machado - Globo
+O BRIN é porque tem o outro lado, o Serginho está do lado do desaclapamento e tem o pessoal que é do BRIN, tem o pessoal que é do RH e o pessoal do EBS. 
+
+55:00
+Júlio - NT
+Isso, isso. 
+
+55:01
+Marcelle Machado - Globo
+A gente pode, são pessoas, são áreas diferentes. A gente pode marcar, são pessoas completamente diferentes essas três aí. A gente pode até marcar. 
+
+55:13
+Júlio - NT
+Exato. Cada tem a sua caixinha aqui, na verdade. 
+
+55:16
+Marcelle Machado - Globo
+E eles estão bem confusos para a gente entender. 
+
+55:19
+Júlio - NT
+Seria isso aqui, né? A integração, na verdade. 
+
+55:23
+Marcelle Machado - Globo
+Cada tem. Ainda tem FPI, é que não está aqui, mas lá quando a gente falou ali da integração do RH, por exemplo, Até ali a gente tem divisão, não é RH. Tem gente que é do FPW, tem gente que é do FPW. Tem gente que é do HCM, não é uma área só, entendeu? São várias áreas diferentes. Todas essas integrações, aquele RH que você botou ali bonitinho, só, não é só, são três, no mínimo. 
+
+55:49
+Júlio - NT
+Então esse pessoal aí que eu não sei se tu sabe indicar o seu conversa com o Sérgio para indicar quem são essas. 
+
+55:56
+Marcelle Machado - Globo
+Eu passo para vocês os nomes eu não sei de cabeça assim papo não mas eu te passo a gente tem uma cola no. A. 
+
+56:08
+Júlio - NT
+Daí a ideia é entender pouquinho aqui o que justamente o que tudo eles dependem e o que eles vêm buscar. Quais são as integrações ou até mesmo a gente gostaria de buscar e ter isso aqui ainda não tem não tem. Quais são as necessidades. 
+
+56:23
+Marcelle Machado - Globo
+Mas aí eles vão falar muito mal aí a gente não vou te dar o nome. A gente queria aquilo não tem nunca. Não tá eu vou te passar vou pensar. Vou pensar se eu te passo o nome deles. 
+
+56:40
+Júlio - NT
+Aí com o Sérgio eu conversei já. 
+
+56:42
+Marcelle Machado - Globo
+É porque acontece o Serginho. Eu não sei é que eu não sei exatamente o nível que vocês querem assim Serginho é tipo eu assim não é muito técnico. Se vocês quiserem descer mais tem a galera do Serginho tipo Fábio. 
+
+56:56
+Júlio - NT
+Sim, eu conversei com o Fábio também. 
+
+56:57
+Marcelle Machado - Globo
+Então. Aqui, por exemplo, no meu time, tem o Gabriel. O Gabriel é o cara de nosso, do MediaPulse, que fala com a galera de integração, a língua deles, entendeu? Então, ele é que faz essas questões desenvolvimento, qual é a entidade que usa essas paradas todas, serviço, isso tudo é Gabriel. Então, se precisar, a gente tem o Gabriel aqui do nosso lado. Normalmente, nesses... Nessas reuniões que a gente fala com integração, se você for falar com SAPBRI, o ideal é você ter o Gabriel nesses papos, sempre. Então, todos esses papos que você fizer com RH, com EBS, com SAPBRI, coloque o Gabriel, porque para ele poder falar com o olhar do nosso lado ali, aí vocês conseguirem fazer essa conexão. Gabriel Pereira. 
+
+57:46
+Júlio - NT
+Aí também tinha que perguntar, o Gabriel, ele tem o conhecimento... De todas. Desses processos aqui. 
+
+57:55
+Marcelle Machado - Globo
+De todas as integrações que a gente tem dentro do Mídia Pulse, o Gabriel é o responsável. 
+
+58:01
+Júlio - NT
+É a pessoa com quem... É a próxima com quem eu preciso. 
+
+58:05
+Marcelle Machado - Globo
+Falar sobre... Coitado, vamos falar que fui eu que falei. Você descobriu sozinho. 
+
+58:11
+Rodrigo Carlstrom - NT
+Amanhã tem a de Custeio, né? 
+
+58:13
+Júlio - NT
+Amanhã tem a de Custeio, exatamente. 
+
+58:16
+Marcelle Machado - Globo
+Então, por isso que eu tô falando. Veja, porque assim, onde eu gostei deve estar o Rissuti e a Lu. 
+
+58:21
+Júlio - NT
+Eu esqueci de te passar. Eu ia te encaminhar a esquecer, era pra te... 
+
+58:26
+Marcelle Machado - Globo
+É, o que eu ia falar é, eles vão falar que nem a gente falou aqui, de processo alto nível. De novo, se quiser, dependendo do quão baixo vocês querem ir, coloco o Gabriel. Senão, processo por processo, a gente fala ali, a Lu, o Rissuti, a gente consegue falar. Mas, em algum outro momento, se você quiser alguma coisa mais baixo ali, tem que envolver o Gabriel. 
+
+58:46
+Júlio - NT
+Mais baixo nível sobre integração, né? 
+
+58:48
+Marcelle Machado - Globo
+Sobre integração, sobre integração. Sim, sim. 
+
+58:50
+Júlio - NT
+A ideia é descer pouquinho o nível aqui, sim, para a gente entender pouco mais baixo nível dessas integrações, como é que elas são, o que elas fazem exatamente, como é que é, como é que estão construídas e tudo mais. 
+
+59:07
+Marcelle Machado - Globo
+Tá. Eu vou separar o nomezinho de todas as pessoas dessas... Essas integrações eu te mando a essa. 
+
+59:16
+Júlio - NT
+De custeio e participa amanhã. É outro. 
+
+59:20
+Marcelle Machado - Globo
+Pode colocar. Pode colocar. Amanhã a gente vai estar no escritório. Por isso é que eu perguntei se você estava no Rio. 
+
+59:26
+Júlio - NT
+Não, não. Dessa vez não. 
+
+59:28
+Marcelle Machado - Globo
+A gente amanhã vai todo mundo lá para o escritório. 
+
+59:32
+Júlio - NT
+Por enquanto, sem data para ir. 
+
+59:34
+Marcelle Machado - Globo
+Sorte sua. Está calor infernal. Eu não sei se você não lembra quando você. Sério, cara. Também não sei se vocês estão vendo está vendo aqui eu estou em meu óculos em base de calor. Também que eu vou para o escritório amanhã. 
+
+59:46
+Rodrigo Carlstrom - NT
+Eu estou com ventilador na mesa aqui imagino você aí. 
+
+59:50
+Marcelle Machado - Globo
+Não gente não está tão quente. Não tem não tem não está dando não sei o que está faltando para esfriar pouquinho só mas tranquilo. Então está combinado eu vou te passar os nomes e amanhã a gente entra no costeio livre. 
+
+01:00:09
+Júlio - NT
+E ponto aqui, colocação de equipamentos. 
+
+01:00:13
+Marcelle Machado - Globo
+É a mesma coisa. É igual ao recurso. O recurso para a gente é tudo a mesma coisa. Recurso equipamento, recurso humano, recurso serviço. A execução é igual. Eu vou adicionar uma linha. É a mesma coisa que eu mostrei ali de solicitar, é aquela linha com grupo, é aquele grupo de serviço de catálogo, por exemplo. Aí aquilo que eu botei design. Aí tem uma porrada de grupo dentro de vários tipos. A gente coloca e aí a gente coloca o nome do serviço. A funcionalidade é a mesma. Para o MediaPulse, recurso, tudo é recurso. Não interessa se é humano, não interessa se é serviço, não interessa se é uma sala, não interessa se é... Não interessa, é recurso. A alocação é feita da mesma forma. 
+
+01:01:02
+Júlio - NT
+O processo em si da alocação de equipamentos acontece via o MediaPulse? 
+
+01:01:08
+Marcelle Machado - Globo
+Via MediaPulse. 
+
+01:01:09
+Júlio - NT
+Então, existe o cadastro do fornecedor dentro do Mundiapulse, existe o custo dos equipamentos dele dentro do Mundiapulse, e por isso que depois existe uma integração ali no final do processo dizendo, foi utilizado o equipamento alugado, precisa ser pago e aí que vai a ordem. 
+
+01:01:30
+Marcelle Machado - Globo
+Deixa eu te mostrar uma coisa aqui. Vou entrar dentro de serviço aqui. Aqui ó esse aqui é serviço tá e aqui eu digo olha esse serviço ele dura 24 horas no máximo eu digo todas as especificações que eu quero ter desse serviço eu coloco dentro dele aqui inclusive o valor inclusive o valor dele para que na hora que eu faço a alocação ele já vai me trazer é tudo isso se eu vou entrar aqui em. 
+
+01:02:46
+Júlio - NT
+Existe alguma questão de aprovação, papel específico que pode realizar esse processo? 
+
+01:02:55
+Marcelle Machado - Globo
+De quê? Não entendi. 
+
+01:02:57
+Júlio - NT
+Existe algum fluxo de aprovação? Eu preciso alugar. Existe alguma necessidade de aprovação? 
+
+01:03:04
+Marcelle Machado - Globo
+Dentro do sistema, não. Se tem, eu desconheço. Teoricamente, a área responsável, que é a orquestração, só eles é que fazem essa esse processo só eles têm contato só eles que conseguem fazer alguma coisa com fornecedor não é qualquer pessoa então é isso não tem mais aprovação eu acho que se tiver lá daquele do lado do EBS ali mas aqui dentro não tem nada de aprovação como é que a aprovação aqui da P.O. Quando a gente cria uma purchase order a purchase order ela tem uma É igual a AWO. Isso aqui é uma Portchase. Tá vendo aqui o estado? 
+
+01:04:35
+Júlio - NT
+Sim. 
+
+01:04:39
+Marcelle Machado - Globo
+Passa aqui no Request. 
+
+01:04:47
+Júlio - NT
+Tá, ficou no Mudo, Marcelo. Eu acho que ficou no Mudo, eu parei de escutar. Tá aí, Causton? Ou foi eu que parei? 
+
+01:04:57
+Rodrigo Carlstrom - NT
+Não, não, tô ouvindo aqui, parece que... 
+
+01:05:05
+Marcelle Machado - Globo
+Eu travo ali, né? Eu travei? Voltou. Voltei? Voltou. Então, aqui tem os status. E aí, esse status de aprovo de aqui, integração, é justamente o que faz aquela criação do RC que eu falei. É e aí depois quando ela está quando se tiver problema né sei lá se o fornecedor não concordou com aquilo ali está faltando alguma coisa sei lá ele coloca em check pending e aí é tudo orquestração não é o fornecedor mesmo tá fornecedor não tem acesso ao mídia pulse não tá e depois vai para o FIFA isso aqui tudo é automático quando tá quando a gente escolhe esse por integração tá tudo isso aqui acontece automaticamente E aí aqui tem valores, tá vendo? Esse aqui é o valor dessa purchase order. O que tem nessa purchase order? Tudo isso aqui. Tudo isso aqui. Tudo isso aqui foi o que foi usado. 
+
+01:06:02
+Marcelle Machado - Globo
+Aí tem os item codes. Isso aqui tudo é cadastrado. Então, dentro do MediaPulse, a gente tem que cadastrar o item code. O que é o item code? Qual é o serviço e o valor do fornecedor. Porque a gente também tem o Billing Code, que é o serviço que a gente cobra do conteúdo. São coisas diferentes. Então aqui no fornecedor é o Item Code. Tudo isso é cadastrado. Tem uma entidade Item Code onde a gente faz todo esse cadastro aqui. E aí por isso que eu falei aquele negócio de fazer a PO e tem muito clique. Eu tenho que adicionar essa linha aqui que é uma pior que estava lá na W.A. Aí aqui tem qual é a transação da W.A. Isso eu faço lá na W.A. Eu faço na hora que eu faço associação depois ele vem para cá automático. 
+
+01:06:56
+Marcelle Machado - Globo
+Mas aí eu tenho que dizer qual é o item code que eu estou querendo. Aí eu coloco aqui associo item code senão ele não nada vai nada anda para frente. Então é chatinho isso. E aí está aqui todas essas todos esses item codes fazem parte dessa parte de ordem aqui. Que é desse cara aqui, é esse vendor. Esse vendor, aí também se quiser colocar, é também cadastrado no sistema. Como você falou, o fornecedor, todos os fornecedores são cadastrados no sistema. 
+
+01:07:32
+Júlio - NT
+Dashboards, relatórios, o que o MediaPulse oferece? 
+
+01:07:38
+Marcelle Machado - Globo
+Então, ele tem bastante coisa até de relatório, mas qual é o problema do MediaPulse? Eu acho que a gente falou isso, não sei se foi em alguma das reuniões, eu lembro da gente ter comentado. A capacidade, a capacidade deles, a performance, né? 
+
+01:07:50
+Júlio - NT
+De 30 dias ali, vocês limitam a 30 dias, né? 
+
+01:07:54
+Marcelle Machado - Globo
+Não, a gente limita a 10 mil linhas, porque a gente, você viu ali, uma purchase order é aquilo ali, gente. Imagina, a gente tem milhões, sei lá quantos por mês. Então, quando a gente pede para executar alguma coisa mês, é muito mais que 10 mil linhas. Para a gente é o normal. Às vezes eles não conseguem rodar relatório de 15 dias dependendo do tipo de relatório que você quer. Se você pegar relatório de transação transação lembrando são as linhas que fazem parte da W.O. Aquelas linhas todas que eu mostrei ali que a gente faz a alocação. Às vezes tem W.O. Que tem 200 linhas. Então se eu pegar isso e uma W.O. Eu tenho às vezes 10 W.O. Sei lá quantas W.O. Por dia num mês se multiplica e é muita coisa. E aí o sistema não aguenta ele quebra mesmo ele cai. 
+
+01:08:41
+Marcelle Machado - Globo
+E aí a gente parou o que a gente fez. Construímos o BI. Então a gente leva todos os dados para o BI. E quando as pessoas precisam de alguma coisa nesse nível que a gente considera histórico você quer olhar para trás mês. Você não está fazendo trabalho pontual. Então você vai no BI e pega no BI. 
+
+01:08:57
+Rodrigo Carlstrom - NT
+Como é feito isso Marcelo? Você extrai todos os dados do Mídia Plus e leva para uma base de dados dentro da Globo é isso? 
+
+01:09:06
+Marcelle Machado - Globo
+Isso. 
+
+01:09:07
+Rodrigo Carlstrom - NT
+E essa base de dados, você sabe como que é essa base de dados? 
+
+01:09:11
+Marcelle Machado - Globo
+Eles colocaram no BigQuery e aí eles trabalham, aí tem uma outra, por isso que eu falei para ele colocar a caixinha no processo ali de BI, tem uma outra área que é de BI, que é de soluções analíticas, são eles que constroem os BIs. Então, por exemplo, a gente tem aqui no MediaPulse as entidades de WO, a gente tem a entidade das Purchase Orders, a gente tem as entidades de Recu, a gente tem uma porrada de entidade, mas a gente tem muitas, não são todas que eu quero mandar para o BI. Então, eu digo o que eu quero, digo quais são os atributos, tá? Não é .. Eu não pego todo o MediaPulse e jogo lá. Eu digo o que eu quero, pego os atributos e coloco lá. E aí eles criam as views e etc. 
+
+01:09:52
+Marcelle Machado - Globo
+E aí o pessoal, a galera de negócio, entra, tem acesso a isso e cria views de acordo com o que interessa a cada. 
+
+01:10:01
+Rodrigo Carlstrom - NT
+E essa puxada de dados aí é feita à noite? 
+
+01:10:04
+Marcelle Machado - Globo
+São três vezes por dia, em três horários, não é de noite, é durante o Em três momentos. O que a gente faz é tentar fazer em momentos menos críticos, né? Deixa eu até olhar aqui. Eu tenho esse horário em algum lugar. 
+
+01:10:25
+Júlio - NT
+Isso aí eu acho que até o Sérgio comentou lá que existe... Nove e. 
+
+01:10:30
+Marcelle Machado - Globo
+Meia, meio de meia e seis e meia. 
+
+01:10:33
+Júlio - NT
+Dos consumidores é justamente a time de BAE. 
+
+01:10:38
+Marcelle Machado - Globo
+Exatamente. Essa rodada de Bia inclusive se eu não estou enganada ela é a mesma que acontece para o Brim. Só que eles vão para lugares diferentes para fazer coisas diferentes mas a puxada eu acho que é a mesma. O Brim ali. Cada vez que a gente fala vai aparecendo mais coisa. 
+
+01:11:00
+Júlio - NT
+E o que não aparece, o que não tem no MediaPulse? Tirando aquilo que a gente comentou lá. 
+
+01:11:06
+Marcelle Machado - Globo
+Sobre simulação e tal. Na verdade é mais, foi o que a gente falou da usabilidade. Então, o que não tem, algumas coisas que a gente solicita, por exemplo, deixa eu compartilhar a tela que isso é interessante, só pra vocês entenderem. 
+
+01:11:21
+Júlio - NT
+Comentaste, né? Ele tem muita funcionalidade, mas tem uma péssima usabilidade, né? 
+
+01:11:28
+Marcelle Machado - Globo
+A usabilidade é muito ruim. Então, é isso que ele peca. Então, por exemplo, a gente tem a AWO. Vou te explicar uma coisa que é uma coisa que eles pedem muito. Deixa eu fechar aqui. Eles pedem muito e aparentemente é uma coisa simples. E a gente tinha também isso no outro sistema. É muito ruim quando a gente quando já tinha no outro sistema e a gente perdeu. Só para vocês terem uma ideia, está vendo essas linhas aqui? Esse serviço aqui, por exemplo, ele pode muito bem ter uma template dentro dele. O que é uma template? Uma template é kit. Então, por exemplo, essa produção interna aqui, ele pode ter uma linha, pode ser formado por uma câmera e por editor. Ele faz parte desse serviço aqui. Então, quando eu puxo ele traz outros. 
+
+01:12:22
+Marcelle Machado - Globo
+Então, na hora que eu faço essa alocação aqui desse serviço, ele traz essas linhas de baixo junto. Então, na hora que eu aloco, quando eu vou lá naquela alocação que eu mostrei, que eu cliquei nos três pontinhos e coloquei esse serviço aqui, eu lá eu coloquei só esse serviço, produção interna, controle e operação padrão. Mas ele tem associação com essas quatro linhas aqui de baixo. Então na hora que eu coloco ele puxa isso aqui já automaticamente que é justamente para facilitar. Só que quando ele entra aqui ele não tem uma associação lógica. Então da mesma maneira que eu coloco se eu resolver por exemplo que eu não quero mais esse serviço ele não deleta tudo. E aí às vezes o negócio fica perdido aqui eu não consigo ver por exemplo que esses caras aqui fazem parte desse serviço. 
+
+01:13:13
+Rodrigo Carlstrom - NT
+Então, e lembrando... Pelo que eu entendi, uma hierarquia só de dois níveis, né? 
+
+01:13:18
+Marcelle Machado - Globo
+Exatamente. Isso é muito ruim, porque aí aqui eu consigo, por exemplo, eu consigo, tá vendo? Eu consigo colocar, agrupar, isso ferra tudo. Porque aí que mesmo que perdi aqui, tá aqui, serviço de produção interna, o cara que fazia parte disso aqui tá sei lá onde, eu nem sei. Se eu quiser mexer e deletar, eu não quero mais esse serviço, ferrou. Eu não sei quem são os caras que fazem parte desse serviço. Entendeu. Assim são coisas sim aparentemente simples mas que é impacto enorme. Imagina você entrar nessa W e ter que olhar linha a linha para ver qual é o cara que eu tenho que deletar porque eu quero deletar esse serviço. Entendeu. No outro sistema ele era identado pelo menos. Então eu tinha que produção interna o que fazia parte dele vinha aqui embaixo mas mais para a direita entendeu. 
+
+01:14:09
+Marcelle Machado - Globo
+Identado bonitinho a gente conseguir expandir Comprimir tudo entendeu. Como é o nome do outro sistema. E eles compraram o esquerdo então está com eles. Isso é que é pior. 
+
+01:14:28
+Júlio - NT
+A gente tem uma boa. Compraram a empresa comprou o concorrente melhor e tirou do mercado. 
+
+01:14:36
+Marcelle Machado - Globo
+E não trouxe. Olha a gente soube outro dia de. 
+
+01:14:39
+Rodrigo Carlstrom - NT
+Contribuição para o mercado. 
+
+01:14:42
+Marcelle Machado - Globo
+A gente trouxe outro dia a gente teve uma reunião alguma coisa que a gente fez e aí o cara falou isso falei assim gente o cara tirou do mercado e não trouxe as funcionalidades deles que a gente que não tinha no Mediapulse eles não trouxeram. A maioria das a gente soube que a maioria dos clientes de lá ficaram estão nos quedam porque eles falam para poder migrar é coisa de dois anos. Para poder conseguir fazer toda essa migração para o MediaPulse porque é diferente então enfim. Mas é isso assim o MediaPulse ele tem muita capacidade ele tem muita feature muita não é uma coisa não tem não ele tem até coisa que a gente não usa sabe a parte de pagamento a gente não faz essas coisas internamente né. Pagamento é lá com é como é BS e tal enfim e etc. 
+
+01:15:34
+Marcelle Machado - Globo
+Eles têm aqui dentro mas o problema deles é eles não a maneira com que é feita por aquele negócio de serviço ali aquilo ali é difícil para gente o usuário no dia a dia né então é complexo ele a os perfis são genéricos aquilo que eu falei pois eu não quero eu tenho várias áreas que funcionam de maneiras completamente diferentes dentro da empresa eu não posso querer que uma funcionalidade habilitando para uma área, seja habilitada para todas. Então, assim, são coisas assim que o Media Pool se peca por isso. Por isso que eu falei que não seria problema ele ter essas questões se eles tivessem uma resposta rápida aos nossos desejos. Se a gente chegasse lá e falasse, olha, eu preciso disso aqui, e eles tivessem uma SLA, fizessem o desenvolvimento e retornassem, a gente estava feliz da vida, não tem problema. 
+
+01:16:19
+Marcelle Machado - Globo
+Só que é esse o problema que não tem, eles não têm esse retorno rápido. Então, é como se a gente nunca fosse ter, ferrou, é isso aí e acabou. Daqui a cinco anos, talvez. Então, esse é o problema. 
+
+01:16:29
+Rodrigo Carlstrom - NT
+Perfeito. 
+
+01:16:32
+Marcelle Machado - Globo
+Falei muito? 
+
+01:16:35
+Júlio - NT
+Não. Mais algum ponto, Caustro? 
+
+01:16:38
+Rodrigo Carlstrom - NT
+Não, acho que é por aí. 
+
+01:16:40
+Marcelle Machado - Globo
+É. 
+
+01:16:40
+Rodrigo Carlstrom - NT
+Estudando, estudado, amanhã tem a parte de... Amanhã vai ser pior. Do custeio, né? A gente vai descobrir mais pouquinho aí. Mas já está dando alguns insights aqui, né? 
+
+01:16:50
+Marcelle Machado - Globo
+É. 
+
+01:16:52
+Rodrigo Carlstrom - NT
+Com certeza. 
+
+01:16:53
+Marcelle Machado - Globo
+Tá, então amanhã a gente se fala. Eu vou mandar para vocês os nomes. 
+
+01:16:57
+Júlio - NT
+Obrigada. Tchau. 

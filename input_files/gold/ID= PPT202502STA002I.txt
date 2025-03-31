@@ -1,0 +1,118 @@
+ID= PPT202502STA002I
+NOME = 2025_02_12_StatusMichele
+
+Descrição Geral
+Este documento apresenta um relatório de status sobre o andamento do projeto nas áreas de Planejamento e Alocação de Recursos (PAR), Talentos Artísticos (TA) e Recursos Humanos (RH).
+
+Os principais objetivos do documento são:
+
+Atualizar o progresso do projeto.
+Discutir os resultados preliminares já alcançados.
+Identificar pontos de melhoria e sinergias entre áreas e sistemas.
+Definir os próximos passos para otimizar os processos internos.
+O relatório se concentra na análise de sistemas e processos, destacando desafios, oportunidades de melhoria e evolução futura.
+
+Resumo do Conteúdo
+
+1️ Objetivo
+Fornecer um panorama do status atual do projeto.
+Identificar desafios no planejamento e execução.
+Apontar oportunidades para automação e integração.
+Coletar sugestões para ajustes estratégicos.
+
+2️ Status Atual
+Áreas analisadas:
+Planejamento e Alocação de Recursos (PAR).
+Talentos Artísticos (TA).
+Recursos Humanos (RH).
+Processos avaliados:
+Planejamento de Longo Prazo (manual, dependente de Excel).
+Planejamento de Curto Prazo (semi-manual, com uso do Media Pulse).
+Integrações entre sistemas financeiros e operacionais.
+Contratação, pagamento e alocação de talentos.
+
+3️ Resultados Preliminares
+
+🔹 Planejamento de Longo Prazo:
+Feito manualmente, baseado em planilhas Excel.
+Dependência de conhecimento das pessoas, sem um fluxo estruturado.
+Processo demorado e suscetível a erros.
+Simulação de cenários com baixa cobertura de recursos.
+Oportunidade de evolução com automação.
+
+🔹 Planejamento de Curto Prazo:
+Realizado parcialmente no Media Pulse, mas ainda com dependência de processos manuais.
+Informações dispersas entre diferentes sistemas.
+Falta de visibilidade e ausência de simulações de impacto.
+Baixa rastreabilidade das mudanças no planejamento.
+
+🔹 Sistema Media Pulse:
+Ferramenta rica em funcionalidades, mas pobre em capacidades.
+Interface pouco amigável e sem fluxos estruturados.
+Baixa visibilidade de indicadores e relatórios gerenciais.
+Falta de dashboards para tomada de decisão.
+Oportunidade para atualização e melhor aproveitamento da ferramenta.
+
+🔹 Integrações:
+Baixa integração entre os sistemas.
+Migração de versão das APIs do Media Pulse poderia melhorar a conectividade.
+Ainda poucos resultados claros sobre a integração total.
+
+4️ Próximos Passos
+🔹 Análise dos processos e sistemas de Talentos Artísticos:
+
+Compreender os fluxos de Captação, Planejamento, Contratação e Pagamento.
+Identificar sinergias com outras áreas.
+🔹 Mapeamento detalhado do Media Pulse:
+
+Identificar pontos fortes e fracos da ferramenta.
+Levantar possíveis melhorias e ajustes.
+🔹 Mapeamento de dependências:
+
+Entender como os sistemas interagem entre si e quais são os pontos críticos.
+🔹 Continuidade no estudo de integrações:
+
+Mapear integrações já existentes e oportunidades de melhoria.
+
+Principais Informações Contidas
+1️ Análise do planejamento de longo e curto prazo e sua dependência de processos manuais.
+2 Identificação de falhas no Media Pulse (falta de relatórios, interface não intuitiva).
+3 Mapeamento das integrações e seus desafios.
+4️ Definição de oportunidades de automação e otimização de fluxos de trabalho.
+5️ Próximos passos para aprofundamento da análise e evolução do projeto.
+
+Metadados do Documento
+Título: 2025_02_12_StatusMichele
+Data: 12/02/2025
+Empresa responsável: NTConsult
+Áreas envolvidas: Planejamento e Alocação de Recursos, Talentos Artísticos, Recursos Humanos
+Conteúdo: Status do projeto, desafios, oportunidades e próximos passos.
+
+Análise Quantitativa
+Número de áreas analisadas: 3 (PAR, TA, RH).
+Número de sistemas citados: 10+ (Media Pulse, SAP BRIM, FPW, HCM, etc.).
+Principais desafios identificados: 5 desafios operacionais.
+Número de processos detalhados: Planejamento de longo e curto prazo, contratação, pagamento, integração de sistemas.
+Oportunidades de melhoria listadas: 4 grandes oportunidades.
+
+Principais Insights
+
+1️ A dependência de processos manuais impacta diretamente a eficiência operacional.
+O planejamento de longo prazo ainda é feito no Excel, o que torna o processo suscetível a falhas e difícil de gerenciar.
+A transição entre longo e curto prazo não é automatizada, exigindo retrabalho manual.
+
+2️ O Media Pulse precisa de otimizações para melhor atender às necessidades do planejamento.
+A ferramenta tem funcionalidades robustas, mas sua usabilidade é deficiente.
+Faltam dashboards, relatórios estratégicos e capacidade de simulação de cenários.
+
+3️ Integrações entre sistemas são limitadas, impactando a fluidez das informações.
+A troca de dados entre Media Pulse, FPW e SAP BRIM precisa ser melhorada.
+A migração para uma nova versão das APIs do Media Pulse pode solucionar parte do problema.
+
+4️ Há uma grande oportunidade para automação e digitalização dos processos.
+A automatização de simulações e previsões pode reduzir tempo e erros operacionais.
+A implementação de um fluxo mais dinâmico entre planejamento e execução pode aumentar a produtividade.
+
+5️ O alinhamento entre Talentos Artísticos e Recursos Humanos ainda precisa ser aprimorado.
+Os sistemas dessas áreas não se comunicam bem, dificultando a gestão de talentos.
+A Base Única de Talentos precisa ser melhor integrada aos demais sistemas.

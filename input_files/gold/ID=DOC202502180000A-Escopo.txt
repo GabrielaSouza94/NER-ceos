@@ -1,0 +1,64 @@
+ID=DOC202502180000A - Escopo
+
+Elaborado em18/02/2025Elaborado por Jairo SilvaRevisado porRodrigo Carlstrom
+Globo - Planejamento e Alocação de Recursos e Talentos
+
+Resumo dos Objetivos do Projeto
+O objetivo principal deste projeto é analisar, estruturar e sugerir melhorias para o processo de planejamento e alocação de recursos da Globo, que atualmente opera com uma combinação de planilhas, processos manuais e o sistema MediaPulse. A solução precisa proporcionar mais eficiência, melhor comunicação e maior integração tecnológica.
+A jornada de trabalho da Globo na produção de seus conteúdos audiovisuais segue um fluxo bem definido, estruturado em três grandes fases: o plano de produção, planejamento de longo prazo e, por fim, a execução no curto prazo. Embora esse processo esteja bem estabelecido, ele ainda depende fortemente de planilhas extensas e do sistema MediaPulse, uma ferramenta que, apesar de conter informações valiosas, é desatualizada e de difícil usabilidade. Nosso desafio é entender essa estrutura e propor soluções que tragam mais eficiência e integração.
+Tudo começa no plano de produção, onde a Globo define a programação do ano seguinte. Nessa fase, o protagonismo está nas mãos do time artístico, que decide quais novelas, programas de entretenimento, eventos esportivos e programas jornalísticos serão produzidos. Cada produção recebe uma previsão de duração, número de episódios e um canal de exibição, seja na TV aberta ou em plataformas como o Multishow e o GNT. É aqui também que se estabelecem os responsáveis criativos por cada obra, como diretores, roteiristas e produtores. Essa primeira etapa tem um impacto profundo, pois define a base sobre a qual todo o restante do planejamento será construído.
+A partir do plano de longo prazo, o processo avança para o longo prazo, onde a estrutura artística se encontra com a realidade operacional. Se antes o foco estava na criação e definição de conteúdos, agora a atenção se volta para a definição dos recursos críticos necessários, como estúdios, equipamentos e tecnologia necessária para a gravação, mas ainda sem alocar os recursos. Nesta fase é feita a expressão das necessidades por profissionais com um olhar mais técnico que entram em cena para garantir que tudo esteja disponível no momento certo. Cada produção precisa ser encaixada dentro de uma linha do tempo, ocupando os espaços adequados e utilizando os equipamentos certos, como câmeras especiais, iluminação avançada e unidades móveis para gravações externas. No entanto, nem sempre há disponibilidade interna para tudo. Em muitos casos, a Globo precisa recorrer à locação de equipamentos no mercado, um custo extra que a empresa tenta evitar ao máximo por meio de um planejamento preciso.
+O processo então chega ao curto prazo, cerca de 30 dias antes das gravações. Neste momento, o planejamento se transforma em alocação dos recursos, execução e os detalhes finais são ajustados. O MediaPulse passa a ser utilizado para formalizar as ordens de serviço, registrando a alocação de cada profissional e de cada equipamento necessário para as filmagens. Essa fase é preponderantemente logística: é preciso garantir que atores, câmeras, diretores de fotografia e técnicos estejam no lugar certo, no horário certo, com os recursos certos. No entanto, como grande parte desse planejamento acontece por meio de planilhas extensas e processos manuais, a comunicação entre as equipes muitas vezes se torna um desafio. Muitos funcionários têm apenas acesso de leitura às planilhas, o que gera atrasos e dificuldades na atualização das informações. Além disso, o MediaPulse, que deveria facilitar a execução, acaba tornando o trabalho mais burocrático e demorado, com múltiplas telas e ações manuais que comprometem a agilidade da operação.
+O MediaPulse
+O MediaPulse é um sistema desenvolvido pela empresa Xytech, especializado na gestão de operações para empresas de mídia, incluindo emissoras de televisão. Em abril de 2021, a Xytech adquiriu a ScheduALL, uma empresa concorrente no mesmo segmento. Após essa aquisição, a TV Globo, uma das maiores emissoras do Brasil, decidiu migrar do sistema ScheduALL para o MediaPulse Cloud, buscando unificar suas soluções de planejamento, gestão de recursos e faturamento. Essa transição ocorreu em etapas, iniciando em outubro de 2021 e abrangendo diversas áreas de negócios da emissora.
+panoramaaudiovisual.com.br
+O MediaPulse oferece uma variedade de recursos, incluindo módulos para planejamento de capacidade, simulação de cenários e gestão integrada de recursos. Essas funcionalidades permitem às empresas de mídia otimizar o uso de seus recursos, melhorar o planejamento operacional e facilitar a integração entre diferentes unidades de negócios. Além disso, a plataforma é baseada em nuvem, proporcionando maior flexibilidade e acessibilidade para os usuários.
+Em janeiro de 2025, a Xytech anunciou sua fusão com a empresa Fabric, resultando em uma nova entidade que mantém o compromisso de fornecer soluções integradas para operações de mídia.
+INFORMAÇÃO TRAZIDA POR JÚLIO NT: Há rumores de que a versão usada pela Globo do MediaPulse poderá ser descontinuada por esta nova entidade. A Globo utiliza uma versão específica (provavelmente com personalizações). A empresa que mantém o MediaPulse já tem versões novas, de forma há uma tendência que a versão usada pela Globo descontinui e eles sejam obrigados a migrar para a nova versão que seria uma versão de mercado se quiserem continuar usando o MediaPulse.
+IMPORTANTE GPT: Mesmo que várias das reuniões tenho girado em torno do MediaPulse, ele não é único software de planejamento. Trata-se apenas de uma das ferramenta que compõem o intrincado Sistema de Planejamento existente. E tem limitações: MediaPulse Faz: planejamento e alocação de recursos. Não faz: Simulação de Cenários de Planejamento e Otimização de Demandas. MediaPulse é usado na área de Planejamento e Alocação de Recursos, mas não é utilizado na área de Talentos Artísticos e nem de RH.
+O que a Globo busca com este projeto é justamente uma alternativa mais eficiente para esse processo. Hoje, a dependência de planilhas e de um sistema engessado compromete a fluidez do trabalho e dificulta a colaboração entre as equipes, além de não possibilitar o planejamento de recursos não críticos, o que pode impactar no aproveitamento. Nossa missão é propor um modelo mais moderno, que reduza os gargalos, aumente a automação e facilite a tomada de decisões em todas as etapas da produção. A transformação digital desse processo não é apenas uma questão de tecnologia, mas de garantir que a Globo consiga operar com mais agilidade e precisão na gestão de seus recursos.
+Principais desafios e dores do cliente:
+1. Uso excessivo de planilhas
+? A empresa trabalha há mais de 40 anos com planilhas extensas e complexas, cheias de macros e integrações.
+? A comunicação entre os envolvidos é ineficiente, pois muitas pessoas acessam as planilhas apenas em modo leitura.
+? A dificuldade de edição e atualização atrasa os processos.
+2. Limitações do MediaPulse
+? O MediaPulse é um sistema legado adquirido por terceiros e que já está em processo de descontinuação.
+? A experiência do usuário é ruim, com processos manuais e muitos cliques.
+? O sistema não possui inteligência processual, ou seja, os fluxos operacionais estão mais na mente das pessoas do que estruturados no sistema.
+3. Necessidade de modernização e automação
+? A Globo precisa de uma nova abordagem para melhorar a eficiência operacional e a experiência do usuário.
+? O objetivo é eliminar ou minimizar a dependência de planilhas e, caso necessário, substituir ou orquestrar o MediaPulse com novas tecnologias.
+Objetivos do Trabalho
+1. Sistemas
+? Identificar funcionalidades e capacidades existentes nos sistemas afim de direcionar problemas resolvidos ou não bem como seu potencial técnico e estratégico.??
+? Trazer visão da integração entre diferentes sistemas, identificando riscos e vulnerabilidades afim de propor melhorias na eficiência operacional e agilidade na solução de problemas.??
+? Conhecer as ocorrências e chamados de incidentes e direcionar soluções para gestão de risco.
+2. Processos
+? Realizar o mapeamento de processos oferecendo visão clara do fluxo de trabalho objetivando identificar ineficiências e oportunidades de evolução operacional.?
+? Identificar sinergias entre processos e áreas, habilitando a padronização, garantindo conformidade e consistência.?
+? Mapear stakeholders e papéis envolvidos e impactados nos processos..
+3. Resultado
+? Oferecer solução e alternativas para os cenários e problemas identificados bem como seus benefícios.??
+? Propor evolução dos processos objetivando performance e eficiência organizacional.?
+? Levantamento de custos e investimentos necessários para implementar a solução.?
+? Material construído durante a análise de sistemas e processos.
+Objetivos do Trabalho - Segundo material Cláudio/Samuel
+Proposta de Resultado do Trabalho 
+b. Indice - Diagnósticos 
+a. Mapeamento do sistema 
+i. Funcionalidades 
+ii. Integrações 
+iii. Ocorrências e Chamados 
+b. Mapeamento | Visão alto nível (Solicitação Samuel, item não existente atualmente na Globo. Samuel quer influenciar nesta construção) 
+c. Mapa de capabilities (Solicitação Samuel) 
+d. Mapeamento de stakeholders 
+e. Levantamento de custos / investimentos 
+f. Performance e Eficiência 
+i. Sistêmica 
+ii. Processos 
+iii. Pessoas e Papéis 
+g. Cenários / Alternativas / Próximos Passos 
+i. Visão de sinergia entre sistemas (Solicitação Samuel) 
+A expectativa do cliente vai além de apenas mapear processos e encontrar melhorias. Há uma forte necessidade de estruturar a visão do sistema de forma estratégica, integrando diferentes stakeholders e possibilitando decisões fundamentadas sobre o futuro da plataforma. O projeto precisa gerar insights concretos que ajudem a Globo a tomar uma decisão informada sobre como modernizar e integrar melhor seus sistemas para eliminar ineficiências e melhorar a produtividade.
+

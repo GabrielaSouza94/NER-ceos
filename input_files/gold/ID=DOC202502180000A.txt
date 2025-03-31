@@ -1,0 +1,85 @@
+ID=DOC202502180000A
+NOME= Escopo
+
+Resumo do Conteúdo
+O documento detalha a estrutura do atual sistema de planejamento e alocação de recursos da Globo, que ainda depende fortemente de planilhas e de um sistema legado (MediaPulse). O projeto tem como objetivo principal modernizar e automatizar esse processo, garantindo maior eficiência e integração tecnológica. Entre os desafios destacados estão a limitação do MediaPulse, a falta de automação, a dificuldade de comunicação entre as equipes e a possível descontinuação do sistema atual.
+
+A proposta de trabalho inclui:
+
+Diagnóstico do sistema atual e suas funcionalidades.
+Mapeamento de processos e stakeholders.
+Identificação de oportunidades de modernização e automação.
+Levantamento de custos e análise de investimentos necessários para implementação de melhorias.
+O documento também destaca que a expectativa do cliente vai além da simples modernização tecnológica, abrangendo uma revisão estratégica do processo, garantindo que a tomada de decisão seja mais eficiente e baseada em dados concretos.
+
+Principais Informações Contidas
+Objetivo do Projeto:
+
+Analisar e sugerir melhorias no processo de planejamento de recursos da Globo.
+Reduzir dependência de planilhas e processos manuais.
+Identificar alternativas para substituir ou modernizar o MediaPulse.
+Fluxo do Processo Atual:
+
+Plano de Produção: Definição dos conteúdos audiovisuais para o próximo ano.
+Planejamento de Longo Prazo: Identificação dos recursos críticos (estúdios, equipamentos, tecnologia).
+Execução no Curto Prazo: Alocação de recursos e formalização de ordens de serviço no MediaPulse.
+Problemas Identificados:
+
+Uso excessivo de planilhas manuais, dificultando atualização e comunicação.
+O MediaPulse é um sistema legado com experiência do usuário ruim e sem inteligência processual.
+A versão do MediaPulse utilizada pela Globo pode ser descontinuada no futuro.
+Objetivos do Trabalho:
+
+Mapeamento de sistemas e processos para identificar falhas e oportunidades de melhoria.
+Análise de integração entre sistemas para mitigar riscos e otimizar eficiência.
+Mapeamento de stakeholders e levantamento de custos de implementação de soluções.
+Desafios e Necessidades do Cliente:
+
+Melhorar a eficiência operacional e experiência do usuário.
+Automatizar processos, reduzindo burocracia e retrabalho.
+Criar um modelo mais estratégico para tomada de decisão sobre a modernização da plataforma.
+
+Metadados do Documento
+Título: ID=DOC202502180000A - Escopo
+Data de Criação: 18/02/2025
+Autor: Jairo Silva
+Revisor: Rodrigo Carlstrom
+Empresa: Globo
+Assunto: Planejamento e Alocação de Recursos e Talentos
+
+Análise Quantitativa
+Número de seções principais: 5
+Principais temas abordados:
+Processo atual de planejamento e alocação.
+Problemas e desafios enfrentados pela Globo.
+Funcionalidades e limitações do MediaPulse.
+Proposta de solução e roadmap do projeto.
+Principais Stakeholders identificados:
+Times artísticos (definem programação e conteúdo).
+Equipes técnicas (definem infraestrutura e recursos).
+Área de planejamento e alocação (executa logística e gestão de recursos).
+Usuários do MediaPulse e potenciais impactados pela sua descontinuação.
+
+Principais Insights
+O MediaPulse não é a solução ideal e pode ser descontinuado:
+
+A ferramenta não suporta simulação de cenários e otimização de demandas.
+Há rumores de que a versão utilizada pela Globo será descontinuada.
+Dependência excessiva do sistema cria vulnerabilidade para a empresa.
+O uso de planilhas extensas é um gargalo operacional:
+
+A comunicação é ineficiente, pois muitos colaboradores só têm acesso de leitura.
+Processos manuais atrasam a atualização de informações e impactam a execução.
+A Globo precisa de um modelo mais automatizado e integrado:
+
+O projeto busca reduzir burocracia, melhorar a colaboração e aumentar a eficiência operacional.
+Soluções alternativas devem permitir um planejamento mais estratégico e baseado em dados.
+O foco do projeto vai além da tecnologia:
+
+Não se trata apenas de substituir um software, mas de estruturar uma nova abordagem estratégica para a alocação de recursos.
+A integração entre diferentes sistemas e stakeholders é essencial para o sucesso da modernização.
+Necessidade de investimento e planejamento estratégico:
+
+A implementação de uma nova solução exigirá um levantamento de custos e análise de viabilidade.
+É fundamental garantir que as mudanças melhorem a produtividade sem comprometer o fluxo operacional.
+
