@@ -3,9 +3,8 @@
 Pipeline simples de RAG (Retrieval-Augmented Generation) usando LangChain, OpenAI e ChromaDB.
 ##Estrutura
 
-- `src/rag_pipeline.py`: Script principal
-- `src/utils.py`: Funções auxiliares
-- `input/`: Coloque aqui seus PDFs
+- `src/`: Códigos fonte 
+- `input/`: PDFs usados para o RAG
 - `embeddings/`: Armazenamento local dos vetores
 - `.env/`: SET aqui a chave da open ai
 
@@ -14,3 +13,7 @@ Pipeline simples de RAG (Retrieval-Augmented Generation) usando LangChain, OpenA
 1. Instale as dependências:
 ```bash
 pip install -r requirements.txt
+
+2. Execute : 
+```bash
+python src/main.py
