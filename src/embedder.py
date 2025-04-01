@@ -1,5 +1,5 @@
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
 
 def create_embeddings(chunks, persist_directory='embeddings/chroma-openai/'):
     embedding_model = OpenAIEmbeddings()
@@ -9,5 +9,5 @@ def create_embeddings(chunks, persist_directory='embeddings/chroma-openai/'):
         persist_directory=persist_directory
     )
     vector_store.persist()
-    print("Embeddings salvos com sucesso.")
+    print(" Embeddings salvos com sucesso.")
     return vector_store

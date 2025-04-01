@@ -1,9 +1,12 @@
 import os
 from dotenv import load_dotenv
-from src.loader import load_pdf_text
+from src.loader import load_documents_from_input
 from src.splitter import split_text
 from src.embedder import create_embeddings
 from src.rag_chain import run_qa_chain
+from src.utils import delete_vector_store
+import gc
+
 
 # Carrega variáveis de ambiente
 load_dotenv()
@@ -12,11 +15,8 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 if not openai_api_key:
     raise ValueError("OPENAI_API_KEY não definida. Adicione ao arquivo .env")
 
-# Caminho do PDF
-pdf_path = "input/gold/ID=DOC202502180000A-Escopo.txt"
-
-# 1. Carregar texto do PDF
-combined_text = load_pdf_text(pdf_path)
+# 1. Carregar todos os documentos (PDF e TXT)
+combined_text = load_documents_from_input("../input_files/gold")
 
 # 2. Dividir texto em chunks
 chunks = split_text(combined_text)
@@ -38,3 +38,12 @@ for q in questions:
     print("\n Fontes:")
     for i, doc in enumerate(result["source_documents"], 1):
         print(f"Trecho {i}: {doc.page_content}")
+
+print(" Execução finalizada ")
+
+#  Limpar o vector store após o uso
+vector_store.delete_collection()
+del vector_store
+gc.collect() # força limpeza de memória
+delete_vector_store("embeddings/chroma-openai/")
+
