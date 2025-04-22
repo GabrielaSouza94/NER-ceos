@@ -1,0 +1,551 @@
+ID= REU202503171300A
+Transcrição original. Reunião: NT + Globo: Previa	
+Data: 17/03/2025 
+Participantes: 
+Cláudio Comunelo - NT
+Jairo Silva - NT
+Júlio Cesar Freitas Schweikart - NT
+Michele Geammal - GLOBO
+Alyne Coutinho - GLOBO
+Faulhaber -GLOBO
+
+Resumo:
+A Reunião de Apresentação e Alinhamento de Projeto teve como objetivo principal apresentar o trabalho em andamento, focando na alocação de recursos e talentos artísticos, destacando as mudanças na equipe com a entrada de Marco Tuio e a saída de Wagner. O encontro também abordou o mapeamento de processos e sistemas, identificando sinergias e specificidades da Globo em comparação aos processos padrão, além de discutir a importância das integrações entre sistemas, como o MediaPulse e ADEGA. Os participantes analisaram chamados abertos desde fevereiro do ano anterior e propuseram criar um mapa de oportunidades, enfatizando a necessidade de uma visão end-to-end para identificar problemas. As próximas ações incluem Júlio validando as integrações e priorizando o mapeamento, enquanto Camila cuidará de agendar uma nova reunião em duas semanas.
+
+Transcrição:
+
+00:01
+Júlio - NT
+Certeza. A Michelle e a Aline estão presenciais hoje? 
+
+00:13
+Michele - Globo
+Não, eu tô de casa. A Aline que tá presencial. Eu tô, hoje eu tô. 
+
+00:19
+Júlio - NT
+O fundo de parede aí parece tão real que... 
+
+00:22
+Michele - Globo
+Parece. 
+
+00:23
+Júlio - NT
+Parece uma sala. 
+
+00:24
+Michele - Globo
+De parede não é casa, só bota globo ali pra te passar. 
+
+00:30
+Fernanda - Globo
+E hoje tá uma chuvinha chatinha. Confesso que eu pensei duas vezes em. 
+
+00:36
+Michele - Globo
+Dar uma... Só de ficar de casa, né? 
+
+00:43
+Fernanda - Globo
+Mas peguei trânsitozinho chato, né? 
+
+00:47
+Michele - Globo
+E tá muito trânsito, cara. Aqui tá muito chato. Tô com saudade das férias onde o. 
+
+00:54
+Júlio - NT
+Trânsito ainda era... Era controlável a hora? 
+
+01:01
+Michele - Globo
+Sem dúvida. 
+
+01:03
+Júlio - NT
+O deslocamento de cinco quilômetros era bom tempo. 
+
+01:07
+Samuel - Globo
+É. 
+
+01:08
+Michele - Globo
+Não, e tá... Tá chato mesmo aqui, onde eu moro e... Cara, não é só onde eu moro, mas acho que todo mundo tá com a mão de trânsito. Acabou. Voltou tudo normal. Deixa eu dar uma pingadinha aqui no... A Fernanda entrou. 
+
+01:31
+Júlio - NT
+A Fernanda chegou. 
+
+01:33
+Fernanda - Globo
+Olá, pessoal. 
+
+01:34
+Júlio - NT
+Olá. Bom dia, Fernanda. Olá. 
+
+01:37
+Michele - Globo
+Pingar aqui pro Samuel. 
+
+01:44
+Júlio - NT
+Aproveitando que a Fernanda chegou, se vocês ainda não conheciam, não foram apresentadas ao Cláudio e ao Jair. Então, o Cláudio é o... O nosso CEO e o Jairo, nosso CTO aqui da NT, que estão acompanhando o nosso trabalho. 
+
+02:02
+Michele - Globo
+Prazer. Prazer. 
+
+02:04
+Samuel - Globo
+Boa tarde, pessoal. 
+
+02:07
+Faulhaber - Globo
+E aí, Samuel, tudo bem? 
+
+02:09
+Júlio - NT
+A família deu dia ainda, Samuel. 
+
+02:11
+Michele - Globo
+É, eu correspondi com a Tati, mas fui meio no automático. 
+
+02:15
+Samuel - Globo
+Então... Esse é problema aqui do Rio de Janeiro, porque eu também usava o critério do almoço, né, cara? Aí no Sul isso é normal, mas as pessoas no Sul almoçam no meio-dia, daí aqui disseram assim, ó, quando vira meio-dia tem que falar boa tarde, porque as pessoas aqui almoçam às cinco horas da tarde, né? Então não dá pra esperar o almoço pra falar boa tarde. O almoço ficou boa tarde, tá certo. 
+
+02:36
+Júlio - NT
+Eu não almoço às cinco da tarde não. 
+
+02:37
+Fernanda - Globo
+Uma hora tá bom demais pra almoçar. 
+
+02:45
+Samuel - Globo
+Então tá, bom dia para quem é de bom dia, boa tarde para quem é de boa tarde. 
+
+02:49
+Fernanda - Globo
+Boa, boa. 
+
+02:50
+Júlio - NT
+Bom, vamos lá então, dar o start aqui. Então, o nosso objetivo aqui é fazer uma apresentação aí do trabalho que está sendo desenvolvido, que ainda está em andamento, né, mas a gente já tá aí na reta final desse trabalho. Então, para que a gente consiga acompanhar aí, inclusive direcionar algum passo aí que ainda seja necessário ou que precise ser aprofundado, para que a gente consiga, nessas últimas duas semanas aí, conseguir cobrir esses pontos. Então, vamos compartilhar a tela. Vamos lá. Iniciando aqui pelo nosso time, quem está trabalhando aqui no dia a dia, fazendo as agendas, os levantamentos. Tivemos uma mudança aqui, como já foi sinalizado ali, a entrada do Marco Tuio com a saída do Wagner, e uma equipe que a gente também tem de apoio atrás de nós, ajudando e contribuindo na organização de todo o material que a gente está gerando. 
+
+04:07
+Júlio - NT
+O objetivo do nosso trabalho, então, a gente realizou aí já uma série de agendas, uma série de levantamentos, de mapeamentos dos sistemas, dos processos, do que envolve aí as áreas de planejamento e alocação, talentos artísticos e RH também, que nós ainda estamos pouco mais superficiais. Conforme a gente já combinou anteriormente também, ele é ponto que a gente vai acabar não aprofundando muito nesse Então, esse trabalho está dividido em três partes, duas torres principais, digamos assim, dois pilares, onde a gente está avaliando os sistemas envolvidos no processo e os processos em si, que dizem respeito ao processo em que as ferramentas suportam esse processo principal. E, ao final, o resultado, que a gente está concluindo o material agora, onde a gente vai trazer oportunidades, buscando elencar, numa classificação, essas oportunidades, quais seriam os nossos próximos direcionamentos de trabalho. 
+
+05:24
+Júlio - NT
+E aí, pessoal, fiquem à vontade para não me interromper, traçar observações também, fiquem à vontade. Pouquinho aqui da estrutura analítica do projeto, tá? Como é que a gente desenvolveu, então a gente passou aqui por uma fase de iniciação, identificando diversos pontos, todas as agendas que nós fizemos aqui de levantamento, né? Os nossos objetivos em processo de sistemas, a análise que está sendo realizada, tem também uma parte de validação desse trabalho que está acontecendo, e ao final agora a gente fechamento, tá, que é o material que a gente vai entregar aí ao final do todo. 
+
+06:06
+Júlio - NT
+Então, a identificação aqui, né, no organograma aqui, de todo mundo que a gente conversou, tá, a gente colocou aqui uma agendinha do lado aqui de quem são as pessoas aqui que a gente teve agendas diretamente, né, realizadas aí pelos levantamentos dos processos e e aí só tiramos fora aqui o Samuel, que não foi nos entrevistados, o Donner e o Pinho, mas que nós descemos aqui com o Sérgio e com o Fábio aqui nos levantamentos das integrações. Resumo, tá, isso aqui a gente vai entregar, não vou entrar em detalhes aqui, resumo de todas as reuniões que a gente realizou ao longo do Tem mais agendas para a gente complementar aqui, tá? Mas vou passar rapidamente por cima delas ali. E aqui o mapeamento dos macroprocessos que a gente levantou, né? 
+
+07:08
+Júlio - NT
+Foi o nosso entendimento do processo principal aí que acontece ao longo de todo o envolvimento das ferramentas aí que são geridas pela área da Michelle, tá? Tem uma questão aqui quanto ao plano de produção, né? Nós entendemos que o plano de produção não é diretamente atendido pela área da Michele, mas como é o início de toda a jornada, a gente faz questão de sinalizar a existência desse processo que gera o plano de produção e que dá início a todo o restante das atividades. Então, acima ali a gente tem os macroprocessos, e embaixo as principais atividades que são desempenhadas ao longo desse macroprocesso. E aí, pessoal, se quiserem ficar mais minutinho em alguns slides, sinalizem, senão eu vou passando aqui, porque a gente tem bastante material pela frente ainda, tá? 
+
+08:12
+Michele - Globo
+É, vou só complementar aqui com o que a gente conversou, até para entendimento de todos, né? Essas atividades não necessariamente estão conectadas verticalmente àqueles macroprocessos. A gente tem atividades ali que permeiam esses macroprocessos como todo, como a gente tinha falado, né, Júlio? Ficou até melhor destacado, assim como você colocou, que são atividades que acontecem ao longo desse processo, tanto do longo quanto do curto prazo. 
+
+08:41
+Júlio - NT
+Exato, se a gente for falar de recrutamento e seleção, ela acontece ao longo de todo o tempo, gestão de contratos, orçamentos, são processos que estão sempre aí, né, sendo revisados e sendo realizados ao longo de todo o processo. A ideia aqui é realmente trazer as principais atividades que são desenvolvidas. 
+
+08:57
+Michele - Globo
+Sim. 
+
+09:01
+Júlio - NT
+O desenho desse processo, aqui é importante salientar que aqui a gente traz o processo às quais as ferramentas estão envolvidas, não necessariamente os processos desenvolvidos por cada uma das áreas, mas aqui partindo do plano de produção até o encerramento de todo o trabalho no longo prazo. Então, aqui a gente tem essas especificidades aqui pouco mais desenvolvidas, de novo, reforçando que aqui não é necessariamente o processo das áreas, mas sim como é que ele acontece ao longo do tempo. E aqui, neste processo, as ferramentas estão envolvidas, as ferramentas que são suportadas pelas áreas estão envolvidas nesses processos. Identificação aqui de possíveis sinergias que a gente tem aí nos processos das áreas. Tá? 
+
+10:05
+Júlio - NT
+Onde a gente tem aqui, né, se a gente for classificar lá os principais, as principais atividades, né, onde a gente tem ali recrutamento, planejamento, execução e financeiro, né, criando aí quatro grupos principais de trabalho, a gente tem esses processos que são desenvolvidos pelas áreas, né, nosso objetivo aqui é buscar alguma sinergia entre esses processos, tá, identificando oportunidades aí de trabalho em conjunto, para que a gente possa ser pouco mais eficiente em todos os processos. A gente agregou aqui iconizinho aqui em cada dos processos, onde a gente elenca aqui que são problemas, são práticas de mercado, independente de Globo, digamos assim, e o iconizinho da Globo aqui, onde a gente entende que existem especificidades nesses processos aí, da Globo, tá? 
+
+11:05
+Júlio - NT
+Então, quando a gente olha ali, por exemplo, em TA, né, a gente tem ali curadoria, né, algo muito específico da Globo, que é uma comunicação constante que a Globo tem com os seus candidatos aí, para o desenvolvimento dos candidatos, maior aderência e as oportunidades que possam surgir. Diga, Samarco. 
+
+11:32
+Samuel - Globo
+Mapa aqui para a gente começar a discutir pouco. Aí eu queria ouvir aqui da Michelle, da Fer, do próprio Zé aqui, cara. Quando a gente tem aqui especificidades da Globo, né? Essas especificidades são coisas que impedem a gente de utilizar uma ferramenta mais padrão, Ou são coisas ajustáveis, assim, que a gente indo para processo mais padrão, isso seria fácil de a gente adaptar? 
+
+12:14
+Michele - Globo
+Vou falar aqui, mas quero depois que fez, fique a vontade ali de complementar. A gente... Não aprofundou em todos esses tudo que a gente tem de longo e curto ali eu acho que até ainda teve uma jornada aqui que o Júlio e o time até para chegar na nossa última conversa até falei assim olha isso aqui para mim é o principal para que a gente daqui siga nas nossas análises futuras. Então acho que a gente ainda teria uma análise maior ali mas indo direto ao ponto acho que a gente tem algumas especificidades que eu acho que se dificultam a nossa aquisição de ferramentas padrão, mas longo prazo, por exemplo, a gente até conversou com fornecedores e trazendo muita similaridade em algumas ferramentas. 
+
+13:07
+Michele - Globo
+Então, eu acho que talvez a gente não tenha todas as respostas, Samuel, mas eu acho que para longo prazo, mais até do que curto, porque curto tem muito ajuste ali diário das nossas mudanças de grade de produção que talvez possam dificultar. Mas eu acho que é misto. Não sei se não tem uma resposta ainda definida não mas acho que no longo talvez mais do que no curto. Eu acho que o curto talvez mais do que no longo que o longo tem uma visibilidade que eles demandam. Enfim não sei. Precisamos mais mergulhar pouquinho nisso. 
+
+13:46
+Fernanda - Globo
+Eu acho também, principalmente, que as áreas não estão maduras o suficiente no processo como todo, não só de planejamento, tá? Soltar uma grade, revisar uma grade, trocar as características do conteúdo. Essa parte de produção do conteúdo, ela não é madura e firme o suficiente para a gente não ter uma flexibilidade dos sistemas. Eu acho que esse é o principal ponto. Para mexer no processo de planejamento, eu teria muito que olhar para o processo de planejamento do conteúdo de uma forma pouco mais padronizada e ritmada. Hoje ela é muito confusa e eles prezam muito por essa liberdade de mudar produto na grade, redesenhar ele todo de uma hora para outra. 
+
+14:26
+Michele - Globo
+É, por isso que talvez ainda seja misto mesmo de plataformas. Talvez hoje, no longo prazo, como a gente tem muita coisa em planilha, eu acho que a gente consegue ter misto de plataforma, mais alguns pequenos ajustes, sabe? Hoje está tudo muito formado. 
+
+14:42
+Faulhaber - Globo
+Eu ia comentar isso também, que no longo prazo, exatamente isso. Como a gente está ainda com muita planilha, a gente não tem muita informação ainda sistematizada, em base de dados. Então, de fato, a gente vê que tem muito mais oportunidades ali de, inclusive, influenciar no processo. No curto prazo, e aí é isso que elas trouxeram. A gente não mergulhou ainda, seria próximo passo mesmo, justamente nessas sinergias aqui, para a gente fazer esse mapa de, olha só, do que eu tenho hoje, o que eu consigo trazer aqui para uma plataforma ou não, enfim. 
+
+15:16
+Fernanda - Globo
+Mas, sendo prática em talentos artísticos, o curto prazo já é uma intenção nossa e caminhando ali para o MediaPulse, entendeu? É uma atividade que dá para... É a primeira avaliação que a gente vai fazer ali, porque acho que tem mais sinergia. O longo prazo tem toda uma questão de visibilidade A ferramenta que a gente tem hoje não atende, mas eu não sei também, acho que vale a pena aprofundar para saber se essa ferramenta outra teria capacidade de embarcar ali os processos como eles são, na flexibilidade que eles são. 
+
+15:44
+Samuel - Globo
+Eu acho que a minha pergunta é pouquinho diferente. Obviamente a gente não foi para o mercado buscar ferramenta. A gente não sabe se o mercado oferta alguma ferramenta que faça isso. Mas aqui eu estou tentando ir mais numa linha de tentar entender o processo e se esse processo pode ser abstraído das especificidades da Globo. Por exemplo, quando eu olho aqui, planejamento de longo prazo. Planejamento de longo prazo a gente faz para os estúdios, para as obras, como faz também para a Globo, faz para o Globoplay, faz para a publicidade. Então, temos... Planejamentos de longo prazo sendo feitos em N áreas da empresa. Pode ser que a gente não tenha a melhor ferramenta em nenhuma das áreas. 
+
+16:41
+Samuel - Globo
+Pode ser que a gente, ao olhar para isso como uma forma mais alto nível, talvez a gente encontre uma solução que não sirva só para a produção de conteúdo. Ela sirva, inclusive, para a Globo como uma ferramenta, né? É... Eu tô indo mais nessa linha, né? Quando vocês me dizem assim, não, mas tem uma parte aqui da parte de replanejamento, que é no Excel, e aí isso dá mais flexibilidade, cara. Pô, super concordo, cara. Eu não acho que a gente tenha que ter uma solução só que resolva tudo. Mas, ao ter o Excel, a gente não ter a nossa base de dados guardada no Excel. O nosso histórico guardado no Excel. E vou trazer o similar com o que a gente está fazendo lá no B2B. Hoje, todo o processo de venda fica 100% no Excel. 
+
+17:46
+Samuel - Globo
+Então, a criação do produto é no Excel, a negociação é no Excel e o registro da venda é no Excel. A gente está tirando as duas pontas, a gente está tirando o registro do produto e está tirando o histórico e colocando para dentro do sistema. A negociação ainda vai ficar no Excel, porque tem muita simulação, tem muita troca, tem muita conversa que a gente não conseguiria dar uma interface simples para isso. Eu estou tentando buscar aqui dentro desse mapa que está sendo construído, onde a gente tem oportunidade, que ao levar para dentro do sistema, a gente tira muita coisa do Excel e deixa dentro dos sistemas que são mais robustos, que são mais escaláveis, que têm mais segurança, que registram o histórico mais fácil. E aquilo que ainda é muito específico e que precisa ter a flexibilidade do Excel. 
+
+18:53
+Samuel - Globo
+Eu acho que aqui a gente tem mapa que me parece interessante. Agora, como é que a gente usa isso para a gente montar uma proposta? Fala, Fê. 
+
+19:06
+Fernanda - Globo
+Eu ia te dizer que, assim, nem todas as respostas dessas estão mapeadas, mas na cadeia de talentos artísticos, Não sei se você lembra mapinha que eu fiz de umas oportunidades que risquei de vermelhinho embaixo. O sistema que a gente podia alterar dentro desse mapeamento a gente já identificou que o curto prazo tem aderência de talentos artísticos tem aderência como de pulse é caminho que a gente está pensando em fazer e o longo prazo sair da planilha e ir para o Star não é o ideal que não é a plataforma de mercado mas já é sair da planilha para lugar. Esses dois pontos foram identificados eu acho que agora é uma visão do todo para listar essas oportunidades, além dessas duas, entendeu? 
+
+19:47
+Samuel - Globo
+Sim, acho que isso é bom passo, porque ao botar nesse mapa maior, a gente vai ver também, vai ter as discussões sobre o mídia, o mídia pulse, né? As coisas que faltam no mídia pulse, realmente elas precisam ir para dentro do mídia Essa é uma pergunta que eu faço. Será que a simulação precisa estar dentro do Mídia Pulse? Será que pode ser fora? 
+
+20:18
+Fernanda - Globo
+Será que pode ter uma interface pouco melhor fora do sistema para fazer alguma coisa assim? 
+
+20:23
+Samuel - Globo
+Exatamente. 
+
+20:25
+Michele - Globo
+Que é pouco da linha do que a gente estava pensando ali em termos de arquitetura futura. Começando a desenhar. Sim. Mas eu quando a gente conversou na sexta-feira foi sexta julho ou quinta. Esse desenho, para mim, aqui, é o mais importante de tudo que eles estavam começando a fazer. Para mim, ele é start das nossas conversas e dos nossos aprofundamentos futuros, porque isso é onde a gente começa a ver onde as informações se cruzam. E aí, quando fala de RH, como a gente focou bastante no tema, em como planejar e alocar recursos se cruza e tem sinergia, o tema de RH, Ele tem .. 
+
+21:09
+Michele - Globo
+Ele não está totalmente ali junto com esses principais, de longo prazo, curto prazo, mas a gente sabe que tem alguns pontos de conexão quando a gente vai falar de pagamento dos recursos, quando a gente vai falar lá na cadeia final, provisão de pagamento, esses temas aqui. E a gente, só para trazer isso aqui em termos de sinergia, a gente não fez mapa de todos os macroprocessos de RH, no olhar do RH como on-board, recrutamento, toda essa fase que a gente tem do RH puro, mas aqui a gente trouxe olhando para o tema de planejar e alocar recursos, só para destacar. 
+
+21:51
+Samuel - Globo
+Tranquilo, acho que a gente tendo foco aqui em planejamento e alocação ITA já dá bom start. 
+
+21:58
+Michele - Globo
+Perfeito com esse direcionamento mesmo. 
+
+22:00
+Samuel - Globo
+Isso, para a gente saber se... 
+
+22:04
+Michele - Globo
+Se. 
+
+22:04
+Samuel - Globo
+Isso aqui vai trazer resultado e vai ajudar a gente a tomar as decisões que a gente precisa tomar, né? E aí, tendo isso... Tendo esse mapa claro, aí a gente aprofunda a RH e completa ele e isso aqui pode se tornar uma ferramenta viva, né? À medida que a gente vai completando esse... Que a gente vai fazendo as melhorias, a gente também vai dando o check aqui, né? Temos agora... 
+
+22:32
+Michele - Globo
+É, eu acho que a gente faz drill down em cada desses, né Samuel? Fazer drill down ali em longo prazo e dentro do longo prazo quais são os maiores gaps e como que a gente pode sanar, porque o longo prazo tá ali como uma caixinha, mas se você explodir ele tem algumas especificidades ali, o que dele a gente consegue trazer para uma ferramenta, o que não, o que é o gap maior, então acho que cada caixa principalmente dessa que está com o globo específico, que acho que é ponto principal, é a gente fazer drill down. 
+
+23:05
+Samuel - Globo
+Sim, sim. 
+
+23:08
+Júlio - NT
+Acho que se a gente olhar conteúdo como projeto, a gravação de conteúdo ou a construção de conteúdo como projeto, A gente consegue identificar aí similaridades, né? Todo projeto tem ali todo o processo de recrutamento, planejamento, a execução do projeto propriamente dito e, ao final, a questão financeira de projeto. E aí a gente acaba identificando aí tanto similaridades como também uma base de conhecimento que a gente pode estar usando para realizar esses aprofundamentos. 
+
+23:50
+Samuel - Globo
+Esses quatro pilares aqui... Recrutamento, planejamento, execução e financeiro, cara, me parece uma boa divisão das capabilities que a gente tem. Vocês enxergam da mesma forma ou vocês veem que falta ou sobra alguma coisa aqui? 
+
+24:10
+Fernanda - Globo
+Eu vou até resgatar aquele desenho, que eu dividi de uma outra forma, só para ver se falta alguma coisa aqui. Deixa eu pensar pouquinho. 
+
+24:20
+Michele - Globo
+Talvez não seja recrutamento ali, uma curadoria, enfim, mas, em termos de terminologia, isso é o de menos, mas, em grandes pilares, a gente tem, sim, uma fase que é uma ideação, vamos dizer assim, que é estudo, porque está bem ali no artístico, quando você olha de talentos artísticos, está bem no processo de ação, de curadoria daquele talento dentro de produto, de uma pesquisa, de olhar também de orçamento, e aí entra para planejamento, depois executar daquele planejado, que envolve também acompanhar o realizado, e no final, uma prestação de contas com conteúdo também, e para a empresa. Então, acho que numa linha geral, sim, talvez só revisitando ali o recrutamento, como essa palavra, mas eu acho que em grandes pilares, sim. 
+
+25:17
+Fernanda - Globo
+Eu fui revisar aqui, eu realmente fiz pouco mais de pilares. Eu abri, por exemplo, recrutamento em captação e seleção, mas assim fica sucinto e acho que adequado. 
+
+25:29
+Samuel - Globo
+É, captação e seleção está dentro de recrutamento, né, cara? Quando você prepara os seus... Você busca os recursos que você precisa para o seu planejamento, né? Tá bom. 
+
+25:43
+Júlio - NT
+Poderia colocar uma caixinha mais aí, captação. 
+
+25:46
+Fernanda - Globo
+Mas eu acho que não vale não, Júlio. 
+
+25:47
+Michele - Globo
+Não precisa não. 
+
+25:49
+Faulhaber - Globo
+Eu acho que fica agrupado mesmo. 
+
+25:51
+Júlio - NT
+É. 
+
+25:53
+Michele - Globo
+Não acho não. 
+
+25:55
+Samuel - Globo
+Tá, beleza. Fala aí. Não, Joia? 
+
+26:01
+Júlio - NT
+Seguindo então? 
+
+26:03
+Samuel - Globo
+Seguimos. Eu acho que isso aqui tem que ser o nosso mapa de fundo de todas as nossas conversas a partir de agora. Acho que sim, precisamos ter mais detalhes, talvez não seja exatamente com os nomes que estão aqui, porque longo prazo e curto prazo não representam exatamente o que a gente está fazendo. Eu entendo aqui que é o planejamento de longo prazo, é o planejamento de curto prazo. Mas, por exemplo, o orçamento. O orçamento também é... O orçamento do planejamento de longo prazo, o orçamento do curto prazo. Acho que o orçamento representa mais do que o planejamento. Acho que vale depois pensar... Porque, no fim, isso aqui se torna uma ferramenta de comunicação. É uma ferramenta que a gente vai usar... Uma das coisas que a Fer disse aqui é que as áreas não têm maturidade para a gente poder fazer qualquer mudança. 
+
+27:02
+Samuel - Globo
+Então, isso aqui é uma ferramenta que ajuda a gente a explicar para as áreas que têm baixa maturidade, aonde a gente está mexendo dentro do processo, aonde a gente está dando mais flexibilidade, aonde a gente está dando mais robustez com plataforma. Principalmente para uma área que é acostumada a olhar o detalhe do detalhe do detalhe, que tem baixa capacidade de abstração. Que o Tony Ramos é o recurso, não é recurso do tipo superqualificado. Então, é pessoalizado. O nome do recurso é pessoalizado. É a câmera XYZ. É a outra câmera XPTO. Não é conjunto de câmeras. E para a gente poder construir sistemas robustos, a gente precisa ter essa capacidade de abstrair e de explicar como que os recursos que a gente tem se relacionam para cumprir o seu objetivo. 
+
+28:10
+Samuel - Globo
+No final, vai continuar existindo o Alton Ramos, porque ele, no fim, é uma pessoa importante. Mas para a gente poder modelar os sistemas, a gente precisa entender quantas variações tem e que tipo de variações tem para a gente poder ter uma definição estável. 
+
+28:31
+Júlio - NT
+Tá legal? 
+
+28:32
+Michele - Globo
+Tá ótimo. 
+
+28:35
+Júlio - NT
+Na sequência a gente traz aqui a identificação aqui de todos os envolvidos, impactados nos processos ali. Ou que tem alguma atenção em relação ao processo, tá? Não vou entrar em detalhes aqui de cada dos papéis, tá? Isso a gente pode tratar em segundo momento, mas aqui estão cada dos papéis que a gente tem envolvidos. E aqui a identificação dos sistemas, né? Dentro aí da cadeia de valor, que a gente pode trocar o nome, tá? Depois que a gente conversou na sexta-feira ali, atualizamos outros lá e esquecemos de atualizar esse aqui. Então, aqui são os sistemas, né, que estão aí ao longo de todo o processo. 
+
+29:22
+Júlio - NT
+A gente tem aqui alguns sistemas proprietários da Globo, e outros sistemas aí que são de mercado, são sistemas que são, em alguns casos, customizados para atender o processo como todo, mas a gente entra aqui, a gente deixou em cinza aqui o ADEGA como input de todo o processo, Vale reforçar também aqui o plano de produção, não é o nosso foco aqui, mas como ele dá início a todo o processo, a gente entende como relevante manter ele. E aí a gente tem aqui as ferramentas ao longo dessa cadeia de valor aqui desse processo, que a gente construiu, tá? E embaixo ali, os sistemas de apoio ali, que são os sistemas de RH, que suportam todo o processo de seleção, contratação e tudo mais. Diga, Fernanda. 
+
+30:23
+Michele - Globo
+Michelle, desculpe. Não, é só para deixar claro aqui, talvez depois a gente também vai fazer alguns ajustes nesse desenho. O que a gente, aqui, a gente não está representando, somente aplicações sobre a minha gestão, mas todas que interagem nesse processo. Acho que isso é importante deixar claro aqui. Algumas que a gente não tem domínio e acho que até vale a pena a gente aprofundar nas que estão com a gente, é claro, mas também no quanto que as que estão no entorno são críticas ou não para esse processo e a gente começa a trazer algumas outras informações aqui importantes para essa visão. 
+
+31:14
+Michele - Globo
+Eu também acho essa visão aqui muito importante quando a gente começa a trazer como que ela faz parte na cadeia e como ela suporta esses macro processos e a gente trazendo aqui também gaps ou oportunidades que elas possam ter dentro desses macro processos que ela tem. Então, acho que também é uma visão importante para a gente olhar para o futuro e aprimorar. 
+
+31:40
+Samuel - Globo
+Eu acho imprescindível que a gente olhe o entorno de onde a gente está inserido. 
+
+31:47
+Michele - Globo
+Não, sem dúvida. 
+
+31:48
+Samuel - Globo
+Estou vendo aqui o ADEGA e o RP ORACO. São dois sistemas que não estão diretamente na sua gestão. Mas assim, o ADEGA começa o processo. Se a gente não entender como ele funciona, cara, assim, não adianta a gente mexer todo o meio daqui, né? A gente precisa entendê-lo também. E a mesma coisa do RP, né? Se a gente não entender como o RP tá estruturado, cara, a gente pode tomar várias decisões aqui no meio do processo e vão gerar problema lá no final, né? Então, acho que é bem importante eles estarem aqui no mapa, porque eles são imprescindíveis para nós. 
+
+32:28
+Michele - Globo
+Eu não sei se não foi claro, eu não acho que eles não têm que estar, não. Eu acho que vale a pena a gente destacar o quanto eles são parte, se tem uma crítica, se é super crítico, se é pouco crítico, como é que ele é usado ou não, e destacar a sua relevância também dentro do processo de planejar e alocar recursos. Então acho que esse é o destaque. E a gente saber o que a gente tem total gestão e o que a gente pode beber mais pouquinho se for de outro de outra área. 
+
+33:06
+Samuel - Globo
+Legal. 
+
+33:08
+Júlio - NT
+Acho que o objetivo não é trazer as ferramentas em si que são suportadas pela área, mas sim, no processo como todo, quais são as principais ferramentas envolvidas. E a partir do momento que a gente conseguir fazer drill down nos processos, o quão o RP é relevante, o quão o SAP Green é relevante, isso acho que é ponto importante. Para que, como o Samuel comentou, a gente mexe no meio, as bordas são impactadas, né? Isso é bem relevante. Aqui a gente faz resumo, tá? Também não vou entrar em detalhes aqui, né, de cada uma das ferramentas, como é que a gente enxerga cada uma das ferramentas, as funcionalidades, e as capacidades de cada uma. E a gente entra aqui nos sistemas aqui de suporte ao macroprocesso, que suportam o macroprocesso. 
+
+34:11
+Júlio - NT
+Depois a gente tem aqui as ferramentas de talentos artísticos, as ferramentas de RH, que a gente precisa discorrer pouquinho mais. E, por fim, aqui os sistemas de apoio que são envolvidos também no processo. Uma forma bem resumida aqui de todos os sistemas, tá? Como é que os sistemas são integrados, tá? A seguir a gente tem detalhamento de cada dos processos, tá? Isso é uma visão que a gente tá constantemente trabalhando aqui e ajustando, né? Pra entender qual é a dependência que a gente tem entre as ferramentas, tá? E aí a gente começa é na identificação das integrações aqui, né? Descendo pouquinho mais, ampliando aqui cada uma das partes, tá? A gente dividiu aquele diagrama anterior ali aqui, né? Em todas as integrações de TA, tá? Isso aqui, Fernando, a gente ainda precisa validar, tá? 
+
+35:07
+Júlio - NT
+A gente construiu isso aqui com base em todas as agendas, mas a gente precisa entrar aqui e entender se todas as integrações que a gente colocou aqui tá de acordo. A gente passa aqui também por todas as integrações do MediaPulse que dizem respeito ao RH. E aqui, como o MediaPulse tem muitas integrações, a gente dividiu pouquinho mais aqui de acordo com o objetivo das integrações. Então, aqui estão as integrações de RH, as integrações que dizem respeito aqui ao conteúdo que é enviado para dentro do MediaPulse e todo o planejamento. E, por fim, as integrações do financeiro que tocam o MediaPulse. Aqui o Zé nos ajudou fazendo levantamento aqui de todo... Das ocorrências e chamadas aqui que a gente tem aí desde fevereiro, né? Diga, Michelle, que é pontual. 
+
+36:12
+Michele - Globo
+Não, não. É só porque aquele detalhe das integrações, né, de cada eu não tive a oportunidade de ver ainda. Mas o time já validou também ou não? Isso é ponto para a gente validar. Não, ainda não. 
+
+36:27
+Júlio - NT
+Isso a gente precisa validar. A gente precisa descer e validar essas integrações aqui, sim. 
+
+36:32
+Michele - Globo
+Tá bom, tá bom. 
+
+36:32
+Samuel - Globo
+Eu acho que aqui, cara, aqui eu acho que a gente já está indo muito no fundo do... Eu acho que essa análise é importante, mas a gente tem step antes de priorização, de a gente escolher aonde a gente vai colocar nosso esforço, né? Eu acho que isso aqui é parte que vem depois de a gente priorizar, quando a gente aprofunda os lugares onde a gente vai mexer. Talvez a gente possa, em vez de aprofundar aqui, dar uma acelerada, cara, e ter mapa completo antes, para a gente ver os ganhos que a gente vai ter com todas as mudanças. E aí a gente faz o drill down nas integrações, naqueles componentes ou naqueles grupos que a gente já priorizou e sabe que ali vai ter ganho de valor. 
+
+37:29
+Júlio - NT
+Então, essas... Foi dos primeiros pontos que a gente entrou, né, olhando para o MediaPulse, principalmente, né, tudo que circunda, tudo que entra, tudo que sai do MediaPulse, né, para entender pouco mais do processo em que ele está inserido, né. A partir desse levantamento que a gente fez, né, a gente conseguiu identificar aí, vamos deixar no MediaPulse, ok, qual o impacto que a gente tem de forma externa ao MediaPulse. O nosso objetivo não é descer mais do que isso, tá, não é aprofundar mais, Mas a gente buscou entender aí, mexendo no MediaPulse, onde é que a gente acaba impactando. Então, essa é a questão. 
+
+38:11
+Samuel - Globo
+Tranquilo, cara. A decisão é de vocês. Eu estou só aqui dando a direção para a gente alinhar as expectativas e poder chegar no lugar certo. 
+
+38:24
+Júlio - NT
+Perfeito. Então, Joel. Sobre os chamados, que o Zé contribuiu aqui então, o Zé nos passou seis panilhas com os chamados desde fevereiro do ano passado, a gente buscou uma classificação aqui dos chamados nos sistemas envolvidos e pouquinho do tempo de solução desses chamados que a gente teve. Então, a gente teve aí Tá errado esse número aqui, desculpe. A gente tem aí praticamente mil chamados, sendo 720 para TA e 298 para planejamento e alocação. A gente tentou trabalhar aqui numa classificação, e a gente acabou não conseguindo ainda chegar numa classificação a contento, digamos assim, para entender onde é que surgem as dores, as maiores dores. Diga, Cláudio. Desculpa, só fazer uma parte. Estou pouquinho preocupado com o tempo aqui, né? É importante, assim, os chamados na realidade serviram aqui, estão servindo para subsidiar pouco a generalização das incidências e das dores, né? 
+
+39:41
+Júlio - NT
+Acho que a gente pode avançar, talvez, e já ir direto para o finalmente, né? Tá, perfeito, aqui pouquinho aqui, resumo de alguns chamados, aqui alguns desafios identificados aí durante as conversas que a gente teve, né, a gente trouxe highlight aqui dessas, desses desafios que foram elencados, né, seguindo aqui mais pouco, e os próximos passos, né, então aqui o que a gente quer trabalhar agora nessas últimas duas semanas, né? Então, aqui a sua estrutura, tá? 
+
+40:11
+Júlio - NT
+Não tem nenhum exemplo aqui ainda, a gente tá construindo esse mapa de oportunidades, então a gente vai trazer aqui, seguindo uma linha de qual é o contexto que essa oportunidade está inserida, qual a descrição dessa oportunidade, qual a sugestão de melhoria, o benefício que a gente espera, e uma classificação aqui de esforço e benefício dessa oportunidade, então a gente vai descrever aqui, trazer uma série de sugestões aí, de oportunidades, daí a gente poder trabalhar, e aqui exemplo como é que a gente quer classificar, como é que a gente quer priorizar essas oportunidades, trazendo aqui, colocando uma matriz aí, pouco similar às matrizes do Gartner, onde a gente faz uma matriz aqui, traça o que a gente tem aqui esforço, tamanho de esforço e o tamanho do benefício, onde a gente vai priorizar aqui, junto a essa matriz, e depois em conjunto chegar aqui a consenso de onde que vale a pena a gente focar inicialmente. 
+
+41:26
+Júlio - NT
+E é isso. 
+
+41:31
+Faulhaber - Globo
+Eu não tinha visto isso ainda, Júlio, eu fiquei uma dúvida, o que é observabilidade, exatamente? 
+
+41:37
+Júlio - NT
+Não, não dá bola para o que. 
+
+41:38
+Michele - Globo
+Tá escrito ali, tá? Eu também não entendi. Eu entendi que é mais exemplo, template, né? 
+
+41:43
+Júlio - NT
+Exato, template que a gente vai colocar. Mas observabilidade é termo mais técnico que se usa aí, em busca de ter uma observação clara e eficiente das ferramentas, né? Como é que tá a disponibilidade, como é a performance das ferramentas que apoiem e auxiliam o troubleshooting de problemas, né? Mas só termo que a gente colocou aqui só para exemplificar, não é... Não sei se a gente vai trazer oportunidades em relação à observabilidade. 
+
+42:19
+Samuel - Globo
+Tá bom. Júlio, volta pouco aí no slide lá que tem o mapa de capabilities. 
+
+42:33
+Júlio - NT
+O de caparilhas que tu te refere. Este. 
+
+42:39
+Samuel - Globo
+O anterior. Tá. 
+
+42:45
+Júlio - NT
+Leandro, vou passar os slides aqui. Este. 
+
+42:52
+Samuel - Globo
+Esse aqui. Esse aqui. E o slide ali que tem o processo, né, que é o que tem todas as ferramentas embaixo, pra mim são os dois grandes valores que a gente entrega aqui nesse trabalho é a gente conseguir olhar para a área end-to-end e a gente conseguir ver onde estão todos os nossos problemas. Eu acho que isso aqui é mais do que as dores ou mais do que aquelas frases que falam assim, a gente tem muito Excel nosso processo. Ter muito Excel nosso processo não é problema. Não é esse o problema, né? É a gente olhar dentro desse mapa aí, dentro do próximo, que tem a sequência, né? Sequenciado, tá? Onde a gente tá perdendo informação por ter informação no Excel? Onde a gente tá perdendo agilidade por ter Excel? Onde a gente tá perdendo colaboração por a gente ter o Excel? 
+
+43:58
+Samuel - Globo
+E esses desenhos que a gente está construindo aqui é que vão ajudar a gente a mostrar para todo mundo, para pessoas que são de tecnologia, para pessoas que não são de tecnologia, para pessoas que estão no dia-a-dia do processo e para as pessoas que estão mais longe do dia-a-dia, cara, e elas conseguirem compreender aonde a gente tem que mexer, por que a gente tem que mexer e por que é importante a gente ter o apoio da área parceira para a gente mexer naquele lugar. 
+
+44:31
+Samuel - Globo
+Então, eu sei que vocês já deram passo além, já foram nas integrações, mas eu queria pedir para vocês priorizarem esses dois mapas, e que a gente conseguisse trazer dentro desses dois mapas aquela parte onde a gente acha que já tá bem, que a gente tá legal, que a gente tá ok, e as partes onde a gente tem mais dor, mas a dor ela precisa ser mais estratégica. É uma dor que a gente quer resolver, tá? E aí, vou dar o mesmo exemplo. A dor não é só... Tem muito Excel nessa etapa aqui do processo. A dor é, perdemos informação porque temos Excel, perdemos colaboração, as pessoas... A informação fica no OneDrive de uma pessoa e quando essa pessoa tem uma dor de barriga, não fica acessível essa informação. 
+
+45:27
+Samuel - Globo
+Então, é nesse lugar que eu queria que vocês dedicassem esforço, dedicassem o seu tempo, dessa análise desse mapa aqui, que a partir disso que a gente vai fazer o nosso... A gente vai comprar as brigas, aí a gente vai mobilizar a área de negócio, vai mobilizar os parceiros, vamos mobilizar as pessoas dentro de tecnologia, para todo mundo comprar o nosso sonho, a nossa proposta de... E mexida nos sistemas. 
+
+46:00
+Júlio - NT
+Faz sentido. Faz... Sentido, sim. 
+
+46:04
+Samuel - Globo
+Então tá... Quando é que a gente se encontra de novo? 
+
+46:14
+Michele - Globo
+Daqui a umas duas semanas... Quando a gente finalizar isso aqui? 
+
+46:18
+Samuel - Globo
+Pode ser. 
+
+46:18
+Júlio - NT
+C31? 
+
+46:18
+Samuel - Globo
+Sim, é a segunda, né? 
+
+46:25
+Júlio - NT
+Duas semanas. Eu procuro a Camila. 
+
+46:31
+Samuel - Globo
+E aí. 
+
+46:34
+Júlio - NT
+Eu vou pedir margem pouco maior também ali de 60 minutos para gente. 
+
+46:39
+Samuel - Globo
+Tá bom tá bom. Maravilha. 
+
+46:42
+Michele - Globo
+Obrigada pessoal. 
+
+46:44
+Samuel - Globo
+Achamos o caminho aqui. 
+
+46:48
+Júlio - NT
+Bora. 
+
+46:48
+Samuel - Globo
+Bom almoço pessoal. 
+
+46:51
+Michele - Globo
+Valeu. Obrigado. 
+
+46:53
+Júlio - NT
+Tchau tchau. E aí. 

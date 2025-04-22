@@ -1,0 +1,1016 @@
+ID= REU202502101700A
+Integrações Media Pulse
+Participantes:
+Júlio Cesar Freitag Schweikart - Email: julio.cesar@ntconsult.com.br 
+Wagner Ramos - Email: wagner.ramos@ntconsult.com.br
+Gabriel Pereira - Globo
+
+
+RESUMO DA REUNIÃO:
+Foram discutidas as integrações do MediaPulse com outros sistemas da Globo, abordando o mapeamento das APIs, as versões disponíveis (V1 e V2) e o uso da camada de desacoplamento (Decap Layer) para facilitar as integrações. O encontro detalhou as integrações existentes com sistemas como Oracle HCM, SGT-MOT, FPW, SGP, Xlator, SAP BRIM, e as dificuldades na integração com sistemas não totalmente implementados, como AGRA, IBMS e Winbiz. Também foram abordadas as limitações do MediaPulse, especialmente no envio e recebimento de dados financeiros e operacionais, e discutidas possíveis melhorias para automação e eficiência no processo de planejamento, alocação de recursos e gestão financeira.
+
+TRANSCRIÇÃO: 
+
+02:10
+Julio - NT
+Oi Gabriel, quer dizer, boa tarde. 
+
+02:13
+Gabriel Pereira - Globo
+Boa tarde. 
+
+02:15
+Julio - NT
+Tudo bem? 
+
+02:17
+Gabriel Pereira - Globo
+Tudo certinho. 
+
+02:19
+Julio - NT
+Bom. 
+
+02:21
+Julio - NT
+Desculpa, meu igual tem que entrar. O Wagner, que ia nos acompanhar aqui, ele estava com a esposa no hospital, fazendo uma cirurgia, e isso era pela manhã, mas ele tinha confirmado a agenda à tarde. Então, não sei se daqui a pouco deu problema, acabei de perguntar aqui para. 
+
+03:17
+Julio - NT
+Ele se está tudo certo, se deu. 
+
+03:18
+Julio - NT
+Tudo ok, mas a gente pode. 
+
+03:23
+Julio - NT
+Iniciando. 
+
+03:23
+Julio - NT
+Aqui, e aí eu vou gravar aqui a nossa agenda, tá, Wagner? Depois o Wagner vai poder dar uma olhada. E quando eu conversei com a Michelle também, né, sobre o trabalho que a gente está fazendo, eu avisei ela que ele ia colocar aqui uma assistente, que é a Fireflies, uma IA que vai tomar algumas notas para a gente, fazer resumo aí para facilitar a vida depois. Beleza? 
+
+03:56
+Wagner Ramos - NT
+Beleza. 
+
+03:57
+Julio - NT
+Vamos lá. Então, primeiro contexto. 
+
+04:13
+Julio - NT
+Primeiro contexto. 
+
+04:13
+Julio - NT
+O que a gente está fazendo, Vagner? A Gabriela que está preocupada. Vou compartilhar minha... Deixa eu colocar a Gabriela lá. Bom, a gente começou junto à Michelle ali, fazer trabalho de entendimento de tudo que acontece de todos os processos. 
+
+04:46
+Julio - NT
+Todas as ferramentas envolvidas, todos os sistemas envolvidos, sejam eles globo ou não globo. 
+
+04:53
+Julio - NT
+Para entender como é que a gente pode trabalhar na evolução das dores internas, digamos assim, das dores do dia a dia e das áreas, principalmente quando diz respeito ao time de planejamento de longo prazo, que é lá com o Rissuti, que tem ainda muito processo manual, junto com a Fernanda também, que faz muito planejamento de forma manual. Então, o nosso objetivo é esse, tá? Tentar entender tudo aquilo, todos os problemas, todos os processos, e buscar uma evolução de tudo isso. A gente já fez aí várias conversas, vários papos por aí, principalmente com a Marcele e com o Rissuti, para entender como é que é o processo de planejamento e alocação de recursos, tanto longo prazo quanto curto prazo também. E a gente quer entender pouco das integrações. 
+
+05:59
+Julio - NT
+Que tipo de integração, quais são as. 
+
+06:01
+Julio - NT
+Integrações que acontecem em torno de Apulse. Deixa eu compartilhar na tela rapidinho aqui. Aqui eu tenho... Vou fazer monte de dashboard aí, tá? De tudo que a gente vai conversando e entendendo. Tem outro material ali, mas eu tento resumir algumas coisas aqui. Então, aqui não é o nosso intuito, não é o objetivo, mas a gente entender pouquinho aquilo que acontece, para entender quais são os inputs para a área de planejamento aqui. De planejamento de longo prazo. Então o Rissuti nos mostrou lá o. 
+
+06:47
+Julio - NT
+Monte de Excel que eles trabalham hoje. 
+
+06:49
+Julio - NT
+Como é que é o dia-a-dia deles e tudo mais. A falta de tecnologia, vamos assim dizer, de sistemas dedicados a esse planejamento. A gente conversou também com a Marcele sobre curto prazo e também sobre a execução E aí, já entrando na questão do MediaPulse, e ela comentou bastante aqui, bem como o Rissuti também comentou, que ele falou sobre custeio, sobre a parte financeira que existe aqui depois, das integrações que existem com o MediaPulse. E aí me deram o teu nome, que é o cara aí que manja do que acontece com as integrações do... 
+
+07:35
+Julio - NT
+Do MediaPulse. 
+
+07:37
+Julio - NT
+Aí, mudando aqui pouquinho para esse cara aqui, né, o que a gente viu até agora sobre integrações, tá? Então, a gente conversou aqui já com o Sérgio e com o Fábio, tá? Para entender pouquinho aqui sobre essa camada desacoplamento que eles têm. E tá na minha lista aqui já, conversar também com esse pessoal que são responsáveis pelos sistemas a serem integrados aqui, por essa fatia da integração aqui, e o Teoron foi colocado aqui em cima, como sendo o cara que manja do MediaPulse em si. Referente ao MediaPulse, a gente está olhando ali o que eles têm de documentação pública, das APIs, e aí a gente viu Uma série de versões que existem desde a V1 até a V11 hoje em dia já, né? Tem essa documentação aí no site deles. Então, o Wagner tá fazendo uma análise disso, tá? 
+
+08:48
+Julio - NT
+E aí, como eu comentei depois, a gente vai dar uma olhadinha aqui embaixo, tá? E vamos aprofundar pouquinho mais aqui também na questão da camada desacoplamento. O Sérgio já passou pra gente uma WIC que eles têm, né? Ele disse que até vai dar uma atualizada em algumas questões ali que estão pouquinho defasadas, tá? Mas tendo em vista que aqui é uma camada desapoplamento, a gente acaba não tendo muito conhecimento de negócio, né? Aqui é conhecimento pouco mais técnico. Nós falta mais entender ali o que diz respeito a negócio, né? 
+
+09:24
+Julio - NT
+Que tipo de integração que existe, como. 
+
+09:26
+Julio - NT
+É que é feita essa integração, que. 
+
+09:29
+Julio - NT
+Tipo de dados que se busca, tanto. 
+
+09:33
+Julio - NT
+Levar para o MediaPulse, como também extrair do MediaPulse, através dessas integrações. Então, a gente não tem nada muito aprofundado no que diz respeito aqui ao MediaPulse, nem o que diz respeito aqui embaixo. Está mais em forma pouco mais superficial também aqui ainda, nessa camada. Então, a ideia é bater esse papo contigo, né? Se tu pode nos trazer, se tu tem também já alguma documentação, se tu tem algum material, o que tu tem de conhecimento aqui dessas APIs que são usadas aqui do MediaPulse. 
+
+10:06
+Gabriel Pereira - Globo
+Eu sou o Gabriel, do lado do time do MediaPulse. A minha parte realmente é mais essa ali da parte do MediaPulse referente a APIs. Eu jogo ele junto com o time da integração. Geralmente, a gente troca muito ali referente aos desenvolvimentos que são necessários para as integrações, qual é a melhor maneira. É apoio mais de usabilidade ali, como eles vão utilizar a API, quais são as melhores consultas, as requisições. A gente ajuda também a definir regras, quais são as melhores regras para cada integração. Eu até tenho aqui, na verdade, eu tenho desenho que ele é bem técnico, e mostra pouco do desacoplamento ali da parte de recursos em geral. 
+
+10:58
+Gabriel Pereira - Globo
+Eu também tenho documento, só que ele está bem defasado também, inclusive eu acredito que seja o mesmo que o Serginho esteja trabalhando para atualizar, que é só mapa ali das integrações que a gente tem. Na verdade, é primeiro desenho de quando a gente veio para a Mediapulse, e fez o desenvolvimento das integrações de todos os sistemas que iriam falar com o MediaPulse. 
+
+11:23
+Julio - NT
+Não sei se é esse que eu tenho, se chegar a me passar mas com foco maior na camada desacoplamento, não dos sistemas a serem integrados. 
+
+11:36
+Gabriel Pereira - Globo
+Deixa eu compartilhar aqui. 
+
+11:44
+Julio - NT
+Boa tarde, Wagner. O Wagner chegou aí. 
+
+11:47
+Gabriel Pereira - Globo
+Boa tarde, Wagner. 
+
+11:50
+Julio - NT
+Tudo certo lá no hospital, Wagner? 
+
+11:57
+Julio - NT
+Wagner, não te escutamos. Caso tu esteja falando, teu microfone não está mutado, mas nós não te escutamos. Agora mutou o microfone, Gordon. É, essa imagem aí é uma que foi me passada sim. Acho que a tua já está pouco mais atualizada. Não, na verdade, acho que ela é pouco mais aí de fase, de projeto. Estou vendo ali as ondas de... Foram feitas as viradas, né? 
+
+12:38
+Gabriel Pereira - Globo
+Exatamente. Tem coisas hoje que a gente já não tem mais integração. Que de fato não tinha mais uma necessidade e a gente acabou com a integração com esse sistema. E tem coisas também que ainda estão em definição até hoje. Em definição, em questão da empresa mesmo. Por exemplo, a gente tinha uma integração com os produtos. Onde receberíamos os produtos, teria uma ferramenta master com as informações dos produtos, que para a gente no Mediapur são os jobs, E a gente não chegou a caminhar com essa demanda aqui, porque ainda não teve uma definição de qual seria a ferramenta máster ali para encaminhar os produtos para o MediaPulse e para os outros sistemas também. E daqui também tem o LEDCorp. O LEDCorp também, a gente não tem mais uma integração com o LEDCorp. Ela foi desligada, se eu não me engano, foi meados do ano passado. 
+
+13:40
+Gabriel Pereira - Globo
+De 24. Mas o restante aqui eu acho que está bem atualizado. O VimBiz também, desculpa. O VimBiz também a gente até planejou ali e também é o mesmo caso do Product Service. Ainda não tem master e a gente ficou ali de realizar o levantamento, esperar essa definição para aí sim começar a evoluir. Aí eu vou falar só pouquinho de cada uma das integrações Na parte de recursos humanos, a gente tem integração com a SGT-MOT, que é basicamente a contratação dos funcionários temporários ali, da mão de obra temporária. E aí, essa integração, hoje a gente recebe tanto as informações cadastrais do funcionário e também as informações de contrato. Geralmente, quando ele tem ali o contrato renovado ou O contrato dele acabou, a gente recebe essa informação, ativa ou inativa ele no MediaPulse, dependendo ali da situação. O FEW. 
+
+14:52
+Gabriel Pereira - Globo
+É uma integração referente aos recursos humanos, mas funcionários, realmente funcionários. E na camada do FEW. Aqui a gente tem mais planejamento, hoje a gente tem o planejamento dos funcionários, os alertas desvio dos funcionários, Então, eu planejei funcionário aqui no MediaPulse e a carga horária dele ali é oito horas. Se eu ultrapassar essas oito horas, hoje a gente tem uma integração que recebe essas informações de alerta desvio. Inclusive, o ponto desses alertas desvio, hoje ele está até desligado por conta de alguns bugs que a gente identificou. A gente está até trabalhando ali para poder resolver e retornar com essa interface. E, a partir do HCM, são as informações cadastrais dos funcionários, a parte de licença, de folga, de férias, toda essa parte fica na parte da camada ali do HCM, que a gente também recebe no MediaPulse. 
+
+15:53
+Gabriel Pereira - Globo
+Inclusive, essas duas integrações aqui, elas até meio que se falam, porque é uma base compartilhada de funcionários, né? Então, dependendo Acho que você está mutado, Júlio. 
+
+16:05
+Julio - NT
+SPW e Oracle, isso? 
+
+16:08
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+16:08
+Gabriel Pereira - Globo
+Na verdade, é porque do nosso lado aqui, a gente tem as informações dos funcionários aqui no MediaPulse. Só que a gente precisa ter uma base intermediária entre esses dois caras aqui, para poder consultar, de fato, o funcionário. Então, é uma base, a gente chama uma Employee API. Então, elas compartilham dessa informação e também uma DL, para a gente conseguir consumir e encaminhar os eventos de planejamento. Aqui no FEW.com, a gente também tem a apropriação das horas. E aí, basicamente, a gente não utiliza como máster a informação do MediaPulse, mas sim a informação dessa base de employ dos funcionários aqui para poder encaminhar as informações para o FEW. 
+
+16:52
+Julio - NT
+Só... 
+
+17:03
+Julio - NT
+Onde que funcionário Globo ele é cadastrado? 
+
+17:07
+Gabriel Pereira - Globo
+Hoje é no HCM. 
+
+17:11
+Julio - NT
+Esse é o Master de Informações dos Funcionários? 
+
+17:14
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+17:20
+Julio - NT
+Aí, digamos assim, funcionário chegou na Globo e precisa trabalhar. Então, primeiro momento que ele chega na Globo, ele é cadastrado no HCM. E é feita uma integração com o MediaPulse. 
+
+17:35
+Gabriel Pereira - Globo
+É, tem uma parte técnica aí por trás. Na verdade, naquele desenho que você mostrou, a mesma camada da DL acontece para o MediaPulse, ela acontece para os outros sistemas também. Então, de uma forma mais simples, o funcionário entrou aqui na empresa. A gente também tem uma... A gente chama de Correlation. É uma base de centro de acústico. Então, dependendo da base de centro de custo, esse funcionário vai cair dentro da decoupling layer. Cair dentro da decoupling layer é como se fosse... Ele vai cair em uma fila e os interessados vão consumir a informação dessa fila. Então, o MediaPulse fica escutando essa fila. A partir do momento que o funcionário do HSM foi cadastrado, ele caiu dentro dessa fila e o centro de custo dele é elegível para... 
+
+18:30
+Gabriel Pereira - Globo
+Para ir para o MediaPulse, a gente captura esse funcionário e aí sim admite ele aqui dentro do MediaPulse, cadastra o contato, cadastra o funcionário e dessa mesma forma a gente segue também para as férias e afastamento o que vem do HCM também. Ele cai dentro dessa fila e se ele for elegível a gente captura essa informação lá e traz para o MediaPulse. 
+
+18:52
+Julio - NT
+Claro. 
+
+18:56
+Julio - NT
+A direção da informação é sempre do HCM para o MediaPulse, o contrário neste caso não. 
+
+19:05
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+19:07
+Julio - NT
+Já no caso do SGMOTE, do SGTMOTE, do FCW ponto, é vai e vem de informações, vamos assim dizer. 
+
+19:19
+Gabriel Pereira - Globo
+É, o SGTMOTE, a gente recebe deles, o cadastro do funcionário, as informações do contrato. E a gente repassa para eles o percentual de alocação das alocações desses MOTs aqui dentro do MediaPulse. Então, o MOT 1, 2 ou 3 lá, ele trabalhou nas produções XPTO e essas produções, elas vão ter lá o percentual de alocação para cada... Para esse funcionário naquele dia. Então, em dia X lá, esse funcionário vai trabalhar 20% para uma produção, 30% para outra, e, sei lá, 50% por indireto. 
+
+19:55
+Julio - NT
+Tá, eu estava tentando entender a diferença do Oracle e do SGT-Mot. No caso, o SGT-Mot é funcionário temporário, né? 
+
+20:08
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+20:09
+Julio - NT
+E o Oracle HCM são funcionários CLT, vamos assim dizer, é globo, né? 
+
+20:15
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+20:17
+Julio - NT
+Mas então, a gente pode dizer aí que o objetivo de ambos aí é o mesmo, qual a diferença aí do perfil do profissional. 
+
+20:27
+Julio - NT
+Sim. 
+
+20:28
+Julio - NT
+Isso. 
+
+20:29
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+20:30
+Julio - NT
+E o SGT Mark, ele também assume a questão de alocações profissionais, que é o que o FPW ponto faz. 
+
+20:43
+Gabriel Pereira - Globo
+De planejamento. 
+
+20:46
+Julio - NT
+Isso. 
+
+20:49
+Gabriel Pereira - Globo
+É porque, assim, basicamente a diferença dos três aqui, Falando pouquinho de cada. O HCM, como você disse, eles são os funcionários contratados de fato. E, geralmente, uma chave que a gente dá para eles é a matrícula. O mote é uma mão de obra temporária e a chave dele, geralmente, é o CPF. E tem a questão do contrato, de renovação de contrato, encerramento de contrato e o início do contrato dele, que são as informações que a gente vai receber ou inativar aqui no MediaPulse. E também tem essa interface que a gente retorna para o SGT-MOT qual o percentual de alocação para poder fazer o custeio desse MOT lá do lado do MOT. E a parte do FPW? A parte do FPW, ela não tem interface cadastral hoje dos funcionários. 
+
+21:41
+Gabriel Pereira - Globo
+Em passado, a gente tinha o fw.eFPW-folha, que o folha era como se fosse o HCM hoje, mas hoje a gente só tem o ponto. Então, no FQW ponto, a gente tem ali... A gente encaminha os planejamentos para o FQW ponto, porque eles têm uma interface de planejamento que é para confrontar as informações que a gente encaminha para eles. E também, nesse envio do planejamento, a gente recebe esses alertas de envio, que é para a pessoa que está planejando dentro do MediaPulse, ela já vai conseguir ver ali, ao vivo, em tempo real. É se aquele planejamento que ela criou está afetando algum alerta desvio trabalhista para aquele funcionário. E uma outra interface é que, todo final do mês, a gente roda ali uma... 
+
+22:28
+Gabriel Pereira - Globo
+Tem a interface de apropriação que ela pega todos os planejamentos de todos os funcionários e também encaminha a apropriação de horas extras para o fpw. A diferença é só pouco essa. 
+
+22:42
+Julio - NT
+Entendi. O fpw. Na verdade, o MediaPulse conversa com o FPW. Para mandar o planejamento de alocação dos profissionais. E caso exista algum desvio do planejamento, o FPW. Leva isso para o MediaPulse, dizendo que está infringindo uma regra da CLT com esse profissional. 
+
+23:07
+Gabriel Pereira - Globo
+Perfeito. 
+
+23:10
+Julio - NT
+E o lançamento de horas? Como é que é o processo de lançamento de horas? 
+
+23:15
+Gabriel Pereira - Globo
+É a apropriação? A apropriação é cronjob que é executado uma vez por dia e é incremental, até o final do mês. Então, ele é executado uma vez por dia, a gente pega todos os funcionários e é uma interface parecida com a do MoT. A gente colheta todos os planejamentos para cada matrícula ali, no caso, o fow. É matrícula. Então, para cada matrícula, a gente colheta os planejamentos e envia a apropriação de horas desse funcionário. Ele trabalhou quantos por cento para cada produção e encaminha para lá, porque quando tem a hora que ele realmente realizou lá, eles vão confrontar essas horas que foram realizadas com as horas que foram planejadas para poder tirar ali o percentual das horas extras de cada produção. 
+
+24:08
+Julio - NT
+O profissional, ele... Apropria as horas dele no fpw. Eu tenho cartão, vou bater meu ponto, bato ponto no fpw. 
+
+24:19
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+24:20
+Julio - NT
+Beleza. Ao final determinado período, como o Macron comentou aqui, o MediaPulse manda para o fpw tudo aquilo que está todo realizado determinado profissional em determinado projeto. Ou por exemplo, é uma WO, né? Work Order. 
+
+24:44
+Gabriel Pereira - Globo
+É, pode ser uma WO ou Quick Hold. 
+
+24:50
+Julio - NT
+Tá. E aí, no MediaPulse, o cara, vamos supor aqui o exemplo que a gente mais usou, pintor. O cara trabalhou pintando determinado cenário dia 5 das 7 da manhã até meio-dia. Então, esse intervalo de tempo enviado do MediaPulse para o FPW, para que o FPW faça esse batimento que tu comentou, daquilo que realmente o profissional bateu ponto com aquilo que foi planejado. 
+
+25:25
+Júlio Cesar Freitag Schweikart
+Isso aí. 
+
+25:26
+Julio - NT
+E caso exista algum desvio? 
+
+25:30
+Gabriel Pereira - Globo
+Desvio de regra trabalhista? 
+
+25:33
+Julio - NT
+Não, alguma divergência melhor. 
+
+25:37
+Gabriel Pereira - Globo
+Não. Na verdade, o que a gente envia é o planejamento e o percentual da alocação. É basicamente para pegar a hora que foi realizada do funcionário e, de acordo com essa apropriação que foi feita e o percentual das alocações de cada produção para aquele dia, ele já vai saber, se teve alguma hora extra, ele já vai saber como ele vai cobrar. Porque eu já vou ter, por exemplo, se ele trabalhou nove horas em dia e eu tenho a divisão de percentual da alocação dele aqui, em uma produção só, cem por cento, sei lá, no Jornal Nacional. Então a gente sabe que aquela hora extra que ele fez foi pro Jornal Nacional, porque ele só teve a alocação do Jornal Nacional naquele dia. 
+
+26:19
+Julio - NT
+Tá, o objetivo então, na verdade, é entender como o dinheiro... De onde vai sair o dinheiro, não necessariamente se o cara infringiu alguma... Teve algum desvio, lançamento não bate, ou coisa nesse sentido, né? 
+
+26:33
+Julio - NT
+Isso. 
+
+26:35
+Gabriel Pereira - Globo
+E também, daí para frente, ainda tem outros caminhos, que aí também envolvem o Rico. Aí é uma ponta já do lado da FPW. Porque, pelo que eu lembro ali, a gente encaminha essas informações, elas chegam em uma tabela deles, e depois tem processo certinho dessas horas ali, dessa apropriação, como ela é feita lá para o Rico. 
+
+26:57
+Julio - NT
+Mas isso aí é processo entre o FPW. E o Rico? 
+
+27:02
+Júlio Cesar Freitag Schweikart
+Isso, isso. 
+
+27:02
+Julio - NT
+E o Rico não conversa com o MediaPulse? 
+
+27:06
+Gabriel Pereira - Globo
+Não, diretamente hoje não. A gente tem até o que você mencionou que o Risu te trouxe aí, é o custeio. O custeio a gente até é uma visão bem parecida com a do FQW. De apropriação. A diferença é que a apropriação que é feita hoje do FQW. A gente não consegue enviar as informações de alocações indiretas. A locação indireta é o funcionário está trabalhando ali na área dele e ele não trabalhou para nenhuma produção naquele dia. Aí é uma locação indireta. Essas informações hoje de apropriação de horas indiretas, elas só saem pelo nosso job do Custeio, que também está apartado de integrações. É uma evolução que a gente vai trazer para poder desenvolver uma integração de fato para falar direto com o Rico. 
+
+28:00
+Julio - NT
+Tá, beleza. Isso aí é RH, né? E esse outro cara aí que tem... 
+
+28:09
+Julio - NT
+Que é o Agra? 
+
+28:11
+Julio - NT
+TBC? 
+
+28:12
+Gabriel Pereira - Globo
+É, isso aqui a gente ainda também é uma coisa que não andou. Seriam os talentos, o recebimento dos talentos. Na verdade, do lado MediaPulse, a gente já tem até estruturado como seria o recebimento dos talentos, o cadastro desses talentos aqui no MediaPulse, mas é uma coisa que, uma demanda que acabou que ainda não evoluiu desde a implementação do MediaPulse. 
+
+28:37
+Julio - NT
+Então, essa setinha ali, ela está tracejada porque é feito manual ou porque simplesmente não evoluiu, está planejada e não evoluiu? 
+
+28:50
+Gabriel Pereira - Globo
+É, porque está planejada e não evoluiu. Todas essas aqui que estão Estão da mesma maneira aqui, não evoluíram ainda não. 
+
+28:59
+Julio - NT
+Entendi. 
+
+29:01
+Gabriel Pereira - Globo
+E algumas coisas de fato, elas são até feitas de forma manual ali. Mas essa setinha tracejada, essa linha tracejada não indica isso aqui. 
+
+29:14
+Julio - NT
+E essa evolução não evoluiu porque o MediaPulse não atende ou porque faltou o braço aí para fazer, para construir a integração? 
+
+29:23
+Gabriel Pereira - Globo
+Algumas coisas foram definições, definição não só do MediaPulse, mas também do outro sistema ou da empresa de uma maneira geral. Não teve esse alinhamento ainda. Eu acredito que braço não seja o caso, não. Acho que foi mais uma questão definição mesmo para a maioria das coisas. É que nem eu comentei do Product Service, do Vindis, do Cerco Sinal, IBMS, a maioria é mais questão definição. Acredito que se fosse uma questão aqui mais de braço, acredito que só o Rico e também não seria só braço, mas em questões de priorizações de entregas ali, acabou que como hoje a gente já tem uma forma de executar de uma maneira diferente, não é uma integração, eu acho que a gente foi ali priorizando umas coisas mais importantes e ele foi ficando pouquinho de lado. 
+
+30:24
+Julio - NT
+Beleza. Então, saindo de recursos humanos e indo aí para a área de conteúdo, tem mais duas integrações que não estão tracejadas aí. Então, essas andaram? 
+
+30:42
+Julio - NT
+Sim. 
+
+30:43
+Gabriel Pereira - Globo
+Hoje a gente tem o SGP e o Xlator. O SGP é o sistema de produção A gente recebe ali os roteiros, as informações dos roteiros do time de entretenimento. A gente tem as produções, né, que são os programas e é o que são alocados ali os eventos que acontecem nas WOs. Aí a gente recebe os roteiros ali, por exemplo, de uma novela, de uma série. Hoje a gente já tem a integração com a SGP e a gente já recebe essas informações dos roteiros para poder alocar e cadastrar ali dentro do evento que acontece naquela WO. 
+
+31:27
+Julio - NT
+Consegue dar algum exemplo para ficar mais. 
+
+31:31
+Julio - NT
+Fácil de entender o que. 
+
+31:34
+Julio - NT
+Seria enviado nessa integração? 
+
+31:37
+Júlio Cesar Freitag Schweikart
+Sim. 
+
+31:40
+Gabriel Pereira - Globo
+Seriado da Globoplay, por exemplo, Arcanjo Renegado. Ele tem ali as gravações dos roteiros de cada episódio. E dentro daquele roteiro, eu preciso planejar o que eu preciso, maquiador, uma camareira, cameraman, são as informações que a gente geralmente coloca dentro da W.O.A. A integração com SGP, hoje eu tenho lá o produto, que é o job no MediaPulse, chamado Arcanjos Renegados, sei lá, terceira temporada. E pra terceira temporada, para o entretenimento, ele é quebrado em diversos roteiros, em diversos episódios que eles vão acontecer. E não necessariamente é roteiro para cada episódio, podem ser mais. Porque, dependendo do planejamento ali, a gravação não acontece em dia só, podem acontecer em vários dias. Aí a gente recebe essa informação e essa informação é utilizada para poder criar o planejamento daquele programa. 
+
+32:38
+Gabriel Pereira - Globo
+Então, no roteiro, sem, eu sei o que eu vou precisar ali, eu já consigo planejar aqui, E eu crio uma WO, associo a esse produto, essa produção e depois eu associo a esse roteiro. E dentro do sistema de produção, que é o SGP, ele já tem as informações do planejamento também do lado deles e eles basicamente trazem essa informação para o MediaPulse. Qual o horário do início do roteiro, qual o término, qual a localidade. 
+
+33:08
+Julio - NT
+Qual é a diferença desse, da W.O. Criada, essa W.O. Ela é criada automaticamente através dessa integração? 
+
+33:18
+Gabriel Pereira - Globo
+Na verdade é W.O. Não, é o roteiro só. 
+
+33:21
+Julio - NT
+Qual o roteiro que é criado? 
+
+33:24
+Gabriel Pereira - Globo
+Isso, o roteiro, é porque, eu já vou, geralmente eu já tenho esse planejamento criado no MediaPulse, dessa produção, a galera já cria antecipadamente. 
+
+33:36
+Julio - NT
+Na verdade, é nesse ponto que eu queria chegar. Qual a diferença desse roteiro para aquele que vem lá via Excel, que é todo planejado via Excel? 
+
+33:48
+Gabriel Pereira - Globo
+A diferença é que esse roteiro não necessariamente é o evento. É mais em questão de estrutura do MediaPulse. A WO não necessariamente vai ser o roteiro. Eu vinculo o roteiro à WO. Então, ele fica em uma camada pouquinho diferente. 
+
+34:06
+Julio - NT
+E qual é o objetivo desse roteiro dentro do Brindia Pulse? Tu comentou ali que é estimar o que precisa ser planejado ali de, sei lá, pintor, eletricista, esse tipo de coisa aí para conseguir gravar uma minissérie, por exemplo, né? 
+
+34:26
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+34:27
+Gabriel Pereira - Globo
+É porque dentro do SRP, ele já tem essas informações de acordo com cada roteiro, né? Mas é importante para a galera que planeja no Media Pool, seus WOs, eles querem saber qual o horário do início e do fim do roteiro, qual é o horário que está planejado hoje no SGP, aonde vai ser esse roteiro, vai ser no MG4, vai ser no Estúdio H, no Estúdio A, no Estúdio B. Então, essas informações hoje a gente já recebe no SGP. Então, quando a gente recebe essa informação, a galera que está criando a WO, ela pega essa WO E quando ela vai completando o planejamento, vamos dizer assim, na verdade hoje ela não precisaria abrir o SGP para poder pegar essa informação. Essa informação já está na MediaPulse. Ela vai clicar em botãozinho, tem drop-down e vai selecionar qual o roteiro. 
+
+35:11
+Gabriel Pereira - Globo
+E essa informação do roteiro já vai estar aqui. 
+
+35:20
+Julio - NT
+Tem alguma área específica que usa o SGP? 
+
+35:25
+Gabriel Pereira - Globo
+É a galera do entretenimento. 
+
+35:27
+Julio - NT
+Isso, isso ultimamente passou, né? Que existem divergências aí entre os processos de entretenimento, esporte e jornalismo. 
+
+35:38
+Julio - NT
+Sim. 
+
+35:38
+Julio - NT
+No caso do SGP, seria entretenimento. 
+
+35:42
+Gabriel Pereira - Globo
+Isso, entretenimento. 
+
+35:50
+Julio - NT
+Tá, mas, desculpe se eu pouco persisto. Tem gente aqui? Mas o... 
+
+36:00
+Julio - NT
+No Excel já não tem. 
+
+36:01
+Julio - NT
+Todos esses pontos aí que tu comentaste que possibilita a criação da AWO, no caso, qual o horário, quantas pessoas, qual o grupo de pessoas, quantos... Tanto equipamentos técnicos também, isso já não vem tudo lá do Excel? 
+
+36:19
+Gabriel Pereira - Globo
+E acredito que essa informação sim, a informação do roteiro não. 
+
+36:23
+Julio - NT
+O roteiro que diz é o texto mesmo que o autor escreveu? 
+
+36:30
+Gabriel Pereira - Globo
+Não chega a ser o texto. O roteiro para eles... Deixa eu tentar pegar exemplo. 
+
+36:35
+Julio - NT
+O roteiro de gravação, no caso. 
+
+36:38
+Gabriel Pereira - Globo
+Isso. É porque a informação mais importante para eles Como a WO... Assim, presumindo que a WO já está criada aqui no MediaPulse, as informações dos planejamentos, como você disse, que é o que vem do Excel, já estão aqui no MediaPulse, eles só precisam linkar que essa WO faz parte do roteiro que eles receberam do SGP e que já está alocado aqui na produção. E... Outro... Eu acho que esse ponto é interessante também, é que a gente só recebe roteiros que estão liberados. Dentro do SGP, eu tenho todos os tipos de roteiro. Mas não faz sentido eu ter roteiro cancelado disponível dentro do MediaPulse para poder vincular ele a alguma WL que já está criada. Então, eu só tenho aqui os roteiros que foram liberados. 
+
+37:27
+Gabriel Pereira - Globo
+Ele foi liberado lá no SGP, existe uma trigger de lá para cá para a gente receber essa informação do roteiro. Aí a gente recebe a informação do roteiro e disponibiliza especificamente para a produção, que aí a gente utiliza identificador que é o identificador único ali de produtos entre os sistemas. 
+
+37:46
+Julio - NT
+Aí vincula o roteiro com a WA. 
+
+37:49
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+37:50
+Julio - NT
+Isso só em entretenimento, no caso de esporte e jornalismo não tem isso? 
+
+37:56
+Gabriel Pereira - Globo
+Até o momento, não. Hoje eles não utilizam. 
+
+37:59
+Julio - NT
+E é só... Tá, beleza. Só uma via aí, essa integração, somando os roteiros, né? 
+
+38:09
+Gabriel Pereira - Globo
+Isso. 
+
+38:12
+Julio - NT
+E BMS também não foi, seguindo a ordem aí, né? E BMS também não foi. E esse sistema aí simplesmente não foi integrado ou... Não, tu comentou, né? Esse aí e o outro ali debaixo. 
+
+38:23
+Julio - NT
+Que é. 
+
+38:25
+Gabriel Pereira - Globo
+O... Winbich. 
+
+38:27
+Julio - NT
+É, Winbich e BMS. 
+
+38:33
+Julio - NT
+Qual é o. 
+
+38:33
+Julio - NT
+Objetivo desses dois caras aí? 
+
+38:37
+Gabriel Pereira - Globo
+Do IBMS e do Winbich? E BMS é a grade do que vai ao ar ali. É basicamente isso. Eu tenho a grade ali de exibição e todas as grades hoje elas estão dentro do BMS. E aí, assim, pelo que a gente já levantou ali, o ganho que seria aqui é, como eu já tenho a grade hoje de exibição dentro do BMS, eu não teria que criar manualmente uma WO. Eu poderia pegar essa grade e gerar uma WO mais básica ali para a galera depois pegar e acessar essa WI e começar a incrementar com as informações necessárias. Mas a informação principal, que é qual é o canal que vai ser exibido, qual é a produção, essas informações hoje eu já tenho todas no IBMS, que é a grade de exibição. 
+
+39:25
+Gabriel Pereira - Globo
+Então, conseguiria só com essas informações já criar e automatizar o processo da criação das WIs ali. 
+
+39:31
+Julio - NT
+Então, depois só serem populadas, digamos assim, pessoal planejamento e alocação. 
+
+39:38
+Gabriel Pereira - Globo
+Dos recursos, exatamente. Recurso e custos, né? 
+
+39:42
+Julio - NT
+A especificação. E o Winbiz ali? 
+
+39:52
+Gabriel Pereira - Globo
+O Winbiz, ele foi utilizado como uma ferramenta máster de recursos. E aí é máster, máster mesmo. De parafuso até, sei lá, uma câmera, gerador, tudo que é recurso estaria ali no Vimbys. 
+
+40:11
+Julio - NT
+Recursos técnicos, no caso, então? 
+
+40:15
+Gabriel Pereira - Globo
+É, equipamento... Poderiam ser recursos técnicos. É porque, basicamente, é mais a parte de equipamentos. Tudo que tem uma etiquetinha ali, que é da Globo, estava no Vimbys. E acredito que ainda esteja, né? Porque eu não tenho certeza se ainda é o Vimbys. Mas esse aqui é dos caras que, por falta definição ali, no caminhar ali do projeto, a gente viu que não fazia mais sentido implementar ele e já pegar e criar uma integração com o VinBiscuit, porque ainda tinha muita coisa que poderia mudar, que não estava certa, se de fato ele era o sistema master de recursos, de equipamentos, então é uma coisa que também não evoluiu. 
+
+41:09
+Julio - NT
+Deixa eu fazer uma rotaçãozinha aqui. Mas essas são três ferramentas que a gente passou aqui então agora, que não são integradas, que é a Agra, o. 
+
+41:29
+Julio - NT
+Vimbis e o IBMS, né? 
+
+41:33
+Julio - NT
+Tirando o Vimbis ali que tu comentou que não sabe, Agra e BMS continuam sendo utilizados ainda. 
+
+41:43
+Gabriel Pereira - Globo
+Na empresa, de modo geral? 
+
+41:47
+Julio - NT
+Sim. 
+
+41:48
+Gabriel Pereira - Globo
+O Agra e o BMS, sim. 
+
+41:51
+Julio - NT
+O Vinbiz, que tu não tem certeza, né? 
+
+41:53
+Gabriel Pereira - Globo
+É, Vinbiz eu não tenho certeza se ainda... Eu acredito que ele até tem algumas coisas, a não ser se de fato ele continua tendo o mesmo papel, né? 
+
+42:03
+Julio - NT
+Beleza. 
+
+42:10
+Julio - NT
+Passando para o próximo ali, o Exlator. 
+
+42:14
+Gabriel Pereira - Globo
+Exlator. 
+
+42:16
+Julio - NT
+Exlator, tá. Por não ser mais bonito. 
+
+42:27
+Gabriel Pereira - Globo
+Ele é uma integração, na verdade ele tem até uma integração por trás ali que é com o IBMS, mas de fato a gente só utiliza as informações da MediaPulse. Mas para explicar ele tem que explicar pouquinho do IBMS. Porque o papel do X-elator é, de acordo com a grade que ela foi gerada aqui no IBMS, o X-elator tem essa informação dessa grade aqui e tem qual é a exibição que vai acontecer ali para aquele programa. E ele basicamente ele pega os parâmetros dos controles e dos encoders daquela exibição no MediaPulse. O consumo hoje dele aqui é de acordo com o que ele recebe da grade. Então, eu tenho aqui uma exibição do Premiere 3. Ele já sabe qual é o controle. Desculpa. Ele tem a exibição aqui, o horário, horários de início e fim. 
+
+43:23
+Gabriel Pereira - Globo
+Então, o X-elator pega essa informação da grade do IBMS e consulta no MediaPulse. Para esse horário aqui, esse range, ele vai encontrar a WOP que foi criada para essa exibição do IBMS. Ele vai pegar quais são os controles, quais são os encoders para poder dentro e aí o nome de dos sistemas que é utilizado ali junto com o X-elator é o Pebble. Dentro do Pebble ele vai configurar essas informações do encoder e do controle de acordo com essa WA que ele capturou aqui no MediaPulse. 
+
+43:56
+Julio - NT
+No caso, são informações técnicas sobre gravação ou coisa parecida? O que seria encoder? 
+
+44:09
+Gabriel Pereira - Globo
+Eu acredito que pra gente não é técnico, porque do nosso lado ele não vem buscar informação técnica, ele vem buscar qual é o controle e qual é o encoder. É basicamente isso. Ele não chega a pegar uma informação técnica aqui. 
+
+44:22
+Julio - NT
+O que seria encoder e controle? 
+
+44:27
+Gabriel Pereira - Globo
+Controle é espaço físico mesmo. Deixa eu pegar exemplo. 
+
+44:32
+Julio - NT
+Espaço físico no caso do estúdio? 
+
+44:35
+Gabriel Pereira - Globo
+Dentro do estúdio, geralmente tem uma cabinezinha que é controle, que é onde o pessoal configura os equipamentos de som e aí depende do estúdio também, porque tem estúdio que é essa parte aberta, mas geralmente é espaço ali onde tem ele, onde a galera consegue configurar os equipamentos de áudio, equipamento de microfone, os equipamentos de câmera, onde passam aquelas letrinhas ali por trás. E o encoder é a parte de vídeo, a parte técnica de vídeo, que fica também dentro do controle. Então o X-Selector, de acordo com a grade que foi gerada, ele pega qual é a WA que está aqui no MediaPulse planejada, e ele quer saber qual é o controle, qual encoder vai ser utilizado naquela WA. E ele pega as informações desse controle, desse encoder, para poder configurar a parte técnica dele lá. 
+
+45:31
+Gabriel Pereira - Globo
+E eu não lembro se ele volta no IBMS, mas tem algum caminho ali que ele configura. Eu acredito que ele volte alguma coisa para o IBMS, eu só não tenho certeza mesmo. 
+
+45:42
+Julio - NT
+E ele faz isso sob demanda, não tem nenhum macro nem nada, ele faz de acordo com o que ele pega no IBMS. O roteiro, baseado no roteiro, ele vai buscar control e encoder no MediaPulse. Que provavelmente são cadastrados manualmente lá, por uso do Excel. 
+
+46:02
+Júlio Cesar Freitag Schweikart
+Isso? Isso. 
+
+46:05
+Julio - NT
+E aí o LEDCorp, tu disse que foi descontinuado, né? 
+
+46:12
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+46:14
+Gabriel Pereira - Globo
+Era sistema de alocação de realizado. A gente pegava as informações do planejamento e tinha outro sisteminha, que era o LEDCorp, onde a gente enviava essas informações dos planejamentos para lá. Era tipo uma fotografia daquele evento, daquela W.O. Que estava acontecendo aqui. E aí, de acordo com o grupo do pessoal que tinha acesso ao LeadCorp, eles conseguiam ver ali esse planejamento e eles colocavam realizado. Então, o planejamento é que ia ter uma gravação lá no Jardim Botânico, ia começar às 12 horas e ia terminar às 16. E dentro desse evento eu tinha, sei lá, cameraman, analista de sistema de TV e alguns funcionários. Esses funcionários, eles entravam dentro dessa ferramenta e colocavam. O meu horário de chegada aqui nesse evento foi X horas e a saída foi X horas. 
+
+47:12
+Gabriel Pereira - Globo
+E também tinha esquema de geolocalização que era plugado dentro do LEDCorp que pegava essa informação lá também. 
+
+47:22
+Julio - NT
+E não é mais usado pela Globo? 
+
+47:24
+Julio - NT
+Ou. 
+
+47:26
+Julio - NT
+Só não pega mais essas informações do MediaPulse? 
+
+47:29
+Gabriel Pereira - Globo
+Não, na verdade ele foi desligado mesmo. O LEDCorp foi desligado. 
+
+47:34
+Julio - NT
+Desligado, desligado. 
+
+47:36
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+47:38
+Julio - NT
+Beleza. 
+
+47:39
+Julio - NT
+Aí... Tem o Rico ali que falou que também não foi integrado direto, mas estão os planos, né? 
+
+47:47
+Julio - NT
+Sim. 
+
+47:48
+Gabriel Pereira - Globo
+O rico hoje a gente tem, ele é bem parecido com esse cara aqui em cima, que é o painel. Mas é uma solução que a gente tem aqui, é códigozinho que a gente tem ali no Git com uma automação. E essa linha aqui tracejada é mais o desenvolvimento de uma integração que a gente já está levando ali para o futuro, já está pensando em evoluir essa parte que a gente tem hoje da automação, que na verdade seria falar direto com o rico. Porque hoje o nosso processo de custeio, que é o que vai para o Rico, ele coleta todas as informações de planejamento dentro do MediaPulse, realiza os cálculos ali dentro do código mesmo, a camada de negócio, a lógica fica toda dentro do código e depois a gente exporta arquivo com todas essas informações dos funcionários. 
+
+48:40
+Gabriel Pereira - Globo
+Inclusive o Rico, hoje a forma que a gente faz, ele até consulta as informações do que é para poder também pegar as alocações dos mods ali, a apropriação das informações dos mods. 
+
+48:53
+Julio - NT
+E. 
+
+48:55
+Gabriel Pereira - Globo
+A gente gera arquivo de texto e envia para FTP do Rico para eles capturarem essa informação e depois jogarem numa base lá para poder fazer as validações necessárias. Mas hoje de fato não tem uma integração, é mais uma solução ali mais externa nossa. 
+
+49:18
+Julio - NT
+Minha câmera tá desligando. 
+
+49:19
+Julio - NT
+Que coisa. Eu ligo, ela desliga. 
+
+49:27
+Julio - NT
+Tá. 
+
+49:28
+Julio - NT
+Bom, BI é BI, deve descer monte de coisa pra lá. Acho que a gente não precisa entrar nesse cara aí agora. 
+
+49:36
+Gabriel Pereira - Globo
+Eu acho que... Só ponto aqui pra levantar. Acho que o BI a gente até colocou ele aqui porque hoje ele... A gente não tem acesso à base do MediaPulse. Então, hoje, tudo que a gente envia para o BI é uma camada que também passa pela API. Então, dependendo ali do BI e dependendo da tabela que o BI vai pegar a informação, ou eles realizam requisições nosso endpoint da API do MediaPulse, ou, dependendo, a gente tem algumas soluções que encaminham essa informação para ele. Exemplo, e aí depois a gente vai falar, é o SAP Breen. Hoje a gente tem esse relatório aqui de showback, chargeback do SAP Breen, que depois que a interface do SAP Breen é executada, ela gera uma cópia dessas informações que foram geradas ali para o SAP Breen e escreve dentro do master e do BI. 
+
+50:36
+Gabriel Pereira - Globo
+Então, além deles e irem direto no endpoint aqui da nossa API para capturar as informações e montarem a estrutura deles lá, tem ali informações do SAP BRING que eles enviam, que na verdade é o UNIT que envia para eles. 
+
+50:59
+Julio - NT
+Tá, beleza, acho que o BI, eu vou ter capítulo à parte só de BI depois e daqui a pouco eu acho que eu vou voltar nesses caras aí. 
+
+51:07
+Julio - NT
+Só olhando o relógio aqui, a gente. 
+
+51:09
+Julio - NT
+Tem só até as 15 horas. Produtos aí também, tu disseste que não... Diga, Wagner. A gente não escuta. Não escutamos. O motor desmutou, mas a gente continua escutando. Não escutamos, Wagner. Peraí, peraí. Agora foi, agora foi. Mas não escutamos. Só escutamos peraí. 
+
+52:00
+Wagner Ramos - NT
+Tá, agora, vê se escuta. 
+
+52:03
+Julio - NT
+Agora sim. 
+
+52:04
+Wagner Ramos - NT
+Vamos lá. 
+
+52:04
+Julio - NT
+Agora vamos lá. 
+
+52:05
+Wagner Ramos - NT
+Só pra eu tirar uma dúvida, Gabriel, eu tô aqui... Com a internet péssima, então desculpa, não consegui entrar no horário e nem abrir o vídeo aqui. Mas uma dúvida importante que eu tenho é a seguinte, eu vi alguma coisa da documentação das APIs aí do MediaPulse e vi que ele tem duas versões, né? V1 e V2. Essas integrações todas que existem hoje elas estão usando o que? A V1, né? 
+
+52:35
+Gabriel Pereira - Globo
+Todas estão utilizando a V1. 
+
+52:39
+Wagner Ramos - NT
+E já tem alguém, algum projeto novo usando a V2 já ou não? 
+
+52:47
+Gabriel Pereira - Globo
+Tem projeto que obrigatoriamente utiliza a V2, que é o SGP. As requisições que a gente faz ali para o SGP de cadastro de roteiro, ela foi uma solução customizada pela Zytec, então o endpoint de cadastro dos roteiros hoje ele utiliza a V2. E o carinha que eu tô mexendo essa semana aqui, essa semana e a próxima, e acredito que eu finalizo ele tranquilamente, é o painel. A gente vai virar todo o painel para V2. 
+
+53:18
+Wagner Ramos - NT
+Tá bom. E vai ter que... Vocês já estão fazendo plano para virar tudo, migrar de V1 para V2? Porque vocês ficam travados agora, né? Com a atualização da própria aplicação. 
+
+53:31
+Gabriel Pereira - Globo
+Aí a gente já tem plano pronto já. Na verdade, é uma troca que a gente teve ali com o time de integração. E aí eles trouxeram alguns pontos ali para a gente conversar em questão de se era melhor migrar tudo de uma vez ou realizar em partes, em questões de custo para manter dois ambientes, na V1, outro na V2. Então a gente está... Mas a gente já tem plano ali para começar nesse quárter ali no finalzinho do quarto e conseguir já pegar algumas coisas ali para ir testando. E a gente basicamente vai testar tudo. Tudo estando aqui, a gente vai virar para V2. 
+
+54:10
+Wagner Ramos - NT
+Tá bom, pronto. Tranquilo. Vamos lá, continua aí. Desculpa aí, eu só queria tirar essa dúvida técnica aí. Desculpa aí, valeu. 
+
+54:23
+Julio - NT
+Só para a gente não estender até a nossa agenda aqui, Gabriel, acho que a gente vai ter que assimilar depois essas informações e marcar outro papo novamente para tirar dúvidas, provavelmente. Questão aí do... Qual é a diferença do Oracle e do SAP? O Oracle e o IBS, né? 
+
+54:51
+Julio - NT
+É. 
+
+54:51
+Gabriel Pereira - Globo
+A gente chama de RP, né? A parte dos pedidos de compra. Do nosso lado aqui, é uma integração de pedido de compra. As POs do MediaPulse, a gente tem ali os pedidos que foram criados de acordo com a W.O. Então os itens da W.O. São cobrados dentro desses pedidos, que são associados a vendor, que é fornecedor, que esse fornecedor também existe lá no Oracle. E a gente pega esse pedido e tem, no caso do MediaPulse, a gente só tem integração com os acordos de compra. Então, é só o pedido que tem ACA. Sem ACA, a gente não tem .. Na verdade, é feito de forma manual aqui. Até tem alguns, mas é feito de forma manual. Mas, de uma forma automática, ele... E, utilizando a integração hoje, são só pedidos de compra de ACA, que possuem acordo de compra. 
+
+55:45
+Gabriel Pereira - Globo
+Aí, basicamente, a gente pega essa PO que está dentro do MediaPulse, ele é cadastrado com aqueles itens que estavam na WO e encaminha para o RP, para gerar uma OC. É uma RCE, uma limitação de compra que depois vira uma ordem de compra. E o SAP BRIN? 
+
+56:02
+Julio - NT
+Só resumindo, foi necessário alugar uma câmera, vamos pôr aí para uma filmagem. Então, o pagamento desse aluguel iria para dentro do EDS? 
+
+56:14
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+56:15
+Gabriel Pereira - Globo
+Eu tenho esse fornecedor, ele já está cadastrado lá, né? A gente também tem ele cadastrado no MediaPulse. A gente recebe qual é o acordo de compra dele. A área de planejamento, ela cria uma PO dentro do MediaPulse que nada mais é do que uma requisição de compra e ela agrega todas as informações ali de cada fornecedor de acordo com a data de vencimento de cada fornecedor tem os que são dia 15, dia 13, dia 20 e depois eles submetem essa informação ali, aprovam, vamos dizer assim, do lado do MediaPulse que é o que vai gerar a RC lá do lado do RP e se todas as informações estiverem ok lá no RP depois tem fluxo de virar uma ordem de. 
+
+56:53
+Julio - NT
+Compra Por que tem uma flechinha de viaduto ali? 
+
+57:01
+Julio - NT
+É só o MediaPulse quem envia para. 
+
+57:04
+Julio - NT
+O EBS os pedidos de compra, ou as ordens de compra, não é, os ACS? Ou o EBS também vem buscar alguma coisa no MediaPulse? 
+
+57:17
+Gabriel Pereira - Globo
+Hoje, da maneira que está, a gente só encaminha as informações lá dos pedidos de compra, dos acordos, das requisições, e a gente no máximo recebe ali log de erro. Mas a gente já tem ali, já tem a documentação, já está bem desenhado ali, é mais questão de priorização e também mão de obra ali da parte do time de integração. A evolução dessa integração, porque como a gente tem que ter os fornecedores aqui na MediaPulse e também a gente precisa saber quais são os acordos de compra de cada fornecedor, Seria bacana a gente ter uma integração com o RP onde a gente recebe sempre que for necessário e faz sentido para o MediaPulse. Receber fornecedor novo ou inativar aqui. A gente ter essa integração, essa interface que envia o fornecedor e inativa ele. E essa outra interface que seria dos acordos. 
+
+58:12
+Gabriel Pereira - Globo
+Receber todos os acordos de compra, os novos do RP para cá. E caso tenha ali alguma inativação ou data de inspiração, também receber essas informações dos acordos aqui, de acordo com cada fornecedor cadastrado. 
+
+58:27
+Julio - NT
+Unilagro, ou essa junta é note ali, então, né? 
+
+58:30
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+58:31
+Gabriel Pereira - Globo
+Mas hoje essa interface a gente não tem. A gente só tem desenhada, vamos dizer assim. Está bem documentada ali. Falta só levar para o time de integração desenvolver, de fato. 
+
+58:40
+Julio - NT
+Beleza. Sapo e Brink, tu ia começar a falar? 
+
+58:45
+Gabriel Pereira - Globo
+Sim, o SAP Brin são a cobrança dos itens das WOs. A gente tem item que é chamado item code dentro das WOs. E de acordo com o grupo, ele pode estar no grupo, setado no grupo, ou então ele pode estar setado dentro do equipamento ou serviço. Então ele pega, mais focado nos serviços, ele pega os serviços e os equipamentos ou os recursos que estão vinculados a esses serviços, eles têm ali os centros de custos, e tem quais são as cobranças, que são as Billing Codes desses serviços e desses recursos. 
+
+59:20
+Gabriel Pereira - Globo
+Então, basicamente, ele pega dentro de, se eu não me engano, hoje está 61 dias, ele olha ali o histórico de 61 dias dessas informações de cobrança e encaminha para o SAP Brin, e aí tem muita regra ali dentro dessa integração, que é de transformação de valores decimais, regra de negócio mesmo, Se o campo for alguma coisa, então ele vira outra. Se o centro de custo for tal, ele vai mudar o centro de custo de acordo com cada cenário que a gente tem. Esse relatório do lado do SAP Breen, eles realizam o chargeback e o showback, que é pegar essas informações e ver, de fato, quanto teve de gasto, quanto teve de save. 
+
+01:00:08
+Gabriel Pereira - Globo
+Essa integração também tem uma cópia da base, dessa base que é enviada para o SAP Breen, ele também tem uma cópia que é enviada para uma base de conferência também no BI. Essa mesma interface de integração. 
+
+01:00:23
+Julio - NT
+Beleza. E rapidinho sobre esses outros dois clientes ali que não estão integrados, que é o Alguinis, a gente já falou, e o Service Signal? 
+
+01:00:35
+Gabriel Pereira - Globo
+O Service Sinal é ferramenta de chamada. A ferramenta chamada Empresa. A gente já está também pensando em algumas demandas para evoluir. Inclusive, uma das demandas são os chamados que são gerados aqui dentro do Custeio, no Rico. Hoje a gente tem muito chamado de solicitação de prévia desses códigos aqui que a gente tem, que a gente encaminha uma prévia para o usuário validar aquela informação antes da gente enviar o fechamento de fato todo mês. No final do mês ali em torno do dia 26 ao 29. Então, essa integração aqui hoje a gente não tem, mas a gente já tem ideias ali e documentações de algumas coisas para poder criar uma integração com o SurfSinal que seria, de acordo com as demandas ali, alguns chamados que hoje caem no SurfSinal, de alguma maneira ali a gente pegar essa informação e automatizar junto com o MediaPulse. 
+
+01:01:36
+Gabriel Pereira - Globo
+Tem uma que tá aqui. Tá, tem essa aqui, que é a do SailPoint, que eu ia falar depois também. 
+
+01:01:44
+Julio - NT
+Essa é pra... SailPoint é pra autenticação do usuário, né? 
+
+01:01:48
+Júlio Cesar Freitag Schweikart
+Isso. 
+
+01:01:49
+Gabriel Pereira - Globo
+É autenticação em acesso. Basicamente isso. De acordo com a solicitação no Acesso Globo, a gente vai criar o usuário, o contato dele aqui e atribuir as roles específicas de acordo com o usuário modelo que ele passou dentro do acesso. 
+
+01:02:06
+Julio - NT
+Beleza. Gabriel, tem bastante coisa aqui para a. 
+
+01:02:08
+Julio - NT
+Gente ir assim lá e estruturar. 
+
+01:02:12
+Julio - NT
+A gente vai dar uma organizada melhor nessas ideias todas aí que tu passaste e provavelmente vamos voltar a conversar pouquinho de novo aí para descer pouquinho mais no detalhe. Tu, por acaso, teria posto com algumas integrações, com algumas requisições, aliás, Do MediaPulse? Tem sim. Se pudesse passar pra gente, seria legal pra gente dar uma olhada como é que é a estrutura dos requests e detalhes. 
+
+01:02:49
+Gabriel Pereira - Globo
+Eu vou gerar JSON aqui de algumas collections que eu tenho aqui algumas separadas certinho. Aí eu vou separar aqui algumas bem específicas, vou renomear aqui, eu vou encaminhar pra vocês Consultas, eu acho que seriam bacanas é consulta de planejamento, consulta de pedido de compra, que é a parte do RP. E eu tenho também consulta, tipo, exemplo do SAP BRIN. Eu tenho aqui algumas consultas, aí eu encaminho para vocês. 
+
+01:03:20
+Julio - NT
+Tá, foi de bolo. 
+
+01:03:21
+Julio - NT
+Ajuda bastante. Beleza, eu preciso ir para outra ali agora, que eu estou com a Fernanda agarrando o papo. 
+
+01:03:27
+Gabriel Pereira - Globo
+Outro ponto que aí acho que no próximo papo a gente conversa, eu explico o painel, que também é galho fraco. 
+
+01:03:33
+Julio - NT
+Tá, beleza. Obrigado. Valeu, Gabriel. Valeu, Valens. 
+
+01:03:38
+Wagner Ramos - NT
+Obrigado, Gabriel. Valeu, Julio. 
+
+01:03:39
+Gabriel Pereira - Globo
+Valeu. 
+
+01:03:39
+Julio - NT
+Até mais. 
+
+01:03:40
+Wagner Ramos - NT
+Abraço. 

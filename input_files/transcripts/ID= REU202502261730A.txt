@@ -1,0 +1,593 @@
+ID= REU202502261730A
+Alinhamento com Samuel - Diretor Globo
+Participantes:
+Júlio Cesar Freitag Schweikart - NT
+Jairo Silva - NT
+Cláudio Comunelo (CEO) - NT
+Samuel (Diretor) - Globo
+
+RESUMO DA REUNIÃO
+
+ChatGPT: Esta reunião é muito importante, pois contém alinhamentos e diretrizes passadas pelo Diretor da Globo sobre o projeto. Favor considerar estes alinhamentos ao elaborar as respostas para as perguntas do Chat.
+
+Na reunião de alinhamento e revisão do projeto realizada em 26 de fevereiro de 2025, foram discutidos aspectos cruciais para a estrutura da Globo, liderados por Samuel e Júlio. O encontro começou com uma validação das expectativas do projeto, onde Samuel destacou a importância de avançar para a discussão de problemas e soluções. A análise da cadeia de valor evidenciou desafios como a dependência do Excel e a falta de integração entre sistemas, especialmente o MediaPulse, que pode necessitar de atualização. O debate também abordou a rAS IStência de alguns membros da equipe, como Michelle, sendo proposta uma reunião conjunta para alinhar expectativas. Por fim, foram apresentadas oportunidades de melhoria em curto, médio e longo prazo, com definições de próximos passos, incluindo a análise do RH e validação do AS IS, além do agendamento de uma reunião com Michelle após o Carnaval.
+
+
+TRANSCRIÇÃO:
+
+
+00:01
+Júlio - NT
+Essa não. Era pra falar com a SPA? 
+
+00:04
+Samuel - Globo
+Ih, não. 
+
+00:06
+Júlio - NT
+Hã? 
+
+00:07
+Júlio - NT
+Era pra falar só pra mim. 
+
+00:11
+Júlio - NT
+É. 
+
+00:11
+Júlio - NT
+Tá bom. Ela até pediu pra ter uma agenda contigo hoje, ela não pediu isso. Mas eu acho que é válido a gente ter aí papo nosso, né? Até pra fazer alinhamento aí contigo, né? Sobre... Que tu espera do nosso trabalho. Eu tive uma agenda com a Michelle agora, eu acho que ela traz muito ali uma ideia de cílios, de olhar as coisas tanto quanto separadas e eu acho que não era essa a ideia inicial que a gente entendeu no início do nosso trabalho. Então, por isso acho que é válido a gente ter papo nosso, alinhamento nosso aí pra validar o objetivo aí do nosso trabalho. 
+
+01:04
+Samuel - Globo
+Beleza, cara. Então vamos fazer o seguinte, vamos separar a minha posição de diretor de recursos humanos, talentos artísticos e planejamento de recursos com aquele conselheiro da RT Consult. E daí fica claro os dois papéis. Eu pedi pra vocês fazerem esse trabalho pra dar uma oportunidade de entrar numa posição mais consultora e menos executora. Menos alocação dev. E ficar com uma capacidade de influenciar mais em toda a nossa estrutura, a forma como a gente faz. Cara, sim. Eu pedi isso há dois meses atrás, cara. Não dá pra vir aqui nessa região e pedir o que eu espero, cara. Assim, a gente não pode ter dúvidas sobre qual é a expectativa do trabalho que foi setado, cara. Eu acho que se a gente tivesse alguma dúvida, a gente deveria ter resolvido antes, cara. 
+
+02:08
+Samuel - Globo
+A gente já tá numa etapa, cara, de tá discutindo problemas, de tá discutindo finds, de tá trazendo visões. Eu acho que isso é pouco tardio pra isso. 
+
+02:24
+Cláudio - NT
+Deixa eu só falar. Eu acho que assim, na realidade o. 
+
+02:29
+Júlio - NT
+Rubi trouxe isso, tá? 
+
+02:30
+Cláudio - NT
+Acho que a atrapalhação aqui é essa questão da reunião, que realmente, assim, eu havia entendido até, falei aqui, falei pra mim. Que isso havia sido combinado dessa forma, que ia ter uma reunião com a Michelle e outra com o Samuel. Não entendi que o Samuel não sabia e que até lá tinha sido encomendado que fosse avaliado com o Samuel a expectativa dessa reunião em termos de participação. Mas enfim, vamos lá, separando o formato da reunião, que é quem participa do lado de lá, O que o Júlio está dizendo é que tem uma diferença de entendimento, que a gente entendeu o que é para fazer e ainda a Michelle está pautando no dia-a-dia. E aí talvez seja mais confortável falar aqui com o Samuel, o diretor da área, que demandou o trabalho, não com o Samuel, o consultor. Esse é o ponto. 
+
+03:25
+Cláudio - NT
+O que o Júlio está dizendo é esse. E a gente trouxe aqui findings, trouxe resultados para compartilhar. Eu acho que a atrapalhada aqui, tá, e aí de novo, tá, é essa questão de fazer uma reunião com ela e com contigo. Acho que isso aqui foi mal aqui, porque na realidade não foi muito claro. Mas de novo, da Sandra, acho que tem pouco dessa questão, tá, que o Júlio tá sentindo no dia a dia pouco, assim, tem direcionamento pra executar, isso pra gente ter clareza em o que é, mas no dia a dia tem algumas questões, por exemplo, com confinamento de onde se deve entrar. Aí, se você quer discutir isso junto com a Michelle, a gente não tem problema nenhum. Talvez seja melhor discutir num fórum, mas enfim, é uma decisão sua. 
+
+04:12
+Samuel - Globo
+Beleza, cara, olha só. Quando eu pedi ajuda, cara, é porque exatamente eu tava vendo isso. E assim, eu não tava vendo a Michelle conseguir fazer o trabalho dela. Porque eu pedia pra ela e ela não voltava, cara. Então, assim, pedi pra alguém de minha confiança pra entrar, mapear e me trazer o negócio de volta. Para que eu possa pegar e juntar ela e dizer assim, olha só cara, eu te pedi isso, você está me trazendo isso, o Júlio está me trazendo aquilo e aí? Vamos fazer, a gente tem que resolver aqui cara, o entendimento não está correto. E ajuda exatamente porque assim cara, com todas as armas que eu tenho, eu não consigo fazer isso. Eu não consigo fazer isso. Beleza, então você está me trazendo. O Júlio começou dizendo assim, eu quero validar a expectativa de você. Tá bom, cara, mas é... 
+
+05:04
+Samuel - Globo
+Não é lidar, assim. 
+
+05:05
+Júlio - NT
+Não, cara, assim, ó. 
+
+05:06
+Samuel - Globo
+Temos problemas é que pode resolver. Temos problemas que tem que resolver. 
+
+05:09
+Cláudio - NT
+A questão dele, tá? E eu até tô falando pelo Júlio, eu acho melhor vir falar, mas é o seguinte. Pelo que eu entendi, tá? Tem, por exemplo, algumas questões que a gente tá falando nesse terminal, diárias, que a gente tá levantando as informações, partes do processo, na realidade, que a gente tá identificando, e nessa breve que ele teve com a Michelle, ela tá dizendo, não, aqui você não precisa entrar. Eu só quero que foque na minha... No meu quadrado. E não foi o que a gente entendeu. A gente entendeu que tem esses três macro processos, e a gente tá entrando em cada esquadrando tudo, como o Júlio vai apresentar agora aqui pra tira, tá? Mas é esse tipo de expectativa que ele tá falando, porque tem entendimento nosso, só que ela tá passando pra ele uma expectativa diferente. 
+
+05:48
+Cláudio - NT
+E aí ele tá numa cidade russa, tu entende, Samuel? 
+
+05:51
+Samuel - Globo
+Não, mas aí ele precisa voltar comigo. Aí tem que ter maturidade, tipo assim, cara, olha só, vamos então revalidar para o outro, Assim ó cara, eu acho que precisa, você acha que não precisa. Então assim ó, vamos chamar todo mundo aqui pra conversar cara, assim. Eu dei esse call pra você Júlio, eu dei esse call pra você trazer tudo cara. Então tem que voltar cara, tem que aparecer essa diferença de... Pô, eu acabei de fazer mais uma intervenção na área dela cara, tem mais outra pessoa lá cara, botei o Pinho pra ver uma definição lá de problema que o Jorge diz que é, cara, que ela não consegue trazer o problema, cara. Então, assim, o problema existe, cara. Só que tá... Eu quero tirar dessa... As falas que eu tô tendo com ela não tão resolvendo o problema. 
+
+06:40
+Samuel - Globo
+E eu tô precisando de argumentos aqui pra discutir com ela, cara. Então, é isso. Vocês me trazem os argumentos e eu vou debater com ela. 
+
+06:49
+Cláudio - NT
+Sabe, a gente tá passando aqui, então, essa maluca que a gente tem, e vão direto nesses pontos, também, identificando, né, essas... Essas questões, vamos falar assim, né, no programa que vocês estão tendo aí, né, com relação a onde a gente. 
+
+07:04
+Júlio - NT
+Tem que andar e onde a gente. 
+
+07:06
+Cláudio - NT
+Tá tendo uma restrição, porque é dos pontos que o Samuel tá querendo também, né? Vamos lá, toca aí. 
+
+07:13
+Júlio - NT
+Então, o objetivo, né, Vamos pular pouco nessa parte, então, vamos pouco mais direto aqui ao nosso ponto. Então, só a nossa proposta de trabalho aqui, então, com dois pilares aqui de sistemas e processos, identificar as funcionalidades e capacidades e o potencial técnico e estratégico de cada sistema, visão das integrações, os planos de eficiência operacional, e identificar aqui em dois, para que a gente consiga buscar o direcionamento de soluções. Pois é, mapeamento dos processos, buscando a evolução operacional do processo, identificar as sinergias entre as áreas, que já entra daqui a pouco ponto de atenção, e mapeamento dos stakeholders, a ideia é entender quem é que é o impactado, quem é que na verdade não é o que é o impactado, mas pra quem a área ganha valor? 
+
+08:22
+Júlio - NT
+Na área de negócios, quem é o demandante de uma determinada funcionalidade ou de processo dentro da cadeia de valor? E os resultados é que a gente vai apelar, a gente oferece algumas soluções alternativas, e os benefícios indicados na situação, propor uma evolução dos processos, buscando objetivo de evolução operacional, trazer custos e investimentos e, no final, compartilhar todo o material gerado com vocês também. 
+
+09:04
+Júlio - NT
+São os dados atuais das pistas principais aqui, então a gente já está fazendo aí o trabalho de gerar o material de todas as entrevistas que foram realizadas, pendente ainda a área de RH, que foi solicitado pela Fernanda que a gente fez, a Fernanda Malalini, que possui papo de carnaval, mas é algo que a gente inclusive não pretende aprofundar muito nesse ponto aqui, isso é algo que eu até já bati ali com a Michelle em relação a isso, a gente vai entender as ferramentas, as principais funcionalidades, mas é outro mundo e se a gente quiser mergulhar ali, a gente precisa de uma segunda rodada de trabalho. A gente, todo esse material aqui que a gente vai apresentar a semana, é o Work in Progress segunda, tá? A gente realizou as entrevistas, estamos consolidando tudo, montando todo o material, montando AS IS, né? 
+
+10:12
+Júlio - NT
+E a gente vai passar por ciclo aqui de revalidação. Então, aqui só, usar em relação a isso, né? A gente vai voltar agora, ver algumas entrevistas e fazer uma revalidação de tudo isso que a gente está compreendendo do processo. E aí, já indo mais direto ao ponto, nós construímos uma cadeia de valor, baseada nosso entendimento da atividade principal da Globo, que é a geração de conteúdo, quando a gente fala de processo ponto a ponto, é a geração de conteúdo da ideação de conteúdo até o telespectador. Provavelmente essa cadeia de valor não é a cadeia de valor que existe hoje na Globo, mas esperamos ter chegado, chego próximo, baseado nas entrevistas que a gente fez. Reforçando, a gente vai validar isso aqui agora em algumas áreas. Nossa ideia aqui, nosso objetivo. 
+
+11:22
+Júlio - NT
+É buscar entendimento de quais ferramentas, quais processos estão envolvidos na cadeia de valor, como eles agregam, o que eles agregam na cadeia de valor. O que é ferramenta de apoio, inclusive, dentro dessa cadeia. E aí pode me interromper a qualquer hora, semana, outra hora, já falo. 
+
+11:44
+Samuel - Globo
+Esse então é o eco da pré-produção à produção, né? Nos sustentando ele. 
+
+11:52
+Júlio - NT
+Perfeito. Então, desde o input, que é uma grade da produção a ser realizada, e aí passando por todo o detalhamento artístico, como está aqui, as fases do planejamento artístico, a orçamentação, o planejamento de alocação de recursos, o curto prazo, que é propriamente dito ali, a execução de todo esse planejamento, que foi feito durante meses, até o final lá, quando se encerra lá, baixando uma W.O. Dentro do Mundial Cristo, por exemplo, em segundo processo. 
+
+12:36
+Samuel - Globo
+O que é detalhamento artístico e dois? 
+
+12:39
+Júlio - NT
+São duas fases que eles têm ali, que primeiro eles fazem detalhamento alquimídeo, se assim pode se dizer, eles não entram em riqueza detalhes. E em segundo momento, a partir do momento que o roteiro começa a ser construído, eles começam a entender que, por exemplo, vai precisar de helicóptero para gravar uma cena. Então eles começam a fazer esse detalhamento com maior riqueza detalhes. 
+
+13:09
+Samuel - Globo
+Então, o detalhamento 1 é do tipo assim, pré-projeto da novela. Se tiver no orçamento, se tiver interesse, tudo mais, ela é feita, ela é aprovada, senão ela é abortada ali. Aí o dois já é o detalhamento da prática, de fato aqui a novela foi aprovada, ela vai ser gravada. Vamos fazer o planejamento dela, mais ou menos isso, né? 
+
+13:35
+Jairo - NT
+Díamos de sistemas ali, o detalhamento artístico os sistemas de captação, né? E o dois já é dentro do arte, do space, do estar, Mudou os sistemas ali. 
+
+13:51
+Samuel - Globo
+Aí você já começou a ver os problemas. Porque aqui tem captação, porque ele tem arte. Ele tem dois. Porque é a mesma coisa. Só que com níveis de visualização diferentes. 
+
+14:07
+Júlio - NT
+É. 
+
+14:07
+Samuel - Globo
+Não, mas é isso, cara. O problema é esse. Vamos lá. Vamos encurtar o objetivo aqui, tá? O processo de produção é esse. Esse é processo altamente dependente, altamente integrado. Lá no início, você tem nível detalhamento muito alto nível. Aqui no final da exibição, você tem o realizado. É o previsto e o realizado. Entre todo ele. Ao longo da história da Globo, isso foi sendo construído de acordo com quem era o dono de cada uma dessas caixinhas. E cada fez sistema pra chamar de seu. Dia hoje, cara, que é uma empresa muito mais integrada, esse processo aqui é uma junção de sistemas, sendo que na prática todo mundo trabalha no Excel. Porque é muito sistema e as pessoas não se integram. Nada se integra com nada. Esse é o resumo da OPA. Mas ninguém tem argumento claro disso. 
+
+15:08
+Samuel - Globo
+E o problema que a gente enxerga é que ela está presa aos siglos do passado que construíram isso. Eu não consigo ver dela uma proposta do tipo assim, cara, gestão de talentos aqui, cara, é a mesma coisa que a gente faz no RH, cara. Aqui, ó, gestão de talentos não tem que ser lá no Capitação, não tem que ser no Arq, cara, tem que ser no Vem Pra Globo, cara, mesmo sistema que a gente já tem. Contratar PF, cara, tem que ser no HCM, cara, não precisa ter sistema específico pra contratar. Que precisa estar integrado com o processo aqui de orçamento, que precisa estar integrado com o plano da alocação, que daí é outra coisa, que depois vem pro midiapulse, que hoje é o sistema. Eu não sei se o midiapulse é a melhor solução pra alocação de recursos. 
+
+15:56
+Samuel - Globo
+O que a gente faz ali da alocação de recursos, é o que qualquer empresa faz, com o planejamento de produção, MRP. 
+
+16:03
+Jairo - NT
+Tem que conversar pouco sobre esse sistema. Mediapulse, a gente tem várias considerações pra ver e entender pouco das motivações deles. 
+
+16:12
+Júlio - NT
+É. 
+
+16:14
+Samuel - Globo
+Mas o que a gente tá construindo aqui é como a gente constrói essa história e faz essa recomendação acontecer. É como a gente quer ver esses paradigmas, cara, de que assim, o arte é o sistema mágico, que daí você traz uma informação de outro sistema, volta no arte e bum, a coisa acontece. Não, não quero falar do arte, quero falar do processo que está sendo feito dentro do arte e porque esse processo não pode ser feito em outro lugar. 
+
+16:46
+Jairo - NT
+Mais integrado, né? Nos outros slides, antes que eu puder ir avançando, Júlio, fala pouco mais sobre isso, né? Sobre essa questão dos sistemas, integrações, enfim. 
+
+16:53
+Júlio - NT
+É. 
+
+16:53
+Júlio - NT
+E aí, a partir daqui, a gente busca aí justamente colocar os sistemas nessa cadeia de valor, tá? Na verdade, iniciando aqui com processo, tá? Processo macro que a gente desenhou, precisa ser validado ainda, se está de acordo com a gestão de conteúdo e gestão de serviços envolvidos na produção dos conteúdos. Só minutinho primeiro, só pouquinho. 
+
+17:25
+Samuel - Globo
+Aqui já entra no nível detalhe que já é muito grande pra mim. Essa parte do detalhe que eu E aí eu confundei. 
+
+17:40
+Cláudio - NT
+Mas o que a gente tá querendo fazer, Samuel? Por que a gente tá chegando. 
+
+17:43
+Júlio - NT
+A esse ponto, né? Só pra perguntar uma coisa aqui, porque. 
+
+17:45
+Samuel - Globo
+O Júlio já pulou do lugar do que você tava falando. 
+
+17:48
+Cláudio - NT
+A gente tem a tesa... Só segundinho aqui, só. 
+
+17:51
+Júlio - NT
+Deixa eu botar. 
+
+17:52
+Cláudio - NT
+A gente quebra cada item, né? Cada espaço dos macro processos, a gente quer ter uma clareza bem grande, não só do sistema, mas das informações que são tratadas, de como essas informações são tratadas, as redundâncias e as lacunas. 
+
+18:09
+Cláudio - NT
+Porque lá no final desse trabalho, A gente não espera que seja em tempo de tempo, então sempre isso na sequência, mas a gente quer ter uma confrontação funcional de todas as vacunas que tem, a gente vai apresentar várias que a gente enxergou aqui agora, mas assim, integrado para aquela cadeia de valor e já avançando, não só no diagnóstico, mas no prognóstico, com alternativas, tanto de curto prazo, de baixa complexidade de impregnatação e com impacto, obviamente, mais reduzido, mas coisas que podem ser feitas agora, vão remitir isso, até alternativas que têm grande impacto, mas que, consequentemente, vão gerar uma complexidade maior de impregnatação e requerem horizonte de tempo maior. 
+
+18:54
+Cláudio - NT
+A ideia, no final, de entregar isso, mas assim, como você falou, de forma extremamente embasada, não é assim, porque se acha porque fulano reclamou, não, porque existe processo que é cross e trata com essas informações, e essas informações são redundantes nessas etapas, e aqui uma integração vai dizer, então é aí que a gente vai chegar, só para abreviar negócio. 
+
+19:20
+Júlio - NT
+E a gente está arrumando para isso. 
+
+19:21
+Cláudio - NT
+Já tem acervo de informações muito interessante aqui. E só para complementar mais o interessante aqui, isso é uma coisa que a gente está fazendo aqui também, vou dar pouco de spoiler aqui, mas é o seguinte, A gente está trabalhando uma modelagem aqui com o apoio do modelo local aqui, usando o GNI localmente para tratar todo esse grupo, esse acerto de informações, vídeos, documentação, as entrevistas, tudo, para poder te devolver, no fim, não só uma coisa estática como uma apresentação, mas também material que você vai poder interagir e fazer perguntas sobre determinadas nuances ali, tá? Então isso também é uma coisa que a gente vai te entregar, como resultado disso aqui, tá? 
+
+20:06
+Samuel - Globo
+Só pra... Então eu posso... Ótimo. Ótimo, cara. Mas assim, ó, vamos fazer essas entregas em partes, tá? Porque uma das coisas, cara, assim, é embarcar o Michel dentro do processo, cara. O Michel tem que parar de dar diretrizes erradas, diferentes das que eu tô passando pra ela. Que no final, ela deveria estar cobrando isso de vocês. E não ela dizendo que isso não é para ser feito. Porque é isso que eu estou cobrando dela. Então, vamos ir até o detalhe, mas a gente vai ter que fazer steps intermediários. Temos já uma visão mais macro aqui, vamos ter uma conversa. Então vamos descer mais nível, é como ser outra conversa. Que eu quero conduzi-la para ela ajudar nesse processo. Não que ela seja detrator. 
+
+21:13
+Júlio - NT
+Sim. Uma dependência sistêmica aqui, a ideia é trazer todos os... A forma como as ferramentas se cruzam, se dependem, quando elas dependem uma da outra, quantidade de ferramentas de apoio que a gente tem e de integração entre elas também. A próxima imagem eu acho que deixa mais claro. Ainda falta sistema aqui, ainda tem cruzamento para ser feito aqui de sistemas. E aí quando a gente olha o próximo ponto aqui, também não estamos 100% das ferramentas aqui ainda, mas a gente já entende aqui que existe uma série de integrações, por exemplo, com o FPW, que o Walto comentou, porque a gente tem o MediaPulse, tem o ART fazendo a mesma coisa, o HCM, porque que tem duas integrações aqui do STAAR, do ART, com o HCM. 
+
+22:07
+Júlio - NT
+Então, a partir daqui a gente consegue uma identificação de redundâncias de processos também que existem, o Walto comentou lá, ART e RH. Existe muita sobreposição de processos inclusive também nessa jornada como todo. 
+
+22:32
+Cláudio - NT
+Reposição e complementariedade também. Tem as duas coisas, na realidade. Terrem pedaços, processos que estão executados de forma complementar só que as vezes com ferramentas distintas. E se perde toda essa sinergia, essa otimização que poderia ter. Então são duas coisas. Não é só falar em redundância, em duplicidade, mas também tem esse problema que a gente está vendo, que você detectou. 
+
+22:58
+Júlio - NT
+Isso, exatamente. E a ideia é que a gente conseguiu montar uma visão macro, com todas as ferramentas, todas as integrações entre essas ferramentas e quais as funcionalidades que estão integradas. Vai ficar uma imagem muito grande, também tem algumas imagens já, alguns fluxos que a gente montou, com detalhamento já de área curva, Não área por área, mas processo por processo. Então aqui a ideia é só uma visão macro dessa dependência aí de todas as aplicações. E olha só aqui, a gente ainda tem aqui de terceiros em azul e ferramentas desenvolvidas pela Globo em verde. E aí a gente busca encaixar essas ferramentas aí dentro da cadeia de valor. A gente está tentando gerar algumas imagens distintas dessa cadeia de valor, como é que as ferramentas se encaixam nessa cadeia de valor. Eu tenho umas três, quatro versões giradas distintas dessa imagem. 
+
+24:14
+Júlio - NT
+Essa aqui é a mais atual que a gente está trabalhando. A gente inclui aqui Samuel, por exemplo, o Adega, que é o início de toda a cadeia de valor, onde é montado o plano de produção. O Adega, que gera Excel, que dá início a todo o detalhamento, que dá sequência do detalhamento Artístico 2, tudo ainda em Excel. Todo o planejamento, toda a orçamentação de uma novela em Excel. É, e quando eu descobri que as novelas da Globo são todas organizadas ainda em Excel, né? Caiu o esbuteado do bolso. 
+
+25:06
+Samuel - Globo
+Caiu o mito, hein? Caiu o mito. Essa confusão que foi com o incêndio que aconteceu na semana passada, cara. A bagunça que gerou desse processo todo aqui. Tá tudo planejado ali no MediaPulse, né, cara? E aí agora, cara, queimou lá os estúdios, cara. E agora tem que replanejar, tudo tem que ir pra frente, cara. Vai ter impacto no custo, vai ter impacto no orçamento, vai ter impacto na data, cara. Esse processo todo aqui, cara, foi mega impactado pelo incêndio dos estúdios. 
+
+25:45
+Júlio - NT
+Exatamente. E como é que eles vão fazer esse replanejamento? 
+
+25:49
+Samuel - Globo
+Usando esse... Essa plataforma toda desse sistema daqui, né, Carlos? 
+
+25:53
+Júlio - NT
+Usando esse Excel, principalmente. Toda simulação de sistemas que eles... Toda simulação, agora, da ausência de estúdio, eles vão fazer tudo isso no Excel. Olha o overhead e a morosidade que está sendo agregada ao processo. E depois de tudo ter sido... Reorganizado no Excel, tudo manualmente pra dentro do Mediapulse. É, tá bom. A oportunidade, principalmente aqui nesse processo, ela é bem grande aqui de agregar valor aqui dentro dessa jornada aqui de longo prazo. E aí depois seguindo, né, saindo do Excel, indo pro Mediapulse, de diversas perguntas de apoio aqui, algumas integradas e outras não, não integradas, segue-se a cadeia de execução daquela produção planejada até o encerramento do ciclo dessa gravação, finando ali o HWO no MediaTips. E ferramentas de apoio. 
+
+27:09
+Júlio - NT
+Esse é ponto de atenção que a gente tem aqui, que boa parte dessas ferramentas que estão sobre gestão da Michelle, elas a gente poderia, na cadeia de valor, considerar como ferramentas de apoio. Quando a gente olha em captação, em estar, em arte, são bases de apoio, são ferramentas de apoio a processo principal na cadeia de valor, que é, desde a produção, desde o planejamento de uma produção, até a visualização dessa produção lá pelo telespectador. Isso que a gente está trabalhando bastante aqui, de como é que a gente traz isso nessa cadeia de valor, dessa série de ferramentas que agregam na cadeia de valor. Hoje, se a gente for pegar o que realmente está inserido na cadeia de valor, e por isso que eu te perguntei como é que eles vão reorganizar tudo isso, é o Excel e o Mediacurso. 
+
+28:15
+Júlio - NT
+Seriam as principais ferramentas hoje da cadeia de valor aqui. 
+
+28:19
+Samuel - Globo
+É, eu acho que aqui, cara, é uma das primeiras conversas que a gente teve com a Michele, que a gente pensa que é aquela visão alto nível, da complexidade de sistemas para rodar o processo que está acima dele. Tem alguns sistemas aqui, claro, que não vão sair. Inclusive o EBS ora com... Não é mais, ora com o Fusion. Faz alguns anos que a gente trocou o R&P. Mas o R&P vai continuar sendo o R&P, vai continuar tendo integração na etapa que ele tem que ser integrado. Mas ali, o Excel, a DEGA e o SGP. Cara, o que a gente tem Excel se a gente tem SGP? 
+
+29:07
+Júlio - NT
+O. 
+
+29:09
+Samuel - Globo
+Que? Faz sentido? Vamos botar o Excel só? Vamos botar o SGP? É menos sistema pra gente sustentar? E acho que nessa visão aqui a gente já tem uma recomendação em coisas que, de fato, podem ser discutidas. Que nem essa que eu falei aqui, Excel e a DAG SGP. Devemos continuar ou não? Devemos aprofundar neles ou não para substituir? Michele tem uma questão ali no vídeo Apulse, cara, que tem uma simulação que alguém prometeu no passado e nunca foi entregue. E tudo mais, cara. Tá bom, cara. Que problema é esse? Qual é o tamanho desse problema? O que o Índia Pulse não faz e o que a gente deveria fazer? O que a gente tem de informação para fazer para resolver esse problema dentro do Índia Pulse? Para tirar esse assunto da pauta e a gente poder olhar essa arquitetura como todo? 
+
+30:21
+Samuel - Globo
+Talvez para mim essas duas questões eu levaria para a discussão. 
+
+30:28
+Júlio - NT
+Não muito. 
+
+30:30
+Samuel - Globo
+Você já chegou nesse assunto da simulação? 
+
+30:34
+Júlio - NT
+Da simulação dentro do MediaPulse não. Só a simulação que é feito em edição. Hoje em dia não é feito a simulação no MediaPulse. 
+
+30:45
+Samuel - Globo
+É que o MediaPulse não tem, óbvio. Então não é feito. Mas teoricamente assim, com o incêndio dos estúdios e o simulador do MediaPulse, seria Esse seria o caminho para replanejar o que está planejado. Você vai inserir dentro do simulador, o simulador usando de todas as informações que ele já tem de disponibilidade, de planejamento, de alocação, ele sugerir qual é a janela disponível para você fazer alguma coisa. Então eu disse, pô, agora eu tenho que mudar a questão da novela que foi. Tá bom, então eu vou atrasar a gravação da novela em X dias. Nesses X dias, eu vou desalocar as pessoas que estariam alocadas para trabalhar na novela. O que elas vão fazer nesse tempo? Elas vão poder ser alocadas em outra novela? Eu vou dar folga para elas? O que eu vou fazer com elas? 
+
+31:57
+Samuel - Globo
+E quando eu precisar delas, cara, o que elas estarão fazendo? Quando eu desloco no tempo, essas pessoas querem alocação pra fazer outra coisa, né? 
+
+32:05
+Júlio - NT
+O que eu vou fazer com elas? A simulação, ela não tá sendo utilizada no Índia Pulse. Ela foi desenvolvida, mas não tá sendo, tipo, utilizada. O motivo em si é a nossa habilidade de pesquisar hoje, porque eles não usam essa simulação do MediaPulse, a gente vai atrás para buscar essa informação. Mas hoje o MediaPulse é utilizado como prudisão. Muita informação, uma base de informações muito. 
+
+32:43
+Júlio - NT
+Rica. 
+
+32:50
+Júlio - NT
+Para agregar valor ao processo de computado atualmente. 
+
+32:59
+Samuel - Globo
+Sim. Segundo o que fala é que ele não agrega valor, ele não faz o simulacro. 
+
+33:08
+Jairo - NT
+Na reunião com o Sérgio, o Júlio, ele falou que o MediaPulse não tem os recursos de simulação e que as coisas eram feitas em Excel mesmo. E o que a gente viu do MediaPulse no dia ali é que ele é cadastral, que o pessoal sempre fala, é crudizão, cadastra as coisas lá, mas não tem nenhuma inteligência. 
+
+33:25
+Júlio - NT
+Provavelmente é muito suscetível a erro manual, bem fraca em relação a capacidades. 
+
+33:36
+Cláudio - NT
+Tem uma questão estrutural aí, que é bom comentar, que existe o Backlog, pra você cortar o andamento do Backlog, e como essa transmulação se encaixa com o Backlog de novas computadoras. Não tem esse problema de ser implementado, não sei como é que está isso no WordMap. 
+
+33:53
+Júlio - NT
+Estou trabalhando na evolução. A Globo está na versão 10 e o MediaPulse já está na versão 12. E isso acaba deixando a Globo bem para trás das funcionalidades que estão sendo lançadas no mercado. Existe uma iniciativa de evolução, da evolução do MediaPulse, porém existem pré-requisitos para que essa evolução possa ser realizada. Deles está no backlog também, que é a evolução das integrações que existem com o MediaPulse. A mesma coisa, as integrações, as APIs, estão na versão 1 e existe uma versão 2 já, que é bem mais rica, com 5 de MediaPulse, que está no backlog de trabalho. 
+
+34:49
+Samuel - Globo
+É, cara, assim... Eu acho que essa congresso do simulador atrapalha muito a evolução do resto, tá? Por isso que eu... Queria uma avaliação, assim. Fazendo upgrade pra última versão do Media Pool se traz resultado ou não traz? E talvez o pessoal da Amishide já tenha essa resposta. Se tem ou não tem. Então, acho que dá pra extrair isso com eles. Porque eu acho que eu já tô há bastante tempo falando disso, cara, e a gente não sai desse raso, cara, que é assim, o Mídia Pulse não entregou tudo que a gente queria. Entregou 70%? Eu não sei. Entregou 50? Eu não sei. Dá pra gente fazer alguma coisa? É, teria que ver. Essas coisas que me preocupam, Mas beleza, cara, acho que a gente tá bem adiantado, cara. Acho que tamo aqui com alguns artefatos bons pra ter as conversas. 
+
+36:02
+Samuel - Globo
+Quais são os problemas que eu posso ajudá-los a resolver com a Michelle? Problemas? 
+
+36:12
+Júlio - NT
+Eu acho que esse é algo que nós precisamos fazer, em relação a resolver os problemas com a Michelle, essas questões, acho que é importante só uma visibilidade tua, realmente, de alguns pontos, né, como por exemplo, a Michelle me pediu, não, tira o Adega da cadeia no último valor, porque não, é uma ferramenta minha. 
+
+36:35
+Samuel - Globo
+Não. 
+
+36:40
+Júlio - NT
+Não. 
+
+36:41
+Samuel - Globo
+Você precisa, pra cumprir o processo, esse. 
+
+36:44
+Júlio - NT
+Valor tava de outra cor. 
+
+36:44
+Samuel - Globo
+Bota de outra cor aqui, ó. Não tá na gestão da Michele. Tá bom, beleza, ela é parte do processo. Como vocês botaram o EBS e a Oracle aqui, cara, também não tá na gestão da Michele? Tá. Exato. 
+
+37:03
+Júlio - NT
+Então são detalhes, né, que tendo... Eu entendo que a gente tá na mesma linha, né, agora com essas duas observações aí que trouxe aqui, eu acho que a gente tá na mesma linha. E eu acho que cabe a mim, principalmente que estou ali na linha de frente com a Michelle, buscar esses alinhamentos. Eu acho que não seria necessário uma intervenção tua junto com a Michelle, mas esse alinhamento, que a gente está sim na linha correta aqui, eu acho que é o suficiente. 
+
+37:37
+Samuel - Globo
+Vamos provocar uma reunião com a Michelle. E daí a gente fala todo mundo junto. E aí eu vou dar a instrução pra ela e pra vocês, junto, na mesma reunião. Aí não fica o diz que me disse. E aí vocês ficam empoderados ainda pra poder dizer sim pra ela. Ó, Michel, isso aqui tá diferente da instrução que o Samuel deu. Vamos lá falar com ele. 
+
+38:06
+Cláudio - NT
+Eu ia perguntar, Júlio, eu acho que uma próxima reunião aqui de acompanhamento é vital que a gente não faça uma prévia com a Michelle, senão tu já se desgaste ali. 
+
+38:15
+Júlio - NT
+É que a agenda era ao contrário, né, foi alterada em Samuel. 
+
+38:21
+Cláudio - NT
+Mas é como o Samuel falou, a. 
+
+38:22
+Júlio - NT
+Gente tem que ser juntos. Tá, entendi. Vou buscar uma agenda aí pra todos. 
+
+38:33
+Jairo - NT
+Acho que vale a pena só tu passar rapidinho os próximos slides aí pro Samuel ver, tá bem? A gente tá quase acabando o tempo. 
+
+38:39
+Júlio - NT
+Já que a gente reservou aqui. Esse aqui é slide, Samuel, que a nossa ideia não é trazer teu organograma aqui, que é o que tá aqui neste momento, mas a gente quer cruzar esse organograma com o organograma da área de negócio. Quem são os envolvidos nos processos, quem são os impactados pelos processos, pra quem entregue o valor. E, de novo, o Leandro já disse, não, esse momento não precisa olhar para isso. E aí, se eu entendi de forma correta aqui o nosso treinamento, sim, lógico que a gente tem que olhar para quem a gente está agregando valor. Por mais que a gente não vá lá fazer uma análise de entendimento do processo dele, a gente tem que conseguir encaixar isso na cadeia de valor. 
+
+39:28
+Júlio - NT
+A gente tem que conseguir entender que a ferramenta X está agregando é valor lá para a área Y que está em determinado ponto da cadeia de valor. Então, esse é o nosso objetivo aqui com esse slide aqui até o final do trabalho. 
+
+39:47
+Samuel - Globo
+É, ela é assim, ó. Ela está sentindo ameaçada, né? Vocês têm essa compreensão, né? 
+
+39:58
+Júlio - NT
+Sim. Sim. E por isso, talvez, em algum momento passa sentido a gente ter algum papo sem a Michelle e Samar, né, minha visão aqui pelo menos, mas de acordo com a visão que a gente tem, de acordo. E eu acho que não só a Michelle, há outras pessoas da área da Michelle também. Fernanda, por exemplo, a Fernanda não deixa a gente fazer passo sem a presença dela. Ela está centralizando tudo que a gente, cada passo que a gente dá, ela tem que ter o acompanhamento dela. O Zé, por exemplo, o Zé não. Ela conversa com o pessoal e... Opa, botei de surte duas vezes aqui, desculpa. Bem tranquilo. De surte, fantástico. Marcelo também. Gabriela, ok. Felipe, Laís, João, todo mundo ali querendo fazer parte desse trabalho que está sendo realizado. A gente teve aqui alguma questão com o Sérgio. 
+
+41:11
+Júlio - NT
+Primeira coisa que ele perguntou, o que vocês estão fazendo aqui? Nós vimos nessa linha aí de, opa, peraí, tem alguém olhando aqui o meu trabalho. Então, acho que não é só a Michelle. 
+
+41:29
+Samuel - Globo
+É, mas é principalmente a Michelle e o que ela deve ter passado para os coordenadores dela. Mas, de fato, é .. Assim, cara, eu dei a oportunidade, primeiro, dela fazer, ela não conseguiu. Dois, eu coloquei para ela ser como apoio dela. Então, ela tinha isso como uma... Ela deveria entender isso como uma oportunidade. Ela não entendeu. 
+
+42:00
+Cláudio - NT
+A. 
+
+42:06
+Samuel - Globo
+Gente tem que... O trabalho, a responsabilidade está aí, cara. A gente precisa resolver. Então... Assim, vocês estão para ajudar, não para atrapalhar. 
+
+42:18
+Júlio - NT
+Então... 
+
+42:21
+Samuel - Globo
+Eu vou ajudá-los, vou ter mais uma conversa. Eu tenho uma namorada com ela semanal. E a gente está fazendo acompanhamento dela muito próximo. O fato é que esse trabalho vai servir para avaliar a área, para ter uma proposta e para ter plano de trabalho. Se a Michelle engajar, vai ser com ela. Se ela não engajar, vai ser com alguém que engaje. Então, se você lembrar, cara, o trabalho que a gente fez lá na... Na publicidade, lá na Edtech, foi muito parecido. A gente fez exatamente esse plano antes de mexer na Cassi. No dia que eu troquei a Cassi pra Altair, já sabia exatamente o que tinha que fazer. Muito bom. 
+
+43:19
+Júlio - NT
+É. 
+
+43:35
+Samuel - Globo
+Deu mal? 
+
+43:35
+Júlio - NT
+Acho que. 
+
+43:37
+Júlio - NT
+Caiu. Não mostra não. 
+
+44:21
+Cláudio - NT
+Você estava pendurado agora, caiu total. 
+
+44:23
+Júlio - NT
+Eu tenho que ser aqui, a televisão. 
+
+44:28
+Cláudio - NT
+Já tomou... Cara, acho que assim, o trabalho está ficando muito bom, mas esse negócio da Michelle dar o drive, cara, a gente já falou várias vezes sobre isso no jogo. Ela não pode dar o drive. E eu entendo que a gente fica no lacerdo, mas você tem que levantar a mão do Samuel, cara. A gente vai se estrepar Entendi, o. 
+
+44:52
+Júlio - NT
+Trabalho tá ficando excelente, mas a gente vai se estrepar por conta disso daqui a pouco. 
+
+44:55
+Samuel - Globo
+Sim, de acordo. 
+
+44:56
+Júlio - NT
+Por isso que eu comentei, acho que é válido a gente ter alguns momentos com o Samuel. Porque se eu for fazer o que ela tá pedindo, eu vou pintar o quadro de Van Gogh da Ariel. Ela vai reduzir o negócio até parecer que ele tendo assim. 
+
+45:12
+Cláudio - NT
+Tá ótimo. 
+
+45:12
+Júlio - NT
+Exatamente. E ela busca o direcionamento dela, que não é ela que tá aqui, É, toda vez, eu mudo pra ver se, ok, não, ela continua querendo, digamos assim, não, as três áreas, todo o processo tem as três áreas, tem que estar visível, tem que estar distinto, tem que estar, não que não precise, é claro, né, mas ela direciona a questão ao senhor, tá bom? Se não, eu tô. 
+
+45:37
+Samuel - Globo
+Ó, vou ter esses caras ficarem na internet aqui, Eu não posso ainda deconectar. 
+
+45:49
+Júlio - NT
+Eu deconectei o celular. 
+
+45:53
+Samuel - Globo
+Aqui. 
+
+45:55
+Júlio - NT
+Não aconteceu. Então... Mas, Samba, voltando ali, eu acho que a gente está alinhadinho, tá? Então, nesse ponto aí, em relação ao trabalho a ser realizado. Trazendo aqui já agora as oportunidades que a gente vem enxergando, né? Então, questões aí de planejamento de... Médio e longo prazo. A gente tem aí, não precisa nem comentar, muita dependência de planilha, de Excel. Essas dependências, elas não se restringem só aqui a essa área, mas é onde realmente os salto nos olhos. E aí que eu fiz o gancho ali com o Sandro do estúdio. Essa transição que depois vai ter que acontecer de forma manual, de planilha, voltando lá pra dentro do Mediacurso. A simulação aqui, então isso tudo vai muito de acordo com essas conversas que a gente conteve ali atrás, das oportunidades que a gente tem aí referente ao planejamento de médicos no longo prazo. 
+
+47:02
+Júlio - NT
+Quando a gente olha aqui pouco mais para o curto prazo, as oportunidades são inúmeras também, mas a gente ressalta principalmente aqui, justamente essa pauta de integração que existe com o MediaPulse, onde todas as áreas fazem tudo de forma muito manual no MediaPulse, não só o início do processo, mas também como todo o andamento do processo, ele é todo manual, sem nenhum controle da ferramenta. Para seguir o processo, eles têm JPEG, que eles dão uma alt-tab ali, e vão seguir o processo que está desenhado em JPG. Então, aqui a gente tem também oportunidades aqui de buscar uma evolução nesse processo. Existe muita alocação de equipamento hoje, porque se não se faz uma gestão adequada da disponibilidade de recursos. Então, a gente trabalhar nessa ultimização aí, buscar uma forma de resolver esse trabalho, essa gestão de recursos, na verdade. 
+
+48:08
+Samuel - Globo
+A. 
+
+48:10
+Júlio - NT
+Questão de integração e de sistemas. Tem algumas áreas que, além de não ter integração, não estão no Mediapulse, que é o caso do esporte ali, que está no Mediapulse, mas que não tem integração com o Mediapulse. Estou no processo até de lançamento manual também, no jornalismo que não está no Mediapulse. Existe uma camada desapoplamento utilizada em parte das integrações com o MediaPulse, que ela poderia ser melhor utilizada, justamente buscando uma gestão desses processos que existem lá dentro do MediaPulse. Talentos artísticos, todo controle, toda gestão dos talentos artísticos é feita de forma descentralizada, aumentando, trazendo bastante complexidade no processo, é uma questão lá diversas ferramentas utilizadas hoje para fazer essa gestão dos talentos e aumentando bastante também o número de integrações com o mesmo propósito devido a essas diversas ferramentas. 
+
+49:21
+Júlio - NT
+E evoluções no processo de financeiro, que hoje é debito principalmente ao fato de todo o trabalho e por mais que o Mediapulse seja sistema, é trabalho manual que existe lá também. Então, toda a previsibilidade financeira, toda a agilidade da operação financeira acaba sendo muito morosa devido a todo esse trabalho manual e a previsibilidade financeira, que acaba sendo muito difícil previsibilidade justamente por todo esse atraso que existe no processo financeiro. Então, aqui são as principais oportunidades que a gente enxerga até o momento. A ideia é a gente começar a trabalhar em ideias de solução. Buscando dois computadores, como comentou lá no começo, de como que a gente cruza, o que a gente consegue achar de melhor custo-benefício de solução. 
+
+50:30
+Samuel - Globo
+É legal, cara. Aqui é mar de oportunidades pra gente trabalhar. Muita coisa aqui dá pra fazer. 
+
+50:40
+Júlio - NT
+E aí o que a gente tem de próximos passos aqui do trabalho é entender pouco mais sobre o RH. A gente não vai mergulhar no RH, conforme já comentado antes, mas a gente precisa entender pouco mais do que existe hoje no RH. A gente já está iniciando o processo de validação do AS IS, do nosso entendimento, do material que a gente está construindo, e trabalhar nos cenários, nas possibilidades de evolução no TUBI. Então, uma proposta de trabalho. 
+
+51:17
+Júlio - NT
+Tá bom. 
+
+51:20
+Samuel - Globo
+Tá bom, cara. Acho que está aqui o próximo passo da gente fazer essa conversa com a Michelle. 
+
+51:27
+Júlio - NT
+Vamos fazer já. 
+
+51:31
+Samuel - Globo
+Pode fazer logo depois do carnaval. 
+
+51:42
+Júlio - NT
+Na semana seguinte o carnaval tu diz? 
+
+51:45
+Samuel - Globo
+É. 
+
+51:46
+Júlio - NT
+Na semana já desce. 
+
+51:48
+Samuel - Globo
+Ok. Pronto, bom feito. Arrumou aqui a internet. 
+
+52:01
+Júlio - NT
+Muito bom, vou buscar essa agenda aí. Da... Comissária, então. Pra... Pra... Pra gente bater o papo todos juntos. 
+
+52:15
+Samuel - Globo
+Muito bem, cara. Acho que a gente andou bem no trabalho, cara. Acho que a gente tem a... As questões... Organizacionais aí com a Michelle pra resolver. Mas eu acho que a gente tem aqui bom material, tem uma boa base pra trabalhar e pra evoluir. É isso. Então tá, meus amigos. Obrigado aí pelo tempo, obrigado pelo trabalho, cara. E assim, tô exposição de vocês aí, porque vocês precisarem pra ajudar a gente fazer esse trabalho acelerar. 
+
+52:58
+Júlio - NT
+Perfeito, obrigado. Estamos à disposição também, qualquer questão. 
+
+53:02
+Samuel - Globo
+Então tá, valeu. Valeu. 

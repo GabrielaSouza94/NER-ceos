@@ -1,0 +1,755 @@
+ID= REU202502181900A
+Alinhamento: Análise: Captação + Star
+Participantes:
+Júlio Cesar Freitag Schweikart - Email: julio.cesar@ntconsult.com.br 
+Rodrigo Carlstrom - Email: rodrigo.carlstrom@ntconsult.com.br
+Gabriela Cruz - Globo
+Faulhaber - Globo
+
+RESUMO DA REUNIÃO:
+Foram discutidos os processos de captação, planejamento e alocação de talentos artísticos, com foco nas ferramentas Captação e Star. O sistema Captação é responsável pelo recrutamento de talentos artísticos, permitindo o cadastro inicial e a atualização de dados pessoais e profissionais, abrangendo elenco, criação, direção e produção artística. O sistema Star, por sua vez, realiza a curadoria e o planejamento de longo e médio prazo, integrando-se à Base Única de Talentos, que centraliza todas as informações cadastrais. A reunião também abordou a integração do Star com outros sistemas, como Arte, HCM e MediaPulse, destacando a importância da automação para reduzir processos manuais e otimizar o fluxo de contratação, negociação e pagamento de talentos. Foram mencionados os desafios de manter a consistência de dados, garantir a visibilidade de informações críticas e criar um processo mais fluido entre o planejamento estratégico e a execução no curto prazo.
+
+TRANSCRIÇÃO: 
+02:06
+Gabriela Cruz - Globo
+Olá, boa tarde. 
+
+02:08
+Julio - NT
+Boa tarde, Gabriela. 
+
+02:09
+Gabriela Cruz - Globo
+Tudo bem? Tudo bem. E vocês? 
+
+02:14
+Julio - NT
+Tudo bem. Chegou ele. Bom, não nos conhecemos ainda, né, Gabriela? Então, prazer. Eu sou o Júlio, colega aqui do Calstron. Prazer. 
+
+02:34
+Rodrigo Carlstrom - NT
+Boa tarde. 
+
+02:35
+Julio - NT
+Enquanto a Fernanda te adiantou já, nós estamos aí fazendo trabalho de entendimento das três áreas que envolvem o time da Fernanda, para entender pouco dos processos e das oportunidades que a gente consegue buscar aí para a evolução das ferramentas, das integrações, dos processos. E, ao final de tudo, a gente vai passar isso aí para a Michelle. Boa tarde, Zé. Tudo jóia? 
+
+03:15
+Faulhaber - Globo
+Boa tarde. 
+
+03:17
+Julio - NT
+E aí até já informando, a gente está gravando as agendas aqui para a gente reestudar depois, porque a gente está recebendo bastante informação. Muita informação mesmo. A gente estava conversando com a Aline agora. A Aline trouxe milhares de ferramentas que são usadas ali pela área dela. E a gente está aqui também com a Fireflyz, que é a nossa assistente virtual aqui, que vai tomando as notas aí para a gente. Então, eu vou colocar para gravar aqui. E aí... Pegando a minha colinha que eu tenho aqui. A gente já teve uma conversa com a Fernanda, onde ela nos trouxe. 
+
+04:14
+Julio - NT
+A. 
+
+04:15
+Julio - NT
+Visão macro da área, desde o cadastro do talento através da captação, passamos pelo Star, arte, e o space também. A arte e o space a gente já conseguiu detalhar pouquinho mais ali para frente. E a nossa ideia agora é entender pouco mais agora, aprofundar pouco no captação e no estar. Tanto ali, funcionalidades das ferramentas, processos que envolvem as ferramentas, pouquinho do que é, qual o objetivo de cada ferramenta, e aí a Fernanda nos direcionou a Tim e a Gabriela como ponto focal para a gente buscar aprender pouco mais sobre captação e start. 
+
+05:05
+Gabriela Cruz - Globo
+Beleza. Vamos lá. Boa tarde, então, de novo, pessoal. Vou compartilhar aqui a telinha. Só uma apresentação de apoio, tá? Para a gente conseguir falar de uma forma mais visual. 
+
+05:24
+Faulhaber - Globo
+Vamos lá. 
+
+05:27
+Gabriela Cruz - Globo
+Aqui, no meu time, a gente cuida de três aplicações O Captação, que é o sistema hoje responsável pelo recrutamento dos talentos artísticos E aí quando a gente fala dessa etapa de recrutamento A gente fala do cadastro deles São pessoas querem se tornar talentos artísticos na Globo E talento artístico, não sei se vocês já tiveram essa explicação antes são divididos em três principais públicos, elenco, criação e direção. Quando a gente fala de elenco, a gente tem ali os atores, os apresentadores, a gente tem cantores, bailarinos, tudo isso dentro do público de elenco. Quando a gente fala de criação, aí a gente já tem roteiristas, a gente tem... 
+
+06:20
+Gabriela Cruz - Globo
+Os autores, a gente tem todo mundo que está envolvido com o texto, com a criação de texto do conteúdo E quando a gente fala de direção, aí a gente tem diretor artístico, diretor geral dos conteúdos A gente tem assistente de direção, a gente tem todo mundo que está envolvido ali artisticamente com a direção E também a gente faz o cadastro de produção artística ou talento de bastidor, não sei como já explicaram para vocês, mas eles têm esses dois nomes atualmente. 
+
+06:54
+Gabriela Cruz - Globo
+Produção artística e talento de bastidores é outro público que também é considerado artístico, Que é dividido em mais de 12 tipos de público Aí a gente tem figurino, caracterização A gente tem a galera de edição A gente tem os fotógrafos A gente tem continuidade, que são os continuistas Então a gente tem todos esses públicos dentro desse grande grupo artístico A gente faz aqui no Capitação tanto o cadastro dessa galera, as pessoas querem se tornar talentos dentro da Globo recebem o link do Capitação, conseguem se cadastrar E eles também conseguem fazer atualização dos dados, que são essas duas primeiras caixinhas que estão aqui O Capitação se envolve tanto com cadastro de novos talentos quanto atualização dos dados desses talentos Vou dar exemplo A pessoa precisa atualizar algum dado de contato dela Ou precisa atualizar algum dado pessoal, ela mudou o nome dela Ou então ela tem novo nome social porque ela está em transição de gênero Ela tem algum dado de diversidade novo para declarar Então todo esse tipo de atualização no cadastro Ela consegue fazer aqui via captação Esse primeiro pedacinho aqui do recrutamento que fica com esse sistema E todo o restante que está aqui na tela fica com o Star E aí o Star se envolve desde o momento da curadoria É ele que é responsável pela curadoria desses talentos que eu falei que o Capitação cadastra e atualiza Então tudo que é cadastrado e atualizado no Capitação Fica numa base única de talentos, que eu também cuido aqui do meu time Eu sei que não está aqui nosso escopo de hoje, né? 
+
+08:41
+Gabriela Cruz - Globo
+Está só para falar do Capitação e do Star Mas eu preciso citar pontualmente a Base Única, porque ela é importante para essa cadeia. É uma base única de talentos, onde a gente agrupa todas as informações desses talentos, né? Pode falar, alguém ia falar alguma coisinha. 
+
+08:56
+Julio - NT
+Como é que é o nome da ferramenta? 
+
+08:59
+Gabriela Cruz - Globo
+Base Única de Talentos. 
+
+09:02
+Julio - NT
+Vou deixar anotado aqui. 
+
+09:03
+Gabriela Cruz - Globo
+Tá bem. Porque é uma base que realmente consegue consolidar todos os dados de todos esses talentos, sejam talentos artísticos ou talentos de bastidores, produção artística, e a gente disponibiliza dados para toda a nossa cadeia de talentos artísticos. Então, tudo que é cadastrado na captação já alimenta essa base de talentos que o STAR também consome Então, a partir do momento que o talento se cadastra ou atualiza dado, isso está já disponível na base única E o STAR é responsável por fazer a curadoria desse talento O que é esse processo de curadoria? Se eu estiver indo rápido demais, tá, gente? Podem perguntar, podem pausar. 
+
+09:47
+Julio - NT
+Só aproveitando a pausa, então a captação seria basicamente front-end para a base única de talentos? 
+
+09:58
+Gabriela Cruz - Globo
+Mais ou menos, porque ele não tem todos os dados da base única de talentos Ele só tem os dados responsáveis pelo início do processo de recrutamento Entendeu? Aí o Arte, por exemplo, que não sei se vocês já conversaram com a galera ali do Arte, já está numa etapa posterior, está numa etapa de contratação, negociação e contratação do talento. Então eles vão alimentar essa base única com outras informações que a gente não tem aqui no início da cadeia. 
+
+10:28
+Julio - NT
+Tá, então poderia-se dizer que praticamente toda cadeia ali para frente agora, a Arte, provavelmente o Space também se abastece dessa base única de talentos. 
+
+10:41
+Gabriela Cruz - Globo
+Isso, eles tanto consomem os dados quanto também mantêm eles atualizados com os dados desses talentos em outros estados, em outras fases Porque o talento vai caminhando aqui nessa grande cadeia Ele pode chegar aqui na etapa de curadoria e já ser reprovado Se ele não for aprovado na etapa de curadoria, ele provavelmente não vai ser alocado, não vai ser contratado Mas se ele for aprovado, ele vai avançando aqui nas nossas etapas Então esse fluxo de curadoria, ele é feito pela equipe de pesquisa de talentos, eles são responsáveis por pegar todas essas pessoas que se cadastraram e atualizaram os dados e avaliar. Avaliar se está adequado para algum trabalho interno da Globo, se não está. 
+
+11:28
+Gabriela Cruz - Globo
+Então eles fazem a curadoria desses talentos, Eles entram em contato com os talentos também para informar se tem algum dado faltando ou não Então, a gente não pode avaliar você se você não colocou nenhum histórico profissional aqui Então, eles têm esse contato com o talento e eles fazem a curadoria já dentro do STAAR E pós-curadoria, pode falar. 
+
+11:51
+Julio - NT
+Essa parte da captação, né? Quase que seria ciclo, né? Não foi aprovado dessa vez, o cara ele mantém na base, aí o pessoal da Coretaria vai lá, então vai sempre evoluindo essa base, a base é uma base evolutiva, tanto com o perfil dos candidatos também. 
+
+12:16
+Gabriela Cruz - Globo
+Perfeito, perfeito. Só para a gente ter ideia do funil, né? Quando a gente fala de todos os talentos que foram cadastrados, né? Que estão na base única, a gente tem quase 80 mil talentos. Agora, quando a gente fala do universo que está ali no Art, no Space, aí a gente já vai para universo de 2 mil talentos. Então a gente já passou por todo esse funil Só a galera que realmente está contratada, que está sendo paga Que está trabalhando com a gente Então a gente tem uma base de talentos bem extensa aqui Que mesmo que o talento não seja aprovado de cara na curadoria É isso que você falou mesmo, é processo evolutivo A equipe de pesquisa pode estar entrando em contato com esse talento E falar, olha, eu acho que você deveria fazer curso que poderia... 
+
+13:00
+Gabriela Cruz - Globo
+Poderia agregar bastante aqui no seu perfil Porque você tem perfil bom, mas você ainda não está pronto para ser aprovado nesse momento Então esse talento, uma hora outra, pode deixar de ter aquele status de não aprovado E passar a ser aprovado e conseguir entrar e ser alocado em algum conteúdo Então, posterior a essa etapa de curadoria, que é o funil inicial ali dentro do estágio A gente vai para a etapa de alocação A alocação é termo até que não sei se vocês já ouviram, mas é pouco polêmico Porque tem área que chama de planejamento, tem área que chama de alocação Mas deixa eu tentar explicar o que é alocação aqui dentro do Start É o planejamento a longo prazo e médio prazo O que é isso? 
+
+13:47
+Gabriela Cruz - Globo
+A gente consegue planejar o talento com data início e data fim dentro determinado conteúdo E a gente tem dois tipos de planejamento A gente tem o que a gente chama alocação vinculada a conteúdo Que são todos os tipos de alocação que o talento tem vínculo com determinado conteúdo Sempre dou o exemplo aqui do Cauã, do Chay Suede, né? 
+
+14:09
+Gabriela Cruz - Globo
+Que são talentos que a gente está acostumado a ver ali na telinha A gente pode alocar, por exemplo, o Chay numa nova novela das 19 do início do ano até outubro Esse tipo de planejamento é feito todo dentro do STAAR O STAAR é responsável por todo esse planejamento a longo prazo dos talentos artísticos E daquele público de produção artística que eu tinha comentado anteriormente Hoje é feito em planilha Esse planejamento a longo prazo E é justamente o que a gente está estudando trazer para dentro do STAAR Porque, não sei se vocês já falaram com a galera do MediaPulse Já? 
+
+14:48
+Gabriela Cruz - Globo
+Porque o MediaPulse está numa etapa mais profunda Ele pega todo esse planejamento a longo e médio prazo E transforma em planejamento a curto prazo Ele já está muito focado no dia-a-dia, hora-a-hora Então é planejamento muito mais profundo do que o que a gente faz aqui no Star O Star é muito mais magno. 
+
+15:07
+Rodrigo Carlstrom - NT
+- Gabriel, daí você está falando daquelas planilhas que são plano de produção E aquela que o pessoal chama lá de... O que é o Nave mesmo, Júlio? Tá dando a periódica? 
+
+15:21
+Julio - NT
+Lá é a simulação de recursos técnicos, estúdio e tudo mais. Tem outro nome ali, mas eu não lembro. Onde eles simulam ali qual estúdio vai estar alocado em determinado período para uma determinada produção. 
+
+15:39
+Gabriela Cruz - Globo
+Essa planilha já é domínio sistêmico do MediaPulse, porque a gente já está falando de recursos não-pessoas, a gente já está falando de fato, de hora a hora, o que é que precisa estar em determinada gravação. É planejamento muito micro, dia a dia, hora a hora. É curto prazo. Aqui no Star, a gente trabalha com longo e médio prazo. 
+
+16:06
+Julio - NT
+Não entendi ponto, Gabriela, Tem parte do planejamento que é feito dentro do STAAR e tem parte do planejamento que. 
+
+16:16
+Gabriela Cruz - Globo
+É feito fora do STAAR Isso, perfeito Porque o STAAR, esse produto, ele nasceu com uma visão dele muito voltada para talento artístico Ele é o criação e direção Então a gente só fazia planejamento desses públicos E todo planejamento de produção artística é feito manualmente pelas equipes É feito ali dentro das planilhas Porque as equipes também eram completamente apartadas Agora a gente tem uma direção única do negócio, que é o Bernardo Portugal A partir do momento que o Bernardo virou diretor tanto de talentos artísticos quanto de produção artística, a gente agora está começando a ver essa jornada completa de todos esses públicos. 
+
+17:05
+Gabriela Cruz - Globo
+Então, com isso, por isso que a gente começou o nosso estudo aqui em por que a gente não divide o planejamento a longo e médio prazo de todos os públicos dentro do Star e curto prazo de todos os públicos dentro do MediaPulse. Que a gente tem de sapato, ele já trabalha muito bem com as capabilities dos produtos que a gente tem aqui. 
+
+17:27
+Julio - NT
+O resultado desse planejamento de médio e longo prazo, ele vai ser em sumo para o MediaPulse, então? 
+
+17:35
+Gabriela Cruz - Globo
+Exatamente. A ideia é essa, tá? A gente ainda está bem no início desses descobres, dessas conversas, antes que a gente chegue, de fato, a ter os dois sistemas integrados, só que o nosso objetivo é esse, é a gente não onerar mais as equipes, porque hoje o planejamento que eles fazem de produção artística dentro da planilha É extremamente manual e a gente já tem todos os cálculos de conflitos que eles fazem manualmente, por exemplo, automatizado dentro do Star, que é o que a gente já faz para talento artístico. Então a gente vê bastante sinergia nisso. 
+
+18:15
+Rodrigo Carlstrom - NT
+Gabriel, ali a gente viu que tem o plano de produção, que é uma planilha. 
+
+18:20
+Gabriela Cruz - Globo
+Sim. 
+
+18:21
+Rodrigo Carlstrom - NT
+E tem esse público que vai definir mais a grade, que vai ser apresentada. Depois vem para outro time que é pouco mais técnico, que eles planejam os recursos críticos, que é uma outra planilha, né? E que eles não fazem a alocação ainda, eles só fazem a expressão da necessidade, né? Fala, vou precisar de tal coisa, vou precisar de tal coisa. Depois vai pro Mediapulse, que vai fazer a alocação de fato, né? 
+
+18:50
+Faulhaber - Globo
+Isso. 
+
+18:52
+Gabriela Cruz - Globo
+Quando a gente fala de produção artística, sim. 
+
+18:56
+Rodrigo Carlstrom - NT
+É, produção artística. E aí o escopo do Start que você tá falando aqui, que tá em Scoville, Seria essa a parte da expressão da necessidade ou já também a alocação? 
+
+19:05
+Gabriela Cruz - Globo
+Não, a expressão da necessidade, que aí a gente, de fato, pegaria qual é o figurinista que melhor se encaixa nessa cadeira que eu tenho disponível dentro do conteúdo nesse período E aí a gente começaria a fazer esse planejamento a longo e médio prazo aqui dentro do Star, que é o que eles fazem em Planeja Hoje, e a gente integraria no futuro com o MediaPulse, enviando essa informação para lá para que eles possam quebrar e diarizar isso Perfeito O processo que a gente está mapeando é esse. 
+
+19:35
+Julio - NT
+Deve ter alguma distinção em relação aos talentos de maior apelo público, né? 
+
+19:44
+Gabriela Cruz - Globo
+Isso. Isso que eu ia começar. 
+
+19:46
+Julio - NT
+Para a produção artística, total. 
+
+19:49
+Gabriela Cruz - Globo
+Porque para a produção artística é esse fluxo que eu comentei. Agora, para talento artístico, a gente não diariza, a gente não chega num nível de preciso que o Cauã esteja Dessa hora até essa hora. Planejamento não funciona dessa forma. A gente para no médio prazo. Pra ele já atende que o Kawane precisa estar de janeiro até maio ali, naquele conteúdo. 
+
+20:14
+Rodrigo Carlstrom - NT
+Aí, Gabriela, só pra entender pouquinho melhor. Tô tentando entender aqui o todo, né? Se fosse assim, se a gente for falar só de talento artístico, beleza, está fazendo esse discovery aqui para resolver. E os recursos materiais? Vai ficar fora do Start? 
+
+20:35
+Gabriela Cruz - Globo
+Isso, o Start faz planejamento só dos talentos mesmo. 
+
+20:39
+Rodrigo Carlstrom - NT
+Só dos talentos. Aí os recursos materiais precisariam ter uma outra plataforma, porque lá no MediaPulse ele trata de todos os recursos. 
+
+20:51
+Gabriela Cruz - Globo
+Não todos talentos artísticos não entram lá. 
+
+20:55
+Rodrigo Carlstrom - NT
+Não entra lá. 
+
+20:57
+Gabriela Cruz - Globo
+Lá é produção artística, recursos de produção... É verdade. 
+
+21:01
+Rodrigo Carlstrom - NT
+Lá tem recurso humano, mas não talento. 
+
+21:05
+Gabriela Cruz - Globo
+Isso. 
+
+21:05
+Rodrigo Carlstrom - NT
+É verdade. Isso mesmo. É verdade. 
+
+21:11
+Gabriela Cruz - Globo
+Então o que a gente está tentando fazer é tornar essa cadeia mais fluida A gente pegar, de fato, as melhores capacidades de cada sistema E a gente conseguir unir essa cadeia Então, falando de talentos artísticos, ele não passa pelo MediaPulse Mas como ele começa o planejamento de longo prazo e médio prazo aqui no STAAR A gente também cria locação para ele, que é o que a gente chama de aplicação que está aqui nesse desenhozinho como solicitação de aplicação, que é justamente quando a gente envia essa linha de alocação para pagamento do Space. Mas deixa eu tentar passar aqui por todas as etapas do fluxo para não ficar pouco confuso. Já chego na aplicação. Aí a gente aloca aqui no Start. Para talentos artísticos. A gente costuma fazer uma pré-alocação porque são vários talentos que podem se encaixar. 
+
+22:08
+Gabriela Cruz - Globo
+A gente pensou no Chay, a gente pensou no Cauã e a gente pensou no terceiro talento também para esse personagem. E aí o diretor artístico se envolve, o produtor de elenco se envolve e todo mundo até decidir qual é o talento que se encaixa ali. Tanto artisticamente falando, no conceito do personagem, quanto no orçamento do conteúdo também, que também tem que se encaixar no orçamento. 
+
+22:31
+Gabriela Cruz - Globo
+Não dá para eles planejarem sempre os talentos mais caros se não couber dentro do orçamento do conteúdo Então, após essa etapa de alocação, a gente pega essas linhas de alocações e a gente valora A gente vai para uma primeira integração aqui do Star, que eu queria comentar A gente integra com o sistema de valoração para a gente gerar vários cenários de valoração em cima dessas hipóteses aqui que eles estão levantando, em cima das pré-alocações eu estou pensando nesse, nesse Qual que se encaixa dentro do custo do conteúdo? Qual não se encaixa? Então a gente tem uma integração já com valoração Onde a gente já envia os dados para esse sistema gera os cenários de valoração, os custos disso Indica se está dentro ou fora do custo e retorna Para que a gente possa replanejar se necessário aqui no. 
+
+23:26
+Julio - NT
+Start A valoração seria o spacing? 
+
+23:31
+Gabriela Cruz - Globo
+Não, seria o sistema de avaloração. É sistema aqui da cadeia, não sei se vocês já falaram com eles. 
+
+23:39
+Julio - NT
+Esse não estava no radar, a gente já pegou esse costume. 
+
+23:45
+Rodrigo Carlstrom - NT
+Você sabe que eu vi isso em algum lugar ali, viu? Esse termo não é a primeira vez que aparece. 
+
+23:51
+Julio - NT
+É verdade, agora não seria mais. 
+
+23:55
+Rodrigo Carlstrom - NT
+Precisaria recuperar aqui os vídeos, mas realmente eu não tinha entendido também como se fosse sistema, eu tinha entendido que. 
+
+24:01
+Gabriela Cruz - Globo
+Era uma atividade É sistema E aí o que a gente faz? Nessa etapa de alocação, então, a gente envia todas as linhas de alocação para o sistema Valoração, tem essa integração com eles, onde eles geram os cenários de valoração Por que tem essa separação? 
+
+24:18
+Gabriela Cruz - Globo
+Historicamente falando, eu posso até falar que eu estava aqui quando fui até criado Tem uma equipe responsável por gerar esses cenários de valoração Que dentro da GCA são os negociadores Eles geram esses cenários, eles valoram e eles têm acesso a custo E a galera que está planejando não tem acesso a custo hoje Então por isso que tem essa certa separação, a gente envia os dados para valorar A gente gera esse cenário de valoração, o custo fica ali O custo é analisado pela equipe que pode visualizar esses custos, que pode negociar E depois retorna para a equipe de planejamento poder ajustar essas alocações Nesse pedacinho, o fluxo é esse E aí durante esse processo de planejamento a gente também tem várias integrações aqui dentro do Star A gente integra com o Arte para a gente conseguir buscar os cachês As alocações do tipo cachê que ficam lá no Arte, que são os pagamentos A gente também integra com o HCM Conecta Que eu não sei se vocês também já falaram com alguém de lá Mas é sistema de RH e as férias e afastamentos desses talentos ficam lá Então a gente consome os dados de lá para a gente não permitir que planejem o talento num período de férias e afastamento Então a gente calcula todo esse overbooking, esses conflitos de alocação Para a gente retornar aqui para o nosso usuário que está planejando Nesse. 
+
+25:48
+Julio - NT
+Caso tem uma distinção, né? O Kauan não está no HCM, né? 
+
+25:56
+Gabriela Cruz - Globo
+Então, os talentos artísticos que estiverem contratados como pessoa física estão no HCM Os que estão como pessoa jurídica, PSP, aí não estão no HCM Estão só no arte. 
+
+26:10
+Julio - NT
+Tá, ok. Pessoa física, no caso, a gente entende como CLT, né? 
+
+26:14
+Gabriela Cruz - Globo
+Isso, perfeito Não necessariamente, né, Gabi? É, tem alguns tipos de contrato ali. 
+
+26:24
+Faulhaber - Globo
+Assim, são várias modalidades de contratação diferentes para talentos artísticos, né? A Gabi mencionou aí o cachê. O cachê pode ser PJ, pode ser pessoa física. O PJ é uma aberração, mas aí acaba acontecendo. Enfim, mas tem N formas de contratação. E aí algumas têm regras específicas, por exemplo, do sindicato. E aí, às vezes, eles inclusive usam isso como maneiras de, talvez, tribular alguma dessas regras, enfim. Então, por exemplo, o cachê pode fazer não sei quantas gravações num período e tem que ficar 15 dias afastado, né? Tem prazo determinado, enfim. E aí é isso que ela falou, o CLT, que seria o talento de pessoa física que está cadastrado ali, ele é o único colaborador da Globo, como nós somos, só que a maior parte dos contratos são obra certa, que eles chamam, que o cara é contratado para fazer aquela novela. 
+
+27:15
+Faulhaber - Globo
+Então o contrato dele tem a vigência durante aquele produto, daquele conteúdo. 
+
+27:19
+Julio - NT
+Perfeito. A Fernanda tinha comentado alguma coisa assim por cima já com a gente, gostado desse fluxo macro aí, e justamente era o que eu tinha notado aqui, funcionário vai para o HCM, quem não é funcionário, independente do CPF ou PJ, vamos assim dizer, vai para o ARTE. 
+
+27:36
+Gabriela Cruz - Globo
+- Isso, porque bifurca bastante Se a gente for falar de todos os tipos de contrato A gente tem prazo longo, obra certa A gente tem prazo determinado, prazo indeterminado A gente tem termo de participação, a gente tem cachê Então são vários tipos de contrato aqui diferentes E esses tipos de contrato podem ser PF ou PJ E PSP, né? - Vai - Tá bem? 
+
+28:01
+Gabriela Cruz - Globo
+- Pode vai - E aí a gente tem essas integrações Com esses sistemas para a gente indicar aqui quais são os overbookings, quais são os conflitos Para indicar de fato o período que o talento está disponível para ser planejado A gente integra com valoração, como eu comentei E também a partir dessa locação a gente integra com o arte para essa etapa de negociação Vou dar exemplo, eu aloquei aqui o Chai Suede para a nova novela Só que o contrato dele estava como obra certa e acabava no início do ano Então, se eu quiser colocar ele até o final do ano na nova novela, eu vou ter que renegociar Então, o que a gente faz aqui? A gente pega essa linha de alocação, a gente envia essa informação via integração para o arte Solicitando uma nova negociação O Star faz isso, né? 
+
+28:55
+Gabriela Cruz - Globo
+E aí o Arte recebe esse pedido de negociação Aí os negociadores iniciam a negociação desse talento Iniciam a contratação dele E a gente tem uma integração aqui de retorno para o Star Para a gente visualizar todos os status dessa negociação Então todas as solicitações de negociação que a gente faz A gente consome também o retorno e o andamento delas ali do Arte A gente consegue saber se essa solicitação ainda está em rascunho, se já foi aprovada, se já foi negociada ou se fechou a negociação, se o talento já foi contratado, se ele já assinou o contrato Tudo isso a gente tem visibilidade daqui, que a gente integra com a arte tanto ida quanto volta. 
+
+29:38
+Julio - NT
+Uma dúvida agora, quando a gente fala aí dos temporários, vamos assim dizer, contratos ou obra certa ou cachê Toda essa parte aí de contratação fica no arte. E para aqueles talentos que são contratados como CLT, essa negociação acontece no próprio Star? Como é que funcionaria o fluxo dessa contratação? Se é necessária alguma negociação de valor, isso ocorre onde? 
+
+30:18
+Gabriela Cruz - Globo
+E por talento artístico é sobre gestão da GCA, que é a gestão de contratos artísticos Então aqui no Star a gente envia o que a gente precisa, qual período que a gente precisa daquele talento no conteúdo E aí o ARTE recebe essa informação e os negociadores que são responsáveis por fazer toda essa negociação Conversar com o talento, negociar o valor desse contrato, negociar cláusulas contratuais com ele Então está tudo ali dentro do ARTE mesmo junto com a RCA - Mesmo sendo CLT? 
+
+30:51
+Julio - NT
+Funcionário novo? 
+
+30:52
+Faulhaber - Globo
+- Mesmo sendo CLT - Sim - Na verdade ele executa depois a contratação, a formalização assinatura do contrato, etc, aí entra no fluxo do HCM, mas até estarem validadas as minutas, as cláusulas que vão estar no contrato, etc, esse fluxo inteiro acontece ainda naquele ambiente ali que a Gabi falou de GCA, que é dentro do arte. 
+
+31:14
+Julio - NT
+Então a integração do Star com o HCM é mais na questão ali que tu falaste ali de overbooking, né? Para ver período de férias e tudo mais. 
+
+31:22
+Gabriela Cruz - Globo
+Férias e afastamentos, isso mesmo. A gente também consome contratos do HCM, por quê? 
+
+31:27
+Faulhaber - Globo
+É mais para ter olhar de alocação, né, Gabi? 
+
+31:30
+Gabriela Cruz - Globo
+É isso, é isso. 
+
+31:32
+Faulhaber - Globo
+É a mesma coisa que o Ilha Plus faz, né? A gente vai lá no HCM para olhar também férias, afastamentos, né? 
+
+31:39
+Gabriela Cruz - Globo
+Isso mesmo. E contratos, porque se vocês já conversaram com a galera do Arte O Arte tem universo de contratos para alguns cargos Como está? A gente olha todos os cargos A gente olha os cargos de talentos artísticos e produção artística também Desde o momento do cadastro, da curadoria, do recrutamento que a gente estava falando A gente precisa saber se esse talento é mercado ou está contratado Então para a gente ter essa informação, hoje a gente não tem na empresa uma base única de contratos ainda, né? Tomara que a gente... 
+
+32:15
+Gabriela Cruz - Globo
+Mas enquanto a gente não tem, aqui no Star a gente vai no arte para buscar contratos determinados talentos A gente vai no Agra para buscar só os contratos históricos, os contratos antigos A gente vai no HCM para buscar os contratos da galera que é CLT e de produção artística, que também fica toda lá E a gente vai no SGT Mote para buscar os contratos de produção artística de mão de obra temporária Então a gente vai nessas quatro fontes de contrato hoje Para a gente disponibilizar a informação correta aqui no momento do planejamento. 
+
+32:51
+Julio - NT
+Você está falando de muitas integrações aí. 
+
+32:55
+Gabriela Cruz - Globo
+O Star é o rei das integrações. 
+
+32:59
+Julio - NT
+Essas integrações são trabalhadas lá pelo time do Sérgio também? Ou são dos próprios times aqui? 
+
+33:07
+Gabriela Cruz - Globo
+O nosso time, sim. O nosso time constrói essas integrações. Claro que a gente conversa com a galera de arquitetura, a gente conversa com a galera de integração para que a gente construa isso da melhor forma, mas quem constrói são os nossos times desenvolvimento. Então... Então, eu já falei de monte de integração aqui, né? No momento da alocação, a gente tem o HCM, a gente tem as férias. 
+
+33:33
+Faulhaber - Globo
+De apartamento... Você tem esse mapa das integrações também? 
+
+33:35
+Gabriela Cruz - Globo
+Tenho, tenho sim. Eu acho que se não tiver aqui, depois eu pego. Mas eu tenho. Eu tenho pra passar pra vocês. 
+
+33:42
+Julio - NT
+Boa. 
+
+33:44
+Gabriela Cruz - Globo
+Mas a gente tem o HCM, a gente tem o ARTE, a gente tem o AGRA, a gente tem o SGT-MOT Só nessa etapa aqui já de planejamento E aí quando a gente fala de valoração, a gente integra com valoração também Negociação, a gente integra novamente com o ARTE para buscar ali os dados de negociação E admissão e contratação também é com o ARTE Qual é esse fluxo de admissão que a gente participa aqui também no STAAR? A gente tem visibilidade de todo esse universo de contratos, como eu tinha comentado E os contratos que estão no arte, que estão sob gestão da GCA, que é a gestão de contratos artísticos Essa área dentro de talentos A gente consegue aqui do estar solicitar uma extensão contratual ou solicitar encerramento de contrato Desses talentos. Como acontece isso? 
+
+34:38
+Gabriela Cruz - Globo
+O conteúdo pode estar com, sei lá, uma audiência baixa E aí eles encurtam o período da novela, o tempo da novela no ar E todos os talentos que estão como obra certa dentro dessa novela A gente pode solicitar aqui o encerramento de contrato Então a gente muda a data fim do encerramento desse contrato, obra certa A gente encurta para o fim daquela novela Outro cenário que a gente já viu O talento acabou se envolvendo numa polêmica Já aconteceu algumas vezes uma polêmica tensa O talento chegou até a ser investigado e preso Então a gente solicitou também o encerramento de contrato de alguns talentos aqui a partir do STAAR Antes do término desse contrato Outra coisa pode acontecer de bom que é a extensão contratual, que é o contrário, né? 
+
+35:31
+Gabriela Cruz - Globo
+A novela está mandando super bem, a gente vai estender o período da novela Então todo mundo que está com uma obra certa vai ter esse período ali de contrato estendido Então todos esses pedidos de extensão e encerramento de contrato A gente faz aqui a partir do estar para o arte executa ali junto com a GCA Ok? Até aqui, gente? Eu estou correndo, é porque é muita... Acaba sendo muita informação, estou tentando usar o nosso tempo aqui da melhor forma. 
+
+36:04
+Rodrigo Carlstrom - NT
+- Não, não, está ótimo A gente fica meio pensativo aqui porque a gente está tentando encaixar todas as pecinhas aqui, né? 
+
+36:09
+Gabriela Cruz - Globo
+- É, e o startup acaba... Ele dá o start em vários processos, né? Que vocês já devem ter comentado aqui de outros sistemas Ele inicia o fluxo de valoração, ele inicia o fluxo de negociação Ele inicia o fluxo de extensão contratual e encerramento E ele também inicia o fluxo de pagamento Ele é como. 
+
+36:29
+Faulhaber - Globo
+Se fosse cliente de todo mundo, porque o Star é de fato o sistema que é usado pela produção Pela galera que está ali no dia a dia do conteúdo, então eles estão produzindo conteúdo, estão criando Então são eles que disparam os pedidos, então assim ó, pensei num conteúdo aqui que vai ter protagonista assim assado, vai ter essa quantidade aqui de... De elenco, de diretores, eu preciso de não sei quantos roteiristas, com esse perfil aqui, então eles vão lá no Star e começam a disparar esses pedidos. Eles falam assim, ó, esse protagonista aqui tem que ser o Antônio Fagundes, aí dispara o pedido ali de Antônio Fagundes. E aí as áreas de competência vão lá, beleza, deixa eu fazer uma valoração aqui pra ver se o Antônio Fagundes cabe no seu conteúdo. 
+
+37:10
+Faulhaber - Globo
+Não, não cabe, deixa eu te dar outras sugestões aqui de nomes, enfim, Que não estejam enrolados, como a Gabi falou, não tem nenhuma polêmica acontecendo, enfim Então, as áreas de competência devolvem essas respostas E disparam os fluxos que forem necessários para viabilizar aqueles talentos no conteúdo Perfeito. 
+
+37:34
+Gabriela Cruz - Globo
+E por último, pessoal, no finalzinho aqui da nossa cadeia, a gente integra com o Space Para talento artístico, produção artística não Porque a gente ainda não está com esse fluxo todo dentro do sistema Mas para talento artístico, a partir da linha de alocação desse talento A partir da reserva fechada ali do talento no conteúdo A gente dispara uma solicitação de aplicação para o space Que nada mais é do que a confirmação daquela alocação Eu estou dizendo que aquele talento pode ser pago naquele período e naquele conteúdo Então a gente envia essas informações para o Space e o Space consegue executar de fato o pagamento desse talento. Então a gente solicita e edita essas aplicações aqui pelo Star via integração. Até aqui tudo bem? 
+
+38:26
+Julio - NT
+Essa integração para pagamentos acontece também com o FPWHCM, que é o cara do pagamento dos funcionários do CLT. 
+
+38:40
+Faulhaber - Globo
+É o FPW. 
+
+38:42
+Julio - NT
+É o FPW. Então, tem integração do Star com o FPW direto também? 
+
+38:47
+Gabriela Cruz - Globo
+Não. A gente integra via Space. A gente envia para o Space envia lá para o FPW. Porque dentro do Space, antes de ser enviado para o FPW, ainda tem toda aquela parte cálculo de remuneração. Então, ele faz todos os cálculos para que o pagamento seja executado antes de enviar para o FPW. 
+
+39:09
+Faulhaber - Globo
+Se a gente pensar nos domínios, o Star está olhando para alocar os talentos ou planejar os talentos para o conteúdo. E aí ele precisa sinalizar alguns dados que eu preciso para poder pagar corretamente Então, por exemplo, eu agora tenho conceito de pagamento por entrega Quem diz se o talento entregou ou não entregou aquilo que ele deveria entregar É o time lá da produção, do entretenimento, dos estúdios de uma forma geral Então ele alimenta dados que vão ser usados para pagar Mas ele não está inserido no domínio de pagamento O pagamento é outra área que executa, enfim Então para eles é assim, estou alocando, paga aí -. 
+
+39:54
+Gabriela Cruz - Globo
+É uma visão mais artística desse planejamento E a gente vai integrando com os times responsáveis Se a gente integra com a GCA já vai ter outro olhar Também é artístico, mas eles vão ter olhar mais pé no chão Eles vão poder olhar se está dentro do custo do conteúdo, se não está Na etapa de valoração, na etapa de negociação, eles vão conseguir olhar se está dentro das cláusulas contratuais ou não O que a gente precisa negociar com aquele talento para que isso seja sustentável dentro do conteúdo Então a GCL tem olhar mais técnico nesse sentido Assim como a galera do Space também, que é o DECAI O DK vai ter olhar muito mais voltado para o propagamento do talento, para executar aquela linha de alocação que saiu ali da equipe de planejamento. 
+
+40:44
+Gabriela Cruz - Globo
+Então, ele está pouco se lixando, na verdade, se o Kauan ia fazer o melhor papel nesse personagem, nesse conteúdo. Ele quer saber, de fato, se o Kauan vai receber corretamente. Então, é outro olhar. 
+
+40:56
+Julio - NT
+Se. 
+
+40:58
+Julio - NT
+A gente pegar a linha do tempo aqui, então, você tem ali uma fase inicial planejamento, inclusive planejamento de custos, vamos assim dizer, dentro do Star, né? Negociação para admissão, que seria o próximo passo aí do talento. E aí tu falaste de pagamento, então teria uma fase de execução daquilo que foi planejado também, né? E isso acontece somente após uma gravação, somente após a realização daquilo que foi acordado com o talento. 
+
+41:38
+Gabriela Cruz - Globo
+Isso, isso mesmo. 
+
+41:40
+Julio - NT
+Então tem alguém que vem aqui dentro do Star depois e diz, o Kauan fez ou não fez? 
+
+41:46
+Gabriela Cruz - Globo
+É isso. E se esse fez ou não fez, é de fato a solicitação de aplicação, que aí ele pega a linha da reserva do Cauã naquele conteúdo e diz, então vamos solicitar a aplicação do Cauã porque já tá tudo certinho, já executou, então tá pronto para pagamento. E a gente envia essa solicitação de aplicação. 
+
+42:04
+Faulhaber - Globo
+É diferente dos recursos que vocês viram lá no Miraculso, que são só planejados, A Gabi deve ter explicado o conceito de alocar, de aplicar Os talentos artísticos têm uma verba adicional por estarem aplicados em conteúdo Ou seja, se ele não está na geladeira, ele ganha uma bonificação Então alguém precisa dizer a aplicação desse talento Então é isso que eles fazem no Star, que não deixa de ser tipo de alocação Então eu estou alocando o Kauan nessa novela aqui, do dia tal até o dia tal E aí com isso o sistema de pagamento vai saber que aquele período ali estava aplicado Então eu tenho que aplicar a regra de bonificação que está em contrato relacionada àquela aplicação. 
+
+42:48
+Gabriela Cruz - Globo
+Se a gente for simplificar esse fluxo, no meu ponto de vista a gente tem alguns domínios aqui A gente tem o domínio de recrutamento, e aí quem participa é o Capitação e o Star Porque o Star faz a curadoria e o Capitação faz essa parte de cadastro A gente tem o domínio de planejamento que, para mim, engloba tanto alocação quanto valoração Porque isso aqui fica bate-e-volta dentro do processo Eu aloco, aí eu valoro, vejo se está aderente ao custo do conteúdo Se não tiver, eu replanejo Então tudo isso aqui está dentro, para mim, domínio de planejamento E aí a gente tem domínio de negociação, que aí está dentro de negociação, admissão Tudo extensão contratual, contratação, tudo isso para mim está dentro domínio de negociação E temos o outro domínio de pagamento, que aí já é muito mais space, né? 
+
+43:42
+Gabriela Cruz - Globo
+Negociação é muito arte, pagamento é muito space E a parte de planejamento aqui é estar Só que o valor ação não fica hoje no estar, ele é sistema apartado Então tem esse bate e volta ainda entre os dois produtos para que a gente feche o planejamento adequado Porque uma equipe que planeja aqui não tem visibilidade do custo E outra equipe tem visibilidade do custo lá E a gente precisava juntar essas duas pontas para que o planejamento já tivesse o mais adequado possível E aí ao longo disso tudo, né? 
+
+44:21
+Gabriela Cruz - Globo
+Tem a gestão, desenvolvimento e avaliação do talento Isso aqui é feito dentro do Star também A gente tem a ficha do talento onde faz resumo do talento É como se fosse LinkedIn daquele talento Tem todo o histórico dele, tem todas as informações dele Onde ele está alocado, onde ele está contratado, qual foi o último contrato dele Quais os contratos que ele já teve dentro da Globo Deixa eu ver, todo histórico profissional, todos os dados de diversidade, dados pessoais Ele acaba englobando todas as informações desse talento num único lugar E a partir dessa ficha a gente consegue fazer a gestão desse talento, o desenvolvimento dele Porque os produtores que são responsáveis por esses talentos Eles, a partir dessas informações, entram em contato com o talento para estimular o desenvolvimento deles Para que eles estejam sempre adequados, principalmente se eles estiverem em contrato prazo longo A gente precisa fazer com que esse talento esteja disponível Que ele esteja adequado dentro da empresa para que ele seja melhor utilizado Para que a gente não tenha custo ali com aquele talento E ele não esteja alocado em lugar nenhum E tem também a parte de avaliação desses talentos Essa equipe também faz a avaliação deles Como foi o trabalho desse talento nesse conteúdo? 
+
+45:35
+Gabriela Cruz - Globo
+Ele mandou bem? Ele não mandou bem? Então tem todo modo de avaliação aqui dentro do Start Para que eles saibam se devem estender o contrato de talento ou se devem encerrar ou se devem desenvolvê-lo melhor para tomada decisão artística Termos de fluxo pessoal é isso aqui, resumidamente E aí o captação, como a gente falou ali no início, ele nasceu com essa... 
+
+46:07
+Gabriela Cruz - Globo
+Essa necessidade de fazer o recrutamento dos talentos, de ter lugar único para cadastro Porque antes a gente tinha quatro fontes diferentes de cadastro de talentos Eles cadastravam via planilha, eles cadastravam no e-mail, eles mandavam WhatsApp às vezes para a equipe com os dados Então a gente tinha problema ali de segurança dos dados mesmo Então a gente começou a trabalhar com a LGPD A gente unificou todas essas soluções que eles tinham de Word, de Excel, de WhatsApp, desses talentos A gente conseguiu unificar tudo isso na captação E também foi a primeira forma de dados de autodeclaração de talentos na empresa o que a empresa fazia só por meio de censo para coletar os dados de diversidade, agora a gente já consegue fazer aqui de toda a nossa base de talentos via captação. 
+
+47:01
+Julio - NT
+Uma dúvida aí, o captação, digamos assim, oportunidades global, oportunidades para talentos global, ele tem essa as oportunidades, espaço para cadastro das oportunidades, ou ele se restringe já a... O Caustron vai ser contratado como talento, ele vai lá e se cadastra, vai direto se cadastrar, ou ele aplica para uma vaga, digamos assim. 
+
+47:33
+Gabriela Cruz - Globo
+Diferente de talentos não artísticos, talentos não artísticos a gente sempre tem uma vaga em aberto A gente sempre tem uma oportunidade em aberto A gente tem o. 
+
+47:42
+Faulhaber - Globo
+Banco de Talento da Globo A pessoa pode entrar lá e se cadastrar e fica lá no banco, é a mesma. 
+
+47:46
+Julio - NT
+Coisa. 
+
+47:49
+Gabriela Cruz - Globo
+Mas aqui nunca tem uma vaga, né? 
+
+47:51
+Gabriela Cruz - Globo
+A pessoa nunca se cadastra para uma vaga específica Existe uma equipe de pesquisa e captação de talentos Responsável por ficar olhando mesmo o mercado, qual talento que é legal Eles vão lá fazer convite para esse talento para fazer parte da nossa base de dados Ou então algum produtor de elenco já está pensando em algum personagem E olha numa rede social e fala, poxa, esse talento aqui está fazendo conteúdo bacana A gente acha que se encaixa E a gente convida ele para fazer parte Então eu acho que ele nem sempre surge com uma vaga em aberto Muitas vezes eles olham, poxa, esse talento aqui tem perfil interessante, vamos convidar ele Ou então é o próprio talento que No captação e já se cadastra e fica ali fazendo parte da nossa base de dados E quando surge algum personagem ou alguma cadeira dentro de algum conteúdo Aí sim eles batem, cruzam com os dados pessoais, dados de diversidade Com as características físicas, com as aptidões, porque a gente tem aptidão aqui também É talento que sabe, sei lá, pilotar helicóptero eles têm esse nível de aptidão, então se eles precisam de algum papel que precise pilotar a helicóptero, eles conseguem também buscar aqui na base de talentos, se tem algum talento adequado para o papel. 
+
+49:10
+Gabriela Cruz - Globo
+Então é muito sob demanda, sabe? A gente tem uma base de dados e quando surge uma oportunidade, a gente pesca dessa base de dados. 
+
+49:17
+Julio - NT
+Então o profissional, o talento, ele já vem direcionado a se cadastrar e não... Concorrer a uma oportunidade, uma vaga como é nas demais áreas. 
+
+49:31
+Gabriela Cruz - Globo
+É isso, é isso. E aí, diversidade, né? Tá até pouco desatualizado esse slide, a gente agora já tá chegando nos 20 mil, a gente já tem quase 20 mil talentos autodeclarados, então a gente alimenta também os painéis de diversidade da empresa, né? Que a gente não tinha essa visibilidade anteriormente e a gente precisa melhorar a diversidade nos conteúdos. 
+
+49:52
+Gabriela Cruz - Globo
+Então, com esse objetivo estratégico, a gente conseguiu, a partir desses dados, cruzar os dados com a diversidade dos conteúdos e trazer os melhores talentos para o planejamento E a gente também tá totalmente adequado à acessibilidade, a gente tem plugin de Vlibras e do Readable A gente tem case, não sei se faz sentido falar de tudo isso aqui Mas só pra dizer que a gente tem acessibilidade dentro da captação E a gente, inclusive, fez captação de talentos com deficiência visual Que antes era feito só pessoalmente, né? 
+
+50:31
+Gabriela Cruz - Globo
+Ali para Todas as Flores, que foi a série da Globo A gente conseguiu captar talentos com deficiência visual A partir da captação por causa do nosso plugin de acessibilidade Então isso deixou de ser feito também só pessoalmente O talento tinha que ir até os estúdios para ser contratado Para fazer algum tipo de entrevista E agora a gente já consegue fazer a captação deles pelo sistema Aqui eu vou passar rapidinho só mostrando como funciona o plugin Aí base única eu acho que não é o nosso foco hoje, né? Pelo que eu entendi, é só captação estar, certo? 
+
+51:10
+Julio - NT
+Se quiser dar uma... 
+
+51:12
+Faulhaber - Globo
+Eu acho que vale a pena dar. 
+
+51:13
+Gabriela Cruz - Globo
+Vale a pena? 
+
+51:14
+Faulhaber - Globo
+E ele está conectado com a cadeia inteira, né? 
+
+51:17
+Julio - NT
+É isso! 
+
+51:17
+Gabriela Cruz - Globo
+Por isso que eu falei, gente, é a base única, vocês vão ouvir falar muito dela ainda. Tá, perfeito. 
+
+51:23
+Faulhaber - Globo
+Mas basicamente hoje quem está ligado nela são os sistemas de talentos e o ADEGA, é isso? 
+
+51:30
+Gabriela Cruz - Globo
+E o HCM está integrando agora. O HCN também está começando a criar esse tipo de integração Porque a gente tem duas fontes de dados de talentos A gente acaba tendo captação, onde ele pode atualizar os dados dele E a gente tem o Conecta também Então, o que a gente está fazendo? 
+
+51:52
+Gabriela Cruz - Globo
+A gente está construindo essa integração entre Conecta e base única Para que todos os dados que o talento atualize via captação E atualize a base única, o Conecta também tenha visibilidade disso E não tenha que pedir de novo para o talento os mesmos dados A gente está tentando simplificar essa jornada E aí aqui para a base única de talentos A gente tem talentos artísticos e talentos de produção artística centralizados A gente disponibiliza esses dados para toda a cadeia Aqui de talentos como o Zé comentou A gente também está adequado à LGPD Porque todos os dados dos talentos que estão na base A gente já tem aceite do talento que é captado lá no... Captado na captação ficou péssimo, né? 
+
+52:33
+Gabriela Cruz - Globo
+A gente tem essa flag de aprovação do talento que os dados deles fiquem aqui na nossa base E a gente tem a base de domínios que a gente também elimina a divergência entre sistemas O que é essa base de domínios? 
+
+52:50
+Gabriela Cruz - Globo
+A gente tem uma base de estados, de cidades, de países Porque cada sistema que cadastrava talentos tinha uma base diferente Quando a gente ia cruzar isso era uma loucura Mesma coisa para a lista de diversidade, a gente conseguiu unificar todas essas listas de diversidade entre os sistemas A gente trouxe aqui para a base única de talentos como domínio E agora todos os sistemas que consultam diversidade ou que cadastram diversidade consomem aqui da gente A gente conseguiu centralizar Isso acabou otimizando o processo de atualização de talentos na cadeia Porque se a gente fosse contratar talento como era antes da base única A gente tinha que cadastrar ele no Capitação, cadastrar ele no Star, cadastrar ele no Art, cadastrar ele no Space E todos esses cadastros eram manuais e podiam ter divergências Porque esses cadastros eram feitos por pessoas ali das equipes -. 
+
+53:44
+Faulhaber - Globo
+E aí era o caos, né? Porque o talento terminou o contrato E aí o cara que paga, por algum motivo, precisou entrar em contato com o talento e ele atualizou algum dado, mas ele atualizou só lá no space. E aí quando eu vou renovar o contrato, o cara lá que faz a negociação não tem esse dado atualizado, então faz contrato com dado errado. Enfim, era caótico. Então a gente criou uma base única justamente para que todo mundo fale dos mesmos dados, atualize os mesmos dados e a gente tenha uma visão unificada dos dados desses talentos. 
+
+54:15
+Gabriela Cruz - Globo
+É isso, desde problemas pequenos, como o contato do talento, o telefone dele está desatualizado, como problemas jurídicos mesmo, o talento mudou de nome ou ele se desfica com outro gênero agora, e é o caos, a pessoa que está fazendo atendimento dele lá na ponta não sabe disso, porque não tinha informação atualizada Então hoje. 
+
+54:36
+Faulhaber - Globo
+O talento liga lá para a central de serviço para tirar a dúvida? O atendente lá já tem dado que está atualizado, que é a mesma visão que todo mundo tem daquele talento. Então, se ele quiser atualizar ali, ele atualiza e isso replica para todo mundo. 
+
+54:52
+Julio - NT
+Uma dúvida aqui, questão de escrita e leitura. Quem escreve nessa base única aí, digamos assim, seria o captação, onde o próprio talento vai lá e atualiza seus dados e mantém os dados. Todas essas demais aplicações aí que vocês mencionaram que utilizam essa base única Elas só se abastecem de informações aí da. 
+
+55:16
+Gabriela Cruz - Globo
+Base única Se abastecem e complementam também, né? Porque o cartazão... É, mas é possível assim, né, Gabriel? É, exatamente, a gente queria muito Só. 
+
+55:24
+Faulhaber - Globo
+Os dados sensíveis é que o talento tem que atualizar Mas, por exemplo, se ele quiser atualizar o endereço dele Ele pode ligar na central do serviço e o atendente atualiza para ele E aí ele atualiza via uma interface de captação, enfim, detalhes técnicos de como ele faz, eu não sei, mas tem outras fontes que ele pode... No próprio arte ele atualiza também, não é, Gabi? 
+
+55:45
+Gabriela Cruz - Globo
+É isso, é isso. Isso é até uma etapa da jornada que a gente quer rever em breve, porque... 
+
+55:51
+Faulhaber - Globo
+O negociador atualiza quando vai renovar contrato, por exemplo, alguma coisa assim. 
+
+55:55
+Gabriela Cruz - Globo
+É isso. Porque, por exemplo, o Star não tinha todos os cargos, como eu contei a história ali no início A gente só tinha os cargos de talentos artísticos, a gente não tinha os cargos de produção artística E a GCA, que é a Gestão de Contratos Artísticos, faz negociação de produção artística Então o que acontecia? 
+
+56:12
+Gabriela Cruz - Globo
+Se o talento não estava cadastrado ali no estádio, não tinha sido cadastrado na captação O negociador precisava cadastrá-lo ali no arte para poder negociar Então tem fluxo de cadastro de talentos ainda dentro do arte A gente está tentando eliminar isso para que a gente tenha uma fonte única de cadastro que é a captação Mas para esses cargos de produção artística e cargos de exceção Eles cadastravam, faziam pré-cadastro desse talento com nome, CPF, alguns dados ali obrigatórios mínimos Cadastravam o talento para poder negociar e gerar o contrato dele E depois enviava o link do captação para esse talento complementar esse cadastro Esse fluxo a gente está tentando melhorar para que agora que todos os cargos já estão ali desde o início da cadeia A gente pode eliminar mais uma etapa, né? 
+
+57:06
+Gabriela Cruz - Globo
+E falando em complemento de dados, isso que o Zé falou O Space pode, lá no final, entrar em contato com ele para pagar E ele falou, poxa, eu mudei meu telefone A gente não obriga que o talento volte na captação e atualize Ele pode fazer isso a qualquer momento, mas se ele já tem informação atualizada ali No próprio Space ele consegue atualizar o telefone e isso atualiza na base 1 Então, de forma resumida. 
+
+57:33
+Faulhaber - Globo
+Depende do tipo de dados, né? Tem dados que podem ser atualizados por todo mundo, tem dados que só dão talento, não é isso? 
+
+57:39
+Gabriela Cruz - Globo
+A gente tem regras, né? De acordo com a LGPD. Dados pessoais, dados de diversidade do talento, somente o talento pode atualizar, ninguém mais. Agora, dados de contato do talento, dados de documentação do talento, isso outras pessoas, outras equipes podem atualizar. DCAI, que é o RH, pode atualizar, a GCA, que é a gestão de contratos, pode atualizar Porque são dados ali que ele está pedindo no momento da contratação Então esses outros dados a LGPD permite que a gente atualize e não só o talento - Tá, acho que. 
+
+58:13
+Julio - NT
+Foi muita inocência minha também pensar que se o Tony Ramos mudar de endereço Ele vai acessar o Capitação - Então. 
+
+58:20
+Gabriela Cruz - Globo
+A gente tá tentando chegar lá -. 
+
+58:22
+Faulhaber - Globo
+Ele nem acessa, ele tem assessor para fazer isso. 
+
+58:27
+Gabriela Cruz - Globo
+A gente tem conversado com alguns agentes de talentos para estimular esses talentos maiores Tipo o Fernanda Montenegro, gente, ela nunca vai entrar na captação Infelizmente, a gente faz captação todo amor e carinho Mas ela vai falar que não tempo para acessar Então pelo menos que o agente dela acesse e mantenha os dados atualizados Esse é o fluxo que a gente está tentando fechar ali com eles Bastante coisa. Muita, né? 
+
+59:00
+Gabriela Cruz - Globo
+E aí temos a arquitetura da Base Única de Talentos, eu não vou aprofundar nisso aqui, eu posso mandar para vocês, até porque eu até pediria apoio de alguém mais técnico do meu time para explicar, mas basicamente a gente integra com todos esses sistemas da cadeia, todo mundo acessa, a gente tem eventos também que a gente disponibiliza para que todos os sistemas acessem, E consumam e possam atualizar nas respectivas bases Porque a gente ainda não eliminou todas as bases de talentos que a gente tem em todos os sistemas Tem sistema que manteve a base de talentos, mas mantém ela atualizada por meio de eventos Para manter sempre esse sincronismo entre as bases E aí o Star, falando de macrofuncionalidade deles É tudo que a gente acabou comentando ali no fluxo Mas aqui ele acaba consolidando, a gente tem uma visão de contratos Não só contratos ARTE, como a gente fala aqui dentro da cadeia Mas a gente tem contratos ARTE, AGRA, HCM e SGP-MOD Todos os contratos de todos os cargos A gente tem busca avançada de talentos e conteúdos que é usado justamente para o fluxo de planejamento Eu preciso encontrar talento que fale espanhol, que fale inglês, que ele também pilote, sei lá, jet ski A gente tem uma base muito louca de aptidões aqui, depois eu posso mostrar para vocês É a mais diversa possível, né? 
+
+01:00:33
+Gabriela Cruz - Globo
+Então a gente cruza todas essas aptidões Com o que eles precisam dentro do conteúdo Através da busca avançada E a gente consegue encontrar os melhores talentos Os talentos que se encaixam naquelas necessidades A gente tem a consulta de disponibilidade Que é onde a gente, como time de planejamento Consegue identificar quem tem disponibilidade e contrato ativo Por que isso é tão importante estratégia Porque quem tem contrato ativo com a Globo, como o Zé falou, recebe por isso Mesmo não estando alocado Então a gente quer reduzir esse custo de não-alocação Que é o custo do talento quando ele não está em nenhum conteúdo e está com contrato ali ativo Ou seja, ele está ganhando para não fazer nada, gente É bem isso Eles não gostam que a gente fale com todas essas letras Eles chamam de custo de não-alocação, que é muito mais bonito É isso, na teoria a gente precisa reduzir esse custo da empresa e manter esses talentos alocados, se eles têm. 
+
+01:01:35
+Faulhaber - Globo
+Contratativo Acho que a Fernanda falou sobre alocado e não alocado com vocês Alocável e não alocável, porque não é só talento, né? 
+
+01:01:43
+Rodrigo Carlstrom - NT
+É isso É disponível, né? 
+
+01:01:49
+Gabriela Cruz - Globo
+E a linha do tempo é uma planilha que vocês já devem ter visto ali com o time do MediaPulse Eles pintam de cores diferentes na planilha, né? O tempo de disponibilidade do talento, qual tipo de alocação A gente tem essa linha do tempo automatizada dentro do Start, né? A gente já pega todas as linhas de alocação do talento Linha de férias, afastamento, cachê, disponibilidade, que é o período Do contrato subtraído de todas essas alocações Então a gente já plota tudo isso no Gantt É o que a gente chama de linha do tempo É uma gestão visual desse planejamento A gente tem uma consulta de overbooking que mostra também Se o talento está sendo alocado em vários conteúdos ao mesmo tempo Então a gente só alerta, aqui no Star a gente tem uma regra, né? 
+
+01:02:39
+Gabriela Cruz - Globo
+A gente mostra que vai dar problema Que o talento vai ter burnout se você colocar ele em cinco conteúdos ao mesmo tempo Mas a gente não impede que o time de planejamento siga, né? 
+
+01:02:51
+Gabriela Cruz - Globo
+A gente não tem nenhum impeditivo, a gente só tem alerta, realmente Então a gente alerta o overbooking E o time de planejamento é que toma a decisão de seguir ou não com esses planejamentos A gente tem gestão e desempenho do talento Que foi o que eu comentei, são os módulos de avaliação do talento Onde a gente confronta o que o talento preencheu quando ele colocou lá na captação Que ele é maravilhoso, que ele faz mil e uma coisas Depois da avaliação dele se ele realmente consegue ter todas as repetidões ou não Então a gente tem essa gestão e desempenho desses talentos A gente tem gestão de categorias e subcategorias Essa gestão de categorias e subcategorias, eu como PO do produto Acho que não deveria estar aqui dentro do Estado, eu acho que é outro domínio É domínio de cargo, e a gente tem uma base única de cargos sendo criada ali na base única de talento E essa base única de cargos, o que é categoria e subcategoria de cargos? 
+
+01:03:51
+Gabriela Cruz - Globo
+Só para tentar explicar aqui A gente tem o cargo ator, a gente tem uma categoria protagonista, iniciante, coadjuvante Então a gente tem várias categorias dentro de alguns cargos E a subcategoria é o nível que a pessoa está, nível 1, nível 2, nível 3 Nosso universo aqui eu tenho uma PO Junior Pleno e sênior, tem uma PO especialista Então assim como a gente tem cargos não artísticos A gente também tem essa classificação de categoria e subcategoria para cargos artísticos Hoje, como a gente não tinha essa cadeia toda muito estruturada antigamente O STAR acabou absorvendo isso Ele acabou criando uma base de cargos, categorias e subcategorias Eu acho que isso não faz parte domínio da visão do produto De tudo que deveria estar aqui dentro Então a gente está com projeto em andamento do Star 2.0 Que é a modernização do Star E a gente já decidiu que a gente não vai levar esse módulo para o novo Star Então a gente já deve levar isso para uma base única de cargos, né? 
+
+01:05:04
+Gabriela Cruz - Globo
+E separar esses domínios Mas eu só trouxe aqui para dar visibilidade para vocês Que o Star antigo, não o Star novo, ele ainda tem Essa gestão de cargos, categorias e subcategorias Tudo bem, gente? A parte de curadoria, que eu já comentei bastante, então não vou aprofundar aqui A ficha artística, que é onde a gente também... Eu chamo de LinkedIn Artístico do Talento, que é onde a gente consegue agrupar todas as informações dele E exibir. A ficha do conteúdo, que aí a gente pega os dados do conteúdo do ADEGA Mais uma integração aí Onde a gente visualiza todos os dados do conteúdo do ADEGA Todas as fases desse conteúdo, as datas das fases Isso é uma régua importante para o planejamento, né? 
+
+01:05:57
+Gabriela Cruz - Globo
+Planejar o talento naquele conteúdo Eu preciso saber quando começa o desenvolvimento desse conteúdo Quando começa a fase de gravação Então todos esses dados a gente consome do ADEGA A gente disponibiliza ele na ficha do conteúdo Para que eles possam cadastrar os personagens do conteúdo As cadeiras do conteúdo e possam planejar esses talentos nessas posições artísticas A gente tem planejamento de alocação, que eu também já comentei Como é feito o planejamento a longo prazo e médio prazo aqui dentro do Star E como a gente envia isso para aplicação e pagamento Solicitação de valoração, a gente também comentou E solicitação de negociação, que é a nossa integração com a arte para negociação contratual dos talentos Aí, essa aqui é só a telinha de login do novo Star e fechou de apresentação, né? 
+
+01:06:54
+Gabriela Cruz - Globo
+Mas aí eu queria saber se vocês têm mais alguma dúvida do que tem no Estado, do que não tem no Estado, no Capitação, na Base Única. 
+
+01:07:03
+Julio - NT
+Acho que a gente vai precisar assimilar tudo isso agora. 
+
+01:07:06
+Gabriela Cruz - Globo
+Eu falei numa velocidade 2x também aqui, né? Ainda bem que tá gravado. 
+
+01:07:13
+Julio - NT
+E aí voltar com perguntas. Justamente essa é a ideia de gravar, né? A gente vai assimilar tudo isso, vai revisitar a gravação, montar aqui racional de tudo isso e voltar com perguntas, com certeza. 
+
+01:07:30
+Gabriela Cruz - Globo
+Tá bem. Contem comigo, tá, gente? Para tirar essas dúvidas, essas perguntas, podem me mandar. 
+
+01:07:38
+Julio - NT
+Ótimo, Gabriela. 
+
+01:07:40
+Gabriela Cruz - Globo
+É bastante coisa, eu sei, é uma sopa de letrinhas. Eu vou pegar aqui a imagem que eu tenho das integrações do STAAR, eu acho que ajuda bastante. Que é a imagem que a gente chama de polvo, é o estar no centro com todas as integrações em volta, que realmente é bastante coisa. 
+
+01:07:59
+Julio - NT
+Eu fiz uns rabiscos aqui já, mas se tiver uma imagem pronta já, com certeza, é bem melhor. 
+
+01:08:06
+Gabriela Cruz - Globo
+Tá bom. Obrigada, gente, pelo tempo de vocês, e se tiverem alguma dúvida... Nós te agradecemos. 
+
+01:08:13
+Rodrigo Carlstrom - NT
+É prazer falar com vocês. 
+
+01:08:17
+Julio - NT
+A gente vai estudar então, Gabriela, e voltamos a falar contigo novamente, uma nova oportunidade. Tá bom. 
+
+01:08:27
+Gabriela Cruz - Globo
+Obrigada, gente. Brasil, conhecemos também. Boa tarde. 
+
+01:08:30
+Julio - NT
+Tchau, tchau. 

@@ -1,0 +1,521 @@
+ID= REU202502171500A
+Transcrição original. Reunião: ENC NTconsult - Integrações MediaPulse -
+Data: 17/02/2025 
+Participantes: 
+Júlio Cesar Freitag Schweikart
+Sergio Sfreitas
+Wagner Correa Ramos
+Thiago Meireles_Sysmanager
+
+Resumo:
+A Reunião técnica de revisão e planejamento sobre as Integrações MediaPulse teve como objetivo avaliar as ferramentas utilizadas, destacando que o MediaPulse não é a única solução integrada. O encontro discutiu o plano de migração da API v1 para v2, estimando 311 horas para a conclusão do trabalho e abordando as dificuldades enfrentadas com a API atual. Também foram discutidas as tecnologias envolvidas, como Java 8, Spring Boot e o uso de GCP, além de ferramentas como Grafana e Prometheus para observabilidade. O grupo detalhou integrações específicas e identificou novas oportunidades, com ações definidas para a construção de uma visão das funcionalidades atuais e atualização da documentação na Wiki. As responsabilidades foram atribuídas a Wagner, Júlio e Sérgio, assim como à equipe para revisar as informações após a construção da visão geral.
+
+Transcrição
+
+00:02
+Sergio Sfreitas
+Boa tarde, Júlio. Tudo bem? 
+
+00:04
+Júlio Cesar Freitag Schweikart
+Boa tarde, Sérgio. Tudo jóia? 
+
+00:06
+Sergio Sfreitas
+Tudo bem. 
+
+00:12
+Júlio Cesar Freitag Schweikart
+Já para concluir, Sérgio, tem a Fireflies aqui. É a nossa IA que estamos acompanhando nas agendas para tomar algumas anotações das agendas e facilitar a nossa vida. 
+
+00:30
+Sergio Sfreitas
+Eu ia perguntar, para mim, poderia ser o nome de uma sala onde o time tivesse reunido? 
+
+00:37
+Júlio Cesar Freitag Schweikart
+Não, não. Ela faz bom resuminho ali depois, coloca os tópicos principais que foram discutidos, faz link com o vídeo depois, né? Então, tipo, foi discutido tal coisa, ela faz link com o vídeo da gravação, né? Então, ajuda bastante aí depois para a gente tirar dúvidas aí, conseguir sanar dúvidas. 
+
+00:59
+Sergio Sfreitas
+Beleza. 
+
+01:02
+Júlio Cesar Freitag Schweikart
+Wagner, Daniel ainda não conheço. 
+
+01:07
+Sergio Sfreitas
+Fala Wagner, boa tarde. Daniel, boa tarde. 
+
+01:10
+Wagner Correa Ramos
+Boa tarde. 
+
+01:14
+Sergio Sfreitas
+Daniel. Daniel aqui do time. Boa tarde. 
+
+01:18
+Júlio Cesar Freitag Schweikart
+Tem Tiago ainda também. 
+
+01:20
+Sergio Sfreitas
+Isso, tem Tiago. O Fabinho é o nosso líder técnico e ele está de férias. Então ele não vai poder participar. 
+
+01:30
+Júlio Cesar Freitag Schweikart
+Beleza. A gente aguarda o Thiago para começar? Dá uns dois minutinhos aí, né? Então, até para contexto, já... O Thiago chegou, até já. 
+
+01:56
+Sergio Sfreitas
+Fala, Thiago. 
+
+01:59
+Júlio Cesar Freitag Schweikart
+Eu vou colocar pra gravar aqui, tá? Pra gente poder revisitar depois o vídeo, tirar dúvidas, pra ficar mais fácil a nossa vida aqui. 
+
+02:09
+Sergio Sfreitas
+Tá bom. 
+
+02:11
+Júlio Cesar Freitag Schweikart
+Eu não tô conseguindo gravar, que acho que eu tô no meio da NQ. 
+
+02:15
+Sergio Sfreitas
+Então, coloca aqui. Tá. 
+
+02:18
+Wagner Correa Ramos
+Joia. 
+
+02:32
+Júlio Cesar Freitag Schweikart
+Então, pouco para contexto, retomar de onde a gente está, o que a gente está fazendo. Então, a Michelle nos convidou para fazer uma avaliação de todas as ferramentas que fazem parte das diversas áreas dela. Então, a gente está olhando ali tanto para planejamento de longo prazo, planejamento de curto prazo, talentos artísticos, as ferramentas de RH também. E aí, até a primeira vez que a gente conversou, a gente estava com uma visão ainda pouco reduzida de todo o ecossistema, de tudo que acontece. Eu achava que tudo se resumia ao MediaPulse, mas não, tem bastante coisa aí. Que a gente precisa conhecer, a semana passada descobri que tem mais ferramentas ainda que são integradas entre si, não só com mídia pulse também, e aí até dos pontos aí que me veio na dúvida, a gente vai buscar entender aquelas integrações também, tá? 
+
+03:53
+Júlio Cesar Freitag Schweikart
+Mas a camada desacoplamento que a gente tem ali, né? Ela serve só para o MediaPulse ou para as ferramentas como as ferramentas lá da Fernanda também, que é captação, Star, Art e Space? 
+
+04:12
+Sergio Sfreitas
+Só parte, de repente, é o MediaPulse. A gente abre o MediaVontage também para o MediaPulse. 
+
+04:21
+Thiago Meireles_Sysmanager
+É, tem uma parte também que a gente fala com o SPW, né? Então é a parte de folha de pagamento aí também. A gente faz os envios para ele. 
+
+04:33
+Júlio Cesar Freitag Schweikart
+Deixa eu compartilhar na tela. Então, a grosso modo falando, é isso aqui. Tá na tela aí. De uma forma bem grosseira, digamos. Vou aumentar pouquinho aqui. É. 
+
+05:08
+Thiago Meireles_Sysmanager
+Eu acho que tá tudo englobado aí. Só tem uma perninha, mas eu acho que vai finalizar aí, que vai desligar, é o Excelator. Mas acho que esse Excelator vai ser desligado. Dá para ser desligado. 
+
+05:32
+Júlio Cesar Freitag Schweikart
+O Gabriel comentou desse cara aí com a gente. A gente bateu papo com o Gabriel já também. E vamos bater mais papo ainda com ele também de novo. Surgiu monte de dúvida, ficou monte de dúvida. A gente tem mais papo agendado aqui com o Gabriel. E ele chegou a comentar aí do Excelator. É, que inclusive tava sendo desligado tem. 
+
+05:56
+Thiago Meireles_Sysmanager
+Mais carinha aí que é o... Tem o RP né, o Serginho e também a parte do... SGP RP ou EBS, não é? 
+
+06:09
+Júlio Cesar Freitag Schweikart
+EBS, é tem que ser outro? 
+
+06:16
+Thiago Meireles_Sysmanager
+SGP é sistema de gestão de programa. 
+
+06:24
+Sergio Sfreitas
+E no caso do SGP, a integração é para permitir que o MediaPulse receba dados de ULT. 
+
+06:32
+Júlio Cesar Freitag Schweikart
+Exato. 
+
+06:32
+Sergio Sfreitas
+Acho. 
+
+06:35
+Júlio Cesar Freitag Schweikart
+Que eu já ouvi falar desse SGP. Mas vem aqui pela camada desacoplamentos também? Também. 
+
+06:49
+Sergio Sfreitas
+Só adendo em relação ao Accelerator, complementando o ponto que o Thiago colocou, no momento a gente não tem nenhuma data relacionada a isso, a única informação que a gente tem é que existe uma iniciativa para que haja essa substituição. Mas sem nenhuma informação mais concreta sobre quando isso vai acontecer, como é que vai ser essa mudança, essa mudança será para quê. Então, acho que por enquanto ele segue. 
+
+07:29
+Júlio Cesar Freitag Schweikart
+Beleza. Então, ele continua seguindo aqui nosso entendimento também. Bom, aí o Sérgio passou uma Wiki para a gente, E o Wagner deu uma estudada aí na Ui, que a gente está dando uma olhada também em questões de o que tem de material do MediaPulse em si aberto, né? Então, Wagner, se puder puxar aí as dúvidas que tu levantou, que tu entendeu ali daquela documentação que o Sérgio passou? 
+
+08:07
+Wagner Correa Ramos
+Sim, sim. Eu vi a documentação da WIC, de todas as integrações dos adaptadores. Eu vi que tem, principalmente essa parte de recursos humanos, tem muita regra de negócio ali, bem complexa a questão de regras. E eu anotei algumas coisas aqui que eu queria perguntar. Vamos lá. Algumas coisas mais técnicas, tá? E a parte de negócio, Júlio, se você quiser ir perguntando, vai perguntando, tá bom? Essas integrações aí, hoje, eu vi que tem uma das integrações aí que usa SOAP, né? Que é o adaptador aí do HHCM. Isso aí foi uma limitação do sistema lá do Oracle ou foi o MediaPulse? Por que só essa, entendeu? Que é solte, né? O resto é tudo resto aí, pelo que entendi. E tem uma que é solte. Será que é por ser muito antiga? Cara. 
+
+09:23
+Thiago Meireles_Sysmanager
+Eu não sei o porquê, tá? Eu vou falar aqui, ó, Sérgio. Eu não sei se você sabe a resposta, mas como eu já entrei aqui, já tava rolando isso. Era legado, e a gente falava com o OIC, e aí a gente falava via sul, então foi por isso que foi mantido isso aí, mas por conta de... De ser dígno, né? Acredito eu, tá? Não sei se eles têm outra ferramenta, outra maneira de receber os dados, mas é... Para a gente se comunicar com eles via celular. 
+
+10:05
+Wagner Correa Ramos
+Outra questão que eu vi, a volumetria de todas essas integrações é relativamente pequena, não tem nada crítico a nível de volume de dados. Eu vi que tem uns agendamentos, algumas integrações são feitas em horários fixos durante a noite, Mas eu não acredito que seja por causa do alto volume, né? É mais por alguma restrição do próprio software com o qual tá integrando, né? Não é uma limitação assim de... Não, é volume muito grande, vai deixar lento o sistema ou alguma coisa assim, né? Acho que é mais uma questão de organização só. 
+
+10:53
+Thiago Meireles_Sysmanager
+É, geralmente essas integrações, elas rodam... Nesses horários, provavelmente por conta do negócio, né? Às vezes o negócio precisa receber o dado até a tal hora. Então a gente acaba executando esse... Pelo menos aqui do nosso lado, tá? Nessa parte das nossas integrações, pelo menos. 
+
+11:15
+Wagner Correa Ramos
+Parte de planejamento e tudo. 
+
+11:17
+Thiago Meireles_Sysmanager
+Isso, já. 
+
+11:20
+Júlio Cesar Freitag Schweikart
+Tá bom. 
+
+11:21
+Wagner Correa Ramos
+É... A parte de recurso deu para entender bem, que é o recurso humano, o de equipamento. Recurso humano entra aí também a parte de serviços. Sempre que é serviço de terceiro, alguma coisa assim, entra como se fosse recurso humano. Porque eu vi que sempre se fala no planejamento de recurso humano e equipamento. Eu não vi serviços, mas acho que o serviço deve estar no recurso humano. Só para ter certeza que é isso. 
+
+11:54
+Júlio Cesar Freitag Schweikart
+Serviço, eu acho que o cadastro é sempre manual no MediaPulse, e o que existe daí é uma integração aqui para pagamento, eu não lembro com quem aqui, se é o SAP Brim ou o EBS. Mas aqui não teria serviço, né? Tem terceiros e tem equipamentos. Equipamentos, na verdade, não tem. 
+
+12:22
+Wagner Correa Ramos
+Eu estava vendo o que entrava numa WO, uma Work Order. 
+
+12:28
+Sergio Sfreitas
+Você pode ter operador de câmera, pode ter equipamento para ser utilizado na recepção de sinal, por exemplo. Até sala pode ser utilizada, considerada como recurso, uma sala. 
+
+12:53
+Júlio Cesar Freitag Schweikart
+Uma questão do versionamento das APIs do MediaPulse. 
+
+13:02
+Wagner Correa Ramos
+Eu vi que a maioria, a gente conversou no outro encontro, que praticamente todas essas integrações foram usando a versão 1 da API do MediaPulse. E é uma API que o MediaPulse já está considerando deprecada e que vai limitar para poder usar, por exemplo, a versão 11 da aplicação. Aí eu questionei na época se já tinha plano para fazer essa migração da v1 para v2 para poder sair desse travamento, de ficar impedido de evoluir. Não sei como que está esse plano, se já está em execução ou não. Ele estava previsto para começar agora em 2025, mas eu realmente não vi mais nada sobre isso. 
+
+14:02
+Sergio Sfreitas
+Essa iniciativa está planejada para ser iniciada agora, nessa Sprint 2, que no ano passado o Thiago e o Fabinho fizeram trabalho de análise da V2, da API do MediaTools e identificaram quais eram as integrações, os componentes que seriam impactados, que basicamente são o ADL e montaram plano que a gente vai colocar em prática agora nessa experiência legal. 
+
+14:40
+Wagner Correa Ramos
+Então já está identificado o que teve de mudança, já tem uma noção boa aí de esforço, né? Sim. 
+
+14:48
+Sergio Sfreitas
+Eles fizeram trabalho bem detalhado. 
+
+14:54
+Júlio Cesar Freitag Schweikart
+Justamente esse é ponto, Sérgio. Vocês chegaram, digamos assim, o esforço pequeno, médio, grande, gigante, para fazer essa migração aí de versão do Mediapulse? 
+
+15:04
+Sergio Sfreitas
+311 horas, né? Eu acho que foi mais ou menos na metade do ano que foi feito isso, na metade de 2024, na segunda metade. Segunda metade, no segundo semestre a gente fez esse levantamento. O primeiro lugar é como estimativa, mas ao longo desse tempo a gente também foi feitando algumas mudanças em termos de integração, mas é 311 horas o resultado estimativo disposto para esse trabalho. 
+
+15:46
+Júlio Cesar Freitag Schweikart
+E vocês mexem só aqui nessa camada desacoplamento ou chega a impactar demais integrações também? 
+
+15:56
+Thiago Meireles_Sysmanager
+A ideia é mexer somente no desacoplamento e passando o mínimo para essas integrações de baixo, né? Por isso tem essa camada aí. Então o maior esforço é nessa camada aí. 
+
+16:09
+Júlio Cesar Freitag Schweikart
+Sim, sim. 
+
+16:09
+Wagner Correa Ramos
+O desacoplamento. 
+
+16:11
+Júlio Cesar Freitag Schweikart
+Vocês vão resolver aqui toda ou quase toda a migração de versão? 
+
+16:17
+Thiago Meireles_Sysmanager
+Exatamente. 
+
+16:21
+Júlio Cesar Freitag Schweikart
+Legal. Pouco impacto aqui embaixo. 
+
+16:25
+Thiago Meireles_Sysmanager
+Isso, isso. Uma coisa outra respinga, mas é o mínimo ali para baixo. 
+
+16:34
+Júlio Cesar Freitag Schweikart
+E, Sérgio, vocês comentaram na outra agenda lá que vocês tinham bastante dificuldade com o MediaPulse em relação ao time-out, ao padrão de código de erro, de retorno deles, ou seja, a API muito deficitária, vamos assim dizer. Para vocês chegarem a entender se essa V2 resolve parte desses problemas ou todos os problemas, o que resolve? 
+
+17:07
+Sergio Sfreitas
+Eu não sei te responder, Júlio, se esse problema vai ser resolvido com a V2, porque teoricamente esse caso específico da API eventualmente não retornar quando a gente faz uma chamada, Tinha sido algo que tinha sido, ao menos que a Zaiton, que tinha posicionado, que tinha sido resolvido Mas a gente eventualmente esbarra nessa dificuldade Então, quer dizer que teoricamente algo tinha sido resolvido, então teoricamente também não teria na V2, mas da mesma forma que a gente continua tendo na V1, não consigo afirmar isso. 
+
+17:51
+Wagner Correa Ramos
+Só vai saber depois. Exato. 
+
+17:54
+Júlio Cesar Freitag Schweikart
+Aqui uma dúvida que eu até estava conversando com quem? Foi com a Marcele que eu estava conversando, sobre versão do Mídia Pulse. E aí eu entendi que eles não estão numa versão comercial do Mídia Pulse. Não ainda. Eles estão meio que num fork, vamos assim dizer, que é dedicado para Globo. E aí minha dúvida vinha justamente nessa questão de versionamento, uma vez mudando para V2 e eles daqui a pouco terminando uma migração, que eu entendi que também é planejada para a Globo entrar nessa versão do MediaPulse de mercado, uma vez que esse processo vai acontecer, daqui a pouco todos esses problemas tendo em vista que estaria em uma ferramenta de mercado, com muitos clientes atendendo, teoricamente eles teriam que ter uma qualidade maior nesse ponto. Então, por isso a minha dúvida em relação à questão de diversão e problemas que essas versões acabam... 
+
+19:03
+Júlio Cesar Freitag Schweikart
+Problemas que a migração acaba corrigindo. 
+
+19:07
+Sergio Sfreitas
+Faz sentido. E aí também só é trazendo uma informação que é possível até que a Marcela já tem compartilhado com vocês no ano passado é uma evolução do MediaPulse da versão 10.1 para 10.4 e agora é também tá planejado para esse início do ano ser feita a evolução da 10.4 para 11.x, ainda não sei dizer, na verdade, inicialmente tinha sido definida uma versão, mas eu não sei dizer qual que está sendo projetado agora, mas está previsto para agora no início do ano, fazer o upgrade da 10.4 para 11 alguma coisa. No nosso caso aqui, a nossa participação teoricamente é só ajudar nos testes, acompanhar os testes que serão feitos e assim, teoricamente não é para ter nenhuma mudança, não ter nenhum impacto na API, mas existe risco que também já foi identificado e já está mapeado. 
+
+20:17
+Sergio Sfreitas
+Quando foi feito o upgrade da 10.1 para a 10.4, em algum momento foi identificado que a API mudou. Houve uma mudança na API e a gente precisou fazer uma pequena mudança aqui na integração. 
+
+20:33
+Júlio Cesar Freitag Schweikart
+E esses testes são feitos em ambiente Molog? 
+
+20:36
+Sergio Sfreitas
+Sim. É no caso, é que para esse teste a gente pretende usar outro ambiente que é o ambiente de City Então como a gente tem outras demandas em andamento e então a gente aqui do nosso lado tem no ar o ambiente de sítio, AT e de produção. Então, do nosso lado, vai ser utilizado o ambiente de sítio para esses testes específicos da versão 11X do MediaPulse. E a deles, o ambiente deles, eu creio que vai ser o pai dele. 
+
+21:17
+Júlio Cesar Freitag Schweikart
+Uma... Justamente falando de versão do MediaPulse, que eu entendi essas versões menores, essas migrações aí, elas são justamente em linha de se aproximar cada vez mais de uma versão de mercado. E aí sim, no final de tudo, conseguir alcançar o que o mercado, o que as ITECs vendem direto para o mercado. Esse foi o meu entendimento. Wagner, o que mais você tem anotado aí de dúvidas? 
+
+21:52
+Wagner Correa Ramos
+A questão de tecnologia e dessas integrações, da camada de backup, ela é uniforme? É tudo, sei lá, Java, uma determinada versão de Java, Spring Boot, essas tecnologias de stack Java normais? Não tem muita diferença entre uma e outra? 
+
+22:14
+Thiago Meireles_Sysmanager
+Não, segue tudo a mesma linha. Hoje a gente está utilizando o Java 8, com Spring Boot e Camel, Então é basicamente essas cheques que a gente está utilizando. 
+
+22:29
+Wagner Correa Ramos
+E a parte da infraestrutura onde está rodando, também é uma infraestrutura comum, tem essa parte de CI e CD, pipeline, tudo prontinho? Ou como que está essa questão? 
+
+22:45
+Thiago Meireles_Sysmanager
+Hoje a gente está no GCP da Google, então está tudo Está tudo lá. E aí a gente tem toda essa parte de métrica, CACD, observabilidade, tudo já mapeado nas nossas integrações. 
+
+23:04
+Wagner Correa Ramos
+A observabilidade funciona legal, a parte de ver logs, ver... Sim, sim. 
+
+23:13
+Thiago Meireles_Sysmanager
+Hoje a gente está utilizando o Grafana, o Prometheus com o Grafana, para poder estar visualizando Essas partes métricas e observabilidade também. 
+
+23:27
+Júlio Cesar Freitag Schweikart
+Legal. 
+
+23:28
+Wagner Correa Ramos
+E tem. 
+
+23:31
+Thiago Meireles_Sysmanager
+O Jaeger também. Nós temos o Jaeger nas nossas integrações. 
+
+23:36
+Sergio Sfreitas
+Legal, legal. 
+
+23:43
+Wagner Correa Ramos
+Uma das integrações, ele usa também banco de dados intermediário ainda, porque ele não chega a fazer uma integração total, ele armazena em uma tabela e depois faz... Deixa eu ver qual que é... 
+
+23:58
+Sergio Sfreitas
+Não sei se é com o SAP... 
+
+23:59
+Wagner Correa Ramos
+Deixa eu só ver... Tudo bem, não interessa. É banco de dados temporário que eu usava. Vocês sabem qual é esse banco de dados? 
+
+24:14
+Thiago Meireles_Sysmanager
+A gente tem algumas integrações que utiliza o Mongo como banco de dados e tem o Redis também como cache. A gente tem tanto o Mongo, o cache e tem também o MySQL como repositório de uma... 
+
+24:37
+Wagner Correa Ramos
+Acho que foi com uma SPL. 
+
+24:39
+Thiago Meireles_Sysmanager
+De repositório CAML para a gente poder controlar alguns eventos. 
+
+24:51
+Wagner Correa Ramos
+E repositor de código, é Git? 
+
+24:54
+Thiago Meireles_Sysmanager
+É o GitLab da Google. 
+
+24:58
+Wagner Correa Ramos
+Tá, o GitLab interno. É interno, né? 
+
+25:03
+Thiago Meireles_Sysmanager
+Isso, é interno. 
+
+25:08
+Wagner Correa Ramos
+Bom, eu acho que de parte técnica, Júlio, assim, acho que tá bem... A documentação tá boa, talvez, eu não sei de vocês se tá bem atualizada ou não, né, a documentação, mas principalmente na parte de integração com recursos humanos tá bem detalhada, lado bem extenso. Eu acho que a parte técnica está bem tranquila mesmo. Acho que só essa integração com o SOP aí que pode dar mais trabalho. É meio chato trabalhar com isso, mas as outras estão tranquilos. 
+
+25:50
+Júlio Cesar Freitag Schweikart
+Na questão de... Olhando mais pouco de funcionalidade, né? As... As necessidades de negócio elas estão expostas todas elas na Wiki? 
+
+26:11
+Wagner Correa Ramos
+Então tem algumas que eu vi da reunião passada que eu não vi lá que é integração... Com o Rico eu não vi, era uma integração que parece que está em desenvolvimento já com o V2, com a API V2. 
+
+26:31
+Sergio Sfreitas
+A integração com o Rico, o que acontece? Existe uma outra equipe, não sei se você está falando da integração FPW com o Rico. 
+
+26:49
+Wagner Correa Ramos
+Sim, sim. 
+
+26:52
+Sergio Sfreitas
+É outro time, E só passando pouco de história. Durante o projeto do RP, algumas equipes que estavam com maior disponibilidade de pessoas para poderem ajudar no projeto acabaram assumindo determinadas integrações. Então, uma dessas integrações é de horas extras da época W. Com Rico. Essa integração foi desenvolvida pelo TELESPAD de Facilities e hoje está junto com o time do Orleans. Não sei se você chegou a conversar com o Orleans. O Orleans é do HCM, integrações do HCM. Então, se você estiver referindo a do FBW.com.br, essa integração está com eles. A gente, no caso aqui do nosso lado, o que a gente faz? A gente tem uma integração para a FW. Hoje a gente manda dados de apropriação para a FW. Com base nesses dados, existe essa outra integração que vai na FW, pega as horas extras e envia para o rico. 
+
+28:23
+Sergio Sfreitas
+Também tem mais uma, vou olhando aqui e lembrando, o time do MediaPulse mensalmente rodam programa que vai na base do MediaPulse e pega informações relacionadas à alocação de funcionários gera arquivo FTP, coloca no servidor, aí tem outro programa. Essa aí que ele falou é. Perfeito. Essa daí também está com as cadeias do Orléans. Essa daí é a integração 270. Essa integração ela vai nesse servidor de SFTP, pega esse arquivo, processa e vai na API do Rico para enviar as informações. A primeira que eu falei, ela deve ficar com o relâmpago mesmo. Essa segunda, que hoje quem desenvolveu, quem dá manutenção ao próprio time do MediaPulse, em algum momento ela vai vir para a gente, então a gente vai desenvolver algo para substituir essa integração. 
+
+29:41
+Sergio Sfreitas
+Nesse caso específico, O programa foi desenvolvido, a integração, uma parte, o time do MediaPulse, a parte de geração, a obtenção dos dados de geração do arquivo, o próprio time do MediaPulse, e a parte de leitura do arquivo, processamento e envio para o RIVC, é a Squad do Orléans. Essa é a INT270, eu posso te passar o link dela. Só que nessa documentação só tem a parte relacionada acesso ao arquivo, processamento e envio das informações. Não tem a parte do lado da geração, a parte relacionada à geração do arquivo. 
+
+30:30
+Wagner Correa Ramos
+Uma outra, Júlio. Estou me escutando? Uma outra integração que eu vi, que talvez eu li também, que eu achei interessante, seria a do IBMS, da grade que vai ao ar. Ela não foi implementada ainda. Mas é falado que poderia fornecer dados para a criação automática de work order, então seria uma coisa que talvez ajudasse bastante. Essa aqui tá no radar aí de ser desenvolvida, de fazer alguma coisa com ela ou não ainda? 
+
+31:16
+Sergio Sfreitas
+Eu já ouvi falar sobre ela, na verdade... Isso tá no backlog mas eu não sei em que momento que isso vai ser priorizado mas isso daí já na verdade eu soube através de usuário e ele falou a respeito desse desejo dele só que tem que ser priorizado pelo time do media course. 
+
+31:53
+Wagner Correa Ramos
+Eu vi algumas aqui que também não está. Vimbis, Talent Management, a LED corta e desligada. Acho que é isso. Eu não estou vendo mais não. 
+
+32:13
+Júlio Cesar Freitag Schweikart
+Acho que a gente não vai precisar das duas horas de momento. As funcionalidades estão todas na Wiki, Sérgio. Qual o objetivo da integração do FPW, do HCM, do SGMOD, qual a informação que sobe, qual a informação que desce, atributo por atributo, mas qual o objetivo da integração? 
+
+32:46
+Wagner Correa Ramos
+Tem quase tudo lá, o Wiki está bem detalhado. 
+
+32:50
+Júlio Cesar Freitag Schweikart
+Eu estou no trabalho e estou reservando tempo da semana para ir atualizando e complementando os dados da WIC. 
+
+33:06
+Sergio Sfreitas
+Aí coloquei até na primeira página, naquele link que eu passei, eu coloquei lá link para o glossário, então também dá para você ter lá os termos mais utilizados, aqui foi o IA, as integrações. E o que eu posso fazer também, que eu acho que ajuda, é conforme eu for fazendo a alteração, comunicar a vocês o que foi alterado para que vocês realmente, para que vocês passarem por uma paz no olhar, beleza, mas pode estar faltando alguma coisa, pode ter alguma informação que foi mudada, só que vocês não vão saber caso não passem essas informações para vocês, então eu vou atualizando, conforme eu for atualizando aqui a documentação, Eu pingo vocês e me digo o que foi atualizado. 
+
+34:02
+Júlio Cesar Freitag Schweikart
+Tá, tá ótimo. Vamos seguir da seguinte forma, então. A gente tem que montar mapa, Wagner, dessas integrações aí para a gente entender qual o objetivo de cada integração. E aí muito mais no âmbito de negócio, entender tudo que trafega ali, O que o FPW comunica com o MediaPulse, HCM, por aí vai. E também, Sérgio, se vocês entendem que existem oportunidades de... O que não está integrado ainda que poderia estar integrado? Se tem alguma coisa já prevista em backlog, alguma funcionalidade que poderia... Facilitar a vida do usuário, né? A gente até deu uma questionada lá com a Marcele. Ela não soube precisar muito aí o que teria aí de possibilidade de evolução em relação à integração, né? Mas seria, se vocês têm essa visão aí também, seria bacana a gente entender aí o que existe ainda de oportunidade de integração com o MediaPulse. 
+
+35:21
+Wagner Correa Ramos
+Tá joia. 
+
+35:23
+Sergio Sfreitas
+Muita coisa está realmente no backlog. Então, por exemplo, hoje a nossa integração com a R&P permite que, dado uma PURL, você solicite a criação da requisição de compra. Então, lá no MediaPulse, você quer fazer uma compra, você tem a P.O. Lá com os respectivos itens, aí você solicita a criação da R.C. Lá no R.P., o espaço pela integração, então hoje a integração no sentido de mediacurso é R.P. Lógico que o R.P. Também dá retorno diferente da operação, mas existem alguns desejos lá do time de mediacurso, por exemplo, que os contratos, os acordos de compra que são cadastrados no RP, que sejam cadastrados, que sejam inseridos dentro do mídia-curso. Então, esse é ponto que já está mapeado. Na verdade, até a gente já começou a fazer trabalho, mas teve que ser interrompido. 
+
+36:28
+Sergio Sfreitas
+Então, seria o RP no sentido de integração com o RP no sentido contrário. O nosso backlog é bastante extenso. Tem bastante coisa desejada para ser implementada. 
+
+36:42
+Júlio Cesar Freitag Schweikart
+Se eu não me engano, A Fernanda comentou desejo de integração, não lembro de qual agora, desse ciclo, que seria esse aqui, o ciclo principal, a da Fernanda. Ela me comentou o desejo de integração deles, eu acho que Duarte. Tu sabe de alguma coisa em relação a isso? Vou ter que voltar na Fernanda e perguntar de novo. Confesso que agora eu não. 
+
+37:14
+Sergio Sfreitas
+Me lembro. Já tem mais ou menos, já tem mais de seis meses, eu não me lembro, falei com a Gabi, ela falou mais ou menos sobre algum desejo, mas eu não sei se era o arte ou se era o Star, não sei, não me lembro. 
+
+37:31
+Júlio Cesar Freitag Schweikart
+Tá, pode ser. Mas, no caso, existindo uma possível integração aí, seja do Star, seja do arte, passaria por essa camada desacompanhada de vocês, né? Tá, perfeito. Tá, legal. Vamos, Wagner, construir uma visão com as funcionalidades de integrações que tem, até depois a gente compartilha contigo, para ver se a gente está no raciocínio correto de tudo que tem integrado, muito mais, como comentei, no âmbito de quais as funcionalidades que estão integradas E aí a gente compartilha e entende se a gente está nessa visão correta, no caminho correto de entender o que é integrado. Mas as ferramentas aqui seriam essas mesmo, então. Cara, tem monte de rabisco que eu vou fazendo. Cada que eu converso é rabisco novo. Mas isso aqui estaria, a visão macro estaria ok, né? Seria isso mesmo, a gente só precisa enriquecer ainda aqui com as funcionalidades que são integradas, né? 
+
+39:00
+Thiago Meireles_Sysmanager
+Acho que só tem lado aí que eu acho que, não sei se vocês representaram aí na parte do MediaPulse, que é a chegada dos eventos dessa, que é também a parte desacoplamento aqui da integração. O MediaPulse, alguns eventos que acontecem lá no MediaPulse, a gente recebe esses eventos. E aí eu não sei se vocês estão considerando isso nesse desacoplamento aí, nessa camada. 
+
+39:29
+Júlio Cesar Freitag Schweikart
+Que tipo de evento? 
+
+39:31
+Thiago Meireles_Sysmanager
+Os eventos de criação de work order, alteração de work order, alteração de book, de alocações, de booking. Então, alguns eventos desses é do MediaPulse pra gente, pra cá pra dentro. Seria uma setinha ao contrário, né, no caso? 
+
+39:50
+Júlio Cesar Freitag Schweikart
+A ordem da flecha aqui, eu confesso que eu não dei muita bola, tá? A ordem da flecha. Mas se eu entendi, Tiago, o usuário vai lá, cadastra uma work order aqui no MediaPulse, muda o status, conclui ou qualquer outro processo lá, seria para abastecer o BigQuery, no caso? É gerado evento que vem até o BQ. 
+
+40:16
+Thiago Meireles_Sysmanager
+É, na verdade, várias integrações. Então, cada integração escuta o evento que lhe é permitido, no caso, para seguir aquela integração. Então, no caso do FPW, ele fica escutando a locação, no caso. No caso do BI, É cronjob que a gente executa na madrugada, então a gente vai buscar isso lá no MediaPulse. O que eu quero dizer é que tem eventos que vêm até a gente e, na maioria das vezes, a gente vai lá no MediaPulse via API. 
+
+40:57
+Júlio Cesar Freitag Schweikart
+Sim, sim. Essa visão aí, sim, a gente precisa entender pouquinho o que vai... Justamente isso que eu comentei. O que sobe, o que desce, qual o objetivo desse dado que está descendo, qual a finalidade, tu comentou ali, de alocação. A alocação determinado profissional desce até o FPW. A gente não precisa entender qual é o dado exato que vai descer, mas essa funcionalidade que está... O objetivo desse dado que está descendo para a gente é relevante. Isso que eu comentei vai no que a gente tem que construir essa visão daqui a pouco. E se isso está descrito na Wiki, Sérgio, a gente monta essa visão, compartilha com vocês para ver se está de acordo aí com o que realmente existe. 
+
+41:51
+Sergio Sfreitas
+Aí. 
+
+41:51
+Júlio Cesar Freitag Schweikart
+Olha. Beleza, então a gente vai trabalhar nessa visão aí, depois compartilha e voltamos a tirar dúvidas aí depois. 
+
+42:05
+Wagner Correa Ramos
+Beleza. 
+
+42:07
+Júlio Cesar Freitag Schweikart
+Tá jóia? 
+
+42:08
+Sergio Sfreitas
+Beleza. 
+
+42:10
+Júlio Cesar Freitag Schweikart
+Valeu então pessoal, obrigado pelo tempo aí e voltamos a falar em outro momento aí. 
+
+42:15
+Wagner Correa Ramos
+Obrigado, Sérgio. Obrigado aí, Sérgio. 

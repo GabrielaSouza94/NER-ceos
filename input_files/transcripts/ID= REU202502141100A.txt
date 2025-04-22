@@ -1,0 +1,1238 @@
+ID= REU202502141100A
+Transcrição original. Reunião: Análise Arte + Space
+Data: 14/02/2025 
+Participantes: 
+Rodrigo Carlstrom
+Felipe Almeida Tavares
+Júlio Cesar Freitag Schweikart
+Fernanda Maia
+Joanna Chigres
+
+Resumo:
+Durante a reunião "Análise: Arte + Space," Fernanda e Joanna apresentaram uma visão abrangente dos sistemas de RH, discutindo a cadeia que inclui recrutamento, planejamento, contratação e pagamento, com ênfase no sistema Arte e suas modalidades de contratação. Joanna detalhou os modelos de contratação, formas de remuneração e flexibilidade do sistema, enquanto a discussão prosseguiu com a apresentação do sistema Space, responsável pelos pagamentos, que integra-se ao sistema Arte para facilitar o processamento financeiro. O grupo também explorou os complexos cálculos de remuneração, a necessidade de parametrização e as integrações entre os diferentes sistemas para garantir a eficiência na gestão de contratos e pagamentos. Como próximos passos, foram definidas tarefas para o envio de materiais e levantamento de processos para aprimorar a operacionalidade dos sistemas.
+
+Transcrição
+
+00:02
+Rodrigo Carlstrom
+Oi Júlio, tudo bem? 
+
+00:08
+Felipe Almeida Tavares
+Tá. 
+
+00:12
+Júlio Cesar Freitag Schweikart
+Até atualizando pouco, né? Conversei lá então, conheci a Aline, que é gestão de RH lá, e. 
+
+00:30
+Felipe Almeida Tavares
+Ela. 
+
+00:30
+Júlio Cesar Freitag Schweikart
+Vai entrar em férias. É, na verdade sim, né? Acho que ela vai estar de férias e também tem algum detalhe lá da área dela que é uma época do ano agora que eles não vão conseguir nos atender. Eles vão conseguir nos atender só início de março, tá? Vai ficar meio apertado ali depois lá pra frente, né? Então, a gente vai fazer uma agenda com ela agora, semana que vem, antes da problema todo e depois vai fazer o salão na frente. Vou admitir a Fernanda aqui. Bom dia, Fernanda. 
+
+01:08
+Fernanda Maia
+Bom dia, tudo bem, meninos? Bom dia, Fernanda. E aí? Hoje eu vou trazer aqui a Joana, já vou chamar ela rapidinho aqui, tá? Ela é pior do arte. Na primeira hora a gente vai falar do arte. Na segunda hora vai entrar a Laís pra falar do Space. E nessa última meia hora eu vou ter que sair pra falar com a Michele. Eu estou entrando de férias hoje e o dia está lindo como sempre. Paz! Seguindo a lógica ali. Dia antes da férias, gente, parece que o mundo vai acabar, não parece? 
+
+01:43
+Júlio Cesar Freitag Schweikart
+Pra tentar colocar tudo em dia. 
+
+01:46
+Júlio Cesar Freitag Schweikart
+É. 
+
+01:46
+Fernanda Maia
+Na verdade, mais não colocar as coisas em dia, porque eu já deixei de fazer as coisas desde quarta. Eu passo o serviço, outra pessoa faz, eu dou uma acompanhada Mas é que eu tenho piol virando pai neste minuto que o neném ia nascer há mês pra frente sistema que deu problema agora, nesse minuto, tá lá na diretoria resolvendo Acontece tudo agora, entendeu? Só porque eu dou a reta final É pré-férias, né? É, pré-férias é boa emoção, é só emoçãozinha pré-férias A jóia. 
+
+02:23
+Júlio Cesar Freitag Schweikart
+Aí a gente começa com o arte, né? 
+
+02:26
+Felipe Almeida Tavares
+Sim. 
+
+02:27
+Fernanda Maia
+Outra coisa, não sei se vocês puxaram a agenda do estar com a Gabi, Gabriela Cruz, para semana que vem. 
+
+02:33
+Júlio Cesar Freitag Schweikart
+Sim, captação mais estar, né? Coloquei o Zé junto. 
+
+02:38
+Fernanda Maia
+Perfeito, é isso. Perfeito. 
+
+02:40
+Júlio Cesar Freitag Schweikart
+Oi, João. 
+
+02:42
+Joanna Chigres
+Bom dia. 
+
+02:43
+Júlio Cesar Freitag Schweikart
+Olá, Joana. 
+
+02:45
+Rodrigo Carlstrom
+Bom dia. Tudo bem, Joana? 
+
+02:51
+Joanna Chigres
+Tudo bem. 
+
+02:57
+Júlio Cesar Freitag Schweikart
+Quarta-feira ficou. Captação mais estar. Quarta-feira às 15 horas. 
+
+03:02
+Fernanda Maia
+Perfeito. Tá ótimo. Eu pedi lá pra entrar uns 10 minutinhos antes pra ver o nosso ritmo aqui. Como vocês querem conduzir? Vocês querem falar... Porque, Jô, eu já dei overview sobre toda a cadeia. Deixa eu mostrar o material para vocês que eu montei aqui? Acho que vocês vão gostar. Depois eu envio para vocês. Eu estava ali fazendo o material para o pensamento ali. Deixa eu colocar para gravar aqui. 
+
+03:35
+Júlio Cesar Freitag Schweikart
+Pode, bota aí. 
+
+03:48
+Felipe Almeida Tavares
+Gravando Perfeito. 
+
+03:51
+Fernanda Maia
+Aqui a cadeia dos sistemas mais diretos e mais simples, né? Para recrutamento e adaptação, para planejamento estar, para contratação arte, para pagamento space Eu tenho outros sistemas que cuidam de pequenos grupos de cargo dentro disso que desviam esse caminho pouco, tá? Igual aquele lance que a gente falou sobre o HCM pagar PF e tudo mais e grupo está no Media Pool, se não está no Star. Aí o que eu estava fazendo é o que você me pediu. O banco, aplicação, o front, o back, em qual linguagem está cada coisa. Posso passar para vocês isso aqui depois. Dizendo que esse aqui está em modernização, esse aqui a gente vai começar agora. Beleza? 
+
+04:43
+Júlio Cesar Freitag Schweikart
+E... 
+
+04:45
+Fernanda Maia
+Eu falei que ainda tem o Valoração, que é sistema que entra aqui nesse meiozinho, e o Agra Esses dois sistemas também a gente cuida, apesar de não estar nessa cadeia principal Eu até fiz aqui deles também a linguagem O Agra vai ser descontinuado, mas o Valoração ainda continua nesse meio campo aqui Se não existisse o Valoração, essa cadeia podia continuar sem problema nenhum Mas ele faz parte de uma valoração de cenários ali Hoje a gente vai falar dessa caixinha aqui, que é o arte. 
+
+05:20
+Felipe Almeida Tavares
+Perfeito. 
+
+05:24
+Fernanda Maia
+Vou mandar esse material para vocês também. 
+
+05:27
+Rodrigo Carlstrom
+Muito obrigado, Fernanda. Muito bom esse material. 
+
+05:29
+Júlio Cesar Freitag Schweikart
+Obrigado. 
+
+05:30
+Fernanda Maia
+Ficou legal, bem objetivo? 
+
+05:31
+Rodrigo Carlstrom
+Ficou. Ficou com tanta tecnologia ali, para a gente vai ajudar bastante. 
+
+05:37
+Fernanda Maia
+Vou mandar para vocês. Fiz ali só porque eu acho que você ia contribuir direitinho. Jô, mostra pouco a carinha do arte aí para eles. Vamos começar assim, né? 
+
+05:50
+Felipe Almeida Tavares
+Beleza. 
+
+05:50
+Joanna Chigres
+Estava até já abrindo aqui umas telas para adiantar. Deixa eu compartilhar aqui com vocês. Vocês estão vendo aí minha tela? 
+
+06:01
+Rodrigo Carlstrom
+Estou vendo, sim. 
+
+06:02
+Felipe Almeida Tavares
+Beleza. 
+
+06:04
+Joanna Chigres
+Como a Fê falou, o arte cuida da parte de contratação e gestão dessas contratações Hoje o arte tem ali duas carinhas, ele tem uma carinha mais legada Deixa eu abrir aqui uma tela para mostrar para vocês e tem visual pouquinho mais moderno, que é a parte que foi feita ali, as últimas entregas. Então, existem vários modelos também de contratação no arte. A gente contrata talentos ali, PJ, PF, pessoa física, pessoa jurídica, tem cachê. Deixa eu abrir aqui. Gerando negociação, artístico... Essa aqui é outra carinha, tá vendo? É bem diferente. 
+
+07:00
+Felipe Almeida Tavares
+Tem. 
+
+07:02
+Joanna Chigres
+Dois modelos, a gente chama até de PL, prazo longo, e obra certa, para a gente conseguir diferenciar. Dentro desse modelo de contratação, você tem várias verbas que você pode contratar. Deixa eu abrir... Vou escrever que já tenha, para ficar mais rápido. E a gente tem várias telas de consulta, para fazer a consulta pelo talento, a consulta pela negociação. Então, vou pegar aqui .. Esse aqui já foi fechado. Deixa eu pegar esse aqui e editar. A gente dá uma olhada aqui como é que é o modelo de contratação. Essa é uma tela de consulta, a gente faz a consulta a partir da contratação. E aí deixa eu mostrar pouquinho para vocês como é que é a tela, que é o core aqui do arte, que é assim a contratação em si. 
+
+08:10
+Joanna Chigres
+Então, esse modelo que a gente chama do PL, que é o legado, ele tem essas informações, uma breve informação sobre o talento, aí vem com informações sobre a forma de contratação, com regime, tipo de contrato, subtipo, tipo de documento, informações do negociador e o analista que vai seguir com essa contratação, e qual é o cargo, classificação do cargo, informações do produto que está sendo contratado, esse talento, pode ter produto, pode não ter. E aí a gente vem com os indicadores para ele saber pouquinho sobre quanto está custando esse contrato. E aí a gente vem com informações ali de data, prorrogação e as informações das remunerações Nós temos várias formas de fazer remuneração ali, vários modelos de remuneração talento Sim? 
+
+09:16
+Rodrigo Carlstrom
+Ali no produto, dá exemplo de produto que seria? 
+
+09:23
+Joanna Chigres
+Mas você... São todos os produtos... É conteúdo. 
+
+09:26
+Fernanda Maia
+É porque a gente chama os programas. 
+
+09:30
+Joanna Chigres
+De TV de produto. 
+
+09:33
+Rodrigo Carlstrom
+Como a gente mexe com o sistema aqui, a taxonomia é bastante importante pra gente, justamente pra gente fazer uma relação de uma informação com outra, né? A gente já percebeu que alguns sistemas levam uma nomenclatura, outros levam a outra, né? 
+
+09:49
+Joanna Chigres
+Sim. 
+
+09:50
+Rodrigo Carlstrom
+Então tá bom. Eu fiquei até com uma dúvida. Será que produto está relacionado a alguma coisa relacionada a serviço ou a conteúdo, né? Então é conteúdo mesmo. 
+
+10:00
+Felipe Almeida Tavares
+Perfeito. 
+
+10:01
+Rodrigo Carlstrom
+E aí quando você coloca aqui produto para esse talento, ele só pode trabalhar nesse produto? 
+
+10:09
+Joanna Chigres
+Sim, pensando aqui nas formas de contratação que a gente tem Aí quando a gente tem, por exemplo, uma obra certa Eu já estou identificando qual é a obra que aquele talento vai trabalhar Qual é o produto, então ele só pode trabalhar naquele produto Se tiver que trabalhar em outro produto Aí você pode rever esse contrato e incluir mais produto Ou é feito outro contrato para outro produto Agora a gente tem modelo de contratação que não está atrelado a produto prazo longo, prazo indeterminado Eu não tenho a necessidade de ter o produto na contratação Quando isso acontece? 
+
+10:52
+Rodrigo Carlstrom
+Em que situação que isso acontece? 
+
+10:57
+Joanna Chigres
+Depende da estratégia da empresa, né? 
+
+11:00
+Fernanda Maia
+Quando a pessoa está sendo contratada Para uma coisa, mas a empresa vislumbra que vai usar ele em outras Ou então quando ela quer simplesmente ter o talento aqui e depois achar... 
+
+11:12
+Fernanda Maia
+Vou te dar exemplo muito bom, Eliana, ela pode ter sido contratada pra gravar ali o Masked Singer, mas ela gravou Casa Brasileira, ela gravou outros programas Então é muito raro, é muito, é muito inclusive raro eles pegarem artista muito grande e fazer uma obra certinha com ele ali Provavelmente ele quer perdurar com ela aqui em outros programas e tudo mais Ele vai lá e faz prazo longo, uma coisa melhor, onde a empresa quer ter O profissional aqui, independente do produto que ela vai fazer Mas a maioria dos contratos estão sendo direcionados para a obra certa, o contrato para aquela obra dali Para eu também não ter desperdício dele aqui sem fazer nada, sabe? 
+
+11:53
+Joanna Chigres
+- Tá certo, entendi E aí, nesses casos, geralmente, quando a gente vai ver as verbas desses talentos que são prazo longo Eu já tenho uma verba falando, olha, caso você vá fazer uma minissérie ou vá apresentar programa Eu já tenho uma remuneração extra deslumbrando essas possibilidades Sei lá, vou dar exemplo, a Adriana Esteves, que já está aqui na casa há muito tempo, faz contrato para ela e não sabe aonde que ela vai trabalhar. Eu não falo qual é a obra, mas se ela for fazer uma minissérie, ela vai ganhar uma remuneração X. Se for fazer uma novela, você vai ganhar mais essa remuneração, fora o fixo que ganha ali, a remuneração base mensal. 
+
+12:44
+Rodrigo Carlstrom
+Então, assim, a produtividade ali, então, só para entender pouquinho essa parte da tela ali, né? Pouquinho mais para cima, para a gentileza, aí. Então, temos a remuneração básica e aquilo que já está garantido para ele lá, né? Para o talento. 
+
+12:57
+Joanna Chigres
+É, pode ter ou não, tá? A gente tem vários modelos de contratação, né? 
+
+13:02
+Rodrigo Carlstrom
+Tá, é mais para entender o conceito de cada tipo de remuneração, né? 
+
+13:06
+Fernanda Maia
+São muitas, tá? 
+
+13:07
+Joanna Chigres
+Não são só épocas, não. Não é só isso, não. 
+
+13:11
+Fernanda Maia
+Só pra você entender que a variedade de possibilidades de remuneração é ao infinito e além. 
+
+13:19
+Joanna Chigres
+Tá aparecendo o pop-up pra vocês de remuneração? Então, olha que quantas remunerações eu tenho. Ação comercial, adicional canal, anual. São muitas, são muitas possibilidades. 
+
+13:32
+Fernanda Maia
+O que não impede deles inventarem outra hoje? Por isso que o sistema é aberto e livre para esse tipo de contratação E deixa eu explicar uma coisinha para vocês, assim, cada verba tem gatilho de pagamento Esse gatilho geralmente é periódico, porém, há pouco tempo atrás inventaram uma nova forma de pagamento por entrega Onde o gatilho é quando o cara entrega uma obra Então, além disso, eu terei que ter uma apuração da entrega para poder liberar aquele gatilho, diferente das demais Esse sistema é livre para isso, porque todos os dias eles estão estudando novas formas de contratação em relação com os talentos, que o mercado muda muito, entendeu? 
+
+14:13
+Rodrigo Carlstrom
+Tá legal. E esse de produtividade, tá relacionado à produtividade do conteúdo? Ou à produtividade do talento mesmo? 
+
+14:24
+Fernanda Maia
+Produtividade é para alguns talentos que, às vezes, eles estão em casa e vão fazer conteúdo Quando eles estão lá gravando, nesse período de gravação, eles recebem adicional de produtividade Alguns contratos são fechados com uma remuneração base mais barata E quando ele está atuando numa obra, ele recebe mais Se ele estiver atuando em duas obras, ele recebe duas produtividades diferentes, entendeu? 
+
+14:47
+Júlio Cesar Freitag Schweikart
+É legal. 
+
+14:51
+Joanna Chigres
+Mas cada vez a gente está usando menos a produtividade A. 
+
+14:57
+Fernanda Maia
+Gente. 
+
+14:57
+Joanna Chigres
+Tem visto que mais contratos, obra certa e pagamento por job Eu já fecho valor com talento e vou pagando ali as parcelas E aí é o que a Fernanda falou Agora a gente está trabalhando num outro modelo de contratação que é por entrega Então eu faço o contrato por entrega, mas eu só vou te pagar quando você fizer de fato aquela entrega, né? Então eu tenho que ter uma apuração para verificar se foi feita a entrega, se a entrega foi aprovada para que seja feito o pagamento. 
+
+15:35
+Rodrigo Carlstrom
+E o que é o canal ali? Que tem pouquinho antes ali? 
+
+15:40
+Joanna Chigres
+Aqui o canal é TV Globo, Multishow, são os canais da casa. 
+
+15:46
+Fernanda Maia
+Aqui a gente tem uma estrutura de canais que são as pessoas que têm o dinheiro, são os demandantes daquele conteúdo. Eu tô comprando o conteúdo Big Brother. Quem vai ser o canal demandante? Vai ser a Multishow? Vai ser a Globo? Ele é quem desembolsa maior dinheiro E não precisa ser demandante só, pode ser dois, pode ser três, canal é isso A gente chama de canal as unidades que compram os conteúdos do entretenimento, jornalismo, esporte, por aí vai Perfeito E. 
+
+16:15
+Joanna Chigres
+Após ser feito aqui, acordado o contrato, a gente tem aqui no sistema uma integração no Docsign que já manda automaticamente o contrato para assinatura para o talento E aí depois é feita toda uma parte de gestão desse contrato Porque dentro do contrato eu tenho a data início, quando começa aquela vigência do contrato Eu tenho a data fim, só que eu tenho modelos também de prorrogação Que eu posso exercer ou não Então quando está próximo a data fim do contrato A área que é responsável por essa parte de gestão dos contratos Ela entra em contato lá com o entretenimento Pergunta, olha, vamos continuar? Tenho necessidade de continuar com esse talento na casa? E aí eles vão falar, não, temos, porque vai... 
+
+17:10
+Joanna Chigres
+Vai continuar, a gravação atrasou, vai continuar por mais período Então ali eles vão e podem exercer essa prorrogação E aí a gente também tem alguns modelos de prorrogação, tem a prorrogação padrão Onde eu tenho uma data e eu tenho que exercer aquela prorrogação Até a data que está estipulada ali no contrato, eu não posso encerrar esse contrato antes Eu tenho a prorrogação flexível, que eu tenho uma data Mas entre a data fim e a data de prorrogação Eu posso cancelar esse contrato a qualquer momento E eu tenho a prorrogação automática, onde eu não tenho uma data Mas se o talento estiver alocado em produto Eu posso prorrogar esse contrato N vezes para que cumpra Para que o talento conclua ali o... A obra, que a gente garanta que aquele talento vai ficar ali e vai concluir aquela obra enquanto ele estiver ali atuando. 
+
+18:12
+Joanna Chigres
+Então isso tudo eles fazem essa gestão junto ali com o entretenimento. E aí deixa eu abrir aqui a outra tela. 
+
+18:20
+Fernanda Maia
+Entretenimento é uma unidade de negócio que vende conteúdo para os canais. 
+
+18:27
+Rodrigo Carlstrom
+Isso faz eu intuir aqui que então existe processo de gestão de contrato, e que você, próximo data, fim do contrato, você tem que ficar verificando esses contratos para ver que tipo de prorrogação que tem, que tipo de renovação que você vai fazer, né? E para você tomar algum tipo de ação, né? 
+
+18:52
+Joanna Chigres
+Exato. 
+
+18:52
+Rodrigo Carlstrom
+E este processo, vocês têm desenhado esse processo? Temos. Tem? 
+
+18:59
+Joanna Chigres
+Temos, aqui ó. 
+
+19:01
+Júlio Cesar Freitag Schweikart
+Oi? 
+
+19:01
+Rodrigo Carlstrom
+Será que a gente consegue esse desenho? 
+
+19:05
+Joanna Chigres
+Eu vou pegar para vocês. Eu vou levantar aqui para poder mandar para vocês. 
+
+19:11
+Fernanda Maia
+É importante só dizer que temos vários desenhos de processo, porque a gente costuma fazer desenho no nível de profundidade menor do que desenho macro. Esse, inclusive, é dos intuitos da gente estar batendo esse papo aqui, porque a visão macro de tudo é desenho que a gente não tem. Eu não sei se vai ser vantajoso para vocês os desenhos que hoje a gente tem, que são mais aprofundados, tá? Nesse processo. Filipe entrando aí. Filipe é o P.O. Do próximo tema. É bom que ele acompanha. 
+
+19:43
+Júlio Cesar Freitag Schweikart
+Tá legal. 
+
+19:44
+Rodrigo Carlstrom
+Bem-vindo aí, Filipe. Prazer falar contigo. Prazer, Filipe. 
+
+19:49
+Felipe Almeida Tavares
+Opa, bom dia. Obrigado. Prazer. 
+
+19:51
+Fernanda Maia
+Tá tudo bem, Filipe? 
+
+19:53
+Joanna Chigres
+Tá tudo bem. O Arch é sistema que fica no meio do caminho Porque a gente recebe as solicitações de negociação do sistema do Star A gente fornece informações de contrato para o Valoração Para eles terem os valores dos contratos E aí a gente precisa enviar esses dados de contrato para o Space ou para o HCM Que foi ali acordado para que siga para pagamento Então ele fica muito no meio do caminho dessa cadeia, né? Então assim, além disso a gente tem muita tela aqui de a parte administrativa Porque a gente faz muita parametrização para facilitar ali o dia a dia dos usuários Tem muitas telas de consulta Deixa eu pegar aqui uma outra. 
+
+20:58
+Fernanda Maia
+A sua pergunta sobre a gestão do contrato é isso sim O ARTE, ele cuida das negociações, cuida dos pedidos de contratação e faz gestão dos contratos que estão para vencimento Ele também possui os gatilhos de pagamento O próximo sistema, que é o SPACE, ele lê, processa, calcula esses pagamentos para mandar Que o Filipe e a Laís, que vão entrar ainda, vão falar - Tá legal. 
+
+21:21
+Rodrigo Carlstrom
+Sobre esses procedimentos aí, então, Fer Esse procedimento, para executar esse procedimento, são as pessoas que executam ou existe alguma inteligência no sistema dizendo, olha, está aqui na hora de vencer o contrato e você tem que atuar, então tem aqui uma tarefa para você fazer? Como funciona? 
+
+21:43
+Joanna Chigres
+O sistema tem alguns alertas avisando, olha, a gente está aqui há tantos dias de vencimento do contrato. Mas dentro da área da GCA, tem os analistas que são responsáveis para ficar verificando aqui que esses contratos estão para vencer, para poder buscar ali as informações necessárias para a gente entender se vai continuar com talento ou não. 
+
+22:08
+Fernanda Maia
+Perfeito. 
+
+22:09
+Rodrigo Carlstrom
+No fim das contas, esse fluxo quem realiza é a pessoa, não o sistema. 
+
+22:16
+Felipe Almeida Tavares
+Sim. 
+
+22:16
+Rodrigo Carlstrom
+Está certo. 
+
+22:19
+Fernanda Maia
+E são atores diferentes, tá? A GCA, que é a Gestão de Contratos Artísticos, é a área que cuida da gestão dos contratos Mas não é quem toma a decisão de renovar ou não Perfeito Quem toma a decisão é o pessoal lá do Star. 
+
+22:39
+Felipe Almeida Tavares
+E aí. 
+
+22:39
+Joanna Chigres
+Sistemicamente a gente já, por exemplo, contrato que está a vencer não tem direcionamento Já solicita aqui direcionamento sistemicamente E essa informação é enviada para o Star e lá no Star a gente passa direcionamento para a gente E aí esse direcionamento ele ainda tem que passar por uma aprovação Então volta para a área da GCA, eles verificam se é possível seguir com aquele direcionamento Às vezes é feita alguma mudança de data por conta de fechamento de folha Eles ou aprovam com ajuste e enviam para o DCAI para que eles façam o pagamento ali daquele período que vai seguir ali com o contrato É legal. Vai lá, Júlio. 
+
+23:28
+Júlio Cesar Freitag Schweikart
+Uma dúvida, então, só pra... O Arte, ele executa o processo burocrático dos contratos, mas toda a definição do que vai ser feito acontece antes lá no Star. 
+
+23:46
+Fernanda Maia
+Quase toda, nem todos os contratos passam pelo Star. Tem muitas exceções, não são poucas. Num processo comum de planejamento, você planejaria a demanda, pensaria em todas as pessoas que são possíveis de estar naquela demanda, escolheria uma, se ela não tem contrato, não tá na casa, mandaria pedido de negociação e prosseguimento pra contratação no arte Mas nem todo mundo que é contratado no Arte está planejado para alguma coisa e começou nesse processo A Eliana é outro exemplo bom. 
+
+24:18
+Fernanda Maia
+Ninguém tinha programa para Eliana aqui, cada estava do seu jeito ali Eu não peguei o Masked Singer, fiz planejamento de apresentador para depois colocar a Eliana e pedir o Arte para contratar Como foi uma negociação mais estratégica, provavelmente o diretor da área ligou para uma outra pessoa Escolheu negociador específico porque é muito secreto, liga para ele lá na negociação Nem todo mundo entra nisso E as exceções são bastante, cada tem caso, porquê disso acontecer Eu tenho uma muito grande de cadeiras num produto para povoar Daquele grupo ali eu tenho uma quantidade que segue o fluxo normal Uma quantidade que já está cadastrada na casa, já está contratada na casa, que eu não vou ter que fazer ação nenhuma E grupo ali que talvez eu tenha que fazer uma negociação diferente, digamos assim pegando esse teu. 
+
+25:11
+Júlio Cesar Freitag Schweikart
+Exemplo aí da Eliana, Fernanda. A intenção de fazer o programa, ou na verdade o projeto do programa Masked Single existia. 
+
+25:22
+Felipe Almeida Tavares
+Sim. 
+
+25:23
+Júlio Cesar Freitag Schweikart
+Não existia... Era a Ivete que apresentava. Mas o que não existia, então, era uma ligação em algum momento da Eliana com o programa, mas o planejamento do programa em si, ele existia. 
+
+25:37
+Fernanda Maia
+Existia. 
+
+25:37
+Júlio Cesar Freitag Schweikart
+Tá, perfeito. É, a Eliana não entrou a partir de uma oportunidade do Masked Single, digamos. Tem uma vaga aqui no Masked Single, vamos ver quem é que a gente tem pra colocar. Não foi assim, né? 
+
+25:49
+Fernanda Maia
+Não. Foi uma estratégia de audiência de TV que alguém disse. Planeja o programa, mas não tem apresentador ainda, ou então permanece com a Ivete, tanto faz E aí em algum momento chegou a notícia que a Eliana foi contratada e que agora ela ia apresentar o Basket Sing Isso tudo foi definido de uma forma mais estratégica pela empresa E isso não passa pelo planejamento escrito, por vazamento de informação e mais algumas coisas Isso acontece, é raro, mas acontece com frequência. 
+
+26:24
+Rodrigo Carlstrom
+É raro, mas acontece muito. 
+
+26:26
+Fernanda Maia
+Isso. 
+
+26:29
+Rodrigo Carlstrom
+É legal. Essa quantidade de sessões não dá problema de apontar o planejado com o realizado aí? 
+
+26:42
+Fernanda Maia
+Não dá muito, não. Porque quando você vai fazer planejado, você tem uma estimativa de custo para aquilo. Esse custo pode ser substituído com pessoas diferentes, mantendo ali o mesmo... O mesmo patamar Entendi, porque tem perfis. 
+
+26:57
+Rodrigo Carlstrom
+Que ficam em aberto no planejamento, né? 
+
+27:01
+Fernanda Maia
+Tem, tem perfis que ficam em aberto E tem perfis que estão planejados com uma pessoa E que no final das contas não é executado por aquela pessoa, por uma estratégia de audiência Alguma coisa assim que foge ao controle de planejamento regrado, sabe? Muitas decisões desses talentos que são estratégicos, que vão dar uma diferença na tela de alguma forma Elas são tomadas não somente com a base financeira, muito menos com uma decisão pautada numa disponibilidade ou alguma coisa do tipo exemplo aqui, bem aleatório eu acho que a audiência do Big Brother vai ficar melhor com o Mion Isso tudo é discutido sem eu planejar no sistema, por quê? 
+
+27:56
+Fernanda Maia
+Essa notícia vazar, ela cai na mídia de jeito muito ruim E pode pressionar a empresa a fazer movimento que ela não quer Então várias decisões desses talentos, elas são tomadas pela direção sem colocar no sistema ainda E toda a equipe, tanto de planejamento quanto de contratação, elas trabalham muito em tempo real com essas novidades ali Eu não consigo fazer planejamento muito de longo prazo com 100% dos meus conteúdos Porque sempre tem esse elemento da emoção aí acontecendo o tempo todo E por isso a gente tem que ter ali uma forma que seja... Passível, flexível para poder embarcar toda essa loucura que acontece com muita frequência, sabe? Esses movimentos assim... 
+
+28:42
+Fernanda Maia
+Por exemplo, vou dar exemplo de uma coisa que aconteceu quando eu era de conteúdo ainda A gente fez planejamento inteiro de uma malhação, vocês acompanharam isso em algum lugar da vida Essa malhação começou a ser escrita por uma estratégia da Globo Que não tem nada a ver com o andamento desse programa Resolveram cortar o programa, já tinha começado, já estava todo mundo alocado Então os atores que foram convocados para esse programa já sabiam E aí saiu na mídia que a Malhação ia ser cancelada Antes de todas as comunicações devidas que a Malhação ia ser efetivamente cancelada Aí dá muita ansiedade em todo mundo que estava empregado com o contrato Aquela confusão toda, o cara que estava escrevendo o texto Sair na mídia é terror para a Globo, sabe? Antes de fazer as comunicações internas devidas. 
+
+29:27
+Júlio Cesar Freitag Schweikart
+Aqui Existem contratações, então, que só entram no sistema depois que já aconteceu? 
+
+29:35
+Fernanda Maia
+Eu não sei se entram no sistema depois que aconteceu, mas durante a negociação eu sei que tem. 
+
+29:45
+Joanna Chigres
+Acontece, por exemplo, masquete singer, que não pode vazar quem são os participantes Então é feita a negociação e eles realmente colocam no sistema depois para não vazar a informação Uma. 
+
+30:10
+Júlio Cesar Freitag Schweikart
+Dúvida aqui Saindo do Star, existiu uma tomada decisão ali no Star de contratar ator Y. Ele chega aqui no arte através de uma integração entre os dois sistemas. Qual seria a primeira tela que aparece aqui quando entrou ator novo, talento novo aqui no arte? 
+
+30:38
+Fernanda Maia
+Pedido de negociação. 
+
+30:41
+Joanna Chigres
+O USTAR faz dois tipos de solicitação de negociação Eles já negociam para uma obra ou eles negociam o cachê E é exatamente essa tela aqui que é a tela da negociação pelo produto Então aí eu tenho a visão pelo produto e eu tenho visão de quantas pessoas ali estão sendo negociadas Então deixa eu. 
+
+31:06
+Rodrigo Carlstrom
+Pegar aqui os outros O que são essas cores aí? 
+
+31:11
+Joanna Chigres
+É identificando qual é o tipo de negociação, negociação que está aberta e o que está em andamento. Então aqui nesse caso eu teria que duas negociações aqui estão sem negociador, isso aqui tudo está em aberto, né? Uma já está aqui com a Adriana, outra com a Alan, outra com a Adela Marrocos. Então são cinco negociações que estão em aberto, tá? E aí tem a visão das negociações, o que já está negociando, o que já foi concluído, se tiver algum cancelamento de negociação, e o que foi transferido Ele foi solicitado para uma obra certa, mas por uma questão de estratégia eles viram que era melhor negociar de uma outra forma e não negociar com uma obra certa Então ele é transferido no modelo de contratação Então aqui, olha, eu tenho essa negociação aqui desse talento, né? 
+
+32:02
+Joanna Chigres
+Vou atrelar aqui o meu nome, então eu que vou seguir com essa negociação Eu venho aqui e aí eu tenho as informações que já vem ali do Star falando sobre... Deixa eu abrir aqui... Falando informações sobre o talento, né? Eu tenho informações básicas sobre o talento, eu preciso contratar ele elenco a obra certa, qual é o canal, o produto Isso tudo já vem ali da integração com o Star, né? Qual é o gênero, eu boto aqui uma classificação... 
+
+32:43
+Joanna Chigres
+Ô Jo, você precisa ir pra outra Sim, mas só dar aqui overview rapidinho, aí tem algumas informações também sobre a diversidade, o período, eles já falam qual é o período que precisa daquele talento, tem informações básicas de tudo, de contato do talento, e aí depois eu passo para iniciar essa negociação, tem que botar aqui o regime, Mas aí a tela seguinte seria a tela de rodada onde eu vou colocar, aí sim começa a negociação com os valores, quais são as verbas O mesmo modelo que eu mostrei para vocês anteriormente, uma telinha verde É aqui também, eu sigo por esse modelo aqui pela obra E aí terminando essa negociação sendo finalizada, essas informações são replicadas também no Star E também enviada para o Space ali para. 
+
+33:45
+Rodrigo Carlstrom
+Seguir com o pagamento Tem prazo para fazer negociação? 
+
+33:50
+Felipe Almeida Tavares
+Só mais essa perguntinha aí Não tem. 
+
+33:53
+Joanna Chigres
+Prazo definido, mas eles têm uma SLA interna Porque assim, a negociação depende muito, né? Tem negociações que demoraram seis meses aqui para serem concluídas Agora tem negociações que cachê você fecha em questão de horas O SLA é interno ali da área, mas não tem prazo definido. Depende muito da negociação, né? 
+
+34:24
+Rodrigo Carlstrom
+Perfeito. Obrigado aí pelas informações, Joana. 
+
+34:27
+Joanna Chigres
+De nada, eu fico aqui à disposição. Tendo qualquer dúvida, podem me procurar. 
+
+34:34
+Fernanda Maia
+Nada impede de a gente marcar outro papo para o arte depois, tá? Agora que introduziu tudo certo. Se vocês quiserem, inclusive, marcar direto com a Ju semana que vem, fiquem livres para isso. Agora quem vai falar pouquinho aqui do processo de pagamento? 
+
+34:49
+Joanna Chigres
+Vai lá, Ju. Obrigada, Juana. Obrigada, gente. Bom dia. Obrigado, Juana. Bom dia. 
+
+34:56
+Fernanda Maia
+Laís e Filipe, os dois piolhos que trabalham ali, com o Space e principalmente com o desligamento do Agra Até em determinado momento da nossa vida que o Agra era o sistema que fazia os pagamentos dos talentos artísticos E ele tinha algumas outras funcionalidades de gestão de contratos que a gente dividiu entre as aplicações A gente tá na reta final do desligamento dele, tirando as últimas, desidratando as últimas operações E o Space é a aplicação que recebeu boa parte do que o Agra significa, que é a parte dos pagamentos Aí, Laís e Felipe, se vocês quiserem abrir, começar abrindo o Space para mostrar para os meninos aqui visualmente Eles vão fazendo perguntas e a gente vai esclarecendo Olá, Laís! 
+
+35:41
+Rodrigo Carlstrom
+Bem-vindo aí, prazer falar com você Olá, Rodrigo. 
+
+35:45
+Lais Deganello
+E aí, Júlio? Quanto tempo. 
+
+35:46
+Júlio Cesar Freitag Schweikart
+Olá, Laís. 
+
+35:46
+Felipe Almeida Tavares
+Tudo bom? 
+
+35:48
+Lais Deganello
+Tudo e você? 
+
+35:49
+Fernanda Maia
+Conhece o Júlio já, Laís? 
+
+35:51
+Lais Deganello
+Já. Ajudou bastante gente lá no ano passado. 
+
+35:55
+Fernanda Maia
+Bom. 
+
+35:55
+Lais Deganello
+Ajudou a marcar contratos também, né, Júlio? 
+
+35:59
+Rodrigo Carlstrom
+É, isso aí. 
+
+36:01
+Lais Deganello
+Que bom. Felipe, você quer começar aí? 
+
+36:03
+Felipe Almeida Tavares
+Eu vou só dar uma introduçãozinha rápida, só para contextualizar, e aí passo para você falar da remuneração. 
+
+36:10
+Fernanda Maia
+Rapidinho, em determinado minuto aqui, eu só estou esperando o Michele me chamar. Eu vou me ausentar, vocês podem continuar aí à vontade, tá? 
+
+36:21
+Felipe Almeida Tavares
+Como a Fernanda já tinha falado, o. 
+
+36:23
+Felipe Almeida Tavares
+SPACE, o propósito da existência dele e a principal função é fazer o pagamento dos talentos artísticos. E aí a gente está falando de uma ampla gama de tipos de pagamento. A gente tem tanto pagamento de remuneração, que aí se divide entre vários tipos de pagamento, e também pagamento de direitos conexos, autorais, de sessão, sessão de obra. Esse sistema aqui, que é o SPACE, ele é responsável por uma boa parte da movimentação financeira da Globo, de saída de dinheiro da Globo. Então ele é sistema bem crítico, porque assim como toda empresa, pessoas acabam sendo o maior custo da maioria das empresas, não são os outros custos, quase sempre são pessoas. Então ele é sistema bem crítico aqui para a gente, ele é desenvolvido internamente, porque ele tem algumas peculiaridades que a gente vai falar. Mas o que ele tem aqui de diferente e bem relevante? 
+
+37:29
+Felipe Almeida Tavares
+O coração do space é a calculadora. 
+
+37:32
+Felipe Almeida Tavares
+O que a gente chama de calculadora. A calculadora tem a capacidade de ler os contratos que existem. E aí a gente está falando de contratos que estão distribuídos em algumas bases de dados. E dados desses contratos, ele consegue calcular. 
+
+37:51
+Felipe Almeida Tavares
+Exatamente quanto cada pessoa tem que receber. 
+
+37:54
+Felipe Almeida Tavares
+Então ele consegue entender as cláusulas de contrato. Essas cláusulas são parametrizadas, obviamente. Ainda não é tão avançada em nível de IA para interpretar o texto, mas elas foram previamente parametrizadas por ser humano nas bases. E dadas as cláusulas, que muitas vezes têm muitas condições, ele consegue decidir e calcular exatamente quanto a pessoa tem que receber. 
+
+38:25
+Felipe Almeida Tavares
+Isso vale para todos os tipos de pagamento. 
+
+38:28
+Felipe Almeida Tavares
+Então a calculadora é o coração do space. Em termos de processo, a gente se divide aqui principalmente entre remuneração e direitos. Em remuneração eu estou falando de pessoas contratadas, que efetivamente têm contrato, e. 
+
+38:47
+Felipe Almeida Tavares
+Pessoas que são pagas pontualmente via cachê. 
+
+38:53
+Felipe Almeida Tavares
+E aí ele tem aqui algumas outras funcionalidades que são muito de apoio para esses processos de pagamento, mas o principal é isso. Aí eu vou passar para a Laís para ela dar uma visão geral ali na remuneração de como é que funciona esse processo. 
+
+39:10
+Lais Deganello
+Beleza. Vou pegar a tela aqui, Felipe, para mostrar. Então, aqui, gente, hoje, a gente está nessa parte de remuneração, que é o que eu estou pouco mais por dentro. A gente está fazendo a parte de remuneração PJ. PF, ele vai para outro sistema, vai para o FPW, então hoje é só pessoa jurídica. A gente tem uma parte aqui, então, toda aquela parte de contratos, tudo que a Juô falou pouquinho ali. A gente tem uma integração direta aqui com o Space, então, a gente recebe esses contratos. 
+
+39:43
+Lais Deganello
+Então, aqui eu estou no ambiente de teste, mas aí vem o talento, a rede social, número de contratos, se tem aditivo ou não, se existe alguma pendência, porque como aqui é sistema de pagamento, então, se vem faltando, sei lá, centro de custo ou a classificação ali desse contrato, A gente tem aqui uma situação dependência, porque a gente não consegue seguir com pagamento, então ali a gente tem uma integração que recebe esses contratos, e depois a gente tem toda essa parte de remuneração. E aí remuneração, a gente está falando de diversas verbas, né? Ela pode ser uma ajuda de custo, ela pode ser uma remuneração adicional, o próprio pagamento ali do base mensal, ou base por entrega, por exemplo, que é novo tipo de contratação. Então, dentro de cada talento, a gente tem aqui, deixa eu pegar que já tem algumas verbas. 
+
+40:27
+Lais Deganello
+Por exemplo, nesse caso aqui, a gente tem talento que tem uma remuneração base eventual e sessão de direitos, né? Então, esse mesmo talento tem dois pagamentos que serão feitos. Aqui, a gente consegue fazer toda a parte do cálculo, então, garante ele que a gente está pagando, né? Porque cada verba, não necessariamente cada uma delas, né? Tem verbas que a gente paga mensalmente, tem verbas que a gente paga por entrega, tem verba que a gente paga é, sei lá, uma ajuda de custo. Então, naquele momento, a gente tem uma ajuda de custo que é separado. Então, a gente faz toda essa parte do cálculo aqui. Então, aqui até o status do evento, se ele está calculado e liberado ou não. E aí, a gente faz uma liberação para a folha. 
+
+41:07
+Lais Deganello
+Então, a gente tem uma integração também com o RP, que depois de calculado, ele manda ir pro sistema NECORP pra fazer esses pagamentos, né? Dentro aqui desses pagamentos a gente tem três janelas, então, dia 5, 16 e 25, é o último dia do mês, na verdade, então todos os pagamentos precisam ser calculados e liberados até essa data pra que a gente consiga seguir a janela ali que a gente tem. Hoje a gente tem... Ai, desculpa, gente, não tô vendo se vocês estão com a mão levantada também. Se alguém ia falar alguma coisa. Não, ainda não. Não, né? 
+
+41:40
+Felipe Almeida Tavares
+Tá. 
+
+41:41
+Lais Deganello
+Hoje, aqui dentro do Space, a gente tem contratos do tipo prazo longo, obra certa e por entrega, né? Olhando aqui essa parte de remuneração. E a gente tem, acho que são 18, 16, umas 18 verbas. Então, a gente tem base de remuneração, remuneração adicional, exceção de direitos, produtividade, reembolso, ajuda de custo, diário de viagem, né? Que é específico ali, remuneração base e pagamento por entrega também. 
+
+42:03
+Felipe Almeida Tavares
+Olha isso! 
+
+42:07
+Rodrigo Carlstrom
+Aí, estou tentando interpretar até a linha aí, né? Então, por exemplo, a situação do pagamento que está ativo ali, né? Então, na segunda linha ali, tem três pagamentos de quatro a serem feitos dentro de pagamento. Três eventos de pagamento dentro de pagamento. É isso, né? 
+
+42:23
+Lais Deganello
+Exato. E são quatro liberados, mas só dele foi calculado aqui, ó. Se você clicar aqui em cima. E aí a gente só consegue desperar depois de calculado, né? Então, a gente precisa fazer esse cálculo para fazer esse disparo. E aqui embaixo é a opção de gerar a folha da competência para a gente seguir ali. O analista consegue também incluir verbas adicionais manualmente. Então, arrastar uma planilha aqui e subir algum tipo de verba que a gente não tem ainda ou que é uma verba que não está categorizada. Por exemplo, até então a gente não tinha, por exemplo, diário de viagem. Então, ele vinha aqui manualmente, subia e fazia esse pagamento de forma manual. Ele adicionava uma verba dentro desse talento. Aqui são os eventos. Então, existe também essa parte das pendências. 
+
+43:11
+Lais Deganello
+Então, a gente tem algumas pendências que impedem seguir ali com essa parte de pagamento. Então, é centro de custo a classificação. E quando não tem o número do contrato, porque como a gente ainda tem ali uma integração com o ARTE, a gente está recebendo o número do contrato do AGRA ainda, que é esse sistema que a Fê comentou, a gente tem que ter esse número do contrato. E também tem a parte de assinaturas, que também subem ali do Arte. Então, a gente tem que ter assinatura do Talento e assinatura da Globo também. E aí, dentro dessas funcionalidades, tem algumas coisas, igual o Felipe comentou, que é o apoio. Por exemplo, a gente desenvolveu agora a parte de cartas de direitos, que é onde o talento recebeu, de alguma forma, direito autoral ali, então ele tem dinheiro para receber. 
+
+43:55
+Lais Deganello
+E ele recebe uma carta, depois que esse disparo foi feito, para ele enviar a parte da nota fiscal ali e validar se os valores estão corretos, tudo certinho. Então, a gente está desenvolvendo esse relatório também agora. Que aí o talento passa a receber direto aqui da ferramenta esses valores. E aí eu não sei se vale falar pouquinho de direitos, Felipe, pra explicar pouco também. 
+
+44:19
+Felipe Almeida Tavares
+É, vou falar sim. Isso que a Laís mostrou de remuneração, é assim, é 80% do que o Space paga a remuneração. Não é processo que dá trabalho absurdo, né? Ela até mostrou, são poucas telas, tem algumas coisas para você fazer acompanhamento, fazer embarcar alguns dados. Então, é esforço razoável, mas mesmo assim ele representa mais ou menos uns 80% do pagamento. 
+
+44:55
+Felipe Almeida Tavares
+O direito, que eu vou falar agora. 
+
+44:57
+Felipe Almeida Tavares
+Ele já é o contrário. Ele é no máximo uns 20% dos pagamentos, Mas é 80% do esforço operacional das pessoas. Ou até mais, sem duvidar. 
+
+45:13
+Júlio Cesar Freitag Schweikart
+É 90%. 
+
+45:13
+Felipe Almeida Tavares
+Por quê? Quando a gente está falando de direitos, a gente está falando de tudo que a Globo fez desde a inauguração dela até hoje. 
+
+45:25
+Felipe Almeida Tavares
+Então, assim, a gente está falando de. 
+
+45:26
+Felipe Almeida Tavares
+Pagar pessoas que tiveram contratos lá em 1960. 
+
+45:31
+Felipe Almeida Tavares
+Acho que foi em 1960 que a Globo foi inaugurada. 
+
+45:33
+Felipe Almeida Tavares
+60, 70, gente que não está mais viva, pessoas que foram contratadas como PJ e não tem mais empresa. 
+
+45:47
+Felipe Almeida Tavares
+Então, assim, tem toda uma complexidade que. 
+
+45:49
+Felipe Almeida Tavares
+Eu vou passar aqui para vocês verem. Mas, assim, entrando aqui pouco mais no detalhe dos processos, eu queria mostrar para vocês. Os processos se dividem basicamente entre pagar direitos conexos e autorais, e aí eu tô falando de comercializações e reprises, e também de sessão de obra, e também de merchandising. Merchandising, a gente até que considera que ele é pagamento de direitos, mas ele, na verdade, não é. Ele é o que a gente chama de receitas ancillares. Ele tá aqui no space como direito, mas não é, não. 
+
+46:30
+Felipe Almeida Tavares
+Mas, assim, é só pra simplificar o. 
+
+46:32
+Felipe Almeida Tavares
+Uso que ele tá aqui. Merchandising tem mais a ver com a produção. Então, alguém está fazendo uma novela, ou apresentador está apresentando programa, vai fazer algum merchan de algum produto, ele recebe valor referente àquilo. É processo pouco mais simples. O pagamento de direitos é pouco mais complexo, porque ele tem várias vias. Então, por exemplo, aqui, vou mostrar para vocês. Tem, por exemplo, pagamento de reprise, que reprise tudo que é exibido em TV aberta. Então, por exemplo, isso aqui é homologação, mas não sei se ainda está tendo, acho que está reprisando caboclo, reprisou alma gêmea, reprisou cheios de charme. Esse tipo de pagamento de direitos segue uma regra diferenciada, porque tem muito a. 
+
+47:23
+Felipe Almeida Tavares
+Ver com quanto a pessoa recebeu na. 
+
+47:24
+Felipe Almeida Tavares
+Época que ela trabalhou. Então, por conta disso, os valores de pagamento Dá para ver aqui, mas os valores de pagamento são bem altos de reprise. E existe uma funcionalidade aqui que é muito importante para decidir o que vai ao ar e ser reprisado, que é. 
+
+47:47
+Felipe Almeida Tavares
+A simulação de reprise. 
+
+47:49
+Felipe Almeida Tavares
+É uma tela muito parecida. Mas aqui entra tudo... Estou sem dados aqui, mas aqui entra tudo o que a Globo, a área de programação, está pensando em botar no ar para reprisar em TV aberta. 
+
+48:04
+Felipe Almeida Tavares
+Então, assim, é feito todo estimativo. 
+
+48:06
+Felipe Almeida Tavares
+De custo de pessoas, quanto vai custar aquela reexibição, para saber se é financeiramente viável ou não. Porque, naturalmente, a Globo faz BP, business plan, para ver se ela vai ter lucro por aquela reexibição, senão ela escolhe outro conteúdo para reexibir. Muitas pessoas se perguntam por que está reprisando no Vale a Pena Ver de Novo tal novela, é chata e outra não, que é super legal, não tá aí precisando, porque às vezes o custo de pessoas é muito alto, não compensa. Aí fora reprise... Uma dúvida só pra. 
+
+48:44
+Júlio Cesar Freitag Schweikart
+Pegar o embalo aí já dessa questão de reprise, de ter que realizar pagamentos baseado em algo que aconteceu no passado. A grande família aí, né? Tem o Augustinho lá, que fez .. É o Augustinho, não lembro o nome do ator, né? 
+
+49:07
+Felipe Almeida Tavares
+Pedro Cardoso. 
+
+49:09
+Júlio Cesar Freitag Schweikart
+Isso, Pedro Cardoso, que fez contrato com a Globo, assinou contrato com a Globo lá em... Sei lá, em 2005, vamos chutar. Fez as gravações, recebeu pelas gravações, X reais. Quando tu falou da calculadora lá, a calculadora, ela mantém esses X reais atualizados em valores de hoje, baseado em toda a inflação que a gente teve, algum indicador, alguma coisa, para realizar esse cálculo atual de quanto seria o que o ator iria receber pela essa reexibição? 
+
+49:47
+Felipe Almeida Tavares
+Ela não mantém, mas ela calcula na hora. Isso gera custo elevado de Laís. 
+
+49:59
+Júlio Cesar Freitag Schweikart
+Me lembra agora a valoração dos contratos lá do B2B. 
+
+50:10
+Júlio Cesar Freitag Schweikart
+Sim. 
+
+50:10
+Felipe Almeida Tavares
+Porque isso tudo tá no contrato também, tá? Qual índice é usado pra calcular tá no contrato. 
+
+50:19
+Júlio Cesar Freitag Schweikart
+Tá. 
+
+50:20
+Felipe Almeida Tavares
+Escreve no comentário que já tá. 
+
+50:22
+Lais Deganello
+Não tem padrão, então cada contrato já vem explicito ali, sabe, Julio? O valor para cada parâmetro. 
+
+50:30
+Júlio Cesar Freitag Schweikart
+Então, no caso, para fazer essa simulação de reprise da grande família, por exemplo, ele vai ter que pegar todos os atores que foram envolvidos nisso, pegar o contrato de cada o valor de cada indicador de atualização do contrato de cada deles, Faz diferença ou não o contrato estar ativo ou inativo? 
+
+50:59
+Felipe Almeida Tavares
+Peraí gente, desculpa, eu tive que responder a mensagem aqui. Pode repetir. 
+
+51:01
+Júlio Cesar Freitag Schweikart
+Não, eu estava comentando, pega ali toda a grande família, pega todo mundo da grande família, todos os atores envolvidos, o contrato de cada período de vigência, qual o valor envolvido, qual o indicador de reajuste e aí faço todo esse cálculo aí de reprise para ver se vale a pena ou não, ou seja, é pouco custoso fazer essa simulação. Ela é toda automatizada ou tem alguma parte manual? 
+
+51:34
+Felipe Almeida Tavares
+Olha, para tudo que está parametrizado, é automático. Todos os contratos que estão em sistema, em base de dados, é automático. Ela consegue, o space consegue ler e identificar. 
+
+51:48
+Júlio Cesar Freitag Schweikart
+Ok. 
+
+51:48
+Felipe Almeida Tavares
+E calcular. Perfeito. Assim, isso é contrato a contrato, tá? 
+
+51:54
+Felipe Almeida Tavares
+É bem complexo o cálculo, assim, dá. 
+
+51:56
+Felipe Almeida Tavares
+Pra tirar o dia inteiro pra explicar o cálculo, que você já tem noção. 
+
+52:00
+Felipe Almeida Tavares
+Pô, o que acontece? 
+
+52:04
+Felipe Almeida Tavares
+Não é porque uma pessoa gravou, sei lá, ano de A Grande Família, que ela só teve contrato. Ela, às vezes, pode ter dois, três, quatro contratos dentro do... Até mais, né? 
+
+52:14
+Felipe Almeida Tavares
+Dentro daquele período. 
+
+52:16
+Felipe Almeida Tavares
+Então tem que se calcular os valores baseados em todos os contratos, cada. 
+
+52:21
+Felipe Almeida Tavares
+Com as suas cláusulas. E cada pessoa tem seus próprios contratos. 
+
+52:26
+Felipe Almeida Tavares
+E os contratos também não são padrões, né? 
+
+52:29
+Júlio Cesar Freitag Schweikart
+É. 
+
+52:29
+Lais Deganello
+Escolha pra lá, são contratos bem diferentes, né? 
+
+52:32
+Júlio Cesar Freitag Schweikart
+É. 
+
+52:32
+Felipe Almeida Tavares
+A maioria diz assim, eu vou receber... 
+
+52:38
+Felipe Almeida Tavares
+Não é no caso da reprise, não, tá? 
+
+52:39
+Felipe Almeida Tavares
+Em outros casos que existem. 
+
+52:41
+Felipe Almeida Tavares
+Que eu vou falar para o próximo, que é comercialização. 
+
+52:44
+Felipe Almeida Tavares
+Vou receber 5% da receita, por exemplo. 
+
+52:49
+Felipe Almeida Tavares
+Mas tem alguns talentos que têm contratos assim. 
+
+52:52
+Felipe Almeida Tavares
+Eu vou receber 1 milhão. Independente da receita. 
+
+52:59
+Felipe Almeida Tavares
+São algumas pessoas muito top, entendeu? 
+
+53:03
+Felipe Almeida Tavares
+Então varia muito. Assim, é exemplo lúdico, mas é. 
+
+53:06
+Felipe Almeida Tavares
+Mais ou menos essa a ideia. 
+
+53:08
+Felipe Almeida Tavares
+Existem muitas cláusulas variadas. Aí eu falei aqui da reprise, que é a reexibição em TV aberta, e aí tem os outros que a gente chama de comercialização. O cálculo desse aqui é diferente. 
+
+53:30
+Felipe Almeida Tavares
+O que são as comercializações? 
+
+53:33
+Felipe Almeida Tavares
+São as exibições em canal internacional, as vendas internacionais, exibição em Globoplay, e exibição no Viva, que é o que a gente chama de venda nacional. Tudo que não é TV aberta. A gente chama de comercialização. Os cálculos aqui são baseados na receita. 
+
+54:00
+Felipe Almeida Tavares
+Vou dar exemplo útil aqui. 
+
+54:01
+Felipe Almeida Tavares
+Esse aqui foi... Esse aqui está muito alto, não é? 12 mil. E gerou de receita essa comercialização aqui. Independente de quanto a pessoa recebeu na época, a gente vai pegar percentual desse valor aqui, aí depende pouco do público, que varia de 3 a 5%, e ratear entre os talentos. Então pode ser, por exemplo, que eu pegue aqui 5% de R$ 2.500, vai dar determinado valor, e desse valor eu ainda vou dividir entre as pessoas. Então pode ser que você já tenha ouvido falar, isso acontece muito com ator, né? 
+
+54:47
+Felipe Almeida Tavares
+O ator fulano de tal está. 
+
+54:49
+Felipe Almeida Tavares
+Dizendo que não está recebendo nada pela reprise que está passando no Viva. 
+
+54:55
+Felipe Almeida Tavares
+Na verdade é por causa disso. 
+
+54:57
+Felipe Almeida Tavares
+Eu não sei se eles não se atentam ou não se lembram ou não entenderam direito ao contrato, mas o fato é que os direitos referentes a comercializações em geral são muito baixos mesmo. Porque a receita é muito baixa, aí pega percentual daquele valor e aquele valor ainda é dividido. Então, aqui acontece muito que as pessoas, às vezes, receberem centavo de remuneração, de direito, quando recebe. 
+
+55:29
+Felipe Almeida Tavares
+Então, a gente tem todos esses processos. 
+
+55:30
+Felipe Almeida Tavares
+Aqui, cada com a sua peculiaridade, eu não vou entrar muito no detalhe, mas hoje o nosso maior peso, naturalmente, é o Globoplay. 
+
+55:38
+Felipe Almeida Tavares
+Quando a gente está falando de comercialização. 
+
+55:40
+Felipe Almeida Tavares
+A maior parte da receita vem do Globoplay. E isso aqui, como é que é calculado? Está lá o conteúdo disponibilizado no Globoplay. A pessoa só vai gerar a receita. 
+
+55:56
+Felipe Almeida Tavares
+Para aquele conteúdo se alguém for lá. 
+
+55:57
+Felipe Almeida Tavares
+No Globoplay e der play no vídeo. E aí gera-se uma minutagem. 
+
+56:07
+Felipe Almeida Tavares
+De quanto. 
+
+56:07
+Felipe Almeida Tavares
+Tempo foi exibido cada conteúdo, é feito cálculo, e aí se rateia a receita do Globoplayer naquele mês entre os. 
+
+56:14
+Felipe Almeida Tavares
+Conteúdos e depois o mesmo processo. 
+
+56:17
+Felipe Almeida Tavares
+Dividir o dinheiro entre os conteúdos, divide o dinheiro entre as pessoas, pega o percentual, divide entre as pessoas e paga. Aí tem sido crescente o pagamento desse aqui, mas ainda assim não chega nem perto da remuneração. Aí falando pouco de integrações, tanto de reprise quanto de comercializações. Essa parte do space depende basicamente do Agra, que é quem tem toda a base histórica de talentos. De contratos de talentos e também do ARTE. O ARTE tem os novos contratos. Então, a gente agora tem uma integração meio mista. E aí, passada essa parte aqui, a gente tem todo processo de aprovação. Tem aprovação técnica, que são os próprios analistas que fazem para saber se o cálculo está ok. 
+
+57:24
+Felipe Almeida Tavares
+Posso mostrar aqui uma folha para vocês. 
+
+57:30
+Felipe Almeida Tavares
+Vocês verem como é que é? 
+
+57:34
+Felipe Almeida Tavares
+Mas passa por todo processo de. 
+
+57:35
+Felipe Almeida Tavares
+Aprovação até chegar no... Deixa eu abrir o canal internacional aqui. Até chegar na etapa de pagamento. Então, aqui o resultado de tudo... Esse aqui, por exemplo, do canal internacional. 
+
+57:57
+Felipe Almeida Tavares
+É esse aqui, tá? 
+
+57:58
+Felipe Almeida Tavares
+O Talento X, que trabalhou em Verdades Secretas, vai receber R$ 0,16. 
+
+58:03
+Felipe Almeida Tavares
+Né? 
+
+58:06
+Felipe Almeida Tavares
+Que aí tem alguns detalhes aqui para o analista entender, porque ele foi no Caxia. Aí esse outro aqui vai receber R$ 8. Deixa eu ordenar aqui pelo maior valor. Mas esse aqui, por exemplo, vai receber mil e poucos reais. Então varia muito. 
+
+58:23
+Felipe Almeida Tavares
+Tem gente aqui, provavelmente, que não vai receber nada. Ó, tem gente aqui que não recebe nada. 
+
+58:29
+Júlio Cesar Freitag Schweikart
+Só uma dúvida agora, os nomes estão escritos de forma oculta, digamos assim, por ser ambiente não produtivo ou realmente em produção ele é escondido o nome de todo mundo mesmo? 
+
+58:47
+Felipe Almeida Tavares
+Não, é porque é ambiente não produtivo. 
+
+58:51
+Lais Deganello
+A produção fica certinha. 
+
+58:54
+Júlio Cesar Freitag Schweikart
+Só daqui a pouco não quer esconder, a ideia é ser... Não dizer quem que vai receber, né, poderia ser também. 
+
+59:06
+Felipe Almeida Tavares
+Aí, passada toda essa etapa aqui de. 
+
+59:08
+Felipe Almeida Tavares
+Análise e aprovações, a gente vai para. 
+
+59:10
+Felipe Almeida Tavares
+A parte de disparo. Aí, eu estou falando tanto de disparo de remuneração, que a Laís apresentou, quanto de disparo de direitos. O de remuneração é mais tranquilo. As pessoas estão vivas, estão trabalhando. Então, é basicamente o pagamento de salário delas. Tem aqui todas as folhas que foram calculadas, por exemplo. 
+
+59:37
+Felipe Almeida Tavares
+Tem aqui com os valores. A gente bota aqui nos carrinhos. 
+
+59:41
+Felipe Almeida Tavares
+O PSP é o PJ, que é a nomenclatura antiga. A gente paga pessoa física e paga alguns casos de nativos, que são basicamente direitos. 
+
+59:54
+Felipe Almeida Tavares
+E aqui, essa tela tem integração com. 
+
+59:55
+Felipe Almeida Tavares
+O RP da empresa. E com o FPW, que é o de folha de pagamento. Então, assim, para remuneração é tranquilo, para. 
+
+01:00:07
+Felipe Almeida Tavares
+Direitos é pouquinho mais complicado. Por quê? 
+
+01:00:12
+Felipe Almeida Tavares
+Se a pessoa estiver viva, trabalhando aqui na casa, ok. Por exemplo, se tiver contrato atual de PF, vai para o FPW. Se tiver contrato de PJ, vai pagar na empresa. Mas se a pessoa já não estiver mais trabalhando, já começam as complicações, né? Se na época ela tivesse sido PF, tem que pagar ela como inativa, né? 
+
+01:00:35
+Felipe Almeida Tavares
+Paga direto na pessoa física, mas não. 
+
+01:00:36
+Felipe Almeida Tavares
+Passa pela folha de pagamento. Aí vai VIRP. Se estiver viva, ainda tiver empresa, paga na empresa da época. Se já não tiver mais empresa, aí depende. Já começam os dependes, né? 
+
+01:00:50
+Felipe Almeida Tavares
+Pode pagar numa empresa nova, pode pagar na pessoa física. 
+
+01:00:53
+Felipe Almeida Tavares
+Se a pessoa estiver morrida, Também depende. Se já tiver inventário, paga para os herdeiros. Se não tiver, fica retido. É para o caso de sessão de obra, que são aquelas obras... A novela foi baseada na obra de Nelson Rodrigues, por exemplo. A sessão de obra é isso, o livro dele. Aí paga para o sedente, que não. 
+
+01:01:18
+Felipe Almeida Tavares
+É necessariamente o autor. 
+
+01:01:20
+Felipe Almeida Tavares
+Aí tem alguns autores que vendem os direitos para empresas, ou manda outra empresa administrar. 
+
+01:01:26
+Felipe Almeida Tavares
+Aí tem toda uma questão de direcionamento. 
+
+01:01:27
+Felipe Almeida Tavares
+Tem toda uma lógica complexa de pagamentos. Isso tudo o Space faz sozinho, automático. Isso é previamente configurado, é claro. A gente configura nos fornecedores, no cadastro fornecedor que a gente tem aqui. No caso dos herdeiros, por exemplo, a gente coloca até o peso de quanto cada vai receber. Então, por exemplo, a pessoa tinha lá R$ 10,00 para receber, não R$ 100,00 para receber. Ela tem três herdeiros, cada com peso diferente. 
+
+01:01:59
+Felipe Almeida Tavares
+O space consegue fazer esse cálculo de quanto cada tem que receber e pagar certinho para cada. 
+
+01:02:06
+Felipe Almeida Tavares
+É uma peculiaridade aqui desse pagamento. O space só paga acima de R$ 50,00. É uma regra de negócio isso, porque senão não compensa. 
+
+01:02:15
+Felipe Almeida Tavares
+Custo bancário de pagar abaixo de 50. 
+
+01:02:17
+Felipe Almeida Tavares
+Reais, nem para a Globo e, no caso dos PJs, nem para quem vai emitir a nota. Então, se por acaso não atingir 50 reais, ele retém o pagamento até uma próxima oportunidade que tiver mais pagamento para ele vê se atingiu 50 reais e faz o pagamento. Isso não impacta a remuneração, porque, obviamente, todo mundo recebe mais do que 50 reais pelo trabalho, mas isso impacta muito direitos. E aqui a gente tem as folhas, o detalhamento de quanto cada pessoa tem. 
+
+01:02:54
+Felipe Almeida Tavares
+Para receber ou recebeu na época. 
+
+01:02:57
+Felipe Almeida Tavares
+Então, por exemplo, alguém aqui recebeu R$ 4 milhões. Não sei se é necessariamente verdade isso, porque isso aqui é uma logração, a gente gera monte de massa. E aqui tem os históricos de pagamento, tudo que foi disparado para RP. Só que ela demora pouquinho porque são muitos pagamentos e tudo foi disparado para FPW também. E aí aqui, para a gente terminar o processo, porque assim, a gente mandou para o RP, a gente já manda o que tem que pagar, para quem e onde tem que contabilizar. Para o FPW a gente manda quanto tem que pagar e para quem. Então, assim, saiu daqui, né, da parte de disparo, a gente só recebe o. 
+
+01:03:47
+Felipe Almeida Tavares
+Retorno do status pra gente saber se. 
+
+01:03:49
+Felipe Almeida Tavares
+Pagou ou não, né, também pra gente evitar de pagar de novo. Mas, assim, a IRP e IFP pra frente a gente não se envolve. 
+
+01:03:57
+Felipe Almeida Tavares
+A gente só recebe o retorno do status. 
+
+01:04:02
+Felipe Almeida Tavares
+Acho que é isso. 
+
+01:04:02
+Felipe Almeida Tavares
+Acho que eu falei tudo. 
+
+01:04:09
+Júlio Cesar Freitag Schweikart
+Bastante coisa. Só para tentar fazer uma linha de fluxo. Então, digamos assim, o arte lá atrás, ele recebe uma solicitação de contratação de temporário, de profissional temporário, todo ciclo ali de contrato, de contratação desse profissional. Uma vez estabelecido esse contrato vem para o space, onde ele entra num ciclo de pagamentos. O resumo seria isso. Aí, alinhado a esse ciclo de pagamentos, começam a existir esses detalhes aí de reprise, comercialização e direitos, se é direito ou se é remuneração. Mas o ciclo macro seria esse. 
+
+01:05:13
+Felipe Almeida Tavares
+É, entrando assim, o ciclo macro como. 
+
+01:05:15
+Felipe Almeida Tavares
+Sendo importamos lá do arte, né? Tudo que tem que pagar. 
+
+01:05:23
+Felipe Almeida Tavares
+Calculamos e pagamos. 
+
+01:05:25
+Felipe Almeida Tavares
+São basicamente essas três etapas, né? 
+
+01:05:29
+Júlio Cesar Freitag Schweikart
+Isso, calcula e paga, né? Aí esse calcular, né? Ele pode ser, ele é feito de forma frequente, mas alguns profissionais ali, provavelmente alguns talentos, né? Vamos vamos trazer para o termoglobo, alguns talentos têm isso de forma recorrente mediante o contrato, outros têm uma remuneração única porque é uma propaganda X que foi feita ali. 
+
+01:05:57
+Felipe Almeida Tavares
+Sim. 
+
+01:05:58
+Júlio Cesar Freitag Schweikart
+Isso. E detalhes ali de reprise. 
+
+01:06:03
+Júlio Cesar Freitag Schweikart
+Ou. 
+
+01:06:05
+Júlio Cesar Freitag Schweikart
+Direito e por aí vai, né? Direito ou comercialização? Desculpe, é repudio ou comercialização? 
+
+01:06:11
+Felipe Almeida Tavares
+É direitos, mas é direitos em geral, sim. 
+
+01:06:13
+Júlio Cesar Freitag Schweikart
+Perfeito. 
+
+01:06:16
+Lais Deganello
+E no próprio arte já é sistematizado ali, Júlio? Tipo, todas essas regras de verbo, essas coisas que já vêm no contrato, né? Então, sei lá, negociei que ele vai ter uma ajuda, alguma coisa assim, cadastrado lá e a gente traz também, a gente importa do arte. Então a gente negocia e tudo que está ali dentro do contrato a gente já sistematiza e também depois a gente vai importando aqui para o Space aí para fazer esse cálculo, esses pagamentos. 
+
+01:06:43
+Júlio Cesar Freitag Schweikart
+João e a Causton, dúvidas? 
+
+01:06:48
+Rodrigo Carlstrom
+Não, não. Percebam que essa parte aqui está até bem resolvida aqui, né? O sistema aí, acho que ele já abordou a parte financeira aí, a parte complexa aí. Está bem encaminhado, né? Mas pode ser que a gente tenha aqui uma necessidade de remarcar, né, Julio? Para realmente, na hora que a gente estiver fazendo a nossa modelagem aqui, né? Alguma dúvida adicional aí, mas, por enquanto, satisfatória aí. 
+
+01:07:24
+Júlio Cesar Freitag Schweikart
+A gente gravou o vídeo aqui, né? Então, provavelmente, a gente vai ver e rever ele algumas vezes aqui para entender o processo. Dúvidas vão surgir, é claro, e aí a gente volta a chamar vocês. Ponto ali, que até vou verificar com a Fernanda depois, se a gente consegue ter acesso às ferramentas em homologação, para a gente conseguir dar uma navegada, para a gente entender o fluxo, o processo, como é que ele está. A jóia? 
+
+01:08:02
+Felipe Almeida Tavares
+Beleza. 
+
+01:08:02
+Júlio Cesar Freitag Schweikart
+Então, por isso é hoje. 
+
+01:08:06
+Rodrigo Carlstrom
+Obrigado aí, Felipe. Obrigado, Laís. 
+
+01:08:08
+Lais Deganello
+Obrigada, pessoal. Estamos à disposição aí, se precisar de alguma coisa. 
+
+01:08:11
+Júlio Cesar Freitag Schweikart
+Até mais. 

@@ -1,0 +1,487 @@
+ID= REU202502181800A
+Alinhamento: Gestão de RH
+Participantes:
+Júlio Cesar Freitag Schweikart - Email: julio.cesar@ntconsult.com.br 
+Rodrigo Carlstrom - Email: rodrigo.carlstrom@ntconsult.com.br
+Alyne Coutinho - Globo
+
+RESUMO DA REUNIÃO:
+Foram discutidos os processos de gestão de recursos humanos na Globo, com foco nas ferramentas e sistemas utilizados ao longo de toda a cadeia de valor do colaborador, desde o recrutamento até o desligamento. A Globo utiliza o sistema Oracle HCM como ferramenta central para recrutamento, contratação, gestão de talentos, remuneração e folha de pagamento, integrando-se a sistemas satélites como Gupy (recrutamento), FPW (folha de pagamento) e plataformas de treinamento, incluindo o LinkedIn Learning. Também foram abordadas as integrações com o barramento de serviços desenvolvido internamente pela Globo, visando evitar a replicação de dados e facilitar o fluxo entre os diversos módulos do HCM e outras soluções corporativas. A reunião destacou a importância da automação e da modernização das interfaces, especialmente para aumentar o engajamento dos colaboradores e otimizar processos críticos, como o processamento da folha de pagamento e o controle de benefícios.
+
+TRANSCRIÇÃO: 
+
+00:00
+Rodrigo Carlstrom - NT
+Oi, Aline. 
+
+00:02
+Alyne Coutinho - Globo
+Olá, Rodrigo. Tudo bem? Tudo jóia? Bom dia, tudo bem? 
+
+00:12
+Julio - NT
+Tudo jóia, só contigo. 
+
+00:15
+Alyne Coutinho - Globo
+Tudo jóia também, só calor difícil de aguentar, né, gente? Nossa, tá demais. Vocês ficam aonde? No Rio? São Paulo? 
+
+00:28
+Julio - NT
+Porto Alegre, aqui estava muito calor, mas deu uma amenizada agora essa semana. 
+
+00:34
+Rodrigo Carlstrom - NT
+E eu fico em São Paulo. 
+
+00:35
+Alyne Coutinho - Globo
+São Paulo, eu fico no Rio, e o negócio aqui está terrível. Ainda tem a umidade, aqui é bem... Ontem eu fui para o escritório, hoje eu falei assim, não, vou ficar em casa, porque não dá para ficar enfrentando esse sol e sair e tudo mais não dá de jeito nenhum mesmo. Mas vamos lá, como que vocês querem conduzir? Como que vocês preferem? Me dá aí o enredo, como que vocês querem ouvir? 
+
+01:17
+Julio - NT
+Eu acho que a gente tem que partir do começo, Antes disso, vamos colocar para gravar aqui, Aline. Daí a gente consegue usar como insumo depois aqui para os nossos estudos. 
+
+01:34
+Alyne Coutinho - Globo
+Tá ótimo. 
+
+01:35
+Julio - NT
+Então, acho que a gente precisa começar do começo, entender pouquinho quais são as responsabilidades da tua área. E o conhecimento bem superficial que nós temos até agora é basicamente a área responsável por ferramentas de uso que envolvem o RH. Tanto algumas ferramentas que são utilizadas pela própria área de RH, como outras ferramentas que suportam os processos de planejamento de curto prazo, não de longo prazo. Pelo menos até agora entendemos que não. E também o processo final lá, que envolve já aquilo que foi executado, o D-1, digamos assim, o que já aconteceu. Então, existem ferramentas ali de RH que também são envolvidas nesse processo. Então, esse é o entendimento que nós temos até o momento. Pode trazer novas informações aí para a gente nesse contexto, até mesmo se alguma dessas informações não está de acordo. E quais são as ferramentas? 
+
+02:59
+Julio - NT
+Pouquinho ali da responsabilidade de cada ferramenta. A gente está conversando com o pessoal de integrações já, para entender como é que são as integrações entre essas ferramentas. Então, eu acho que seria pouco nessa linha. E aí o Calstron, ele é... Especialista em processos aqui no MT, né? Então também tem esse ponto aí relevante pra gente, né? Quais são os processos que são geridos pela tua área? 
+
+03:33
+Alyne Coutinho - Globo
+Tá ótimo, tá joia! E eu acho que é muito uma troca Eu vou falando, vocês vão me interrompendo, perguntando mais Como o primeiro papo, eu acho que tem muito esse viés de ir nivelando esse conhecimento Até para vocês conseguirem dar andamento aí Claro que primeiro papo, talvez depois a gente vai fazendo mais drill down de algum tema específico específico, mas eu tenho material aqui, eu vou começar bem assim, eu gosto de começar amplo e descendo, mas vocês vão me dando aí o tom, tá? Se tá bom, se não tá, pra gente ir trocando juntos, tá? Eu vou compartilhar a minha tela aqui, então, quando tiverem vendo, vocês me avisem, tá? 
+
+04:30
+Julio - NT
+Já estamos vendo. 
+
+04:34
+Alyne Coutinho - Globo
+Então, vamos lá. Eu vou começar aqui passando... Tudo o que o time aqui atua A gente apoia através das soluções de tecnologia Toda a cadeia de valor do colaborador na Globo Desde a etapa de quando você está prospectando para recrutamento externo Quanto alguma movimentação interna também Então a gente está fazendo a atração Fomento de vagas, de oportunidades A gente tem a contratação oficial e o onboard desse profissional escolhido Seja para todas as áreas, tá? 
+
+05:25
+Alyne Coutinho - Globo
+Contratação na amplitude de todas as áreas de tecnologia, de infraestrutura, áreas de negócio Então as nossas soluções suportam todas essas etapas do colaborador desde a prospecção até a sua saída Aí depois de contratado, feito o onboard, ele está na sua área escolhida, selecionada Tem todo módulo, soluções que suportam motivadores de bem-estar comunicação, de treinamentos, de apoio psicológico, então a gente tem portal de bem-estar aqui que traz toda essa parte de, vamos dizer assim, Apoio psicológico mesmo de oportunidades de benefícios e segurança do trabalho Então temos aplicações que suportam essa etapa do fluxo Tem as aplicações que suportam todo o desenvolvimento e evolução do colaborador aqui através de treinamentos Tanto treinamentos que tem internos nas nossas plataformas internas Quanto o que a gente lançou finalzinho agora de 2024 Uma conexão e abertura para todos os colaboradores dos cursos do LinkedIn Learning Então a gente aqui tá com foco em trazer conteúdo, trazer formas de que o colaborador possa ser protagonismo Não existe aqui nenhuma determinação Ou imposição que o colaborador se desenvolva É uma prática que a gente vem trabalhando nos colaboradores Não a gente, mas a área de aprendizagem E a gente, através das ferramentas, suporta todo esse movimento Para o colaborador ser o protagonista do seu desenvolvimento Depois a gente tem na nossa cadeia de valor a gestão do desempenho e performance Onde a gente acompanha as metas anuais dos executivos E desde o nível especialista até executivos de gestão sênior, tá? 
+
+08:11
+Alyne Coutinho - Globo
+Nós temos uma aplicação que suporta, tem todo o processo definição Junto aos gestores e os gestores aos diretores Os diretores associando as metas da companhia como todo Fazendo todo aquele drill down E aqui eu tô falando de meta mesmo, meta com bonificação Não OCRs de entregas de iniciativas Aqui são metas mesmo associadas a recompensas financeiras Tem toda a parte de folha de pagamento, toda a parte de remuneração dos colaboradores, né? E, caso ocorra, todo o processo desligamento também, as ferramentas que a gente suporta aqui, da parte de tecnologia, atendem. Até aqui, tudo bem? 
+
+09:11
+Julio - NT
+Tudo bem, senhora. 
+
+09:12
+Alyne Coutinho - Globo
+Não tô vendo vocês, podem ir interrompendo, tá? Então, hoje a gente tem a ferramenta Core que ela tem todas essas etapas de uma forma ou de outra A ferramenta Master é uma ferramenta da Oracle que tem todos esses módulos que vão suportar cada etapa Aí aqui embaixo eu coloco quais os módulos suportam Mas não tudo está no Conecta no HCM da Oracle, tá? 
+
+09:53
+Alyne Coutinho - Globo
+Ele é o máster da informação Tanto que quando eu abro uma vaga, eu abro por aqui, ele tem ID, essa pessoa fica associada a essa vaga em toda a sua história aqui dentro, mas a gente tem aplicações, vamos dizer assim, satélites que de uma forma ou de outra, seja por causa de fronte que traga uma experiência melhor, Uma navegabilidade mais moderna, porque o HCM, eu não sei o quanto vocês conhecem É uma ferramenta de prateleira igual ERP da SAP Então muitas vezes essas ferramentas deixam ir aqui sem apego à plataforma nenhuma Elas deixam a desejar pouco naquele apelo mais visual de portal, de uma aplicação mais moderna Então dessa forma a gente criou alguns portais mesmo Que tratam mais essa parte da navegação, essa parte de estar mais amigável para o cliente E aqui na parte de atração a gente tem a parceria com a Gupy Que é uma ferramenta de mercado também para o recrutamento E o módulo aqui do HCM, toda vez que tiver HCM aqui na frente Que está embutido como cor dentro da plataforma da Oracle, tá? 
+
+11:29
+Alyne Coutinho - Globo
+Então para o recrutamento a gente tem módulo dentro do HCM de recrutamento Que eu abro a vaga, eu faço as entrevistas, ali tem workflow de tramitação dessa vaga Até a contratação e associação desse novo colaborador a essa vaga E toda a parte de gestão de talentos, onde, por exemplo, eu tenho 18 colaboradores associados a mim Então eu tenho 18 headcounts, tudo isso eu acompanho pelo HCM Eu sei faixa salarial, todos os dados do meu colaborador Quando entra são cadastrados e ficam armazenados no HCM E ele se torna o master dessas informações que vão tramitar para todos os outros sistemas, não só Que eu cuido aqui como, por exemplo, outras aplicações que precisarem de informações do HCM A gente tem até com a equipe do Pinho que você mencionou aí que também já está em contato A gente tem serviços de integração que conectam e buscam os dados justamente para evitar a duplicidade informações Então também tem o módulo de onboard, tem o módulo de admissão para efetivação dessa vaga E repara que tudo isso conectado numa plataforma única Eu vou tramitando sem muitas, vamos dizer assim, dores de integração Então aqui também a gente tem módulo que a gente chama SOC Que cuida da parte de segurança do trabalho, que cadastra ocorrências quando existem A gente tem módulos de aprendizado para o foco no desenvolvimento dentro do ADCN Que vai computando e integrando com as outras plataformas E monta histórico desenvolvimento daquele colaborador Academias Globo é uma plataforma fora do HCM Onde o colaborador pode escolher alguns cursos Para fazer de plataformas externas Como a própria plataforma da Google A plataforma para treinamentos até mais técnicos aqui Do próprio LinkedIn Learning que eu mencionei E uma outra plataforma desenvolvida interna aqui Que traz outros conteúdos também E que vão vinculando e computando no histórico desse colaborador A gente usa uma plataforma, isso não está no HCM, é totalmente apartado Para o controle das metas, que é a Pulse Ou Valorai, em algumas empresas, não sei se vocês já ouviram falar Tem a plataforma que a partir das metas corporativas Você pode fazer compartilhamento entre diretorias de uma determinada meta Você tem como ir computando mensalmente a evolução daquela meta E as nossas metas são anuales Módulo de remuneração, ele parte do HCM no fechamento do ciclo A gente tem fechamento para o pagamento, a gente começa a rodar a folha de pagamento Esse módulo está muito associado a ter aqui na plataforma do HCM Qual é a remuneração, se ele pediu algum benefício que tem que ser descontado em folha Se ele usou, tem valetransporte Toda essa parte de benefício está toda aqui no HCM Então quando eu vou rodar, que aí é comigo mesmo, a folha de pagamento É o HCM que é o ativador desse trigger de iniciar A rodada da folha pegando todas as informações desse colaborador Desdescontos de algum benefício que ele teve para ser descontado a mais ou a menos E aciona o FPW que é o sistema aqui nosso responsável por rodar a folha de pagamento Emitir o e-social, emitir o... 
+
+16:20
+Alyne Coutinho - Globo
+O arquivo bancário para poder ir para os bancos Hoje a gente usa três bancos para o pagamento do colaborador Recebe o retorno do banco que foi computado na conta do colaborador O pagamento mensal e retorna para o HCM, tá? 
+
+16:45
+Alyne Coutinho - Globo
+E aqui na remuneração também usam módulo de ausências para descontar férias, para computar a folha do 13º A folha quando acontece o fechamento das metas anuais para pagar o PLR, o bônus Então todo esse módulo conectado ele ativa O início mais ou menos ali no dia 14 de cada mês para rodar a folha com tudo que envolve o processamento de uma folha de pagamento E o próprio desligamento também é módulo do HCM onde você Computa o desligamento, o motivo, o porquê que está desligando aquele colaborador É todo workflow que vai depois para o gestor, vai para a nossa parceira de RH E computa e libera essa vaga para uma nova início da cadeia de valor Alguns adendos aqui, a gente tem uma plataforma chamada GetResponse Que ela é responsável por disparar, a gente controla aqui também, algumas comunicações corporativas Quando você tem que mandar para todos os colaboradores Mais de 10 mil, ou para a gente tem uma série de listas Enquadradas a todos os colaboradores só de tecnologia Só da unidade negócios X Ou todos os especialistas, todos os coordenadores Então essa plataforma, a partir dessas regras de comunicação Ela dispara essas comunicações Para o público referente A folha de pagamento, o ex-social e o motor de benefícios Que faz batimento do processamento de folha E cria dashboard justamente para a área do RH Que cuida da remuneração e acompanhando o processamento da folha De uma maneira muito macro, mas para amplitude ver mais o que é o pouquinho de coisa que a área cuida aqui Eu fiz uma visão, one page aqui para vocês terem uma noção E hoje a gente tem quatro times organizados por temas que são de sua responsabilidade Aqui é o RDAG, Recrutamento e Desenvolvimento Admissão e comunicação que cuida basicamente dessas frentes de iniciar a parte desenvolvimento A gente tem núcleo que cuida da frente de remuneração Aqui é núcleo core que cuida da parte de integração, da parte dos benefícios, da parte bem core mesmo do HCM e time que cuida de todo esse processo da folha de pagamento e da área de segurança do trabalho. 
+
+20:19
+Alyne Coutinho - Globo
+Dúvidas? 
+
+20:22
+Rodrigo Carlstrom - NT
+Questões de integração nessas plataformas aqui, Aline? Como que elas estão integradas aí? Ou eu tenho que realmente fazer trabalho meio que manual, copiar e colar de uma pra outra? 
+
+20:33
+Alyne Coutinho - Globo
+Não, não, não. São integrações com barramento de serviços com o PIN. 
+
+20:38
+Rodrigo Carlstrom - NT
+- E o barramento construído pelo Aglobo aí? 
+
+20:42
+Alyne Coutinho - Globo
+- Construído pelo Aglobo A gente tem uma série de serviços que, por exemplo Quando a Folha de Pagamento precisa ler tudo o que aquele colaborador teve Tem serviço aqui, desenho de arquitetura, de integração Que lê todas essas informações e manda para a Folha Então é tudo integrado com o barramento de serviços contínuo em Dupinho Justamente para evitar aquela parte que eu falei de replicação dos dados. 
+
+21:18
+Julio - NT
+Aline, vocês são responsáveis pelas ferramentas ou fornecem as ferramentas para o time de RH ou vocês realizam os processos todos? 
+
+21:31
+Alyne Coutinho - Globo
+Não, a gente é responsável pela ferramenta, pelo desenvolvimento Sustentação, resolução de bugs, evoluções, construção de novos campos Desde coisas mais simples, habilitação de novos campos, novas necessidades Até de otimização de algum módulo, criação de alguma nova necessidade, algum novo módulo Tudo que envolva essa cadeia aqui. 
+
+22:07
+Julio - NT
+Então. 
+
+22:08
+Alyne Coutinho - Globo
+É manutenção, evolução e sustentação Pela área de tecnologia, por exemplo Qual é o processo de recrutamento? A gente conhece, é porque a gente desenvolveu Cada time desse tem P.O. Que interfaceia junto comigo com as áreas de negócio Surgiu uma necessidade de construir novo, igual a gente está fazendo, front-end web, multi-device Para a divulgação das vagas internas, do recrutamento interno para justamente trazer uma navegabilidade mais moderna, mais inspiradora e atrelada ao movimento de Que o RH quer, agora em 2025, provocar muito de job rotation De incentivar que os colaboradores se movimentam dentro da companhia Vejam e acompanhem as novas vagas Então a gente está responsável Então para você desenvolver, a gente tem que desenvolver desenvolvedores, tanto Globo quanto de alguns parceiros de negócio, a gente acaba tendo que entender o fluxo, o processo, mas quem define como é o processo é a área de. 
+
+23:46
+Rodrigo Carlstrom - NT
+RH. Belinda, aqui a gente já falou com o pessoal de talentos, né Júlio? 
+
+23:54
+Alyne Coutinho - Globo
+Sim, com a Fernanda Maia e o Zé. 
+
+23:58
+Rodrigo Carlstrom - NT
+E que conexão que esse processo aqui. 
+
+24:01
+Julio - NT
+Tem com aquele de lá? 
+
+24:06
+Alyne Coutinho - Globo
+O processo de contratação de talentos, pessoa física segue esse mesmo processo aqui, tá? Lógico que Tony Ramos, revisão contratual, elenco da casa e tudo O processo é lá com a Fernanda Maia, dentro do fluxo dela lá, elenco Talentos, porque nós somos, vamos pensar assim, nós somos também talentos, mas de nicho diferente, mas pegando assim a Fê, ela cuida, é minha para aqui, e ela cuida muito de toda essa cadeia para talentos da TV, dos programas, Então, o fluxo é pouco separado para talentos, dado a particularidade. Muitos deles às vezes são PJ, tem contrato por obra. Então, tem particularidades bem diferentes de CLT aqui, DEV. 
+
+25:21
+Rodrigo Carlstrom - NT
+E aí eu percebi que até o ferramental é diferente, né? 
+
+25:24
+Alyne Coutinho - Globo
+É diferente. 
+
+25:25
+Rodrigo Carlstrom - NT
+Tem muito foco em contrato lá, né? 
+
+25:28
+Alyne Coutinho - Globo
+É porque, como eu falei, os talentos, quando eu falo talento, eu ainda brinco, nós somos talentos também, mas talentos de chão de fábrica, mas a fé cuida, a particularidade é tanta, nada que talvez não pudesse vir pra cá, mas que eu sei que o Oracle, o HCM tem, Mas é uma particularidade ali tão grande, porque é por obra, é por período, é contrato para ir no domingão Então tem ferramental, e aí eu nem estava aqui na Globo, por que foi escolhido não usar Essa parte eu não sei, mas eu não tenho esse histórico, mas usam ferramental bem diferente, fluxo lá para a parte de talentos de mídia, vamos assim dizer. 
+
+26:27
+Rodrigo Carlstrom - NT
+Perfeito, mas todos eles, né, vão desembocar de alguma forma aqui na parte de pagamento ali, vai? 
+
+26:35
+Julio - NT
+Vai. Vai também. 
+
+26:36
+Rodrigo Carlstrom - NT
+Vai tudo pro FPW aí no fim, né? 
+
+26:40
+Alyne Coutinho - Globo
+No fim, vai. 
+
+26:44
+Julio - NT
+Só, assim, parte do processo, no caso de captação aqui, que tu tens aqui, é a tração, né? Então, só pra fazer paralelo aqui com o que a gente conversou com a Fernanda lá, a Fernanda Pratalento, ela teria uma outra ferramenta lá, que é a ferramenta captação, né? 
+
+27:05
+Alyne Coutinho - Globo
+Captação, isso. 
+
+27:06
+Julio - NT
+Isso, aí eles têm ali outro processo de uma espécie de curadoria, digamos assim, no Star, e uma vez que, mesmo sendo talento da área de entretenimento, e ele for contratado como funcionário Globo, aí ele entra para esse processo aqui, através da HCM, né? É isso? 
+
+27:31
+Alyne Coutinho - Globo
+Você me pegou agora, me... Não sei, deixa eu afirmar, tô até anotando aqui, eu não sei se os talentos vêm pra cá, mas eu tô anotando porque agora você até me provocou. Eu tinha entendido, mas eu vou fazer double check lá com a Gabi. Vocês já conversaram com a Gabi? Do time da Fê ou só com a Fê? 
+
+27:53
+Julio - NT
+Não, só com a Fernanda. Gabi, eu acho que a gente conversa agora, daqui a pouco. 
+
+28:07
+Alyne Coutinho - Globo
+Tá, mas eu tô anotando aqui. Essa eu vou ficar te devendo. 
+
+28:15
+Julio - NT
+Tá. E eu acho que a Fernanda ficou de direcionar o e-mail pra Gabriela e não direcionou. 
+
+28:22
+Alyne Coutinho - Globo
+Fita de férias. Eu acho, eu tô na dúvida aqui até se o pagamento é realmente no FPW. Me deu branco aqui agora, anotei aqui para ver se existe uma captação, uma associação ali no CAPTAÇÃO, no ESTAR e depois vem para o HCM e o HCM roda a folha de pagamento ou se não, até o pagamento tem lá. Eu tô numa dúvida aqui agora, mas eu anotei aqui e devolvo para vocês. 
+
+29:05
+Julio - NT
+Aí tem umas outras ferramentas que a gente acabou escutando aí em conversas ali, em integração, que eu acabei entendendo que seriam contigo, mas não apareceram aqui no teu slide, que é o SGP, o Exleitor e o IBMS. 
+
+29:24
+Alyne Coutinho - Globo
+Não, não são comigo graças a Deus, mas eu sei quem que são. O SGP é sistema de produção de conteúdo que controla todas as produções mesmo Novelas, gravações, ele, o ator Ele tem toda a parte do roteiro, da fala de cada personagem daquela novela. Vou pegar a novela, tá? Pra ficar mais claro. Que aloca os personagens em cada dia de gravação. Então, é sistema de gerenciamento da produção. Olhando produção como gravação, para ir ao ar. Então ali ele tem roteiro, ele tem de qual ator é cada roteiro, qual dia da gravação, aí depois se já foi gravado, se já foi liberado para tratamento da imagem com a sonorização para só depois ir ao ar. E o SGP é do time do Léo Cabral na diretoria de infraestrutura, não fica aqui debaixo do Samuel, tá? Ele não é nosso. 
+
+31:02
+Julio - NT
+Qual é o outro? O SGT morte, ali embaixo tem morte, né? Existe morte e SGT morte a mesma coisa? 
+
+31:11
+Alyne Coutinho - Globo
+Não, não conheço como SGT Motti, esse SGP ou SGT de tatu? 
+
+31:19
+Julio - NT
+SGT de tatu, que seria a contratação. 
+
+31:23
+Alyne Coutinho - Globo
+De temporários É aqui mesmo, é que eu só conheço, a gente só chama de Motti mesmo Mão de obra temporária, é comigo Quando a gente vai contratar, é o mote. Quando a gente faz todo o processo de contratação temporária para a montagem de cenário, para a alocação, ali agora no carnaval, para evento, então é a mão de obra temporária. 
+
+31:54
+Julio - NT
+E essa ferramenta é em desenvolvimento globo ou é uma ferramenta de terceiro também? 
+
+32:01
+Alyne Coutinho - Globo
+É nossa. 
+
+32:03
+Julio - NT
+Desenvolvimento interno. E é o teu time quem desenvolve daí no caso, então. Então, são três ferramentas internas e demais todas externas, se eu anotei correto aqui, que seria o SGT morte, o Aprende Globo e Academias Globo. 
+
+32:30
+Alyne Coutinho - Globo
+São internas, né? Você fala desse pool aqui, né? Desse pool aqui, o Vem Pra Globo é portal fora de uma... Mas o HCM a gente também desenvolve em cima dele, tá? Aqui ele é todo parametrizável Mas é pacote, vamos chamar assim, é pacote de mercado, tá? O FPW é pacote de mercado da LG, o HCN Connecta é da Oracle, o Pulse é da Valor e é uma empresa também, é pacote de mercado, mas todo adaptável e parametrizável de acordo com os processos aqui da Globo, tá? O FPW da LG e o MOT que a gente fez aqui também. 
+
+33:24
+Julio - NT
+O FPW é da LG? 
+
+33:27
+Alyne Coutinho - Globo
+LG. 
+
+33:28
+Julio - NT
+Tá. Tu comentaste sobre o SAP aí, onde é que ele ficou? 
+
+33:33
+Alyne Coutinho - Globo
+Onde é que ele tá? O... Eu... A Globo não... Não que eu conheça, tá? Ele não... A gente não usa o SAP aqui. Eu não sei se em outra diretoria usa, tá? Lá do CSC. Eu não sei te responder pelo SAP. A gente, para o módulo de contratos, tudo, é módulo também da Oracle, tá? Que é parzinho, aqui a Oracle é ERP. Mas não, o ERP aqui da Globo é o Oracle, não é o SAP. 
+
+34:16
+Julio - NT
+Sim, sim. Eu achei que eu tinha escutado aí antes SAP. 
+
+34:24
+Alyne Coutinho - Globo
+Eu falei R&P, porque o SAP é R&P também, mas aqui eu não sei se outra diretoria usa, mas de forma core Mas aqui o R&P, que tem contrato, nota fiscal e tudo mais, é da Oracle também. 
+
+34:53
+Julio - NT
+Bastante, bastante. Corre, vem, vem. 
+
+34:56
+Alyne Coutinho - Globo
+E aí aqui eu posso compartilhar esse material com vocês, tá? Aí aqui eu venho colocando para cada time desses que eu referenciei aqui para vocês terem uma noção e não ficar muito poluído aqui E aqui, gente, não é uma visão técnica de integração, né? De barramento, camadas, não é desenho funcional, só para vocês terem uma noção. Eu não trouxe para esse nosso primeiro papo nenhum, até o Pinho vai ter isso até melhor, mais atualizado, de uma visão arquitetural mais técnica mesmo. 
+
+35:44
+Alyne Coutinho - Globo
+Aí aqui eu trouxe os times versus os produtos ou módulos, produtos barra módulos que cada time cuida dentro daquela cadeia de valor Só para vocês terem uma noção mesmo Lembra que a remuneração, eu falei que o trigger que ativa o FPW para rodar a folha está no time de remuneração, o time de core Aqui no time de CORE a gente também tem a assinatura digital Que também é uma ferramenta de mercado Mas mais para quando eu faço o onboard e o colaborador aceita a entrada Todos os documentos são assinados no HCM via Docsign Folha de pagamento Pode botar só. 
+
+36:48
+Rodrigo Carlstrom - NT
+Pouquinho ali no interior? O que é o X-Pencil? 
+
+36:57
+Alyne Coutinho - Globo
+O X-Pencil são duas ferramentas mais internas. De ativação dos serviços mesmo De baixar os serviços quando está implantando uma release Então não envolve muita parte de negócio. 
+
+37:18
+Rodrigo Carlstrom - NT
+Não Ou eu consigo? 
+
+37:25
+Alyne Coutinho - Globo
+Ou eu consigo, eu não sei Eu tenho que ver aqui pra vocês. 
+
+37:35
+Rodrigo Carlstrom - NT
+E o Glor? 
+
+37:36
+Alyne Coutinho - Globo
+O Glor, ele é o nosso assistente virtual. Que é em cima de uma plataforma da Oracle também, que a gente ativa Eu vou até mostrar aqui para vocês que eu acho que tangibiliza mais Que é assistente que você vai tirando dúvidas com ele E aí você pergunta sobre Me passe... Olá, quer ver? É assistente virtual mesmo que você vai tirando dúvidas Como funciona o Vale Refeição e Alimentação? 
+
+38:19
+Julio - NT
+Entendi, uma espécie de auto-atendimento para os. 
+
+38:23
+Alyne Coutinho - Globo
+Colaboradores Auto-atendimento, isso Que tem como fonte de informação nossos benefícios, reembolsos Se você quiser tirar uma dúvida do seu contra-cheque Ele responde até certo ponto ou direciona para atendimento humano do RH Perfeito, joia Eu separei num primeiro, até para também não ser sufocante, que é muita informação, num primeiro momento uma visão macro da área, quais são os objetivos, os sistemas, né? E para vocês terem pouco de visão. Uma outra... 
+
+39:26
+Rodrigo Carlstrom - NT
+O último slide lá, Línia, acabei não vendo. Fiquei preso no anterior. 
+
+39:32
+Alyne Coutinho - Globo
+Tá. É o dia... É o dia... Como que fala? Da folha de pagamento. Deixa eu projetar novamente aqui. Dos produtos que estão no time de folha de pagamento. Eu só deixei aqui para vocês terem uma noção que eu coloquei aqui os módulos, os times e aí para vocês, porque eu não fiz correlação aqui que eu achei que ia ficar confuso mesmo o slide, aí eu deixei aqui os módulos. 
+
+40:19
+Alyne Coutinho - Globo
+Outro material que eu acho interessante, que eu posso compartilhar com você, a missão aqui da nossa área mesmo, que é tangibilizar os sonhos da área de recursos humanos, através de soluções que tragam essas experiências encantadoras, trazendo inovação, segurança, que a gente trata na sua totalidade da cadeia de valor com dados sensíveis, Eu tenho endereço, eu tenho documentos, eu tenho o próprio salário de todos os colaboradores Então a gente tem toda uma preocupação muito grande com a parte de segurança de dados também E aqui... Objetivo mesmo da parte de governança, a gente se preocupa muito em estar entregando valor Nas soluções, muito linkada com... 
+
+41:22
+Alyne Coutinho - Globo
+É trabalho constante com os objetivos do RH Que estejam falando com os objetivos e a estratégia da companhia Com cadências de acompanhamento junto aos nossos stakeholders Das iniciativas priorizadas por quartil Também uma preocupação de estar trazendo muita inovação agora então com o IA Os times precisam, apesar da gente ter aqui produtos de prateleira, vamos assim dizer A gente precisa trazer a inovação embutida ali também E aí aqui não, mas aqui eu trago uma outra visão também Daquelas ferramentas de cada dos times Que uma visão mais de como estão as soluções, o que está faltando E o que tem, por exemplo, como eu falei lá no começo A gente está agora construindo portal, front-end que tem o HCM como master da informação por baixo, no back-end, mas ele tem uma navegação mais amigável, mais moderna, que o HCM é pacote muito, vamos dizer, frio, né? 
+
+42:47
+Alyne Coutinho - Globo
+E o RH quer fazer toda essa conquista Então a gente tem aqui uma análise da parte do CORE, folha de pagamentos E todo o mão de obra temporária ali que a gente precisa trazer também uma evolução na solução do mote. Então é uma visão mais técnica do que a gente tem que buscar aqui também com essas soluções. Aí foge pouquinho mais de processo mesmo. Entendi. 
+
+43:25
+Rodrigo Carlstrom - NT
+Então você está falando aí de oportunidades mesmo, de melhorias, né? 
+
+43:29
+Alyne Coutinho - Globo
+Sempre, sempre, sempre. E a gente tem uma questão ali no mote, como eu falei que ele é uma ferramenta in-house desenvolvida Que a gente num piscar de olhos fica obsoleto Então a gente tá com uma ação aí de modernização, é uma ferramenta antiga Que por prioridade ela ficou obsoleta, a gente tá desenhando, reformulando ela pra modernização mesmo. 
+
+44:00
+Rodrigo Carlstrom - NT
+Certo, e tem alguma coisa assim que na sua visão não tá contento? Você acha que realmente precisaria fazer, por exemplo, algum upgrade mais forte, tecnologia? Como que você vê aí? 
+
+44:15
+Alyne Coutinho - Globo
+Ou realmente... Olha, eu tô na área tem dois meses só que eu cheguei, eu cuidava lá das aplicações dos estúdios E aí eu vim em meados dezembro, então dois meses só que eu tô aqui com a Mi Por terem passado, toda vez que a gente fala de uma implantação de grande projeto Que foi a implantação do HCM, né? 
+
+44:51
+Alyne Coutinho - Globo
+Toda vez que você tem uma implantação você tem período muito grande estabilização Até dos processos, não só técnico, mas estabilização técnica, os processos Próprio conhecimento do negócio em cima daquela plataforma Então após a implantação ficou-se até o ano passado Muito focado nessa estabilização, nessa revisão processual, ajustes Porque muitas vezes você vai fazendo escolhas E aqui eu nem estava aqui na área e sem juízo de valor Porque as decisões foram tomadas em cima do que era no momento E era isso, era implantação, estabilização Em foco em atender àquilo que foi desenhado O grandesafio que eu tenho aqui agora é trazer inovação Em cima da plataforma, não só Em cima das pessoas e dos processos Trazer coisas mais disruptivas, trazer oportunidades que linkem com o que o mercado está praticando O Portal de Carreira é exatamente isso É a construção de tudo o que a gente pesquisou, coletou de feedback de necessidade do colaborador O que as empresas, fizemos vários benchs no mercado, o que as empresas estão procurando para recrutamento interno, desenvolvimento de carreiras. 
+
+46:31
+Alyne Coutinho - Globo
+Então aqui, isso tudo vem atrelado a ter sistemas por trás. Sejam eles front-end, sejam em cima do HCM. A gente está muito forte com a Oracle avaliando essas oportunidades de evolução da própria Globo. 
+
+46:49
+Alyne Coutinho - Globo
+Não só como ali uma interface de comunicação que usa só uma passiva, mas já algo ativo A gente implantou agora, no final também de 2024, ações que parecem bobas, mas elas têm reflexo Na satisfação do colaborador, e-mails de parabéns pelo ano da Globo, dois anos, seu aniversário E aí, sabe, coisas que parecem flop, mas com essa geração que a gente tem E com toda a mudança da força de trabalho dos colaboradores, ela se faz super necessária Esse contato direto Então a gente está nesse momento querendo e nos desafiando a trazer coisas mais disruptivas Enquanto sustenta e mantém as evoluções mais tradicionais ali Porque se você parar para pensar, qual é a inovação de uma folha de pagamento? É uma folha de pagamento e de. 
+
+48:08
+Rodrigo Carlstrom - NT
+Certa forma para atender o processo de negócio pelo que eu tô percebendo as aplicações estão dando conta aí né mas talvez você precisa fazer uma camada por cima né é pouquinho mais de uma espécie de uma experiência ou uma automação que possa contribuir aí com esse engajamento aí né das equipes é uma coisa nesse sentido mesmo parece que é. 
+
+48:35
+Alyne Coutinho - Globo
+Isso né É, pouco de provocação do engajamento ali do colaborador no fluxo mais do desenvolvimento, do RI, sabe? Vamos chamar ali do cor Porque o mártir da informação vai ser o HTM, mas como eu crio camadas que tragam essa... Olha que legal! Que tragam esse engajamento mesmo. 
+
+49:08
+Rodrigo Carlstrom - NT
+Certo. 
+
+49:11
+Julio - NT
+É uma coisa que talvez não seja muito grande em tamanho para a empresa, mas acaba trazendo uma humanização melhor no dia a dia do profissional consequentemente ele acaba sendo mais engajado. 
+
+49:26
+Alyne Coutinho - Globo
+A gente está estudando até avatares para ajudar nos treinamentos, sabe? Algo assim que está ali como uma frente disruptiva. Porque os processos que eu cuido aqui são processos que... Eu posso colocar uma inteligência igual no motor que a gente tem no cockpit Que é uma ferramenta também técnica que ajuda a área de negócio a fazer o batimento Da folha financeira, da folha contábil e monta os dashboards e tudo Mas o que acontece? A gente está com o desafio agora de colocar a IA já com uma inteligência na leitura dos dados capturados, mas não é coisa do engajamento. Eu vou atender a área de remuneração. Otimizar é uma eficiência operacional. 
+
+50:27
+Alyne Coutinho - Globo
+Então, para a eficiência operacional, a IA, a gente vê de forma mais fácil ir ajudando Agora sim, para esses processos que envolvem todos os colaboradores Trazem otimização operacional para aquela área de recrutamento Beleza, mas o que eu posso trazer de forma disruptiva? Uma inovação para os colaboradores dentro dessa cadeia, sabe? 
+
+50:59
+Rodrigo Carlstrom - NT
+Perfeito, qual tecnologia de front-end vocês estão usando aí? 
+
+51:03
+Alyne Coutinho - Globo
+A gente tem o da Microsoft com a área de portais que desenvolve aqui, é parceiro nosso aqui dentro da diretoria, desenvolve soluções low-code, o core, mas tem Java, tem como front ali, né? Legal. 
+
+51:32
+Julio - NT
+Tem bastante coisa. 
+
+51:34
+Alyne Coutinho - Globo
+Bastante coisa. E os próximos passos? 
+
+51:37
+Julio - NT
+Eu acho que se pudermos compartilhar esse material aí que tu comentou, é uma boa para a gente dar uma revisitada aqui, uma estudada. E aí, Causton, eu acho que a gente estuda esse material, revisa a gravação e a Aline vai... Tem período aí que tu comentou que vocês vão precisar... Não lembro agora se é férias ou se tu vai acabar focando em outra questão aí, Aline, que tu teve período aqui até início de março agora. 
+
+52:09
+Alyne Coutinho - Globo
+É, não, não, é esse final de semana e o próximo, que é carnaval, né? A gente tá fazendo uma incorporação aqui do Telecine, então o time tá mais focado, o time, eu só tô Acompanhando, se vocês precisarem falar, porque, gente, na outra semana já é carnaval, é isso mesmo? 
+
+52:34
+Julio - NT
+É, no outro final de semana já. 
+
+52:35
+Alyne Coutinho - Globo
+É isso mesmo, no outro final de semana já é carnaval Mas se vocês quiserem falar semana que vem, se der tempo Sem problema nenhum, dá A gente recuperou atraso que a gente tava quando a gente conversou aquele dia no Telecine Eu vou só evitar a equipe Mas comigo, se a gente quiser tentar uma agenda pra alguma dúvida Alguma questão, a gente pode falar. 
+
+53:04
+Julio - NT
+Tá legal, mas eu acho que eu e o Carlson agora a gente estuda esse material, entende tudo que tu trouxeste pra nós aí, e aí a gente entende aí, eu e o Carlson, qual que é o próximo passo aqui pra gente, e aí a gente entra em contato contigo aí. 
+
+53:20
+Alyne Coutinho - Globo
+Perfeito, Júlio, perfeito. Eu espero que tenha dado pelo menos uma primeira visão aí pra estruturação mesmo. 
+
+53:31
+Julio - NT
+Com certeza. 
+
+53:34
+Alyne Coutinho - Globo
+Eu vou compartilhar aqui, eu só vou pegar essas dúvidas que eu não soube responder para vocês Até que eu soube bastante coisa, mas essas que eu fiquei aqui me deu branco E aí eu já mando junto com o material aqui Tá legal. 
+
+53:55
+Julio - NT
+A gente vai ter uma janta agora com a Gabriela, e aí provavelmente parte dessas dúvidas que a gente trouxe... Hoje. 
+
+54:01
+Alyne Coutinho - Globo
+É os talentos lá do Capitação e o pagamento dos talentos também. 
+
+54:07
+Julio - NT
+Isso aí. 
+
+54:08
+Alyne Coutinho - Globo
+E aí depois, pra fazer drill down maior ainda, eu colocaria vocês em contato com o P.O. De cada frente que domina ali o processo, o dia a dia, e vai ser bem rico pra vocês. 
+
+54:24
+Julio - NT
+Tá, perfeito. E essa parte do processo, então, tu comentou que ficaria para março, né? 
+
+54:31
+Alyne Coutinho - Globo
+Sim, a gente pode marcar já na primeira semana de março. Se vocês quiserem já propor agenda nessas duas, nesse período, no final dessa semana, eu já organizo. Seriam quatro agendas, com PO de cada desses quatro times. Porque eu acho que fica bem rico. Aí a gente pode já marcar na primeira semana de março. 
+
+54:56
+Julio - NT
+Tá, tá jóia. 
+
+54:58
+Alyne Coutinho - Globo
+Tá jóia. Tanta joia, gente! Qualquer coisa a gente vai se trocando aqui, fiquem à vontade de me acionar também, tá bom? 
+
+55:07
+Julio - NT
+Muito obrigado! 
+
+55:08
+Alyne Coutinho - Globo
+Tchau, tchau! 

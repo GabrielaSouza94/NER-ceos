@@ -1,0 +1,564 @@
+ID= REU202502251415A
+Transcrição original. Reunião: Checkpoint globo 
+Data: 25/02/2025 
+Participantes: 
+Rodrigo Carlstrom - NT
+Júlio Cesar Freitag Schweikart
+Jairo - NT
+
+Resumo:
+A Reunião de checkpoint e revisão de apresentação abordou a estrutura da apresentação, com foco na análise da cadeia de valor e nas dependências sistêmicas, incluindo a relevância do RH nesse contexto. A equipe revisou a organização dos slides, decidiu incorporar processos relacionados a talentos artísticos e discutiu maneiras de melhorar a clareza das informações apresentadas. Foram identificadas oportunidades de melhoria, especialmente na integração de sistemas, e foram sugeridas novas abordagens, como o uso do GPT para auxiliar na criação de conteúdo. A reunião resultou em ações específicas para que os participantes ajustem a apresentação, tornando-a mais eficaz e informativa.
+
+Transcrição
+
+00:03
+Rodrigo Carlstrom - NT
+O que começou a abrir aqui? 
+
+00:04
+Jairo - NT
+Vou agora levar meu filho na escola, mas tá muito caro. Loucura. 
+
+00:38
+Rodrigo Carlstrom - NT
+E aí? 
+
+00:41
+Julio - NT
+Só fui pegar cafezinho aí. 
+
+00:47
+Jairo - NT
+Tá certo. Tava aqui passando calor na rua. Fui na escola. 
+
+00:55
+Julio - NT
+Quente, tá quente. 
+
+00:58
+Jairo - NT
+Vamos lá, a ideia aqui é a gente fazer o checkpoint, ver como é que tá o progresso, ver se tem alguma coisa que vocês estejam precisando de ajuda. Por 5 horas o Claudio pediu pra gente deixar marcado uma que ele quer participar, sobre prévia da apresentação de amanhã. 
+
+01:19
+Julio - NT
+É isso. Eu vou... Só tenho uma agenda à tarde aqui da Unimed, fora isso eu vou me dedicar pra continuar trabalhando aqui no... No PPT, tá? Então, só passando aqui, essa versão não tá sincronizada ainda, tá? Os pontos que a gente já tinha falado, esse aqui, o status atual aqui que eu atualizei. Não sei se ficou bom, tentei fazer aqui uma dependência sistêmica, né? Diversos sistemas de apoio que são utilizados aqui ao longo do processo. 
+
+02:03
+Jairo - NT
+Deu uma olhada naquela árvore que a gente gerou para ver se tinha alguma coisa mais lá que não estivesse aqui? 
+
+02:09
+Julio - NT
+Acabei não olhando bem lembrado, já não me atentei a esse detalhe. 
+
+02:15
+Jairo - NT
+Só para ver se faltou alguma coisa, né? 
+
+02:17
+Julio - NT
+Sim, provavelmente está faltando aqui ainda. Tem que dar uma boa revisita nesse ponto aqui. Mas eu não sei se essa visão aqui ficou muito boa também. Acaba ficando pouquinho... Eu acho que ela traz as dependências, mas eu acho que ela acabou ficando pouquinho... Como é que eu posso dizer? Pouco complexa. 
+
+02:39
+Jairo - NT
+Mas eu acho que tá bom. 
+
+02:43
+Julio - NT
+E estão faltando ferramentas aqui ainda. As ferramentas, por exemplo, de recursos humanos, né? Até, na verdade, sim, recursos humanos, o material de recursos humanos, de uma forma geral, ainda é muito fraco nessa toda essa apresentação. É ponto que a gente ainda precisa trabalhar, precisa construir o material dessa galera, mas é onde eu acho que a gente tem uma menor oportunidade com eles, inclusive, tá? Pelo fato de que, cara, é o Oracle que tá lá, e eles trabalham em cima do Oracle e... Eu acho que sim, a gente tem que trazer o material, trazer pouco do processo, incluir eles nesse trabalho todo. 
+
+03:27
+Jairo - NT
+Mas... Deixa eu te perguntar, o que significam as linhas? Por exemplo, quando eu olho a primeira linha ali, tem HCM Recursos Humanos, tem Media Cloud, Implemento e Alocação, tem Star e Arte em Talentos Artísticos. Em uma mesma linha, o que isso significa? 
+
+03:43
+Julio - NT
+Aqui são as ferramentas terceiras, na verdade, agora que eu me dei conta, essa aqui não é a ferramenta terceira, essa é a ferramenta interna da Globo. Tá errado isso aqui, então, essa é a valoração. ADH eu tenho dúvida, tem que tirar essa dúvida. E o restante são ferramentas de mercado. 
+
+04:04
+Jairo - NT
+Sim, mas as linhas têm algum significado? 
+
+04:07
+Julio - NT
+Sim, são as dependências. HCM. HCM é utilizado... O Media Cloud, o STAAR e o ART têm dependência com HCM. FPW. Media Cloud e ART têm dependência com FPW. E assim vai. Tem mais aqui que tem dependência também. Então, RP, essa é a linha, né? A dependência entre os sistemas. Essa base... Por isso que essa visão aqui não ficou boa na hora que eu me dei conta. Porque, por exemplo, base única aqui, toda essa galera, na verdade, os quatro dependem. Eu até tinha colocado circuito de saída aqui. Eu não movimentei para trás aí sem querer. Os quatro dependem. É uma ferramenta interna. É desenvolvida pela Globo. E os quatro dependem dela. 
+
+05:04
+Rodrigo Carlstrom - NT
+Esse aqui é para substituir aquele diagrama aqui? 
+
+05:08
+Julio - NT
+É, só que eu fiz essa tentativa aqui, mas não sei se ficou boa. Ficou bem... 
+
+05:16
+Rodrigo Carlstrom - NT
+Eu acho que ficou melhor que aquele outro diagrama. 
+
+05:20
+Julio - NT
+Esse aqui? 
+
+05:22
+Rodrigo Carlstrom - NT
+Não, aquele diagrama que foi feito pelo Wagner. 
+
+05:27
+Julio - NT
+Não. Aí eu fiz esse aqui. Que eu ocultei aqui as... Eu contei aqui o que cada faz, por exemplo, o Star usa o ARP para quê? Porque daí eu teria que puxar aqui umas 3, 4 setinhas aqui do que ele faz, ou colocar de forma textual. Então aqui é muito próximo a isso aqui também. Então por isso que eu estava pensando em trocar esse carinha aqui por esse que traz essa dependência não de uma forma com a mesma visão, mas no final das contas é a mesma coisa, ele acaba mostrando toda a dependência que existe entre essa galera interna. 
+
+06:19
+Jairo - NT
+E pode deixar as duas coisas para reunião porque é work in progress, então a gente pode depois no final, na próxima versão, acabar concluindo que não é esse diagrama, que vai ser outra coisa, mas até para mostrar trabalho, mostrar progresso, mostrar material, né? 
+
+06:37
+Julio - NT
+Vou puxar essa caixinha que tá alinhada aqui. Eu tentei fazer uma forma aqui das linhas não se cruzarem, mas não tive sucesso não, porque é muita dependência aqui entre as ferramentas, né? E aí essa visão aqui, né? Ela complica pouquinho, né? Quando, na ideia que eu quis trazer aqui, de colocar ferramentas internas que são desenvolvidas, ou ferramentas de uso terceiro, que são ferramentas contratadas. Apesar que o MediaCloud, é, pois então. Essa linha acaba ficando pouco complicada, mas vou dar uma pensada aqui pouco ainda, como é que dá para deixar claro isso. 
+
+07:26
+Rodrigo Carlstrom - NT
+Eu acho que por hora aí está suficiente, né, Julio? Mas numa versão posterior, talvez até aquele outro de setinha ali, para a gente indicar o que é essa seta, que qual dependência existe, de alguma forma, contexto na seta. 
+
+07:45
+Julio - NT
+Isso, tem isso. Aí tem, inclusive, as duas vias de algumas integrações aqui, formações de vão e vêm, E aí tem que colocar mais uma flechinha aqui. Eu acabei não botando para tentar deixar pouco mais simples aqui nesse primeiro momento. Mas, sim, é importante ter essa visão, sim. Então, aqui, aquela sinergia operacional que eu estava comentando, né? E aí, Caustro, eu estava pensando aqui, quando tu coloca a cadeia de valor aqui, né? Dá para tentar simplificar pouquinho aqui esse processo, tanto esse aqui também. 
+
+08:39
+Rodrigo Carlstrom - NT
+E. 
+
+08:39
+Julio - NT
+Levar como primeiro slide a cadeia de valor. Depois desse cara aqui, depois desse, que é só status aqui de como é que está o trabalho, na sequência vem a cadeia de valor. E outro ponto que eu estava pensando, quando ontem a gente estava conversando, E eu falei, olha, só que tá pouquinho complicado esse aqui, né? Porque naquela linha que a Michelle trouxe de que ela quer que todas as áreas dela se enxerguem no processo, o RH acaba não aparecendo na cadeia de valor. E aí eu falei, pô, mas a gente vai mostrar uma cadeia de valor pra uma área onde ela não aparece? Complica pouco. Eu entendo que quando a gente olha pra cá, a gente tem na verdade aquela cadeia de valor, ela diz respeito a essas duas áreas. 
+
+09:38
+Julio - NT
+Isso não significa que o RH por si só não possua a sua cadeia de valor. Como é que ela agrega valor para o negócio? Todo o processo de recrutamento e seleção, todo o processo de contratação, os benefícios, que a Aline comentou bastante, treinamentos, inclusão e tudo mais, para que, no fim das contas, os profissionais... 
+
+10:04
+Jairo - NT
+Mas no conceito mesmo de cadeia de valor, Júlio, eles teriam que aparecer como atividades de apoio ali. 
+
+10:13
+Rodrigo Carlstrom - NT
+É o que eu falei, mas é. 
+
+10:14
+Julio - NT
+O que o Caustro não colocou. 
+
+10:16
+Jairo - NT
+Porque assim, numa cadeia de valor, tu tem as atividades primárias e as atividades de apoio. No eixo primário, tu vai ter só aquilo que começa e termina e que produz o produto. Agora, o que ajuda a produzir o produto tem que estar nas atividades secundárias ali, ou de apoio, né? 
+
+10:32
+Rodrigo Carlstrom - NT
+É o ADCS, né? 
+
+10:34
+Julio - NT
+É o que o Carlson colocou aqui, ó. 
+
+10:36
+Jairo - NT
+Isso, porque na linha principal tem que aparecer o que vai gerar o produto final, que vai aparecer lá no fim do processo principal. Até pode ter uma coisa diferente, mas aí não é uma cadeia de valor no sentido correto, né? Porque a cadeia de valor tem que ser do negócio, não é das áreas, né? A cadeia de valor é do negócio global. 
+
+11:00
+Rodrigo Carlstrom - NT
+Mas é aquilo que você falou também, né, Julio? Porque aqui, ó, a gente mostrando as principais atividades, né? 
+
+11:05
+Julio - NT
+Inclusive as de suporte aqui, né? 
+
+11:08
+Rodrigo Carlstrom - NT
+É uma visão diferente daquela que mostra os sistemas, né? 
+
+11:18
+Jairo - NT
+Essa aqui mostra os sistemas. 
+
+11:20
+Rodrigo Carlstrom - NT
+É, os sistemas. 
+
+11:22
+Jairo - NT
+Aí tu tem só a linha principal e os sistemas usados na principal, é isso? Os que são usados do RH aparecem aonde? 
+
+11:30
+Rodrigo Carlstrom - NT
+Estão aparecendo ali embaixo, mas eu preciso rever esse slide ainda. Porque tem... Eu fiz ainda com a ajuda da inteligência artificial, mas eu tô com dúvida de algumas coisas aí. Vou rever o vídeo mesmo. 
+
+11:42
+Jairo - NT
+Tá. 
+
+11:42
+Rodrigo Carlstrom - NT
+É o trabalho que eu vou fazer agora à tarde. 
+
+11:44
+Jairo - NT
+O que tu pode fazer também é ter aquela segunda linha embaixo das flechas ali de cima com as atividades do RH e depois mostrar os sistemas. Juntar o primeiro com esse aqui aí. Parece o RH e os sistemas dele. É. 
+
+11:56
+Julio - NT
+Tem que dar uma peta pro sistema. Os sistemas do RH estão aqui, né? Os sistemas do RH estão aqui, ó. FPW. Isso. O Conecta, que é o processo, a ferramenta de... O HCM, né? Que é o... O processo de gestão dos funcionários e tal então tudo aparece. 
+
+12:22
+Rodrigo Carlstrom - NT
+Aqui ao invés de fazer sistema de apoio grandão poderia fazer todos os sistemas de RH juntos. 
+
+12:31
+Jairo - NT
+Eu acho que tá bem legal essa imagem aqui o quer dizer não identificado é se é de terceiro ou se é da própria Globo, é isso? 
+
+12:40
+Rodrigo Carlstrom - NT
+Isso, vou ter que dar uma checada aí. 
+
+12:44
+Julio - NT
+O estar, por exemplo, o estar, o arte, eles acabam aparecendo aqui em cima também, esses três caras aqui, esses quatro, na verdade. Porque aí que... Isso que eu queria trazer nessa imagem aqui, né? Porque o estar, ele entra aqui, ó. O estar entra aqui. O estar entra aqui. O estar entra aqui. O estar... Ele faz todo esse processo para talentos artísticos. 
+
+13:17
+Jairo - NT
+Pode botar ele como ícone em cima dos quadrinhos, dos sistemas, na realidade. Mostrar como ícone. 
+
+13:25
+Julio - NT
+A ferramenta dos talentos artísticos é essa que eles têm, digamos assim, isso que tu colocou aqui, Causton, isso aqui, salvo alguns pontos aqui que eu gostaria de revisar, mais referente aqui ao ponto que as ferramentas entram, mais nessa linha, isso aqui serve para recursos humanos e técnicos. Talentos artísticos não passem nessas ferramentas. Essas três, essas quatro ferramentas aqui, o Star, o Art, Captação e o Space, é que fazem todo esse processo aqui para atalantes artísticos. E essa é a redundância que eu queria trazer aqui. A redundância de aplicações para o mesmo processo da cadeia de valor. 
+
+14:28
+Jairo - NT
+Como eu disse, talvez com ícone que represente eles, pode ir botando em cima das caixinhas ícones, aí vai ficar bem fácil de ver onde tem sistemas repetidos ou mais de sistema fazendo a mesma coisa. 
+
+14:40
+Julio - NT
+É, tu diz aqui daí. 
+
+14:42
+Jairo - NT
+Não, naquele tem o desenho lá, que é onde tu disse queria representar e não tem. 
+
+14:48
+Julio - NT
+É que aqui, aí a ideia é falar de processo, ó, esses aqui são os processos. 
+
+14:52
+Jairo - NT
+Sim, claro, mas tu pode, se tu quiser, botar o ícone dos sistemas em cima ainda, né? No canto ou do lado, nessa caixinha ali. 
+
+14:59
+Julio - NT
+Entendi. 
+
+15:02
+Jairo - NT
+Se tu quiser também ter essa visão, né? 
+
+15:05
+Julio - NT
+É, talvez. Talvez faça sentido. E relatório eu tô na dúvida se eu deixo ou não, porque em relatório nenhuma das ferramentas traz. É tudo BI, né? Sim. Eles jogam tudo para o BI, bem como eu não coloquei o BI aqui, porque tem integração correta ele aparecer, mas todo mundo manda informação para o BI. Tirando as ferramentas de mercado, todo mundo manda dados para o BI. Então, só revisar a questão da... Estratégia da história a ser contada. 
+
+15:47
+Julio - NT
+Então, falar da proposta de trabalho, o status, o andamento do trabalho, o status atual do trabalho, aí eu acho que entra cadeia de valor, Causto, mas eu acho que a gente, nesse ponto aí, a gente pode colocar só cadeia de valor, sem ferramental agregado ainda, mais na linha do discurso, e depois, Aí a gente entra na cadeia de valor, e aí a gente começa a falar dos processos que atendem essa cadeia de valor e os sistemas dessa cadeia de valor. 
+
+16:32
+Jairo - NT
+Legal. 
+
+16:35
+Julio - NT
+Na linha do tempo, esse raciocínio, né? Então, a cadeia de valor... Estou de acordo. 
+
+16:40
+Rodrigo Carlstrom - NT
+Se você quiser até mover aí, já pode mover, viu, Julio? Estou de acordo. 
+
+16:44
+Julio - NT
+Alguém mexeu no ppt lá? 
+
+16:48
+Rodrigo Carlstrom - NT
+Não. 
+
+16:49
+Jairo - NT
+Não, lá na pasta eu acho que não. Só se o Carlton fez alguma coisa lá. Tu tem que ver se consegue trabalhar direto de lá, Júlio. 
+
+16:57
+Julio - NT
+Eu tô com duas versões aqui, ó. Essa aqui é de lá. Essa aqui tá sincronizada. E essa aqui não. Porque eu fico fazendo tanto rabisco aqui, tanto rascunho, apagando slide, criando slide, que eu fiz copy-paste aqui pra... Pra... Pra. 
+
+17:21
+Jairo - NT
+Não... 
+
+17:23
+Julio - NT
+Mas eu passo esses slides pra cá, pra lá. 
+
+17:25
+Jairo - NT
+É, substitui dela logo, se não tem coisa que o Carlson tenha feito separado, só bota a versão mais atual lá. 
+
+17:33
+Rodrigo Carlstrom - NT
+É, hoje de manhã eu não mexi nela, eu... 
+
+17:38
+Julio - NT
+Essa aqui é a versão local, essa aqui é a versão... Então vamos trazer aqui... Esse cara aqui no final das contas cai fora. Esse aqui também vai cair fora. Esse aqui também vai cair fora. Aí a cadeia de valor a gente passa... Essa aqui, na verdade, daí estaria na sequência certa, não é só... Não sei se a gente deixa o texto ou tira o texto, ou até acho que tiraria o texto, não sei. Uma opinião de vocês aí? 
+
+18:22
+Jairo - NT
+Por mim pode deixar o texto, porque o Samuel vai querer que envie para ele. Quando a gente apresenta a apresentação, é tranquilo, mas quando o cara recebe negócio que não tem nenhuma explicação, fica muito ruim de entender, né? Até eu recomendaria que todas essas slides que só tem uma imagem e título, tipo esse, tipo o anterior, tivesse pelo menos uma frase debaixo do título explicando o que é aquela imagem. Porque daí quando ele receber o PPT lá e ele for ler sozinho, ele vai ver o título, vai ver uma frase que diz o que aquela imagem quer dizer, e aí a imagem, entendeu? 
+
+18:59
+Julio - NT
+Estão os processos. 
+
+19:04
+Rodrigo Carlstrom - NT
+É, esses processos, eu vou dar uma melhorada aí neles, deixar mais bonitinho também, e eu coloco esse texto que o Jair falou também. 
+
+19:16
+Jairo - NT
+É, uma ou duas frases no máximo, só pra cada página ter uma imagem. Quem tá olhando isso aqui, tá vendo pela primeira vez, o quer dizer isso aqui que tá aqui, tal coisa. Pra entender o que é, não precisa ter explicações, mas no mínimo assim, isso aqui é diagrama BPMN do macrofluxo. Isso aqui é diagrama que mostra as relações entre os sistemas. Só pra o cara ir passando e entender, sem ter alguém explicando. 
+
+19:43
+Julio - NT
+Isso aqui eu também não consegui trabalhar ainda, tenho que ir fazer. Então, revisitando aqui, deixa eu salvar até aqui agora. Então, assim que sincronizar, se eu já ver essa versão. Na linha do tempo. A gente fala da proposta, alinhamento dos entregados, o status do trabalho, a cadeia de valor, os processos da cadeia de valor. E aí, uma observação, esses processos aqui, eles dizem respeito a recursos humanos e técnicos, né, Causton? 
+
+20:29
+Rodrigo Carlstrom - NT
+Sim. 
+
+20:31
+Julio - NT
+A gente não teria ainda o processo, o macro processo de talentos artísticos, nem de RH. 
+
+20:41
+Rodrigo Carlstrom - NT
+Não, mas eu estive pensando em resolver processo só a tudo, né? 
+
+20:47
+Julio - NT
+Sim, o Tubi. 
+
+20:48
+Rodrigo Carlstrom - NT
+O Tubi, é. 
+
+20:50
+Julio - NT
+De acordo? Eu acho que esse é o norte que a gente tem que trabalhar aqui, quando a gente fala de conclusão do trabalho, dos resultados a serem apresentados, eu acho que é buscar direcionamento de uma solução única, para tirar essa redundância toda que existe, esse overhead de redundância que existe. Mas, no momento, a gente não tem esse único processo. E acredito que seja importante a gente justamente mostrar que as coisas são feitas de forma segregada, trazendo overhead de custo e mão de obra. Só que acho que a gente teve papo lá com a Gabriela, acho que é, a Pio, lá. Não sei se dá para montar alguma coisa baseada naquela reunião lá, onde ela trouxe o Star, o Captação e o Star, E outra agenda que a gente teve dos outros dois, do Space e do Art. 
+
+21:56
+Rodrigo Carlstrom - NT
+É, até dá, só que não sei se a gente vai ter o... Quanto que vai ser a reação com ele? 
+
+22:02
+Julio - NT
+O Samuel mudou pra amanhã, final do dia. 
+
+22:06
+Jairo - NT
+Não vai ser amanhã às 10? 
+
+22:08
+Julio - NT
+Não, vai ser às 10, às 5 e meia, eu acho. Sete... Sempre 15, 5 e meia, alguma coisa assim. 
+
+22:15
+Rodrigo Carlstrom - NT
+Essa agenda acho que não chegou aqui pra mim. 
+
+22:19
+Julio - NT
+Não, essa não tá, Calstron. Mas eu acho que seria bom o. 
+
+22:27
+Jairo - NT
+Calstron montar pra ajudar a explicar as partes que ele desenhar dos slides, né? 
+
+22:33
+Julio - NT
+Vamos ver. O Samuel é muito fácil. Eu acho que seria interessante, Calstron, a gente... Ter aí macro-processo de talentos artísticos também. 
+
+22:54
+Rodrigo Carlstrom - NT
+Vou tentar desenhar aqui, Júlio, mas acho que a gente tem que terminar esses aqui primeiro, né? 
+
+23:00
+Julio - NT
+Sim, sim, de acordo. De acordo. E o de RH, não sei se faz sentido a gente construir. Precisamos avaliar se faz sentido construir esse macro-processo deles lá. A gente pode bater papo sobre isso depois. Então, cadeia de valor, os processos que atendem à cadeia de valor, as dependências dos sistemas, a sinergia entre as operações, a sobreposição aqui da operação na cadeia de valor, o mapa de integrações, que não é bem mapa de integrações, é mapa de integrações entre aplicações, mas não necessariamente todas as integrações que são realizadas. E aí, fazendo merge dos dois. Acho que vale aqui fazer esse merge daí, ou seja, da cadeia de valor com as aplicações. 
+
+24:08
+Rodrigo Carlstrom - NT
+Aí, sabe o que eu acho que seria legal fazer? Aquele primeiro inside lá, que fala do propósito ali, do psicopo, né? Pra gente terminar com ele, né? Também que tá tudo com checkbox marcado. 
+
+24:25
+Julio - NT
+Sim. 
+
+24:26
+Rodrigo Carlstrom - NT
+Eu acho que aqui a gente manteria ele sem esses checkbox aí. Aí lá no fim a gente vai marcando, ó, isso aqui já tá em andamento, né? Pra dar ar de conclusão, ó. 
+
+24:41
+Jairo - NT
+Tá. 
+
+24:41
+Julio - NT
+É que esse checkbox aqui é padrão aqui da preservação da MT. Não sei se tem uma caixinha sem. Tá. Mas é padrinho, né? 
+
+24:52
+Rodrigo Carlstrom - NT
+É, entendeu a ideia. Assim, a gente mostrar, ó, isso aqui que foi pedido. E aqui, aí no final a gente mostra, com tudo isso aqui, a gente já entregou isso, ainda não entregou outro trabalhando nesse, alguma coisa nesse sentido. 
+
+25:08
+Julio - NT
+É, mas eu não colocaria nenhum completo ainda. 
+
+25:12
+Rodrigo Carlstrom - NT
+É. 
+
+25:15
+Jairo - NT
+É, os que já tem iniciado, no caso, só, né? 
+
+25:20
+Rodrigo Carlstrom - NT
+Na verdade, se tiver artifício até bom, pra gente não perder foco aqui na hora de fazer slides, né? Sempre vai ter o slide final pra ver o que tá faltando a gente fazer, né? 
+
+25:33
+Jairo - NT
+Não é bom mesmo. 
+
+25:36
+Julio - NT
+Tá. E aí, é isso. São essas apresentações aí, aqui ligando então a cadeia de valor às aplicações. Os stakeholders e oportunidades. Eu dei uma melhoradinha aqui, mas acho que tem que colocar mais coisa aqui ainda. O principal aqui é a ausência de sistema de planejamento de longo prazo, de recursos de longo prazo, onde a gente tem o Excel, o MediaPulse, que é o upgrade do MediaPulse. Na verdade, para mim, é tirar fora. Mas eu não posso falar isso para. 
+
+26:16
+Rodrigo Carlstrom - NT
+O Michel, senão... Para mim, eu vou numa estratégia de conviver. Isso aí que o Samuel é que deveria falar para a gente, né? Perguntar para ele, claramente. Esse sistema é caro. 
+
+26:32
+Julio - NT
+Sim, eu pensei em falar sobre a questão custo-benefício, justamente dessa questão. 
+
+26:37
+Rodrigo Carlstrom - NT
+Porque assim, bem da verdade, o sistema de base de dados é bom. O resto não presta, mas a base de dados dele é boa. Se for barato manter, tá ótimo. 
+
+26:47
+Julio - NT
+Sim. 
+
+26:52
+Jairo - NT
+É. 
+
+26:52
+Julio - NT
+E questão de, uma vez que tem o upgrade do MediaPulse, a gente consegue fazer uma integração dele com orquestrador de processo. Vou até mudar aqui a implementação de... Ou... Integração... Melhor... Integração... De processo, através das APIs que a versão 2 do MediaPulse possibilita. Diversidade tecnológica, já comentei, a gente tem uma sopa de tecnologias lá, tendo em vista o número de aplicações internas. Cadê? Cada uma é de uma tecnologia diferente. Complicado. Redundância nos sistemas de integração. Se a gente tem ali duas, três ferramentas falando com FPW. São três integrações que precisam ser construídas com FPW. E daí, pegando o gancho, eu entendo justamente que é irrelevante a gente colocar aqui qual é a funcionalidade dessa integração, justamente para mostrar, olha, essa integração faz a mesma coisa que essa integração. Essa integração faz a mesma coisa que essa integração. Esse mapa que acabaram mostrando. 
+
+28:29
+Julio - NT
+E eu pensei pouco sobre o que mais colocar aqui em oportunidades. Não me veio muito à cabeça. O ideal seria a gente trazer mais riqueza de informação, mas não me veio muita coisa à cabeça aqui do que a gente poderia colocar como oportunidades. 
+
+28:49
+Jairo - NT
+Tá, vou dar uma pesquisada aqui se alguma sugestão vem ali do GPT. 
+
+28:56
+Julio - NT
+No final das contas ontem eu fiquei tentando acessar lá e não deu. Não deu e depois que o Luenas mandou a última informação acabei não tentando mais. 
+
+29:06
+Jairo - NT
+Mas agora eu já sei que vamos conseguir jeito, mas... Enfim, quer ver? O que eu fiz, tá? Dentro do... Deixa eu compartilhar a tela com vocês rapidinho aqui pra... Pra vocês entenderem como podem usar o negócio ali pra explorar coisas. Dentro do GPT, que é o GPT for Teams, aqueles, pra Teams, né? Teams. Eu criei GPT daí. Que é o GPT Global PIA. O que eu queria era compartilhar o projeto pronto, né? Eu tinha feito aquele projeto que eu mostrei para vocês e eu queria compartilhar ele, só que eu descobri que esse compartilhamento de projetos só dá para fazer quando tu é enterprise, com mais de 150 pessoas, mas nessa por times tu consegue compartilhar os GPTs. Então como é que é GPT? O GPT é mais ou menos a mesma coisa. 
+
+30:07
+Jairo - NT
+Tu coloca todos os arquivos, coloca a instrução do que tu quer, e aí todo o chat que tu fizer ele vai considerar essas instruções e esses arquivos. Só que o GPT eu consigo compartilhar ele. Então aqui onde eu tô nessa tela de configuração, eu consigo vir aqui em compartilhar e botar com as pessoas da equipe. 
+
+30:25
+Jairo - NT
+O Gabriela e o Lourenço já estão e aí vocês quando acessarem lá dentro vocês podem vir aqui em explorar gpts e ele vai tá nessa primeira tela que aparece aqui de explorar gpts aqui tá demorando pra carregar vai aparecer pra vocês aqui o que a gente criou logo em cima que é os compartilhados com vocês tá legal pra entrar aqui o que que vocês precisam fazer vocês precisam entrar naquele link do invite ontem de noite eu mandei de novo o invite pra vocês caso aquele tivesse vencido Aí vocês vão cair na tela de login, aí vocês vão botar lá que vocês vão cadastrar uma nova conta, não é? Que vocês vão entrar, vocês vão criar uma nova conta. 
+
+31:03
+Jairo - NT
+E não coloca a conta Microsoft, coloca só o endereço de e-mail de vocês, cria uma senha, aí ele vai enviar código pro e-mail de vocês, vocês pegam o código e já vai logar aqui. Então o que precisa fazer, deixa eu ver se eu consigo mostrar numa outra tela aqui, deixa eu pegar o Vivaldi, que eu acho que eu não uso o GPT no Vivaldi. Fica fácil de mostrar. 
+
+31:24
+Julio - NT
+Mas eu pego essas infos aí contigo, eu tô atrasado aqui já pra mandar... 
+
+31:27
+Jairo - NT
+Dá, pode ir cara, pode ir tranquilo, tu pode, e quando tu entrar me avisa pra eu compartilhar contigo o GPT que eu só consigo compartilhar depois que tu entra mas, Caustro, tu pode ir lá Caustro, o que tu vai fazer é entrar lá no GPT vai cair na tela de login dele Quando tu entrar no cadastro lá, tu vai botar no cadastro esse daí. Não é essa tela aqui, é uma tela pouco diferente, né? Mas aí tu vai botar no cadastro, vai botar a conta daí aqui, o endereço de e-mail da NT teu, vai dar continuar, vai criar uma senha e vai pedir cadastro teu e vai enviar código pro teu e-mail, aí tu te loga. 
+
+32:03
+Rodrigo Carlstrom - NT
+Tá legal. 
+
+32:06
+Jairo - NT
+Aí quando tu tiver lá dentro, me avisa, aí eu compartilho o GPT contigo. Aí quando tu tiver dentro, tu vai em explorar GPTs, pega o GPT do Globo IA, e aí é chat normal. Deixa eu botar aqui pra te ver como que é. Aqui dentro é chat normal, por exemplo, a gente tava falando ali no processo de RH, né? Aí eu posso botar aqui, segundo as reuniões ocorridas, como é o macro processo O processo da área de RH, eu vou botar aqui. Pode ser gestão de talentos, mas eu vou botar só aqui. Aí ele já vai lá na busca na base, ele vai em todos os arquivos lá e vai trazer. Eu vi que tu gerou PDFs dos documentos ali, era para botar no grok? 
+
+32:52
+Rodrigo Carlstrom - NT
+Eu gerei para o grok, eu estou aprendendo a mexer com o grok3 aqui, ele está meio limitado. Que permite muitos arquivos. 
+
+33:02
+Jairo - NT
+Entendi. 
+
+33:02
+Rodrigo Carlstrom - NT
+Aí eu botei lá notebook, só que aí a hora que eu terminei de fazer o serviço lá notebook, você mandou o usuário de GPT, não precisava ter feito. 
+
+33:10
+Jairo - NT
+Não, tranquilo, mas tenta logar aqui ó, e aí aqui daí é só tu usar o chat, ó, que nem aqui já botou o processo de recrutamento, ó, botou recrutamento, seleção, gestão de talento e desenvolvimento, planejamento, locação de recursos, aí depois dá pra ir explorando cada né. 
+
+33:25
+Rodrigo Carlstrom - NT
+Eu vou até testar o mesmo prompt que eu fiz notebook para ver o que sai de diferente. 
+
+33:31
+Jairo - NT
+Perfeito. Quando tiver logado lá me avisa que daí eu entro aqui no compartilhar porque eu tenho que compartilhar contigo aqui. Eu posso botar o link, mas eu quero compartilhar o GPT contigo que daí tu vê tudo, a instrução, os arquivos e tal. 
+
+33:45
+Julio - NT
+Tá bom? 
+
+33:46
+Rodrigo Carlstrom - NT
+Tá, vou fazer já. 
+
+33:47
+Jairo - NT
+Fechando aqui. Só avisar então depois. Vou sair aqui então, valeu. 
+
+33:50
+Rodrigo Carlstrom - NT
+Beleza, obrigado Jair. 
+
+33:52
+Jairo - NT
+Tchau, tchau. 
+
+33:52
+Rodrigo Carlstrom - NT
+Tchau, tchau. 
