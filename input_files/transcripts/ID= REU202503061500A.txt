@@ -1,0 +1,1397 @@
+ID= REU202503061500A
+Transcrição original. Reunião: P&A - Retorno de entendimento do processo
+Data: 05/03/2025 
+Participantes: 
+Rodrigo Carlstrom
+Júlio Cesar Freitag Schweikart
+Marcelle Machado De Almeida
+Rafael Rissuti
+
+Resumo:
+A Reunião de Revisão e Validação de Processos teve como foco a análise e discussão sobre a cadeia de valor do projeto, abrangendo desde a pré-produção até a pós-produção, além de destacar a importância da gestão de ordens de serviço e a sinergia entre as áreas. Durante o encontro, foram identificados processos críticos, como o mapeamento e a integração de sistemas utilizados, incluindo o papel do Excel e do IBMS, além de serem abordadas as premissas necessárias para a classificação dos sistemas. A reunião também contemplou a necessidade de revisar e ajustar o mapeamento atual, com ações definidas para os participantes, como a revisão de slides e a garantia de atualizações necessárias para otimizar a continuidade dos trabalhos, assim como a definição dos próximos passos em relação às integrações entre sistemas.
+
+Transcrição
+
+00:00
+Rodrigo Carlstrom
+Beleza, Itur? 
+
+00:02
+Júlio Cesar Freitag Schweikart
+Certo, por aqui. 
+
+00:11
+Rodrigo Carlstrom
+Qual que é a ideia hoje, então, Júlia? Validar o que a gente está fazendo. 
+
+00:42
+Júlio Cesar Freitag Schweikart
+O ressult confirmou, deve estar chegando. 
+
+01:38
+Rodrigo Carlstrom
+Não sei se você viu a apresentação lá, a gente poderia ter feito uma validação interna entre a gente aqui antes, né? Tá no mudo. 
+
+01:50
+Júlio Cesar Freitag Schweikart
+Não vi. Onde que tu colocou ela? Naquela... 
+
+01:57
+Rodrigo Carlstrom
+É, tá lá naquela pasta de apresentações, ó. 
+
+02:08
+Rafael Rissuti
+Olá, olá. 
+
+02:09
+Rodrigo Carlstrom
+Oi, Suti. 
+
+02:11
+Rafael Rissuti
+Tudo bem, gente? Tudo joia. E aí, curtiram o carnaval? 
+
+02:16
+Rodrigo Carlstrom
+Oi, Marcelo. Tudo bem? 
+
+02:18
+Júlio Cesar Freitag Schweikart
+Olá, Marcelo. 
+
+02:19
+Marcelle Machado De Almeida
+Olá. 
+
+02:21
+Júlio Cesar Freitag Schweikart
+Olha, foi pouca. 
+
+02:23
+Rafael Rissuti
+Foi pouca. 
+
+02:24
+Rodrigo Carlstrom
+Do meu lado também. 
+
+02:25
+Júlio Cesar Freitag Schweikart
+Foi o momento de aproveitar para descansar. 
+
+02:30
+Rafael Rissuti
+Gente, eu saí todos os dias. Isso foi recorde. Foi recorde. Eu não faço isso. 
+
+02:38
+Marcelle Machado De Almeida
+Foi recorde também, eu não saí nenhum dia. Isso foi recorde pra mim também. Todo dia eu falei assim, cara, tem alguma coisa muito errada, tem que ir ao médico. Porque todo dia anterior eu deixava tudo pronto. Falei, amanhã eu vou nesse bloco, tá aqui a fantasia, tá aqui os negócios, papapá. Não acordava, gente. Acordava e falava, ai, que preguiça, tá calor. Gente, foi horrível. Falei, cara, eu tenho que ir no médico, que tem alguma vitamina. Que tá faltando aqui, mas enfim, mas foi bom que a gente, eu descansei com certeza, essa parte aconteceu. 
+
+03:12
+Rodrigo Carlstrom
+É isso aí. E como estamos? Eu com o Júlio somos meio ruim de samba, né Júlio? 
+
+03:21
+Marcelle Machado De Almeida
+Mas não precisa ser bom, não. 
+
+03:24
+Rafael Rissuti
+Você vai, você vai. A gente vai lá, se diverte, fica pronto e tá bom. 
+
+03:29
+Júlio Cesar Freitag Schweikart
+O importante é a folia, literalmente. 
+
+03:32
+Rafael Rissuti
+O importante é isso, é. 
+
+03:33
+Marcelle Machado De Almeida
+E aqui no Rio tem uns blocos legais, que são blocos de rock, que toca em ritmo de samba, mas é rock. Tem bloco que é do Exagerado, que é do Cazuza. Tem dos Beatles, que é o Sargento Pimenta. Então, é legal, porque é isso. Nem todo mundo gosta de samba mesmo, né? Então, eles têm monte de bloco para o que você quiser. 
+
+03:58
+Rafael Rissuti
+O que você quiser, você consegue aqui. Aqui é bem legal. 
+
+04:03
+Rodrigo Carlstrom
+Eu só vou abrir a janela aqui, que começou a esquentar aqui. 
+
+04:06
+Rafael Rissuti
+Tá bom. 
+
+04:23
+Rodrigo Carlstrom
+Prontinho. Bom, a ideia é que hoje a gente validar pouquinho as coisas que a gente tá fazendo, ver se o entendimento tá correto, né, Júlio? 
+
+04:33
+Júlio Cesar Freitag Schweikart
+Isso aí, exatamente essa ideia hoje, para a gente começar na reta final, agora, digamos assim, começar a montar planejamento e apresentar as conclusões que a gente teve ao longo do trabalho. 
+
+04:50
+Rodrigo Carlstrom
+Vou puxar a tela aqui. Só para vocês saberem aí, a gente está estruturando o projeto aqui da seguinte forma, que a gente vai fazer aqui. Então a gente já fez essa parte. 
+
+05:13
+Júlio Cesar Freitag Schweikart
+Só ponto, vamos gravar a agenda. Então. 
+
+05:22
+Rodrigo Carlstrom
+A gente fez aqui esse trabalho de iniciação aqui com vocês, fizemos essas diversas reuniões aqui. Aí a gente montou essa estrutura analítica de projeto aqui, que é exatamente essa que a gente tá vendo aqui, né? Pra poder fazer planejamento, né? E aí a gente tá compilando todo esse levantamento aqui da seguinte forma, né? A gente tá colocando aqui processos e sistemas. Sempre essas duas visões, né? Então a gente fez o mapeamento aqui da cadeia de valor, fez o levantamento do BPMN, identificação das lacunas das áreas, a gente tá fazendo tudo isso ainda, né? Identificação dos stakeholders aqui impactados, a identificação dos sistemas na cadeia de valor, né? Que esse aqui a gente tá com pouco de dificuldade de acertar se é isso mesmo, né? Por isso que a gente tá com dúvida aqui, né? E coisas que ainda estamos levantando. 
+
+06:17
+Rodrigo Carlstrom
+Depois, tanto para o processo quanto para o sistema, a gente vai trabalhar com esses quatro tópicos aqui. Quais são os problemas identificados, as oportunidades que a gente tem em torno desses problemas, as soluções propostas e o benefício das soluções. E aí, lá no fechamento, a gente vai fazer essas validações aqui com vocês, periodicamente, Vai fazer uma orçamentação aqui para apresentar para o nível executivo uma relatoria final como entregável desse trabalho e uma aprovação desse relatório final. E também a gente vai entregar umas consultas interativas com todo o material através da IA desse trabalho. Colocamos aqui nessa linha do tempo, né? A ideia é a gente terminar tudo isso aqui nesse mês, né? Fazer esse levantamento de processos e sistemas nesse período aqui, né? Então, no carnaval a gente ficou sambando aqui no plano, né? 
+
+07:24
+Rodrigo Carlstrom
+E aí, depois que a gente terminar essa parte de levantamento, que já é a semana que vem, a gente parte para análise mesmo, que parte da semana que vem vai para outra, E aí, na última semana, fazer a orçamentação e a relatoria aqui. Beleza? E aí, começa aqui com a nossa validação. A gente fez uma inferência aqui do que a gente enxerga que é a cadeia de valor dessa gestão de conteúdos da Globo. Então, a gente dividiu aqui em plano de produção, longo prazo e curto prazo. Dentro do plano de produção, praticamente isso aqui é aquilo que aparece naquela planilha do plano de produção, que é justamente a grade de conteúdos, detalhamento artístico, 1 e 2, o planejamento de longo prazo, o desenho e a execução, produção, gravação, pós-produção e exibição. Aí temos aqui as principais atividades-chave. 
+
+08:38
+Rodrigo Carlstrom
+Lógico que tem muito mais coisa dentro dessas atividades aqui, mas vamos... A gente selecionou o que a gente enxergou como as principais aqui. O que a gente tem feito de entrevista aí? A parte de recrutamento seleção, gestão de talentos, gestão de contratos, orçamentos. Que ele está próximo dessas fases aqui, mas não é necessariamente exatamente igual ao que está, mas bem próximo dessas fases aqui. Aí, plano de alocação, depois tem a abertura da UO, tem a alocação dos recursos, a execução dos procedimentos de trabalho, que são aquela parte de comunicação, aquela interação que existe, que inclusive tem aqueles procedimentos que vocês próprios nos mandaram, lá no Bizage, E o apontamento dos recursos, que já vai pouco mais para a finalização aqui. E aí a gestão do custeio e abaixo da WA, quando você vai lá e encerra a WA. 
+
+09:43
+Rodrigo Carlstrom
+E aqui pequeno texto só para ver se o que a gente está entendendo aqui está correto. Então, no plano de produção, O plano da grade de conteúdo é a definição da programação anual, incluindo novela, jornalismo e entretenimento. Se tiver alguma coisa errada aqui, vocês já podem ir falando, que a gente já vai corrigindo aqui, tá, pessoal? Ou se vocês virem que, na nossa visão, não é isso aqui, é outro jeito, né? O detalhamento do conteúdo da parte 1 é o refinamento da estrutura narrativa, equipes criativas e formato da produção. O formato é novela de época, o estilo. Depois o conteúdo 2 vem para vai já começar a falar dos elementos visuais e artísticos da produção, incluindo figurino, aí começa já a colocar outro pessoal, figurinistas, pessoal de cenário. 
+
+10:47
+Rafael Rissuti
+Rodrigo, seguinte, essas etapas aqui, a detalhamento de conteúdo 1 e 2, e a parte de recrutamento de seleção, gestão de talento, gestão de contratos, A gente está falando de processo, de atividade. O que acontece? O que eu ia falar? É isso aqui que a gente tem gestão de talento, gestão de contratos e a recrutamento e seleção, além desse detalhamento 1 e 2, hoje só existe para entretenimento, para conteúdos do entretenimento. Conteúdos do esporte e jornalismo, essas etapas não estão... É como se essas etapas não abarcassem entretenimento e jornalismo. Isso não existe, tá bom? 
+
+11:34
+Rodrigo Carlstrom
+Aqui a gente tá querendo só mais representar a cadeia de valor mesmo, mas sem entrar no detalhe do processo ainda. 
+
+11:45
+Rafael Rissuti
+Eu entendo que todo mundo devia passar por isso aqui, tá? Porque faz total sentido, tá bom? É que hoje ela não roda desse jeito, tá? 
+
+11:54
+Júlio Cesar Freitag Schweikart
+Essa é a pergunta que eu ia comentar, Rissuti. Não existe esse processo ou ele não está sob o dono do acompanhamento de vocês? Ou as áreas fazem sem o conhecimento de vocês? 
+
+12:10
+Rafael Rissuti
+As áreas fazem sem nosso conhecimento, entendeu? Por exemplo, o esporte, a gestão de talentos, vamos lá, entretenimento, a gestão de talentos é feita pela área de entretenimento mesmo, pelo nosso cliente aqui, só que usando o nosso sistema, tá? No esporte, quem faz é a nossa área cliente também, que é a área do esporte. Só que não usa nosso sistema. O nosso sistema só é usado para fazer a alocação. Entendeu? Então assim, onde é que o... Só lembro do Galvão Bueno, gente. Onde é que o Galvão Bueno está alocado? 
+
+12:44
+Marcelle Machado De Almeida
+Só lembro do Galvão e ele nem é mais nosso. Eu só consigo dar ele de exemplo. 
+
+12:48
+Rafael Rissuti
+Eu tenho que anotar outros nomes aqui. Onde é que o Galvão vai estar alocado? Mas a gestão do Galvão, talento, contrato, tá sendo feita pela área lá, sem o nosso sistema estar se suportando, tá? 
+
+13:03
+Rodrigo Carlstrom
+Certo. Bom, até para vocês saberem, o conceito de cadeia de valor é aquele processo ponta a ponta que existe na organização, pelo qual a organização existe. Para que a empresa existe? Ela existe para entregar esse produto no mercado, que é o principal processo da empresa. E, obviamente, que tem outros tipos de processos organizacionais, que são os processos de suporte, que geralmente estão ligados a RH, TI, contabilidade, que fazem esse processo ponta a ponta parar de pé. E outros processos que são os processos de melhoria, por exemplo, gestão da qualidade, gestão de projetos, são todos processos na área de melhoria. Dos processos, ou ponta a ponta, ou os processos de suporte. Então, o nosso foco aqui, como a gente está justamente olhando o processo ponta a ponta, é o que vai aparecer mais naturalmente, tá, pessoal? Que é o processo... 
+
+14:18
+Rodrigo Carlstrom
+Mas a gente está olhando também na parte do recrutamento, seleção, gestão de talentos aqui também, que a gente está entrando aqui com principais atividades, desse processo inteiro. E depois vocês vão ver nesse slide aqui porque que a gente tá fazendo dessa forma, né? Essa representação dessa forma. Porque como a gente não tá ainda no detalhe desse processo, a gente quer representar visualmente, de alguma forma, isso fazer sentido numa linha de tempo, assim, sabe? De ponta a ponta. Ó, tal perfil entra aqui em tal momento, né? E tal sistema é utilizado nesse momento, vocês vão ver que isso aqui vai realmente, essa timeline aqui, ela vai aparecer em vários slides aqui, tá? Perfeito. E aí a gente pode ajustar ela, tá? 
+
+15:07
+Júlio Cesar Freitag Schweikart
+Eu ia até comentar, Ressuti e Marcelles, se vocês quiserem sugerir alguma nomenclatura, por exemplo, para processo aqui que vocês entendem que faça mais sentido, fiquem à vontade, tá? A gente já vai fazendo os ajustes aí. 
+
+15:24
+Rafael Rissuti
+Beleza. 
+
+15:25
+Rodrigo Carlstrom
+É até bom, porque a gente não conhece do processo como vocês conhecem, né? Então a gente tá inferindo bastante coisa aqui, né? A gente tá tentando acertar aqui, então na hora que a gente esteja... Estamos mais pra cima de 50% aí, né, Júlio? 
+
+15:39
+Rafael Rissuti
+Tá indo bem. 
+
+15:40
+Júlio Cesar Freitag Schweikart
+É, exato. E aí, digamos assim, usar a nomenclatura que vocês utilizam dentro de casa, né? Fica muito mais fácil de passar isso pra vocês depois. 
+
+15:51
+Rafael Rissuti
+Eu substituiria só a exibição por distribuição, que pode ser tanto na TV quanto no Globoplay ou qualquer outro lugar. 
+
+16:01
+Rodrigo Carlstrom
+Tá legal. Eu não vou fazer isso agora pra gente não perder tempo de agenda. Não, perfeito. 
+
+16:06
+Rafael Rissuti
+Pode ir. Tranquilo. 
+
+16:11
+Rodrigo Carlstrom
+É distribuição, né? 
+
+16:13
+Rafael Rissuti
+Isso. 
+
+16:18
+Rodrigo Carlstrom
+Certinho. Então, no longo prazo, o que a gente vai ter aqui, né? O planejamento de longo prazo, que é essa atividade aqui, né? Que é a projeção dos recursos críticos, estúdios, equipamentos, equipes, para os próximos 12 a 18 meses. Certo? 
+
+16:34
+Rafael Rissuti
+Certo. 
+
+16:35
+Rodrigo Carlstrom
+E depois, no curto prazo, né? Você tem lá a desenha e execução, que vai ser os ajustes finais no planejamento e a alocação de recursos 30 dias antes da produção. E essa seria essa fase aqui, né? Aí na pré-produção já tá acontecendo, né? Aqui já virou, já tá começando a concretizar, né? Então você já tem os ensaios, montagem de cenários, testes de figurino e definição de cronograma, né? Você vê que ainda tá numa linha de planejamento mais fina, né? Aí depois na gravação, que é a execução das filmagens conforme o planejamento, com ajustes operacionais conforme necessário. E depois na pós-produção, você tem edição, mixagem de som, efeitos especiais e revisão da qualidade antes da exibição. Que aí a gente vai trocar de exibição para distribuição. E aqui até está a distribuição, você viu? 
+
+17:43
+Rafael Rissuti
+É, eu vi. 
+
+17:44
+Rodrigo Carlstrom
+É a distribuição do conteúdo nos canais de planejamento, garantindo a entrega conforme o cronograma. 
+
+17:51
+Rafael Rissuti
+Perfeito. 
+
+17:53
+Rodrigo Carlstrom
+Tá legal isso aqui para vocês? 
+
+17:54
+Rafael Rissuti
+Tá ótimo. 
+
+17:55
+Rodrigo Carlstrom
+Faz sentido? Beleza, vamos para o próximo aqui. 
+
+18:03
+Marcelle Machado De Almeida
+Deixa eu só falar. 
+
+18:05
+Rodrigo Carlstrom
+Pois não. 
+
+18:07
+Marcelle Machado De Almeida
+Só que eu quero perguntar uma coisa lá de cima. Aí é mais até para o result ali, porque vocês colocaram apontamento dos recursos e gestão de custeio. Esse gestão de custeio, fiquei... Porque a gente faz... A gente faz o custeio e a gente faz outra coisa também, aí eu acho que não é a mesma... Ou para botar tudo junto, não pode ser, eu acho, que não pode ser gestão de custeio, tem que ser gestão de financeiro, sei lá, alguma coisa assim. 
+
+18:34
+Rafael Rissuti
+Bota ser gestão financeiro barra contábil, é melhor também. Tá. 
+
+18:42
+Rodrigo Carlstrom
+Rábio no lugar de gestão de custeiro. 
+
+18:44
+Rafael Rissuti
+Isso aí. O resto acho que ficou com nomezinho legal. 
+
+18:52
+Júlio Cesar Freitag Schweikart
+Detalhamento artístico 1 e 2, tá ok? 
+
+18:57
+Rafael Rissuti
+Cara, pra mim tá. 
+
+18:59
+Marcelle Machado De Almeida
+É que isso não é muito pra gente. Seria bom a gente depois... 
+
+19:02
+Rafael Rissuti
+Eu botaria só detalhamento artístico. Eu deixaria só detalhamento artístico. 
+
+19:06
+Marcelle Machado De Almeida
+Bloco só, né? 
+
+19:07
+Rafael Rissuti
+É. Porque aí tá fazendo o que? Refinamento da estrutura narrativa. O que tá descrito aqui nos dois é o que faz nesse bloco inteiro o detalhamento artístico, né? Mas é que esse negócio não é muito com a gente. Aí eu fico... 
+
+19:20
+Marcelle Machado De Almeida
+É, seria bom as garotas... Eu acho que a gente pode fazer depois uma reunião de todo mundo. 
+
+19:24
+Rodrigo Carlstrom
+É, mas tudo bem. Pra gente aqui é até melhor juntar, viu? 
+
+19:27
+Rafael Rissuti
+Tá bom. 
+
+19:28
+Rodrigo Carlstrom
+Eu acho bom. Pensar bem aqui. É melhor juntar. 
+
+19:33
+Rafael Rissuti
+E aí a definição que você botou ali nos dois, junta numa só. É. 
+
+19:40
+Rodrigo Carlstrom
+Tá ótimo. Então a gente vai fazer esses ajustes aí. E aí o que a gente pensou, né, pessoal? Aqui a gente utiliza muito uma anotação de processo que é uma anotação mais moderna, que é o BPMN, que inclusive é o que tem lá no Bizage. E aí o que a gente geralmente costuma fazer? A gente costuma ir num pensamento de modelagem. Tudo bem que a gente desenhou o Exis, mas numa expressão como se fosse de uma execução. E aí, as primeiras coisas que a gente costuma fazer aqui é fazer a gestão do que a gente chama de entidade de sistema. Então, quais são as grandes entidades que a gente percebeu aqui no sistema? O primeiro deles é o plano. O plano de produção. 
+
+20:38
+Rodrigo Carlstrom
+Aí, depois do plano de produção, a gente viu que tem ali até uma coisa que eu ia perguntar, que saiu numa reunião, que o conceito de temporada não existe. A gente sabe que conteúdo transpassa ano, ele transpassa ano de plano de produção. O mesmo conteúdo pode estar no plano de produção de 2003, 2024 e 2025. Aí tem o que você nos trouxe aqui, o conceito de temporada, né, Risuth? 
+
+21:15
+Rafael Rissuti
+Sim, a temporada ela existe sim, tá? Você tem lá, por exemplo, Caldeirão. Caldeirão é o nome do conteúdo Aí você tem Caldeirão temporada 2024, temporada 2025 É que o pessoal não está acostumado a falar temporada aqui Entendeu? Mas é conceito que é de mercado As séries têm as temporadas e tudo mais Temporadas e capítulos e episódios Esse conceito existe Temporada é o quê? Os programas que são de... Principalmente o que está na grade da TV Globo, né? Você tem lá o Caldeirão, o Caldeirão tem a temporada 2025 Essa temporada 2025 tem uma chave contável, tem lá cenário de custo específico para ele Que é diferente da 2024, que é diferente da 2023, entendeu? 
+
+22:08
+Marcelle Machado De Almeida
+Porque a gente não usa esse nome Aqui nosso grupo a gente não usa, mas é isso O conceito eles entendem, mas não é esse nome assim. 
+
+22:17
+Rodrigo Carlstrom
+A gente está ainda colocando Tá legal, tá legal. Mas até pra gente, na hora de fazer o processo aqui, é importante ter nome pra dar pra isso, né? Porque a gente faz uma gestão de ciclo de vida que tá dentro de plano, né? Então acho que faz sentido existir, sim, né? 
+
+22:38
+Rafael Rissuti
+Entendeu? O que eles falam muito é a produção. É a produção. Então é a produção do Caldeirão, de 2025. Entendeu? É isso que eles falam. A gente pode chamar esse negócio gigantesco de temporada de 2025. Não tem problema nenhum. Eu não vejo problemas com isso. Até porque a gente começa a se alinhar com o mercado. O mercado fala isso. Aí o que é o episódio do Caldeirão? É o episódio que foi ao ar no domingo passado. Entendeu? É essa a nomenclatura de mercado. 
+
+23:10
+Rodrigo Carlstrom
+Perfeito. Aí, pensando nisso então, que a gente tem plano de produção que tem conteúdo, e esse conteúdo tem várias temporadas, e a temporada tem vários episódios, a gente montou o processo pensando em fazer a gestão de cada uma dessas entidades aí, né? 
+
+23:32
+Rafael Rissuti
+Entendi. 
+
+23:32
+Rodrigo Carlstrom
+Então, o que a gente montou aqui, né? Então, você começa aqui plano fazer o planejamento dessa grade de conteúdos, que é praticamente aquela planilha de plano de produção. E aí o plano de produção, imagina que ele foi publicado de alguma forma aqui, a gente não falou em detalhes como que é isso, ele entra aqui, no que a gente faz, chamou aqui de gestão de conteúdo, né? Que eu gostaria de ter chamado de gestão temporada, mas depois reunionei para conteúdo por conta dessa reunião que disseram que temporada não existe conteúdo. 
+
+24:09
+Rafael Rissuti
+É pertencedor. 
+
+24:13
+Rodrigo Carlstrom
+Aí, beleza, para mim faz mais sentido ser temporada, porque o conteúdo ele vai se repetir em vários planos, né? Estou imaginando que para a gente aqui seria a gestão da temporada. Então é aí que você vai ter o detalhamento artístico. Aí depois você vai lá e vai fazer a produção desse detalhamento artístico aqui, fazer a pré-produção dele. E aí aqui ele passa a fazer planejamento de longo prazo. E daqui do longo prazo já vão começar a sair os episódios. Eu imagino que é daqui que saem esses episódios e não daqui, né? Porque aqui é muito conceitual ainda, né? 
+
+24:58
+Rafael Rissuti
+Deixa eu ver. O longo prazo, a gente... Alguns... Deixa eu pensar aqui. Espera aí. Pré-produzida, treinamento artístico. É que tem alguns tipos de conteúdo em que a gente já sai com... Todos eles a gente sabe a quantidade de episódios, tá? Todos eles. Só que alguns tipos de conteúdo, isso já tá mais certinho, isso já é sabido, né? Inclusive o que vai acontecer em cada episódio, que são as séries. As séries, elas já estão completamente escritas. Então, assim, a gente já sabe como começa e como termina e já sabe tudo isso. Os programas de variedades, por exemplo, Caldeirão, Domingão e esses dessas linhas, a gente também já sabe os episódios, porque Caldeirão é todo sábado, Domingão é todo domingo, de casa é todo sábado, então a gente sabe quantos sábados tem no ano, acabou. 
+
+26:03
+Rafael Rissuti
+Novelas é que é negócio que fica meio flutuante, porque eu tenho uma estimativa de quantidade de capítulos, de episódios. Mas a gente só vai ter certeza mesmo ali no dia a dia da escrita do negócio Mas aqui quando entra no planejar longo prazo, a gente já sabe que ela vai começar no dia A e terminar no dia B A gente sabe a data de início e fim Normalmente eles ficam fixos nessas datas mesmas, né? E aí a gente pode até extrapolar. Então se é uma novela que vai começar no dia A e terminar no dia B, eu já sei quantos episódios ela tem. Mas eu vou saber efetivamente ali no dia a dia, entendeu? Mas acho que eu te confundi mais ainda. Para Fins de Planejamento a longo prazo... 
+
+26:48
+Rafael Rissuti
+Eu acho que para fim de planejamento a longo prazo está certo, ali a gente sabe a quantidade de episódios que vão ser produzidos, tá? É isso aí. 
+
+26:59
+Rodrigo Carlstrom
+Tá legal. Aqui também a mesma coisa, a gente não entrou no detalhe, talvez se a gente fosse entrar no detalhe eu talvez até faria aqui processo para cada tipo de conteúdo aí, né? Mas assim, para fazer processo que conceitualmente abarque todos eles, né? Eu imaginei o seguinte aqui, você faz toda a parte artística aqui ainda sem se preocupar muito com o episódio, né? E os episódios nascem aqui no plano de longo prazo. Entendeu? Eu pensei assim. Só não sei se tá correto. 
+
+27:36
+Rafael Rissuti
+Tem negócio que acontece, desenho, execução, desenho, execução... Tá, o detalhamento artístico... Você pode voltar naquele slide lá da... Aquele primeiro que tem a cadeia de valor? Definimento da estrutura narrativa, equipes criativas e formato de produção. Definição dos elementos visuais, artísticos... Desenho e solução. Não. Tá bom. Tá. Tá bom, tá bom. Pode ir pra lá. Já entendi aqui. Beleza. 
+
+28:20
+Rodrigo Carlstrom
+Entendeu por que eu inferi isso? Que aqui a preocupação ainda é a artística, né? 
+
+28:25
+Rafael Rissuti
+Sim. 
+
+28:26
+Rodrigo Carlstrom
+São definições que estão sendo colocadas que serão instrumentos para fazer esse planejamento depois pegar isso aqui e colocar isso numa linha de tempo a executar, né? Por isso que eu desenhei assim, né? E até coloquei aqui, uma menção aqui, a tabela periódica aqui, né? 
+
+28:42
+Rafael Rissuti
+Tá. Beleza. 
+
+28:45
+Rodrigo Carlstrom
+E aí, ó, aqui é o ciclo de vida da temporada, tá? E aí aqui eu coloquei praticamente aquilo que tem lá na planilha de plano de produção, que são todas aquelas fases aqui. Aqui ele não tem mais ação, ele só faz acompanhamento de fato, né? 
+
+29:02
+Rafael Rissuti
+Exatamente. 
+
+29:03
+Rodrigo Carlstrom
+E aí ele vai até o fim lá, né? Então isso aqui vai andando lentamente, né? Sai, vamos dizer assim, Sai a bolinha daqui, passa para cá, depois de vários dias, passa para cá, depois de vários dias, e assim vai de pouquinho em pouquinho, como se ele estivesse atualizando aquela planilha, vamos dizer assim. 
+
+29:21
+Rafael Rissuti
+Isso. Eu não sei, acho que aqui não tem necessidade de representar, mas, por exemplo, a pós-produção, a gravação e a pós-produção e a distribuição, elas acontecem em paralelo. Quando a gente fala principalmente de novelas, porque eu tô gravando o capítulo 22, tô editando. Não é que acontece em paralelo, desculpa. Quando a gente tá gravando, eu tô gravando diversos capítulos, porque eu tenho que fazer lá compilado daquela semana. Então, a semana tem seis dias de exibição. Eu tô gravando cenas de todos os capítulos daquela semana. Em qualquer dia eu tô gravando, e aí eu tô gravando isso e tô pós-produzindo pra depois enviar os capítulos pra distribuição, entendeu? Então é uma coisa que não é assim, gravei tudo pra depois... Não, eu gravo, tô fazendo pós-produção, e aí tô fazendo a distribuição, e tô fazendo esse trabalho todo aqui, meio que roda em paralelo, tá? 
+
+30:24
+Rodrigo Carlstrom
+Sim, sim, mas imagina assim, né? Que lá no plano de produção ele abrange o todo, né? E aqui ele vai... Aqui ele vai cuidar do ciclo de vida de cada temporada. 
+
+30:36
+Rafael Rissuti
+Daquela temporada e de cada conteúdo. 
+
+30:42
+Rodrigo Carlstrom
+Mas eu vou fazer essa representação, acho que vale a pena fazer. 
+
+30:45
+Rafael Rissuti
+Talvez nem precise, mas assim, só para deixar essa notação, porque assim, quando a gente fala de novela, isso não acontece de forma linear. 
+
+30:57
+Marcelle Machado De Almeida
+Linear, exatamente, não é linear. 
+
+30:59
+Rafael Rissuti
+Não é linear, entendeu? Ela fica fazendo ciclo até que tudo acabe de gravar e aí vai assim, entendeu? 
+
+31:07
+Rodrigo Carlstrom
+Isso, aí o que tem, né? Tá vendo que isso aqui tá debaixo de subprocesso? Subprocesso pra cada conteúdo, que na verdade eu queria que fosse pra cada temporada aqui, né? Então isso aqui vai se repetir a cada temporada. Vai ter como se fosse processinho desse aqui pra cada temporada, né? De cada conteúdo. 
+
+31:25
+Rafael Rissuti
+É isso aí. 
+
+31:27
+Rodrigo Carlstrom
+E aí quando ele tiver aqui no longo prazo, aqui que ele vai criando? Ele vai criando os episódios, né? Ele vai definindo o episódio, vai de tanto a tanto, dependendo do conteúdo, você já sabe que o domingão vai ser domingo e tal, ou da novela, ele vai fazendo episódios e vai criando esses episódios aqui. Aí, para cada desses episódios aqui, ele vai ter processinho desse aqui, que ele vai desenhar a execução de pré-produção, E aí, nesse desenho aqui, né, ele terminou, ele faz a realização da pré-produção, grava o episódio, realiza a pós-produção e exibe o episódio. Só que isso vai se repetindo para cada episódio. 
+
+32:21
+Marcelle Machado De Almeida
+Aonde que tá esse gestão do episódio? Ele vem aonde no... Na linha lá de cima? 
+
+32:28
+Rodrigo Carlstrom
+Ele vai sendo como se ele estivesse sendo soltado aqui, por essa atividade de planejamento. Então o planejamento, ele vai planejando, porque isso vai acontecendo a todo tempo, né? Não é uma coisa assim, ele planeja tudo e solta tudo, né? Então ele vai planejando e ele vai soltando. Estou soltando episódio aqui, então começa o episódio iniciado aqui, aí ele vai lá, faz o desenho, faz a pré-produção, grava o episódio, realiza a pós-produção, e exibe o episódio no final, né? Então, ele vai fazendo todos os espaços para todos os episódios. Só que isso aqui vai acontecendo várias vezes durante esse planejamento aqui, né? Porque o planejamento, ele demora muito tempo, né? 
+
+33:15
+Rafael Rissuti
+O que eu estava pensando aqui... Fala, Marcelo. 
+
+33:18
+Marcelle Machado De Almeida
+Não, eu fiquei com essa dúvida, porque, na verdade, nem tudo que está aqui nesse... É planejamento a longo prazo, porque em algum momento ele começa no planejamento a longo prazo, mas ele deixa de ser ao longo. Por isso que eu achei até que ele estivesse explodindo ou saindo de algum daqueles outros lá de cima, mas enfim. 
+
+33:36
+Rodrigo Carlstrom
+O episódio... Pensa assim, Marcelo. Pensa assim, que ele solta no planejamento a longo prazo, que ele solta. Pode ir com esse episódio para frente. Pode tocar esse episódio aqui pra frente, mas quem executa é curto prazo, né? 
+
+33:56
+Rafael Rissuti
+Deixa eu ver se eu entendi. É aqueles... Virada pra 30 dias, né? Quando faz do longo pro curto, né? É nesse momento que acontece essa gestão do episódio aqui? 
+
+34:08
+Rodrigo Carlstrom
+Isso, ele vai criando aqui os episódios e solta pro pessoal de curto prazo ir executando. Na verdade, tudo isso aqui é curto prazo já. A gestão do episódio, de fato, né? Esse cara planeja e ele vai soltando pro pessoal. Pessoal, pode ir fazendo isso aqui, entendeu? E aí esse pessoal aqui, que é de curto prazo, vai fazendo essas tarefas aqui. 
+
+34:30
+Rafael Rissuti
+Essa é a passagem de bastão. Quando a gente sai lá do time da Carol e vai para o time da Larissa para poder executar, que aí chega no curto prazo. Então a gestão de episódio é curto prazo. A única coisa que eu estava pensando aqui, Rodrigo, é o seguinte. É que não é linear o episódio. É aquilo que eu estava falando. A gente pega, por exemplo, novela. Vou te dar esse exemplo, que é o exemplo mais doido que a gente tem. A novela, o autor, ele tá escrevendo, a gente tá na semana dia 6, né? Ele tá escrevendo os capítulos daqui a duas semanas. Ele tá entregando hoje aquilo que ele quer que vá ao ar daqui a duas semanas, tá? E aí o que o pessoal começa a... O que é isso? Ele entrega esse bloco de seis capítulos, seis episódios. 
+
+35:19
+Rafael Rissuti
+Então ele entregou esses seis episódios que ele quer ativar o ar daqui a duas semanas. Aí, durante o dia de hoje e o dia de amanhã, os times estão planejando esse bloco inteiro. Então o que é esse planejamento? Segunda-feira. Segunda-feira eu vou gravar todas as cenas da casa da Marcelle. Então tem cena no episódio 1, no episódio 3, no episódio 7, no episódio 2, entendeu? E aí ele junta as cenas e vai gravar no episódio na segunda-feira. Na terça-feira, na casa do Risu. E aí assim vai. E aí no final desse período de gravação, eu tenho todas as cenas gravadas. Aí eu libero isso para... 
+
+36:03
+Rafael Rissuti
+Não é que eu tenho que esperar todas as cenas estarem gravadas para começar a pós-produção Mas à medida que as cenas estão sendo gravadas e foram gravadas Eu já libero isso para a pós-produção Então já tem algumas atividades que podem ser executadas E aí sim, só quando termina todo o ciclo de gravação É que os episódios podem ser montados efetivamente Direitinho e ser distribuído E aí, é que quando a gente bota assim, desenhar, gravar episódio, né, exibir, esse, eu não tô gravando episódio, eu tô gravando conjunto de episódios, quando eu falo de novela. Mas quando eu falo de programas de variedades, novelas e séries é desse jeito que eu te falei, tá? A variedade, por exemplo, eu tô gravando o episódio que vai ao ar, eu hoje eu tô gravando o que vai ao ar no domingo, no Caldeirão. Entendeu? Domingão, aliás. 
+
+36:57
+Júlio Cesar Freitag Schweikart
+Se a gente colocasse aí só a gestão de gravação, tirando a palavra episódio. 
+
+37:04
+Rafael Rissuti
+Fora, você. 
+
+37:08
+Rodrigo Carlstrom
+Acharia melhor? Vou voltar pouquinho, Júlio. Fazer uma pergunta diferente aqui, né? Eu ia perguntar o seguinte, ó. Imagina que você falou aí, né, Ressur, que você tem bloco de seis episódios, né? E aí tudo vai acontecer em paralelo. Seis episódios vão acontecer em paralelo. Mas para cada episódio, não é sequencial assim? Ou seja, não existe uma predecessora? Essa atividade aqui não é predecessora dessa e sucessivamente? Ou seja, eu não posso gravar o episódio sem ter passado... Por realizar a pré-produção. 
+
+37:46
+Rafael Rissuti
+Sim, você está certo. Você está certo. Isso, por exemplo, aqui é o SGP, né? É o sistema que faz a gestão da produção, que é o SGP. Essas duas primeiras caixinhas. Que é quando eu pego lá as cenas dos capítulos, de diversos capítulos, e estou juntando lá. Casa da Marcele. Aí eu fiz o que eles chamam de roteiro de gravação. Então, assim, o que é o roteiro? É o conjunto de cenas que eu vou gravar em determinado dia. Entendeu? E aí, isso sim, é realizar a pré-produção, realizar a execução da pré-produção, é isso aqui mesmo, é desenhar a execução, realizar, entendeu? Que aí eu vou gravar aquele conjunto de cenas determinados episódios, de vários episódios, na verdade. 
+
+38:30
+Rodrigo Carlstrom
+É, então o desenho do processo tá certo, tá? 
+
+38:33
+Rafael Rissuti
+O desenho tá certo. 
+
+38:34
+Rodrigo Carlstrom
+É, por que acontece? Ele vai soltar quantos episódios ele quiser em paralelo aqui. Por quê? A gente fez processo que ele é altamente discricionário, justamente para que se tenha liberdade da pessoa, para manter a liberdade que eles têm hoje, né? Então eles vão soltando cada dos episódios aqui, só que cada dos episódios vão obedecer essa predecessão de tarefas aqui. Uns deles pode estar pouquinho mais adiantado, outro mais atrasado, ou pode todos eles andarem em conjunto, sem problema. Os seis do bloco. E ele pode ir soltando mais, né? Imagina que ele já tá terminando, já tá indo lá realizar a produção, ele solta mais seis aqui que começa desenho e execução para produção. E assim ele vai fazendo do jeito que ele quiser. Então ele vai soltando, né? E aí o que acontece, né? Ainda falando aqui, né? 
+
+39:31
+Rodrigo Carlstrom
+Conforme esse pessoal aqui vai trabalhando, imagina que tem vários públicos aqui a trabalhar nessas diversas atividades aqui, né? E muitos desses públicos, eles podem criar ordens de serviço para consumir, né? Para ir apontando. Fala, cara, vamos abrir essa ordem de serviço aqui, para a gente poder apontar o que a gente está consumindo, né? 
+
+39:53
+Rafael Rissuti
+É isso mesmo. 
+
+39:54
+Rodrigo Carlstrom
+E aí, o que ele vai fazer? Da mesma forma aqui, ele vai poder abrir quantas ordens de serviço durante esse processo aqui, Durante o episódio tal, vamos abrir essa ordem de serviço Durante o outro episódio, eu vou abrir essa outra ordem de serviço Eles vão poder abrir quantas ordens de serviço eles quiserem Esse conceito tá correto? 
+
+40:16
+Rafael Rissuti
+Tá, tá sim, tá sim Então é. 
+
+40:20
+Rodrigo Carlstrom
+Isso aí, acho que acertamos aqui o processo Da ordem de serviço, esse aqui que eu tô mais com dúvida ainda Abriu uma ordem de serviço, primeiro passo alocar recursos, certo? 
+
+40:36
+Rafael Rissuti
+É alocar serviços. Serviços e recursos. Bom, peraí, deixa eu melhorar isso aqui. Quando a gente fala de tecnologia, são serviços. Então a primeira coisa que faz é alocar serviços. Quando a gente fala de entretenimento, são os recursos. Então a gente pode... 
+
+40:56
+Marcelle Machado De Almeida
+É, mas eu acho melhor serviços e recursos, porque tecnologia também coloca serviço e coloca... 
+
+41:02
+Rafael Rissuti
+Mas não na abertura. 
+
+41:03
+Marcelle Machado De Almeida
+Sim, na abertura. 
+
+41:04
+Rafael Rissuti
+Entendeu? Se a gente pode botar ali, alocar serviços e recursos, ao invés de só recursos, bota os dois, tá? 
+
+41:11
+Rodrigo Carlstrom
+Tá legal, já anotei aqui. Aí, beleza, depois que essa pessoa aqui abrir o ar de serviço, vai ter uma atividade aqui. Eu imagino que tem aqui uma atividade de fazer a gestão dessa ordem de... Essa WA, pra acompanhar ela, né? De vez em quando alguém vai ficar olhando ela aí, né? 
+
+41:32
+Rafael Rissuti
+E. 
+
+41:34
+Rodrigo Carlstrom
+Aí para cada serviço, serviço ou recurso, né? Eu imaginei que ia acontecer isso aqui, né? Eu não sei se é para cada serviço, entendeu? Que aconteceria isso aqui. A gente poderia verificar isso aqui, né? Mas o que você teria? Você teria ali, ó, atualizar a utilização planejada o recurso você já vai salvar o que está planejado para cada dos recursos ó para esse recurso que está planejado tanto para esse recurso mesmo que eles tenham ele faça parte de pacote que é serviço né mas para cada dos recursos você tá fazendo aqui a atualização e de cada planejado né aí depois eu coloquei aqui minha criatividade aqui tá Marcelo pelos processos você mandou a gente realiza aqui uma triagem O que é isso? 
+
+42:28
+Marcelle Machado De Almeida
+Eu ia perguntar o que é uma triagem. 
+
+42:30
+Rodrigo Carlstrom
+Fora fluxo, tá? É o que acontece na cabeça das pessoas, né? A pessoa decide, ó, puxa, tá chegando aqui esse serviço aqui que a gente tem que executar, né? Essa ordem de serviço que a gente tem que executar. Pô, e aí, se eu tô trabalhando com equipamento desse tipo aqui, o procedimento e o conteúdo artístico esse aqui, O procedimento para você trabalhar com isso aqui é esse procedimento que você trabalha aqui. Então, eu tenho que conversar com fulano de tal, já falar para o pessoal que já está no dia certo, já tem toda a parte de comunicação dentro daqueles procedimentos que você nos passou lá, sabe? Tem muitos procedimentos, certo? Então, essa triagem nada mais é do que decidir qual é o procedimento que vai usar para esse micro contexto, vamos dizer assim, né? 
+
+43:23
+Rodrigo Carlstrom
+Aí a pessoa, ó, hoje não tem sistema sobre o que precisa fazer, mas é importante apontar a localidade de utilização dos recursos para otimizar a logística, considerar o uso de lições aprendidas e avaliação de fornecedores. E é coisas que estão no procedimento de trabalho, que a gente não detalhou ainda nesse momento, mas que a gente está considerando que isso existe no dia a dia, mas não tem sistema para isso, né? E pode acontecer caso de não ter procedimento nenhum. Que é, ó, peguei recursozinho aqui e só vou colocar ele na WA para eu fazer o apontamento que eu usei ele. Não tem procedimento para isso, né? É só equipamento tão simples que não tem procedimento para isso. Então pode acontecer isso também, né? E aí no final, depois que você fez todo o trabalho aqui, né? Você vai apontar o uso dos recursos, certo? 
+
+44:29
+Marcelle Machado De Almeida
+Deixa eu te perguntar uma coisa que eu tô com dúvida. Aquela primeira ali, atualizar a utilização planejada do recurso, versus esse apontar o uso dos recursos. 
+
+44:41
+Rodrigo Carlstrom
+E aí é o real aqui, né? 
+
+44:43
+Rafael Rissuti
+Ali é o planejado e aqui é o real. 
+
+44:45
+Rodrigo Carlstrom
+Aqui é planejado então aqui ele vem aqui aponta tudo por exemplo como se ele tivesse pegando a planilha tudo de uma vez lá apontando tudo fazer os ajustes que ele quer aí depois vai lá descarrega tudo no sistema de uma vez entendeu vai lá e descarrega lá no MediaPulse, para deixar o MediaPulse atualizadinho. 
+
+45:09
+Rafael Rissuti
+Na primeira caixinha que tem dentro desse quadrado, atualizado, utilização planejada do recurso, no caso aqui é o planejamento daquele recurso, vai ter a gravação, do jogo Flamengo e Vasco vai ser às oito horas da noite até meia-noite. Então esse é o planejamento que está lá, que é isso que eu vou informar aqui nessa primeira caixinha, né? Essa última caixinha aqui é o que aconteceu de fato. Então estava planejado até meia-noite, foi até três horas da manhã. Então vou botar aqui, atualizar até três horas da manhã, né? 
+
+45:42
+Rodrigo Carlstrom
+Exatamente. 
+
+45:43
+Rafael Rissuti
+Eu trocaria só a utilização por necessidade na primeira caixinha, que é atualizar a necessidade planejada do recurso. E aí a última deixa a utilização real, né? Pode ser, né, Marcelo? 
+
+46:02
+Marcelle Machado De Almeida
+Pode. 
+
+46:06
+Rodrigo Carlstrom
+Perfeito. 
+
+46:07
+Rafael Rissuti
+Mas acho que esse é o fluxo mesmo, certinho. 
+
+46:10
+Rodrigo Carlstrom
+E aí isso vai acontecendo para cada serviço, né? Organizar aqui o pensamento, né? Para cada serviço eles vão fazendo esse trabalho, né? De ir apontando na WA aí, né? E seria interessante aqui, se tivesse aqui uma recorrência aqui, né? De follow-up, para poder cobrar as pessoas que apontem os seus recursos, né? Como se tivesse alguém aqui cobrando, vai lá, aponte os seus recursos, não deixe de fazer isso, por favor, né? E aí depois que terminou isso, a gente colocou aqui, né, Júlio, subprocesso para dar baixa na AWO, porque a gente não sabe como que dá a baixa ainda, a gente não conversou exatamente como acontece isso. Imagino que tem que dar baixa em vários sistemas, né? E como vai fazer isso? A gente não mapeamos esse processo, mas a gente está considerando que existe isso aqui, subprocesso para dar baixa na AWO. 
+
+47:14
+Rafael Rissuti
+O que é o dar baixa aqui? Eles mudam o status para status completed e pronto. Acabou. 
+
+47:21
+Marcelle Machado De Almeida
+Faz parte do fluxo. É mais status que muda ali. Mas eu acho que tá ok. 
+
+47:29
+Rodrigo Carlstrom
+Mas não tem que levar isso para os demais sistemas? 
+
+47:32
+Rafael Rissuti
+Não, não. Os demais sistemas foram aqui antes. Deixa eu ver aqui. Avaliar horas excedentes... O dar baixa da W.O., Marcele, pode ser... É porque assim, aqui eles atualizam os WOs Então tem todo o processo aqui, apontar o uso dos recursos e atualizar a utilização dos recursos Eles estão atualizando as WOs com os serviços e as horas realizadas Aí a próxima etapa é realizar toda a parte de cobrança A. 
+
+48:00
+Marcelle Machado De Almeida
+Distribuição, aconteceu a distribuição Quando é que a gente termina o WO? Quando já tá tudo... Quando já foi, ela já foi gravada, já foi... Feito o que tinha que ter feito, e aí ele coloca o completed ali. Isso não vai para lugar nenhum, e não tem nada, e não tem nenhum sistema que, se tiver completed, recebe nada. Tudo que acontece antes. 
+
+48:23
+Rafael Rissuti
+Exato. 
+
+48:24
+Rodrigo Carlstrom
+Tá legal. 
+
+48:26
+Rafael Rissuti
+A única coisa que vai acontecer... 
+
+48:28
+Marcelle Machado De Almeida
+Eu acho até que faz sentido ter isso aí, só para a gente saber que finalizou. 
+
+48:32
+Rafael Rissuti
+Não, eu acho que tem que ter, porque a W.O. 
+
+48:34
+Marcelle Machado De Almeida
+Precisa ser encerrada de verdade Exatamente, mas é só uma mudança de status mesmo, não acontece esse negócio de horas excedentes e tal Eu acho que é independente dessa baixa aqui da W.O. 
+
+48:51
+Rafael Rissuti
+Ela é independente da baixa O que eu tô sentindo falta aqui é a cobrança Efetivamente, gerar a cobrança do serviço Eu não sei se você já tem isso em outro lugar, tá, Rodrigo? 
+
+49:06
+Rodrigo Carlstrom
+Não, não tem não. Na verdade eu vou te explicar porque não tem ainda. Porque eu tô reassistindo todas as agendas. 
+
+49:12
+Rafael Rissuti
+Ok. Tá bom, tá bom. 
+
+49:13
+Rodrigo Carlstrom
+E eu não cheguei na de cobrança ainda. 
+
+49:15
+Rafael Rissuti
+Esse processo final aqui... Esse processo final aqui de horas excedentes, ele acontece, não acontece no MediaPulse, ele acontece na área lá, nosso cliente. Eles fazem esse trabalho de entender o que está acontecendo, por que teve horas excedentes, o que está acontecendo, se foi algum gap, se foi algum problema de tecnologia, se foi algum problema de conteúdo. Então, eles fazem isso que você botou aqui, eles fazem, tá? E é no momento pós mesmo, eu acho que a colocação está certa. É dar baixa, e eles fazem isso aqui, só que isso aqui não é assim, deu baixa na W.O. 1, 2, 3, eu vou entender o que aconteceu Não, eles fazem isso uma vez no mês, né, olhando as W.O.s. 
+
+49:57
+Marcelle Machado De Almeida
+Daquele mês Independente se a W.O. Foi ou não completada, isso é deles e eles vão fazer Aonde que acontece alguma coisa que vai... Contra, vai bater ali com o que eles estão fazendo de hora excedente. 
+
+50:10
+Marcelle Machado De Almeida
+É durante, na hora da alocação aqui, toda vez que a gente faz a alocação, é a hora que a gente envia os dados daquele planejamento, daquele recurso, para os outros sistemas, é nesse momento aqui da gestão de serviço, é antes aqui, é na hora que a gente aponta o recurso Que a gente aloca e coloca o nomezinho do recurso Nesse momento é que vai para outro sistema E nesse momento é que gera alguma coisa ali que tem a ver com a gente fez isso Depois que a gente mandou para lá, a gente não tem mais ação sobre isso Nesse outro momento aqui de hora excedente, ele vai verificar E fez hora extra, fez, tem algum produto assinalado para ele Aí ele vai numa tabelinha que é do sistema deles e procura isso Baseado em coisas que a gente enviou antes - Tá. 
+
+50:55
+Rafael Rissuti
+Exatamente. Por exemplo, por isso que eu falei que estou sentindo falta do processo de cobrança. Porque no processo de cobrança eu tenho tudo aquilo que está na WO, eu vou cobrar. Se tiver horas excedentes, eu vou cobrar. Se não tiver horas excedentes, eu vou cobrar. É assim, entendeu? Eu vou cobrar tudo que está na WO. E aí isso segue o fluxo lá de cobrança. Isso aqui é uma parte que é tipo lições aprendidas que você botou aqui embaixo. Entendeu? Lições aprendidas. É exatamente uma etapa de lições aprendidas. O que eu tenho nessa etapa de lições aprendidas? Avaliar as horas excedentes. Por que aconteceu as horas excedentes? E avaliar os fornecedores. Eles têm uma espécie de feedback dos fornecedores. O fornecedor entregou uma câmera com defeito. Eles fazem umas avaliações. Então, isso também é registrado nas WOs. E aí eles avaliam isso também. 
+
+51:47
+Rafael Rissuti
+Então, existe dois processos que rodam em paralelo a tudo isso aqui. Que é esse processo de lições aprendidas, que vai falar de horas excedentes, vai falar de ocorrências com os fornecedores. É como eles chamam aqui. 
+
+52:02
+Rodrigo Carlstrom
+Só que tem umas oportunidades legais aqui. Mas tá bom, eu entendi. Eu vou redesenhar essa parte final aqui e os ajustes todos que a gente falou. 
+
+52:17
+Rafael Rissuti
+Beleza, beleza, beleza. Não inclui talentos, tá ótimo. 
+
+52:20
+Rodrigo Carlstrom
+Não inclui talentos, é. Beleza, isso aqui é o que a gente desenhou de BPMN por enquanto, né? 
+
+52:29
+Rafael Rissuti
+Perfeito. 
+
+52:30
+Rodrigo Carlstrom
+Tem a parte lá da gestão de talentos, né? Porque ainda estou assistindo aí o vídeo para ver se faz sentido a gente fazer ou não, né? E aí, beleza, pensando nisso, o Júlio fez aqui trabalho de analisar, né, Júlio? Se você quiser explicar esse slide aqui, né? Eu só dei uma mudadinha no layout aqui, né, Júlio? Mas é a sinergia entre essas áreas aqui. Quanto que a gente tem de agenda ainda? Meia horinha ainda, né? 
+
+53:06
+Júlio Cesar Freitag Schweikart
+O objetivo aqui é a gente identificar entre as o que a gente tem de oportunidades de trabalhos que podem contribuir entre si. E aí, realizando o processo, de uma forma bem resumida, da cadeia de valor, entre o processo de recrutamento, o planejamento de todo o trabalho, a execução, a parte financeira e, no final, o que existe de relatórios. Então, por exemplo, hoje a gente tem aí em RH a seleção de profissionais, que a gente tem aí uma distinção entre profissionais de talentos artísticos e profissionais de RH. Tem os outros quadradinhos aí, né, Paulo? 
+
+54:00
+Rodrigo Carlstrom
+Tem. Quer que ponha todos já? 
+
+54:04
+Júlio Cesar Freitag Schweikart
+Pode passar todos. Mais fácil. E aí a gente foi colocando aqui processos onde a gente pode ter ganho identificando sinergias entre as diversas áreas, onde, por exemplo, aqui, quando a gente fala de planejamento de longo prazo, a gente tem tanto aqui em Excel como lá em talentos artísticos. Existem divergências, é claro, nesse processo, mas o nosso objetivo é buscar a identificação de sinergias e entender o que a gente pode trabalhar com a contribuição entre essas áreas. Então, a gente identificou até o momento aqui a questão de planejamento de longo prazo, curto prazo e orçamento, por exemplo, que a gente tem aqui tanto em planejamento e alocação como em TA. 
+
+54:58
+Júlio Cesar Freitag Schweikart
+Passando ali para recrutamento, tem a seleção e a contratação, e a distinção aí seria que talentos artísticos têm processo de curadoria, E ali na coluna do planejamento, em planejamento e alocação, a gente tem a alocação efetivamente dos recursos que são planejados. Em talentos artísticos, a gente acabou identificando esse processo. Na execução, a gente tem... Desculpe, ali é locação de equipamentos, não alocação. A alocação está na próxima. Mas, de qualquer forma, existem talentos artísticos. Quando a gente passa para a execução, a gente tem a alocação, que acontece nas duas áreas, a gestão do realizado, que também ocorre nas duas áreas, a gestão de pagamentos, que também ocorre nas duas áreas. Quando a gente fala de realizado, a gente também tem ainda o RH, que é os profissionais CLT Globo. 
+
+56:13
+Júlio Cesar Freitag Schweikart
+E o RH tem uma distinção grande, que é trabalhar a questão desenvolvimento dos colaboradores, treinamentos e tudo mais. E no financeiro, a gente tem aí. 
+
+56:24
+Rafael Rissuti
+As... 
+
+56:27
+Júlio Cesar Freitag Schweikart
+Algo muito similar, que é a provisão dos pagamentos, tanto dos profissionais, no caso de talentos artísticos, no caso dos serviços e das locações, que são realizadas no caso de planejamento e locação. E para RH, a gente tem a folha de pagamento, bem como também a previsão, a provisão de pagamentos para profissionais. Relatórios que a gente ainda não acabou. Acabou não preenchendo aqui. Mas, de qualquer forma, os relatórios são todos estados a partir do BI. A gente tem ali uma integração de praticamente todos os sistemas com o BI. E a partir de lá que são gerados os relatórios. 
+
+57:18
+Rafael Rissuti
+Eu acho a mesma coisa do outro. 
+
+57:23
+Marcelle Machado De Almeida
+Aquele negócio da parte financeira, que ali. 
+
+57:27
+Rafael Rissuti
+Tá falando só gestão de pagamento, enfim. Eu não gostei desse nome, provisão de pagamento, é que eu fiquei pensando. Tem uma parte, Júlio, que é a parte de cobrança, né? Que é quando eu cobro do conteúdo. E aí é uma cobrança, pagamento, né? Foi só isso que eu fiquei pensando aqui. E aí esse pagamento aqui de IPA é único, exclusivamente, pagamento ao fornecedor. Toda parte de pessoal que tá dentro do MediaPulse, eu não me envolvo com essa parte, entendeu? Então, assim, o salário vai ser pago independente se a pessoa foi alocada ou não, tá? O que vai acontecer é, no final, eu tenho uma contabilização no projeto que ela trabalhou, tá? 
+
+58:27
+Júlio Cesar Freitag Schweikart
+O pagamento do profissional está lá embaixo. 
+
+58:29
+Rafael Rissuti
+Na folha de pagamento, né? É, tá na folha de pagamento, exato. 
+
+58:32
+Júlio Cesar Freitag Schweikart
+Quando a gente fala de... De P&A, a ideia ali foi colocar os parceiros, as locações que são feitas, os serviços contratados. No caso de TA ali, os artistas que têm uma variedade de modelos de contratação. 
+
+58:54
+Rafael Rissuti
+Eu só colocaria ali no financeiro em P&A alguma coisa referente à cobrança, cobrança de serviço, né? Cobrança de serviço. 
+
+59:02
+Marcelle Machado De Almeida
+Cobrança ao conteúdo. 
+
+59:04
+Rafael Rissuti
+Cobrança ao conteúdo, tá? E agora ali em recrutamento, Marcela e PIA, tá certo que toda parte de pessoa é feita ali no RH, né? Faz ali na seleção e contratação e a gente só recebe essa informação. E equipamento? A gente não tem. 
+
+59:22
+Marcelle Machado De Almeida
+Mas eu tava pensando aqui, se a gente em recrutamento não deveria colocar o cadastro dos nossos recursos que chegam pela integração justamente porque quando TA e RH, na verdade quando RH contrata e entra com isso dentro do sistema deles, isso vem para a gente recebe isso também, a gente não está cadastrando manualmente, mas a gente recebe Não sei se isso tem que entrar de alguma forma ali naquele recrutamento É isso que. 
+
+59:52
+Rafael Rissuti
+Eu fiquei pensando, sabe, Júlio? Você teria que representar isso de alguma forma. E a parte também de equipamentos, né? Porque a gestão, a curadoria dos equipamentos é feita dentro do MediaPulse. E aí eu só abro parênteses no seguinte, tá? O MediaPulse não é o sistema master de equipamentos. Assim como não é de RH, não é também sistema de equipamento. Só para a gente entender o conceito mesmo, pode não ter caixinha nenhuma ali, mas é só para a gente entender mesmo esse conceito. A gente não colocou nada porque o MediaPulse não é o sistema que faz a gestão, não é o master desta informação, perfeito. Não tem problema nenhum. 
+
+01:00:36
+Júlio Cesar Freitag Schweikart
+O objetivo aqui é colocar processo que é realizado por PIA em relação a recrutamento. Recrutamento, PIA, não faz nada. A Marcelia comentou, né? Recebe os recursos que são contratados lá pela Regala, aquela caixinha cinza lá de contratação. No caso, aqui a gente até não tem aqui a área de gestão de recursos técnicos, mas seria o mesmo caso. O MediaPulse recebe tudo isso, ele não é responsável por nenhuma gestão em relação a isso. 
+
+01:01:15
+Marcelle Machado De Almeida
+Na verdade, no caso de equipamento, ele é. No caso de recurso humano, pensando como você está pensando, PIA não faz nada, porque é integração Então botou no RH, a gente recebe No caso de equipamento, PIA é responsável por fazer a gestão do equipamento Porque como a gente não tem sistema owner desses equipamentos, a gente não tem integração É feito manualmente por eles Então, claro que eles fizeram grandão lá atrás, uma carga grande E agora eles só gerem esses equipamentos Agora, por exemplo, a gente está num momento em que eles estão revendo E aí eles fazem movimentações, colocam coisas novas, tiram, põe manutenção, enfim Mas nesse caso de equipamento, o PIA tem ação dentro. 
+
+01:02:00
+Rafael Rissuti
+Do sistema É, mas aí, Marcela, não é o mesmo conceito ali do RH? Ele não é o sistema máster, apesar de ter que fazer alguma coisa, ele. 
+
+01:02:08
+Marcelle Machado De Almeida
+Não é o sistema máster Mas tem uma ação... É porque eu tô falando, porque o Julio falou, a gente tá colocando aqui o que o PIA faz, e isso o PIA faz dentro do sistema É. 
+
+01:02:18
+Rafael Rissuti
+Aí realmente sim, o PIA tem que fazer isso no sistema, porque tem gap, né? Existe gap técnico, né? Que a gente não tá integrado com esse sistema de... O máster de equipamentos, tá? 
+
+01:02:29
+Júlio Cesar Freitag Schweikart
+Sim, eu acho que foi comentado em uma das agendas ali, por exemplo, uma câmera estragou, tem que ir lá no Mediapulse inativar essa câmera para ela ser sinalizada como não está disponível aqui no almoxarifado, entre aspas, para uso. Então tem realmente essa questão, é verdade. 
+
+01:02:54
+Rafael Rissuti
+Agora, falando também de coisas que a gente faz no Mediapulse, o longo prazo também não é feito no Mediapulse, tá? Ali no planejamento. 
+
+01:03:03
+Júlio Cesar Freitag Schweikart
+Sim. Aqui não é, exato, aqui não é a identificação ali de curto ou longo prazo, né? Aliás, de ferramenta. 
+
+01:03:13
+Rodrigo Carlstrom
+Não é nos sistemas. 
+
+01:03:14
+Rafael Rissuti
+Perfeito, tá bom. 
+
+01:03:16
+Júlio Cesar Freitag Schweikart
+Existe ali, planejamento, tem duas caixinhas, né? Planejamento de longo e o planejamento de curto é feito por PIA. 
+
+01:03:23
+Rafael Rissuti
+Perfeito, perfeito, tá claro. Eu só fiquei com essa dúvida mesmo de se era sistema ou se era processo, mas é processo, tá perfeito mesmo, é isso mesmo, tá? 
+
+01:03:31
+Júlio Cesar Freitag Schweikart
+É processo, aqui é processo. Até colega da NET que sugeriu colocar uma caixinha do lado aqui ainda, não sei se não fica muito poluído, quais os sistemas que são envolvidos aí em cada caixinha dessa, né? Por exemplo, em longo prazo a gente colocaria íconezinho ali do Excel, curto prazo íconezinho ali do... Pode ser. 
+
+01:03:57
+Marcelle Machado De Almeida
+Até pop-up que sone para não ficar sujo alguma coisa que abre e. 
+
+01:04:01
+Rafael Rissuti
+Fecha é tipo você aperta botãozinho ele aponta todo mundo e apaga todo mundo é uma boa ideia Aí nos relatórios, a gente chegou nessa parte, mas só para entender. Relatórios, a gente está falando de qualquer tipo de informação que eu estou tirando, que essas áreas geram a partir dos dados que trafegam entre elas. 
+
+01:04:25
+Júlio Cesar Freitag Schweikart
+Acabamos falando pouco sobre relatórios. A gente falou muito, tem integração com BI e BI gera os relatórios. Eu confesso que eu estou pensando em até tirar essa linha daí, Porque as ferramentas, as áreas, como todo, elas fornecem informação, mas acabam, elas em si não gerando os relatórios, né? 
+
+01:04:50
+Rafael Rissuti
+Então tá, beleza. Tá, eu acho que tá legal, tá ótimo, na verdade. A questão do financeiro, acho que é só incluir alguma coisa de cobrança, né, ali, na linha de P&A. Eu tô pensando assim, aí tem provisão de pagamento, tem a cobrança, acho que é isso mesmo. Marcele, horas extras? Eu não sei, cara. Não é hora extra a coisa certa, mas seria aquele... Vamos lá. O rateio da alocação dos profissionais entre as produções. Esse negócio, que é o seguinte. Qual o percentual de alocação da Marcele em todas as produções que ela trabalhou no mês? Isso, a gente está entendendo que está dentro da provisão de pagamentos. 
+
+01:05:42
+Júlio Cesar Freitag Schweikart
+Não, eu coloquei ele mais na linha dos serviços mesmo, provisões de pagamentos dos serviços Mas acho que faz sentido incluir o rateio também, né? 
+
+01:05:51
+Rafael Rissuti
+É, tá. A gente pode botar rateio de alocações, tá? 
+
+01:05:56
+Marcelle Machado De Almeida
+É, que foi o que eu falei ali, que eu acho que tá... É igual lá, aquele outro slide que eu falei, que eu achei que tava faltando ali o... Aqui eu acho que tem isso que tá faltando e a parte da cobrança Isso aí Eu acho. 
+
+01:06:08
+Rafael Rissuti
+Que são esses dois pontos E aí fica ali, vai ter isso tanto em TA quanto em PIA, tá? Tá, perfeito. 
+
+01:06:19
+Júlio Cesar Freitag Schweikart
+Rateio também? 
+
+01:06:21
+Rafael Rissuti
+Rateio também, eles fazem rateio também dos talentos. É que, assim, hoje não tem ferramental, né? Mas eles fazem esse rateio, tá? 
+
+01:06:33
+Júlio Cesar Freitag Schweikart
+Eu só não tinha entendido lá. 
+
+01:06:36
+Rafael Rissuti
+Fazem, eles têm que, por exemplo, você pega lá, o Luciano Huck, ele está 100% no Caldeirão, mas se ele aparecer, 100% no Domingão, mas se ele aparecer no Edcasa, vai ter percentual ali do Edcasa que ele foi alocado, entendeu? Depende do contrato dele, mas imaginando seria uma coisa nesse sentido, tá? Aí eu metendo no trabalho dos outros, metendo no trabalho da coleguinha. 
+
+01:07:09
+Júlio Cesar Freitag Schweikart
+Mas. 
+
+01:07:14
+Rafael Rissuti
+Essa é a ideia. Tá, entendi. 
+
+01:07:16
+Marcelle Machado De Almeida
+Eu vou nem comentar. 
+
+01:07:17
+Rafael Rissuti
+É porque a Luciane, do nosso time, está fazendo trabalho ali com eles de automação desse custeio, dessa quebra e tudo mais. E não é nem só entre as produções que ela trabalhou, mas também entre as contas, os tipos despesas aqui do RH. Então você tem lá uma conta de salário, mas você tem uma outra conta de produtividade. Nem toda artista vai ter produtividade, mas dependendo do contrato, tem produtividade. Então é uma espécie de rateio ali também, entendeu? Uma espécie de rateio que vai ter ali também. Tá? 
+
+01:07:54
+Júlio Cesar Freitag Schweikart
+Tá joia. 
+
+01:07:56
+Rafael Rissuti
+Eu doido. 
+
+01:07:57
+Júlio Cesar Freitag Schweikart
+Causton, olhando a apresentação aqui, o nosso time box aqui, eu acho que a gente pode pular lá pro slide 20. E deixar aqueles outros ali, esses que são pouquinho mais descritivos agora, por segundo momento, e cair lá naquele que eu acho que é mais relevante aqui na seguida sequência. 
+
+01:08:20
+Rodrigo Carlstrom
+Esse aqui, só para vocês saberem, depois a gente manda isso aqui para a gente confirmar, ou a gente marca uma agenda, a gente está descrevendo todos os papéis aqui que a gente foi conversando aí, o que eles fazem, e onde eles estão localizados ali na cadeia de valor. Eu teria que conferir isso aqui também em algum momento. 
+
+01:08:37
+Rafael Rissuti
+Tá bom. 
+
+01:08:38
+Rodrigo Carlstrom
+Perfeito. E também não terminamos de fazer, tá vendo? Até aqui, o próximo eu tô vendo as reuniões aqui ainda. 
+
+01:08:46
+Rafael Rissuti
+Tá bom. 
+
+01:08:48
+Rodrigo Carlstrom
+E aí, beleza. Olhando isso, então... Eita, isso aí ficou bonito. Quais sistemas são utilizados em cada passo da cadeia de valor? Esse aqui que pra gente que tá... Tá assim, até eu com o Júlio a gente discute, né, Júlio? Com visões diferentes, né? Porque o Júlio fala assim, ó, isso aqui não é responsabilidade desse sistema. Aí eu falo, não, mas Júlio, isso aqui, apesar de não ser dessa equipe, isso aqui dá suporte para essa equipe porque tem formação. Aí depois ele vem com uma outra opinião, a gente tá aqui tentando sair do outro lado com isso aqui, cara. 
+
+01:09:29
+Rafael Rissuti
+Tá, vamos ver aqui. Então, a gente tem o Excel ali na primeira, a gente tem ali... 
+
+01:09:36
+Marcelle Machado De Almeida
+Eu acho que eu colocaria Excel em tudo, tá, gente? Eu colocaria Excel em tudo, porque eu acho que eles usam o Excel em tudo, mesmo que depois eles joguem para o sistema e tal, eles têm backup ali de Excel. 
+
+01:09:51
+Rodrigo Carlstrom
+Eu acho que a gente poderia fazer o seguinte, ó. A gente poderia, antes de dizer que tá certo e que tá errado, a gente deveria... Combinar o discurso, né? Por quê? Porque tudo que a gente tem falado aí, porque assim, a gente usa Excel para tudo na vida, né, gente? Então, realmente, se for pensar assim, vai aparecer em tudo mesmo, mas do que a gente conversou, né? Que a gente está focando o trabalho aqui em criar oportunidades de melhoria, né? Então, talvez a gente pudesse dizer o seguinte, O que dá suporte para aquela fase da cadeia de valor? Qual é o sistema que dá suporte para aquela fase da cadeia de valor? Para a gente entender. Por exemplo, toda essa parte de planejamento a gente entendeu que era totalmente baseada em Excel de fato. E o Excel não é uma ferramenta secundária. 
+
+01:10:50
+Rodrigo Carlstrom
+É a ferramenta principal ali. Então eu acho que talvez a gente combine aqui, qual que é a melhor forma da gente representar? Simplesmente apareceu, a gente põe ou não? Tem que ser uma coisa assim, é primário, aqui o sistema é o sistema principal daquela fase, como que a gente poderia representar isso aqui? 
+
+01:11:12
+Rafael Rissuti
+Eu acho que seria esse ponto que você falou, o sistema principal dessa fase. Porque, por exemplo, a gente fala que no curto prazo o sistema principal é o MediaPulse. Mas ele usa Excel. Aí ele usa porque ele quer, entendeu? Ele tá usando lá porque ele quer. Mas o sistema principal é o MediaPulse. Acho que esse conceito tá legal. 
+
+01:11:32
+Marcelle Machado De Almeida
+Eu só tô na dúvida, muito grande. 
+
+01:11:35
+Rafael Rissuti
+Você só tá com uma dúvida? 
+
+01:11:38
+Marcelle Machado De Almeida
+Só. Essa parte do curto prazo. Que tem pré-produção, gravação, pós-produção e exibição, e que tem as caixinhas embaixo, essas caixinhas, elas não... Por exemplo, Globoservice está embaixo de gravação, isso não tem nada a ver, ou tem? 
+
+01:11:55
+Rodrigo Carlstrom
+Tem. 
+
+01:11:56
+Marcelle Machado De Almeida
+Pois é. 
+
+01:11:57
+Rodrigo Carlstrom
+A ideia é essa. 
+
+01:11:59
+Marcelle Machado De Almeida
+Tá, eu não sei... Aí, Rissuti. Porque, assim, SAPBRIM embaixo de pós-produção, FPW embaixo de exibição, não acho que... 
+
+01:12:06
+Rafael Rissuti
+É isso que eu queria entender, exatamente. Eu não sei se talvez... Acho que talvez esteja faltando ali... Eu não sei se está faltando uma etapa dessa cadeia. 
+
+01:12:18
+Rodrigo Carlstrom
+Aí, só para vocês saberem, eu fiz algumas anotações, né? 
+
+01:12:22
+Rafael Rissuti
+Fala aí. 
+
+01:12:23
+Rodrigo Carlstrom
+Com relação a cada uma dessas fases, porque está difícil até de memorizar tudo isso para gente que não conhece muito bem. Então, de coisas que a gente foi pescando nas reuniões, eu fui anotando aqui para poder montar isso aqui, né? Então, por exemplo, o que eu anotei aqui? Por que SAP BREAM está debaixo de pós-produção? Porque na pós-produção tem a edição da mixagem de som, efeitos especiais e a revisão da qualidade antes da exibição, certo? 
+
+01:12:53
+Rafael Rissuti
+Sim. 
+
+01:12:53
+Rodrigo Carlstrom
+Aí, beleza. O que o SAP BREAM tem a ver com isso? O SAP BREAM vai fazer o controle financeiro do faturamento do pós-produção. Agora eu não sei se eu tô. 
+
+01:13:07
+Rafael Rissuti
+Certo nessa anotação, entendeu? Eu entendi, mas não é assim que a gente faz, não A gente faz no final do mês tudo que foi executado, consolido, independente se foi pós, pré, gravação, independente do que foi Aconteceu naquele mês, a gente vai compilar e vai mandar pro SAPBrim, entendeu? Por isso que eu tava questionando aqui agora a minha cabeça se deveria ter ali uma outra fase, uma outra coisinha na cadeia de valor, seria alguma coisa referente a financeiro Eu tô na dúvida. 
+
+01:13:36
+Marcelle Machado De Almeida
+Até, Risu, se de repente essa gravação, porque se essa gravação pós-produção, pré-produção, se não deveria ter agrupador e aí sim essas caixinhas ficariam embaixo desse agrupador, porque na verdade é isso que você falou, sabe? O Ibrinha, ele vai ser feito, e aí pode ser até que seja uma caixinha financeira, mas ele vai ser feito tanto na pós-produção, tanto na gravação, quanto na... Isso independe, isso não tem a ver com o que vai... Porque assim, só para você entender, a gente tem W.O. Que é só pós-produção, a gente tem W.O. Que é só gravação, não necessariamente aquela W.O. Ali, ela vai passar por todas essas fases. E ela vai ser de qualquer forma cobrada e se tiver que pagar, vai pagar. Entendeu? 
+
+01:14:19
+Rodrigo Carlstrom
+É isso. Isso aí foi ótimo o que você falou. 
+
+01:14:22
+Rafael Rissuti
+Rodrigo, o que você acha assim, depois da exibição, Eu tô chutando aqui, né? Sei lá, ter uma outra caixinha que aí pode ser alguma coisa de financeiro, que aí a gente pegaria SAP Brin, Hyperion, EBS, botaria tudo ali. Que é essa etapa de financeiro que acontece mesmo ali e tudo fica ali embaixo. 
+
+01:14:39
+Rodrigo Carlstrom
+Tá, olha só, no conceito de cadeia de valor, financeiro é processo de suporte. Entendi. Mas propósito que a gente tá querendo aqui, Eu acho que vale a pena a gente criar essa liberdade poética aí. 
+
+01:14:55
+Rafael Rissuti
+Tá bom, beleza. Tranquilo. Até se você colocar como sistema de suporte ali embaixo, também não vejo problema não, tá? É só a gente, na hora da explicação, falar que essas coisas estão rodando aqui embaixo. Mas se colocar a caixinha ali, a liberdade poética, acho que vai ficar bem mais visível, né? Bem mais fácil para o pessoal entender. Sim. E aí eu desceria ali também, Globosurface, eu desceria para deixar como sistema de apoio também, porque ele não é só de gravação, ele é de tudo, né? Excelator também. O Excelator não é da exibição? 
+
+01:15:32
+Marcelle Machado De Almeida
+Pois é, mas ele está embaixo de gravação ali, se ele fosse para aparecer, eu acho que ele deveria aparecer só na exibição. A gente pode até ter certeza disso, eu não tenho. 
+
+01:15:42
+Rodrigo Carlstrom
+Fala. É, deixa eu mostrar o que eu anotei aqui da reunião lá que a gente... O que o Xlator faz, né? Ele faz a sincronização da grade de produção com os controles e os encoders do MediaPulse. Tá certo isso? 
+
+01:16:03
+Rafael Rissuti
+Tá. 
+
+01:16:03
+Marcelle Machado De Almeida
+O que a gente faz no MediaPulse é só colocar código que alguém vai ler justamente para ir para o X-Lator e fazer essa parte da exibição. 
+
+01:16:11
+Rafael Rissuti
+Exatamente. Ele, conceitualmente, está na caixinha da exibição, tá? 
+
+01:16:16
+Rodrigo Carlstrom
+E ele não estaria. Por que eu imaginei? Se ele faz isso, né? Aqui na gravação você não tem que configurar a parametrização dele, porque a gravação vai dizer o seguinte, pessoal de gravação, porque eu estou imaginando aqui, tá, pessoal? Imagina você está gravando a novela, E aí o pessoal do novela precisa de câmeras melhores, porque o foco na imagem, a qualidade da imagem deve ser superior. E esse pessoal aqui vai dar input para o X-Later nessa fase, que vai ser utilizado depois esse input, vai ser o output aqui depois para a exibição. 
+
+01:16:55
+Marcelle Machado De Almeida
+Eu estou com muita dificuldade nessas fases, porque elas não são fases. 
+
+01:17:02
+Rafael Rissuti
+De todos os conteúdos. 
+
+01:17:05
+Marcelle Machado De Almeida
+É, porque assim, a gente não usa... 
+
+01:17:08
+Rafael Rissuti
+No esporte não usa isso. 
+
+01:17:09
+Marcelle Machado De Almeida
+De novo, a gente tem W.O. Só de gravação, só de exibição, só de pós-produção. Eu não sei te responder, aí eu posso até verificar se, por exemplo, esse código do Exleitor que é adicionado, se ele não é adicionado, de repente, numa W.O. De gravação, eu não sei. Eu realmente não sei te dizer com certeza se ele não é adicionado num código ali de uma WLAN gravação Então essas fases eu tô confusa Eu sei. 
+
+01:17:34
+Rafael Rissuti
+Que não é de POS, isso eu. 
+
+01:17:35
+Marcelle Machado De Almeida
+Tenho certeza Hyperion, por exemplo, também. Olha, Hyperion é financeiro, EBS é órbita. 
+
+01:17:40
+Rafael Rissuti
+É, Hyperion é financeiro, é Então, vamos. 
+
+01:17:42
+Rodrigo Carlstrom
+Combinar uma coisa aqui? Vamos combinar uma coisa aqui, porque imagina o seguinte, ó Eu acho que essa slide aqui vai ter grande valor pra gente para o trabalho como todo, né? E aí que eu acho que seria legal a gente fazer, né? E eu acho que esse slide aqui não vai sair do dia para a noite aqui. A gente vai ter que pensar em cada uma dessas coisas aí, né? 
+
+01:18:04
+Marcelle Machado De Almeida
+É, deixa a gente pensar. 
+
+01:18:06
+Rodrigo Carlstrom
+Imagina a dificuldade, é, você imagina a dificuldade que eu, que o Júlio tá tendo, de montar isso aqui, porque pra gente tá assim ó, eu te juro, parece que eu saio do trabalho aqui e falo com minha esposa, que minha esposa percebe que eu tô voado assim, sabe? Juro pra você, cara. E aí, aí eu tenho que voltar pro planeta Terra aqui, né? Tá bem difícil de montar, mas eu. 
+
+01:18:31
+Marcelle Machado De Almeida
+Tô aprendendo pra caramba. Deixa a gente revisar isso. Esse SGT Mod também eu fiquei na dúvida, porque ele tá aqui em pós-produção e ele tá aqui em planejamento a longo prazo, desenho e execução. 
+
+01:18:44
+Rodrigo Carlstrom
+Aí eu queria pedir pra vocês o seguinte, pra Marcelo e Suti, né? É, para vocês não ficarem igual eu com o Júlio, que ficou patinando nas discussões, né? Mas eu acho que é assim, combina o jogo primeiro. Como que a gente vai encarar isso aqui? A gente vai colocar, o princípio de colocar na coluna tal vai ser por quê? Porque o sistema ele é suporte para aquela fase do processo. 
+
+01:19:10
+Marcelle Machado De Almeida
+Não, são as premissas, a gente tem que dizer quais são as premissas. 
+
+01:19:13
+Rodrigo Carlstrom
+Define as premissas, depois faz o trabalho. Aí vocês até puderem compartilhar isso com a gente, quiser chamar uma reunião com a gente aqui, vocês podem fazer textualmente, tá, pessoal? A gente passa aqui print dessa idade aqui pra vocês. 
+
+01:19:28
+Marcelle Machado De Almeida
+Já peguei já. 
+
+01:19:29
+Rodrigo Carlstrom
+Já peguei o print. E aí depois a gente conversa. Eu posso passar o texto das anotações que eu fiz, tá? 
+
+01:19:39
+Marcelle Machado De Almeida
+A gente vai olhar esse slide aqui, vamos revisar essas fases ali para ver se a gente está entendendo, se é isso mesmo, se tem alguma coisa que a gente possa acrescentar e vamos ver se depara aqui de sistema e fase. 
+
+01:19:51
+Rafael Rissuti
+Isso aí. 
+
+01:19:51
+Marcelle Machado De Almeida
+E aí a gente puxa vocês. 
+
+01:19:53
+Júlio Cesar Freitag Schweikart
+Tá. 
+
+01:19:54
+Rodrigo Carlstrom
+Vou passar no chat aqui a anotação também. 
+
+01:19:57
+Rafael Rissuti
+Tá bom. 
+
+01:19:57
+Marcelle Machado De Almeida
+O IBMS quem que falou para vocês? Qual área que trouxe? 
+
+01:20:08
+Rodrigo Carlstrom
+Está no número do Júlio. 
+
+01:20:13
+Júlio Cesar Freitag Schweikart
+E BMS foi o rapaz que vocês indicaram para falar de integração lá. O Sérgio. Não, não é o Sérgio. Também não, Fábio. É que trabalha na área de vocês com... Gabriel. Com o Zé. Com o Gabriel. 
+
+01:20:37
+Rafael Rissuti
+Tá. 
+
+01:20:37
+Marcelle Machado De Almeida
+Eu vou perguntar pra ele por que ele trouxe o IBMS. 
+
+01:20:41
+Rafael Rissuti
+Por que ele trouxe o IBMS, né? 
+
+01:20:43
+Júlio Cesar Freitag Schweikart
+É, pelo menos... 
+
+01:20:44
+Marcelle Machado De Almeida
+É, mas o IBMS, a gente não tem nada com o IBMS. O Exleitor, a gente tem. Até o Vimbis, né? Nem Vimbis também. A gente não tem nada, nenhuma relação. O Vimbis é o negócio dos equipamentos, que não rolou. Era o que a gente considerou o owner dos equipamentos, mas nem... Eu vou perguntar pro Gabriel em que cenário que ele trouxe isso pra poder entender o que ele tava pensando e aí sim questionar ou não aqui pra, enfim, não falar também. Não é isso. 
+
+01:21:15
+Rodrigo Carlstrom
+Se for alguma coisa que tá sendo descontinuada, né? Se vale a pena colocar aqui ou não, entendeu? Porque... 
+
+01:21:21
+Marcelle Machado De Almeida
+É, não, o IBMS é puta de sistema super importante pra Globo, mas a gente não tem nenhuma relação com ele hoje. Por isso que eu questionei se... Eu até achei que fosse Gabi ou a... Ou a... Jô que tivessem trazido, mas se foi o Gabriel, eu vou perguntar pra ele por quê. Ele deve tá com alguma visão que eu não tô. Tá bom. 
+
+01:21:42
+Júlio Cesar Freitag Schweikart
+Posso até revisar a gravação ali, mas se não me engano ele comentou que tem uma integração ali justamente para essa questão de codificação aí das exibições. 
+
+01:21:53
+Marcelle Machado De Almeida
+Eu vou perguntar para ele, se tem, eu desconheço. 
+
+01:21:58
+Júlio Cesar Freitag Schweikart
+Tem que revisitar o vídeo também. 
+
+01:22:01
+Rafael Rissuti
+Tá bom. 
+
+01:22:02
+Rodrigo Carlstrom
+Olha só a descrição que apareceu aqui, ó. Gerenciamento da grade de exibição e criação automática de WA no MediaPulse. 
+
+01:22:10
+Rafael Rissuti
+É. 
+
+01:22:11
+Rodrigo Carlstrom
+Durante a exibição? 
+
+01:22:13
+Rafael Rissuti
+Ele não cria W.O.A. A gente não tem integração com o IBMS, mas ele faz a gestão da grade de exibição sim. E a partir desta grade, o time do esporte, por exemplo, gera as W.O.A. Tudo manual, tá? Estreia a grade, gera as W.O.A.s no MediaPulse, faz a geração das W.O.A.s. 
+
+01:22:32
+Marcelle Machado De Almeida
+Mas é nem a exibição. É isso que eu tô falando. O IBMS, ele é a exibição, mas pra gente ele é, na verdade, input pro nosso plano de produção, por exemplo. É como se fosse assim. 
+
+01:22:42
+Rafael Rissuti
+Acho que nem o plano de produção, mas acho que é o curto prazo. É ali da pré-produção pra frente. 
+
+01:22:47
+Marcelle Machado De Almeida
+Da pré-produção pra frente. 
+
+01:22:51
+Rafael Rissuti
+É. Entendeu? Mas enfim. Mas enfim, a gente dá uma revisada nisso aí. 
+
+01:22:54
+Marcelle Machado De Almeida
+A gente vai revisar e eu vou falar com o Gabriel e aí eu trago isso pra vocês. 
+
+01:22:58
+Rafael Rissuti
+Tá bom. 
+
+01:22:58
+Rodrigo Carlstrom
+Perfeito. 
+
+01:23:00
+Marcelle Machado De Almeida
+Ótimo, muito obrigada, gente. 
+
+01:23:02
+Rodrigo Carlstrom
+Os princípios, né? Só mais comentário, né? Os princípios... Seria legal princípio nesse foco desse trabalho, né? De realmente a gente identificar aí as oportunidades de melhoria, tanto em processo e sistema, né? E também essa questão de... Sobreposição de áreas, redundâncias e sinergias, né? Talvez pensar realmente nesse sentido aí. 
+
+01:23:33
+Rafael Rissuti
+Tá bom, beleza. 
+
+01:23:36
+Rodrigo Carlstrom
+Júlio, acho que os principais aqui de conteúdo foi o que a gente mostrou, né? Por hoje aqui, né? Tem mais coisa aqui que a gente tá fazendo, mas tá na fase de esboço ainda aqui. 
+
+01:23:46
+Júlio Cesar Freitag Schweikart
+Se quiser pular o 22, passar para o 22 ali rapidinho também, É mais que a gente não está concluindo ainda, mas é mais que a gente tenta mostrar todas as integrações existentes. A gente está construindo outro desenho aqui que não só mostra a ligação ou a dependência entre as aplicações, mas também para que serve cada uma dessas flash aí. Então, com o MediaPulse, a gente tem aí uma série de integrações, começando ali por Rico, SAP e Brinkton relacionadas ao financeiro, FPW e o HCM ali da Oracle de RH. O EBS não teria integração direta com o MediaPulse, mas existe uma dependência ali entre FPW e HCM com o EBS. 
+
+01:24:50
+Rafael Rissuti
+O EBS não existe mais, é o Connecta. 
+
+01:24:59
+Júlio Cesar Freitag Schweikart
+É o Fusion, não é? 
+
+01:25:02
+Rafael Rissuti
+Eu acho que é isso. A gente chama de Conecta ou RP. 
+
+01:25:05
+Marcelle Machado De Almeida
+E eu chamo de App, que é pior ainda. 
+
+01:25:11
+Júlio Cesar Freitag Schweikart
+É que o Conecta, se eu não tô enganado, é uma caixinha em cima do RP É uma caixinha onde parceiros acessam o RP de forma indireta É onde o pessoal interno acessa o RP de forma indireta Mas o RP em si seria o Fusion E a gente. 
+
+01:25:36
+Rafael Rissuti
+Já tem uma conexão com o MediaPulse, tá? Que é de abertura de R6 para fazer o pagamento dos fornecedores. 
+
+01:25:47
+Júlio Cesar Freitag Schweikart
+Tá, direto com o ERP, então? 
+
+01:25:49
+Rafael Rissuti
+Direto com o ERP, tá. 
+
+01:25:52
+Júlio Cesar Freitag Schweikart
+Faltou essa conexão aqui, então. Mas seguindo aí depois a integração com o SGT-Mot, SGP, com o X-Lator. E aí lá em cima a gente tem ali o pessoal de talentos artísticos, todas aquelas caixinhas verdes ali em cima, todos os sistemas proprietários da Globo, para gestão de talentos artísticos. E aí a ideia é diferenciar o que é sistema próprio Globo e o que é sistema de terceiro também. Caixinha verde, sistema próprio, e caixinha azul, sistema de terceiro. 
+
+01:26:31
+Rafael Rissuti
+Pergunta, o Data Lake a gente representaria aqui também ou não? A gente tem o BI, né? 
+
+01:26:39
+Júlio Cesar Freitag Schweikart
+Até acho que não seria ideia, porque não existe uma dependência, por exemplo, do MediaPulse com o Data Lake. O MediaPulse é, sim, uma fonte de informação para o UI lá para o Data Lake, para relatórios. E aí eu teria que colocar praticamente uma flechinha de cada desses, de cada caixinha aí para o Data Lake. 
+
+01:27:08
+Rafael Rissuti
+Não, perfeito. Tranquilo. Beleza. Eu acho que todos os sistemas estão aqui. Não tem essa setinha do SAP Breen pro Rico não, tá? Essa setinha aqui em cima não tem não. 
+
+01:27:22
+Rodrigo Carlstrom
+Tem? 
+
+01:27:22
+Rafael Rissuti
+Não. O SAP Breen, a próxima etapa é o Hyperion. E aí acabou o assunto lá no Hyperion. 
+
+01:27:32
+Rodrigo Carlstrom
+Seria legal colocar na setinha, né? O que transita de informação, né? 
+
+01:27:38
+Júlio Cesar Freitag Schweikart
+Sim, eu entendi que tinha uma perna do rateio aí. 
+
+01:27:41
+Rafael Rissuti
+Não, o rateio sai do MediaPulse e vai para o Rico. Aí do Rico vai para o RP para fazer o... Como é que se fala? A parte financeira lá dentro. E aí acabou. O SAP Brim não faz isso não. O Sap Green só atrapalha... Bom, olha só, Júlio, eu estou usando a minha visão aqui, que eu acho que pode estar miúdo em relação ao que o Sap Green faz, tá? Mas falando do nosso contexto aqui, eu entrego para o Sap Green, e aí o Sap Green faz trabalho interno e depois manda para o Hyperion, tá? Se existe essa ligação aqui, eu desconheço, tá? Com o Rico. 
+
+01:28:22
+Júlio Cesar Freitag Schweikart
+Eu vou revisitar lá a agenda que a gente teve com o Gabriel, das integrações, e aí eu vou ver se ele fez algum comentário lá, mas eu entendi que tinha ali sim, mas eu vou revisitar. Tá jóia, pessoal, batendo o nosso horário aqui por hoje. A gente ainda está trabalhando na evolução desse trabalho, a gente tem bastante coisa aqui para caminhar ainda. Mas a gente vai voltando com vocês também para revalidar o trabalho que a gente está realizando. 
+
+01:28:56
+Rafael Rissuti
+Beleza, perfeito. 
+
+01:28:57
+Marcelle Machado De Almeida
+Tá bom, obrigada, gente. 
+
+01:28:59
+Rafael Rissuti
+Ficou ótimo, gente. Obrigado. 
+
+01:29:00
+Júlio Cesar Freitag Schweikart
+Valeu, obrigado. 
+
+01:29:02
+Rodrigo Carlstrom
+Valeu, gente. Abraço aí. 
+
+01:29:04
+Júlio Cesar Freitag Schweikart
+Valeu, pessoal. Tchau, tchau. 

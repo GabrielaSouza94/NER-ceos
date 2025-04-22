@@ -1,0 +1,13 @@
+PyPDF2
+tiktoken
+python-dotenv
+pypdf
+langchain
+openai
+langchain-openai
+langchain-community
+chromadb
+sentence-transformers
+transformers
+accelerate>=0.26.0
+protobuf==3.20.0

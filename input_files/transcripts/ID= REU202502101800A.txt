@@ -1,0 +1,783 @@
+ID= REU202502101800A
+TA Entendimento do Processo
+Participantes:
+Júlio Cesar Freitag Schweikart - Email: julio.cesar@ntconsult.com.br 
+Rodrigo Carlstrom - Email: rodrigo.carlstrom@ntconsult.com.br
+Fernanda Maia - Globo
+
+RESUMO DA REUNIÃO:
+Foram discutidos os processos de planejamento e alocação de talentos artísticos na Globo, abordando desde a captação de profissionais até a contratação e pagamento. A Globo utiliza os sistemas Captação, Star, Arte e Space para gerenciar talentos artísticos, desde o cadastro inicial até o planejamento de alocação e formalização de contratos. O processo envolve a curadoria de perfis, o planejamento das cadeiras (vagas) no sistema Star, a contratação via sistema Arte e a gestão de pagamentos pelo Space. A reunião destacou a complexidade na gestão de talentos, especialmente devido à variedade de modalidades de contratação (CLT, PJ, RPA) e às particularidades do mercado artístico, como a necessidade de flexibilidade contratual e o impacto direto na qualidade do conteúdo produzido. Também foram abordadas as dificuldades de integração entre sistemas e o desafio de migrar funções do antigo sistema Agra para soluções mais modernas, visando uma maior automação e eficiência nos processos.
+
+TRANSCRIÇÃO: 
+
+01:42
+Julio - NT
+Olha lá a calça. Achei que eu estava no muro... Achei que eu estava atrasado. Esse operador falou alguma coisa aqui. 
+
+01:57
+Rodrigo Carlstrom - NT
+Tudo bem aí? Estava no muro aqui. 
+
+02:05
+Julio - NT
+Ele não me chamou. Toma pouquinho, se ela demorar. Vou chamar ela aqui. As feiras. 
+
+02:38
+Rodrigo Carlstrom - NT
+Vai que eu tenho que mexer nas janelas, alguém. 
+
+02:41
+Julio - NT
+Beleza. 
+
+03:33
+Rodrigo Carlstrom - NT
+Entraninha aqui atrás. 
+
+03:36
+Julio - NT
+É calor. Desgraçado. Eu sim, meu Deus, deixa eu... Filmar no chat aqui, meu Deus. Ué? Ué, não tá na agenda? 
+
+04:24
+Rodrigo Carlstrom - NT
+Ué? Não tá na agenda? 
+
+04:28
+Fernanda Maia - Globo
+Eita. 
+
+04:29
+Julio - NT
+Não, tá sim, eu só não consegui dar arroba nela aqui no chat, que susto. Nossa, só faltava aqui. Aí, onde... É, não consigo dar uma rebanhada, deixa eu chamar direto, então. 
+
+05:45
+Fernanda Maia - Globo
+Tchau. 
+
+06:35
+Julio - NT
+Correspondeu a isso que tá vindo. Beleza. Se a hora que já era apertada vai ser mais apertada ainda. Tá. Aí, Caustro, vamos seguir aquela estratégia que eu comentei, né, de pegar ali, de entender o macro com ela ali, pegar processo macro, né? E depois tentar pegar ali pessoas de referência pra gente ter mais tempo ali, conversar com mais calma. Eu acho que se a gente ficar só na Pernambuco vai ser... Vai ficar pouco superficial, né? Conseguindo evoluir com... Chegou. Depois eu te responderei. Boa tarde, Fernanda. 
+
+07:48
+Fernanda Maia - Globo
+Oi, Júlio. Tudo bem? Me desculpe pela demora. Acabou prolongando a reunião anterior aqui por causa de problema, mas agora já está dominado. 
+
+07:56
+Julio - NT
+É muito bom. Problemas resolvidos sempre são bons. 
+
+08:00
+Fernanda Maia - Globo
+Sim. 
+
+08:02
+Rodrigo Carlstrom - NT
+Boa tarde, Fernanda. Prazer. 
+
+08:05
+Fernanda Maia - Globo
+Boa tarde, Rodrigo. Prazer. Tudo bem? 
+
+08:08
+Rodrigo Carlstrom - NT
+Tudo jóia. 
+
+08:12
+Julio - NT
+Vamos lá, então. Bom, a gente já conversou pouquinho lá, né, Fernanda? Esses dias aí no Rio. Foi papo breve. 
+
+08:20
+Fernanda Maia - Globo
+Rapidinho também, né, nosso papo esses dias. 
+
+08:23
+Julio - NT
+Isso. Deixa eu contextualizar pouquinho aqui, né, de que ponto que a gente está e quais os nossos próximos passos. Então, está aqui o Rodrigo Carlson, que é especialista de processos aqui na ENP. Então, ele vai acompanhar, já acompanhando todo o processo desde o começo, desde a conversa lá que a gente teve com a Marcele, das conversas, foram várias essas conversas com a Marcele e com o Rissuti. Então, opa, antes disso, na verdade, posso colocar para gravar? Pode. E a gente está aqui com a Fireflies também, que é uma IA nossa, que a gente está utilizando para fazer resuminho da agenda e facilitar a nossa vida. 
+
+09:10
+Fernanda Maia - Globo
+É bom, é bom, sempre bom. 
+
+09:17
+Julio - NT
+Então, como eu estava comentando, o Rodrigo Calstra já está desde o começo, lá com as várias conversas que a gente teve ali com a Marcela, em ressult, para entender ali todo o processo de planejamento e alocação de recursos. Com eles nós encerramos, por enquanto, as nossas conversas. Agora a gente está... A gente gravou todas as conversas também, então a gente está revisitando os vídeos, entendendo, desenhando, entendendo os problemas, tentando já visualizar alguma coisa de solução. E a ideia agora é a gente conseguir se aprofundar pouquinho aqui em talentos artísticos. Com qual objetivo? Entender principalmente questões de similaridade nos processos. O que é similar, o que não é similar também, inclusive, é importante. Quais são as peculiaridades da área dos talentos artísticos quais são as ferramentas envolvidas, como é que é o planejamento, se tem essa diferença longo prazo, curto prazo. 
+
+10:22
+Julio - NT
+Então, é uma série de dúvidas, detalhes que a gente quer entender e buscar, como eu comentei, essa singularidade com o planejamento e alocação de recursos. E, ao final de tudo, a gente vai... Nosso objetivo, então, é gerar uma análise, né, entregar para você uma análise de todo o nosso entendimento, todo o processo que a gente levantou, e uma proposta de como é que a gente pode trabalhar em conjunto aí, a quatro mãos, para resolver todos os pontos de atenção aí que a gente vai encontrando pelo meio do caminho. E uma vez que a gente terminar aqui com talentos artísticos, a gente vai conversar também com a Aline, para entender tudo que tem lá do lado de RH, com as soluções que ela tem para RH. Bom, então a gente não conhece nada sobre talentos artísticos, a gente parte desse ponto. 
+
+11:30
+Fernanda Maia - Globo
+Eu vou seguindo a minha lógica de explicação aqui, vou tentar fazer paralelo com o que vocês já devem ter ouvido até agora, e por favor me interrompam, façam perguntas enquanto eu estiver falando, que fica mais fácil eu guiar. Pensamentos, tá? 
+
+11:42
+Julio - NT
+Perfeito. Antes de iniciar, Fernanda, eu não sei o que tu tens de visibilidade, de quanto tempo a gente precisa daqui a pouco para conseguirmos explicar, ou daqui Se tu segue a mesma linha ali do Zé, que nos direciona duas pessoas aí do dia a dia, que a gente entra mais nos detalhes Não, eu prefiro. 
+
+12:09
+Fernanda Maia - Globo
+Falar sobre o assunto do que direcionar alguém da equipe, porque eu vou te explicar Eu tenho quatro squads, minhas squads são segmentadas em cada solução separada E o que vocês estão buscando aqui é uma visão mais de cima Então eu acho que é mais fácil eu falar sobre esse todo do que a equipe que é muito segmentada ali na sua atividade, tá? Diferente do planejamento e alocação lá que usa uma plataforma Aqui a gente faz a nossa própria solução em talentos artísticos Deixa eu só voltar passinho atrás Você sabe a diferença de pessoal alocável para não alocável? Não Esse é o pulo do gato, então vamos conversar no pulo do gato, tá? 
+
+12:48
+Fernanda Maia - Globo
+A empresa tem contingente enorme de pessoas trabalhando Esse contingente enorme de pessoas trabalhando, uma parte trabalha especificamente para produzir conteúdo Seja ele entretenimento, que é a maior contingente, jornalismo esporte ou algum outro tipo de conteúdo Essas pessoas que a gente chama de alocáveis, a razão delas estarem na empresa é para atender a conteúdo Então é uma oscilação muito grande dessas pessoas durante o ano Porque se eu produzo mais eu tenho mais, se eu produzo menos eu tenho menos Essas pessoas, esse grupo de pessoas é o grupo que eu faço o planejamento e a alocação deles Porque eu custeio essas pessoas nos conteúdos, são os conteúdos que pagam os gastos dessas pessoas Então eu tenho todo o contingente da empresa normal, eu que sou coordenadora de TI, eu tenho a pessoa do RH, uma pessoa de centro de serviço compartilhado que cuida das viagens Essas pessoas são não alocáveis, ou seja, elas existem na empresa dada a sazonalidade dos conteúdos ou não. 
+
+13:56
+Fernanda Maia - Globo
+O próprio médico do trabalho é não alocável Quando eu estou falando ali de figurinista, que é dos cargos que eu cuido Ele só existe em função de conteúdo Se eu não produzo nada, eu não tenho figurinista Se eu produzo algum conteúdo, eu tenho figurinista para atuar naquele conteúdo Isso está. 
+
+14:13
+Julio - NT
+Relacionado com mão de obra terceira? 
+
+14:16
+Fernanda Maia - Globo
+Também, mas tem próprios também que são alocáveis Pensa que eu tenho características de cada cargo que fazem eles ser alocáveis ou não Tem grupo de cargos que é alocável e grupo de cargos que não é alocável Quando vocês conversaram com o pessoal de plataforma, eles cuidam das pessoas alocáveis Eles planejam os recursos que estão agregados aos conteúdos Os demais recursos, eu, a Michelle, não estão na plataforma deles - Eu estou falando. 
+
+14:46
+Julio - NT
+Isso porque eu te referi ao Mediacurso. 
+
+14:47
+Fernanda Maia - Globo
+- Perfeito Então esse grupo de alocáveis, eu tenho grupo que é o que eles cuidam Que é tecnologia, tem grupo de produção E eu cuido especificamente do grupo de talentos artísticos, que é segmento dos alocáveis Então o conjunto inteiro são os funcionários da Globo, uma parte é alocável, a outra é não alocável E dentro dessa parte de alocável eu cuido de talentos artísticos, que é segmentinho Talentos artísticos, ele tem uma característica muito própria Porque eu tenho ali dentro desse grupo diretores, assistentes de direção Atores, que é o elenco, que é a parte mais única desse trabalho Produtores de elenco, grupo de cargo ali que eu tenho uma variabilidade muito grande de forma de contratação E de lidar com este público. 
+
+15:43
+Fernanda Maia - Globo
+Tem muita coisa sigilosa Tem muito contrato que eu celebro de jeito para outro, que não pode vazar nunca Tem várias particularidades ali E a principal particularidade é quando eu tô fazendo planejamento e alocação de talento, eu tenho impacto no vídeo Diferente se eu escalar o Rodrigo para ser o protagonista ou o Júlio para ser o protagonista Os dois podem ter contrato similar em valor ou muito diferente em valor Mas além do impacto em valor, se eu levo o Rodrigo, que eu já sei que é Tony Ramos da vida, que tem uma audiência boa Que não vai me dar trabalho na obra, que eu posso utilizá-lo de diversas formas Contra o Júlio, que é cara que é ator que está começando agora, eu tenho impacto na tela Então, além de ter O cuidado de ter que conversar bem sobre as formas de contratação, a negociação com essas pessoas Eu tenho que amarrar bem quem vai ocupar aquela cadeira Porque eu mudo totalmente uma forma com que produto sai, uma novela sai Dependendo do ator que eu escolho Eu não posso simplesmente escolher por disponibilidade Ele tem que ser compatível com o papel que foi escrito, com o diretor que está dirigindo, com o autor que está escrevendo Alguns autores escrevem especificamente uma pessoa, tá? 
+
+17:04
+Fernanda Maia - Globo
+Nem sempre, mas é Então eu tenho o meu primeiro sistema de captação, eu usasse LinkedIn Vou dar exemplo bobo aqui, que se chama captação Esse é o meu primeiro sistema da cadeia Todos os atores, diretores entram e se cadastram Eu tenho ali gente que está na empresa e quer estar na empresa Eu tenho universo enorme de Brasil ali E eu sempre estou inflando essa base porque dali eu vou curar Vou fazer a curadoria de pessoas que eu tenho interesse em trabalhar com elas Estando elas contratadas ou não, então captação. 
+
+17:38
+Julio - NT
+É o primeiro Aqui entra todas as pessoas, vamos lá, incluindo o Tony Ramos aí, por exemplo, que também está na captação. 
+
+17:46
+Fernanda Maia - Globo
+Isso, isso. Incluindo o Tony Ramos, o Cauã, o Adriano Esteves. 
+
+17:53
+Julio - NT
+Desde o diretor, o ator, os figurinistas. 
+
+17:57
+Fernanda Maia - Globo
+Sim. 
+
+17:59
+Fernanda Maia - Globo
+Deste grupo que eu cuido, desses cargos que eu posso te passar uma lista depois Todos eles, o primeiro passo é entrar no Captação Captação é uma solução de certa forma nova Então, por exemplo, o Tony Ramos se cadastrou depois e já está dentro da empresa Mas o caminho atual é cadastra no Captação, eu faço uma curadoria dessa pessoa e trago para o Star, que é o sistema de planejamento Eu só levo para o estar quem eu tenho interesse, estando ele contratado ou não Para eu poder fazer alguns modelos, encaixes dessas pessoas para eu ver quando elas estarão disponíveis ou não, para eu colocá-las numa obra Captação, eu faço processo de curadoria que é puxar essa pessoa para dentro do estar estar é meu segundo sistema da cadeia, que é o sistema que eu planejo as pessoas Dentro do Star, a gente cadastra uma obra, pega uma obra, uma novela, eu tenho 70 atores, eu cadastro as cadeiras dos atores, ou seja, eu entro com a demanda e depois vou povoando essa demanda com as pessoas que eu tenho disponível, que eu já curei ou que já estavam no sistema Depois dessa etapa de planejamento aqui, em que eu vou fazendo o quebra-cabeça, encaixando as pessoas no lugar Até então não estou olhando custo não, tá? 
+
+19:21
+Fernanda Maia - Globo
+Não estou olhando dinheiro, só estou olhando indivíduo Quanto ele está disponível ou não para trabalhar, quanto ele tem match ou não com aquela obra Então ali eu tenho uma incidência muito grande de pessoas que estão no dia a dia, que conhecem as pessoas para poder escalar ou não uma pessoa para aquele papel Tenho características das pessoas, homem, negro, 1,60m, mora no Recife, eu tenho essas características todas Mas leigo, dado que não conhece o histórico daquele diretor, daquela obra, daquele papel Ele vai ter mais dificuldade de escalar uma pessoa para aquele lugar nesse momento Então assim, eu tenho entrando no Star várias pessoas que são da área que tem muita troca Com atores, diretores, para poder fazer esse melhor encaixe, tá? 
+
+20:14
+Fernanda Maia - Globo
+Ali no STAAR, eu faço, entre outras coisas, o pedido de contratação de alguém que já está mais maduro Então o STAAR controla alguns status Eu posso só ter pré-reservado o Rodrigo por papel Ou reservado mesmo, porque eu já tô pouco mais firme Ou aplicado ele, que eu tô dizendo que é ele que vai fazer esse papel. 
+
+20:34
+Julio - NT
+Quem define essas... Qual pessoa vai direcionar qualquer... É o teu time que faz esse direcionamento? 
+
+20:45
+Fernanda Maia - Globo
+Não, meu time só faz sistema, tá? 
+
+20:48
+Julio - NT
+Tá. 
+
+20:49
+Fernanda Maia - Globo
+Meu time é técnico, então. O time de planejamento, ele define as cadeiras, os tamanhos das cadeiras e tudo mais. Só que é o gerente da área, daquele grupo de cargos, que define quem vai sentar ali. E o diretor dessa área, ele entra muito nessa negociação, principalmente com as pessoas que são grandes, porque requer outro tipo de negociação ali com pouco mais de cuidado. Se autor escreve em papel, E o gerente da área de Ellen acha que é o Tony Ramos a melhor pessoa para aquele papel? Ele não acha sozinho, tá? 
+
+21:21
+Fernanda Maia - Globo
+Ele troca ideia com muita gente para chegar a essa conclusão O diretor da área vai ligar o Tony Ramos, vai ser ele, porque é cara que tem certo cuidado Se for ator iniciante, ele mesmo vai ligar pro ator e tudo mais Entender a disponibilidade dele naquele período Se tá fazendo teatro fora, não tá E aí eles vão compondo essas cadeiras ali pra ir afunilando e chegando já no desenho da obra Então tem uma área de planejamento envolvida E a área que a gente chama de área técnica, que é a área que tem o conhecimento daquele cargo Trabalhando em conjunto pra preencher essas cadeiras E aí eu abro algumas bifurcações nesse momento A primeira é que quando o cara não está contratado pela empresa e eu tenho que celebrar contrato com a ILPJ, contrato mesmo Eu mando pedido desse sistema para o ARTE, que é o terceiro sistema da minha cadeia O ARTE é sistema de contratação de talentos. 
+
+22:27
+Julio - NT
+Minha câmera está desligando às vezes, eu estava na outra reunião e ela. 
+
+22:32
+Fernanda Maia - Globo
+Ficou desligando O arte é sistema que celebra contratos, cláusulas de pagamento, faz negociação de prorrogação, de encerramento, faz tudo relacionado a contratos Só que deste grupo todo que eu captei, curei e planejei Eu estou tirando para o Arte só as pessoas que vão celebrar contrato de PJ Ou tem algumas outras modalidades de contratação também que vão nesse caminho, tá? 
+
+23:01
+Fernanda Maia - Globo
+Cachê, RPA, eu posso te passar a lista disso também Se eu escalei alguém que já está na empresa contratado igual eu, de carteira assinada, que a gente chama de prazo longo Eu paro ali na alocação dele e não mando nada para o Arte, porque eu não preciso contratar Mas quem faz gestão desse prazo longo, quem o contratou como carteira de trabalho São sistemas lá da Aline, que também me contrataram Porque o tipo de contratação dele é igual ao meu Então são sistemas da Oracle, que fazem a gestão do pagamento mensal dele Esse cara PJ que foi contratado, quem faz a gestão do pagamento dele São as cláusulas que saem do ARTE e passam para o sistema chamado e-space, que é o do final da minha cadeia, o e-space faz a gestão do pagamento de talentos artísticos que não são pagos pelos sistemas de RH. 
+
+23:59
+Fernanda Maia - Globo
+Em sua maioria PJ, pessoa jurídica. 
+
+24:03
+Rodrigo Carlstrom - NT
+E são esses que estão no ARTE, então? 
+
+24:06
+Fernanda Maia - Globo
+São esses que estão no ARTE. O ARTE define as cláusulas, o sistema gestor de pagamento de verbas é o e-space. 
+
+24:13
+Fernanda Maia - Globo
+Não é uma cadeia muito direta, não, que eu vou te dar exemplo, porque assim As formas de se contratar artista são muito variadas Então tem uma pessoa que tem uma cláusula de produtividade Enquanto ela estiver no ar ou enquanto ela estiver gravando, ela ganha adicional Esse adicional, o space que paga tem uma outra pessoa que vai trabalhar só 10 dias e vai receber por cachê A gente faz isso daí também nesse caminho nosso aqui de talentos artísticos Se vocês forem listar a infinidade de cláusulas e formas de pagamento diferente, é bem vasto E essa flexibilidade na hora de contratar o talento é muito importante para a área que cuida do arte, a área de gestão de contratos, que é a GCA Porque ele precisa ter uma flexibilidade na hora, por exemplo, de trazer uma Eliana para cá Ele não vai pegar contrato pronto e trazer o Meliana para cá, porque ela vai ter combinados diferentes do que os combinados de outro autor. 
+
+25:17
+Fernanda Maia - Globo
+Então eles têm uma infinidade de modelos de contrato, e esses modelos de contrato podem ser mutáveis de acordo com a negociação, e assim eles imputam os gatilhos de pagamento ali para que o SPACE pague. 
+
+25:31
+Fernanda Maia - Globo
+Modelo de pagamento já tivesse sido absorvido pela ferramenta de mercado que é o HCM para pagamento, eu direciono para lá A gente acabou de direcionar uma das verbas que a gente tinha para o HCM É uma verba de produtividade de pessoa física A pessoa a prazo longo já está contratada aqui, Tony Ramos E ele tem uma cláusula de produtividade Antes eu calculava e pagava ela pelo sistema legado nosso E a gente viu a oportunidade de absorver isso no HCM, que é uma ferramenta de mercado Então a gente jogou essa verba para lá, pegou no quartil ali, fez toda a programação que precisava e jogou para lá Então assim, a gente tem gente, tipo de contratação, tipos de gatilho de pagamento de verbas Para você conseguir chegar ali no modelo completo de cada pessoa Então a combinação de cada pessoa acaba sendo pouco única No final desse pagamento eu ainda pego todas essas verbas porque essas pessoas são alocáveis e distribuem a divisão dele do conteúdo Então eu tenho que entender qual é a forma de pagamento, vou te dar exemplo bobo aqui Se eu tenho o prazo longo, quer dizer que a empresa quer ficar com ele Eu tendo ou não o conteúdo, ele está contratado Então quem paga as férias dele é a empresa Então eu não aloco o valor de férias dele no conteúdo Em contrapartida, se ele fez uma hora extra, a hora extra dele não se deu porque ele está na empresa trabalhando para a empresa Se deu porque ele está trabalhando para conteúdo, uma gravação que foi até mais tarde Então eu sempre vou alocar a verba dele de hora extra no saquinho de dinheiro do conteúdo No final das contas, o conteúdo fecha sua contabilidade Eu tenho lá planejado e realizado E o conteúdo entende se é aquilo mesmo que ele estava pensando ou não Ao longo do caminho a gente vai aí fazendo checkpoint, desacompanhando Esse custeio de verbas no final também acontece no MediaPulse O MediaPulse custeia parte dos funcionários por lá E a gente custeia parte dos funcionários aqui, tem uma divisão aí de custeio dos dois Na cadeia de talentos eu tenho público delimitado para tratar Mas eu tô sempre pensando aqui o que eu posso Jogar para sistema de mercado, ou o que é similar ao MediaPulse para eu colocar lá dentro Porque são sistemas que acabam sendo mais robustos e mais baratos para a gente E aí eu tenho quatro squads que cuidam desses sistemas aqui E essas squads trabalham especificamente numa solução E aqui junto com a camada de talentos artísticos e da área Eu vou ali entendendo com eles o que eles querem em termos de integração e tudo mais Para conseguir fazer essa cadeia funcionar bem junta, tá? 
+
+28:19
+Fernanda Maia - Globo
+Eu tô há ano e alguns meses na TI Quando eu cheguei eu só tinha captação Star Depois eu ganhei o Art, depois eu ganhei o Space Então essa reestruturação é do meio do ano passado pra cá E agora eu tô no momento de trabalhar as melhores as integrações Porque era uma área de tecnologia diferente que cuidavam dessa cadeia Assim como eu recebi esses cargos, lá na área técnica o diretor só cuidava dos atores Aí depois ele recebeu mais grupo de cargos, depois ele recebeu a parte de contratos E ele ainda não recebeu a parte de pagamento, tá? Com RH Eu tenho interface com essas duas áreas, porque, em termos de estrutura, a TI não reflete exatamente o que a área técnica faz em termos de processo, tá? Vocês estão, nesse momento, mais confusos do que entraram? Ou menos confusos do que entraram nessa reunião? 
+
+29:18
+Rodrigo Carlstrom - NT
+Eu estou tentando fazer certo paralelo com o que a gente já viu, né? Então, a gente tem aqui A parte de captação, depois tem o start e o arte. Aqui eu li start e depois eu ia ler o arte. Então tem o start e tem o arte, e aí tem o space, né? E para aqueles contratos que são mais padrão, HCM, né? 
+
+29:45
+Fernanda Maia - Globo
+Isso. 
+
+29:46
+Rodrigo Carlstrom - NT
+Esse é o processo ponta a ponta. 
+
+29:47
+Fernanda Maia - Globo
+São mais padrão não. Para as pessoas físicas que têm contrato CLT, é o HCM, tá? CLT Se eu celebrar contrato PJ padrão, ele é Duarte Tá, Duarte. 
+
+29:59
+Rodrigo Carlstrom - NT
+Tá bom E aí eu tô imaginando que... Por que não foi feito em conjunto com o que já tem lá nos demais, né? Porque aqui tem uma nuância muito diferente de tratativa com os talentos artísticos em si, que tem, apesar de você não cuidar de tantos contratos como o pessoal que mexe lá no Mídia Pulse. 
+
+30:23
+Fernanda Maia - Globo
+O volume de pessoas lá é maior, mas o dinheiro aqui supera muito. 
+
+30:27
+Rodrigo Carlstrom - NT
+O dinheiro aqui é maior e a complexidade aqui também é maior do ponto de vista de acordos, de regras contratuais que estão sendo colocadas aqui para serem cumpridas. 
+
+30:40
+Fernanda Maia - Globo
+Sim. 
+
+30:41
+Rodrigo Carlstrom - NT
+Henrique, provavelmente você não consegue colocar numa esteira como é colocada lá, né? 
+
+30:48
+Fernanda Maia - Globo
+Colocar uma esteira significaria eu perder a flexibilidade que hoje essa área tem para trazer talentos do jeito que ela traz. Seria uma mudança, inclusive, de relacionamento com o mercado, tá? Porque Para você ter uma ideia, existe para alguns talentos até uma cláusula de mínimo merchandising Eles vêm já com dinheiro de merchandising prometido no mês que eles não alcançam a Globo completa Isso é muito único Outra coisa que eu ia dizer é que nessa cadeia que você descreveu, o MediaPulse está para o estar Ele faz o planejamento dos talentos, entendeu? Dos talentos não, ele faz o planejamento de recurso igual eu faço no Star ali dos talentos. 
+
+31:39
+Rodrigo Carlstrom - NT
+Perfeito. 
+
+31:40
+Fernanda Maia - Globo
+Qual é a diferença entre os recursos que são planejados no MediaPulse e os recursos que são planejados no Star? Todos os recursos que eu planejo no Star são recursos que ficarão por longo período de tempo no conteúdo. Quando eu estalo ator, ele entra no início, sai no final. Quando eu tô falando do planejamento de recurso lá do Mídia Pulse, por exemplo, de uma costureira, eu posso dividir ela em hora. Eu costuro uma hora da tarde uma saia para renascer, duas horas da tarde para a mania de você, três horas da tarde para outra novela. O planejamento dela, além de ser dia-a-dia, tem uma minúcia ali de eu poder trocar ela o tempo todo Então o que eu tenho que ter ali? 
+
+32:22
+Fernanda Maia - Globo
+Uma agilidade de input das demandas Diferente daqui, que eu preciso ter, principalmente, além de uma aplicação que não me faça alocar dia-a-dia daquela pessoa Porque ela fica ano e meio numa novela e ter que alocar dia-a-dia dela vai ser muito sofrido É muito importante aqui no estar eu ter uma forma visual de entender como tá meu quadro, porque eles trabalham muito assim, olha... 
+
+32:49
+Fernanda Maia - Globo
+Preciso de uma figurinista titular para produto em abril desse ano Eu vou abrir todo o meu grupo de figurinistas e olhar que mais se encaixa naquele período de abril que tá disponível E ela quando entrar em abril, ela vai ficar mês, vai ficar ano lá Então eu vou talvez precisar readequar alguma novela que ela esteja preparada lá na frente, puxar pra outra Então eu preciso ter o plano de todo aquele agrupamento de cargo em forma visual pra eu poder fazer esse encaixe Mesmo porque quando eu tô fazendo esse encaixe, eu ainda tenho não só o input de disponibilidade Mas o reconhecimento da forma de trabalho daquele talento Porque não é qualquer figurinista, por exemplo, que faz novela de época Que costura aquelas roupas grandes, costura, que eu digo assim, desenha aquelas roupas grandes Eu tenho cada tipo de talento Com alguma característica que, quando eu leio o texto, eu entendo que aquela pessoa é melhor E, por muitas vezes, eu abro esse painel para refazer o meu quebra-cabeça inteiro Para eu colocar a melhor pessoa no melhor lugar, e não simplesmente quem está disponível, sabe? 
+
+33:55
+Rodrigo Carlstrom - NT
+Perfeito. Eu imagino que também, né, Fernanda? Deve existir aí uma preocupação em não perder esses talentos para o mercado Então é manter o contrato com eles Perfeito. 
+
+34:09
+Fernanda Maia - Globo
+Tem outra coisa que é o seguinte, eles estão sempre buscando novas formas de contratação Para o grupo de atores, diretores, que é o grupo ali que é mais diferente, você faz vários contratos PJ, picado, e consegue ir lidando com ele em algumas obras, deixando ele em casa e voltando O grupo de talentos que tem figurino, arte, caracterização, diretor de fotografia, editor Esse grupo eu geralmente contrato CLT Aí eu tô obedecendo as regras do mercado Então se eu pegar uma figurinista, fazer uma novela de época, a novela acabou e eu a desliguei Eu só posso contratar ou daqui a seis meses ou daqui a dois anos, dependendo de como ela veio Eu tenho regras de quarentena para respeitar Então o que eles tentam? 
+
+35:00
+Fernanda Maia - Globo
+Deixar o quadro o mais enxuto possível, trabalhar com algumas outras formas de contratação Mão de obra temporária, algum contrato PJ para eu poder atender essas nacionalidades E quem está aqui nesse grupo fixo eu não precisa mexer Porque se eu mexer eu vou perder para o mercado Para trazer de novo é muito difícil Esse mês de janeiro e fevereiro agora houve pico de 200 recursos sendo contratados de uma vez só De grupo ali de talentos artísticos Não se achou no mercado Foi muito difícil de conseguir fazer malabarismo ali para conseguir atender Porque de dia para o outro ter que contratar 200 pessoas em talento específico ali O mercado não consegue respirar, não tem jeito Porque é bem limitado, tá? Todo mundo se conhece, todo mundo já sabe ali Você tem muita gente de 40 anos lá de fora E é isso. 
+
+35:53
+Fernanda Maia - Globo
+E assim, reitero que a necessidade do visual, a gente controla isso como se fosse gancho, tá? Rodrigo entra aqui, sai aqui num produto, entra aqui, sai aqui em outro, entra aqui, sai aqui em outro. A disponibilidade dele é desse período aqui. Olhar para isso dessa forma te faz ter mais agilidade na tomada decisão Justamente para falar, olha, aqui eu estou vendo volume aqui de 20 a mais, não tem, vou contratar? 
+
+36:18
+Fernanda Maia - Globo
+Não, pera Deixa eu refazer esse quebra-cabeça para ver se eu consigo liberar uma pessoa pouquinho antes Outra, empurrar pouquinho depois, ver se eu não preciso contratar tanta gente Então o ponto principal do estar que o MediaPulse não tem É o planejamento de longo prazo voltado ao que a gente chama de nominal Que é o planejamento onde o nome da pessoa, onde o CPF da pessoa Faz diferença e ela fica em longos períodos, tá? 
+
+36:44
+Rodrigo Carlstrom - NT
+Certo E eu tô imaginando que também você precisa, de alguma forma Não sei se é a Daí dessa área, né? Formar novos talentos, né? 
+
+36:58
+Fernanda Maia - Globo
+É, o pessoal tá sempre buscando Tá sempre buscando muito fora dos polos ali, São Paulo, Rio, Minas, gente muito de fora, eles estão buscando muito Mas de formação de talentos, são poucos os programas que a gente toca, tá? Já tiveram algumas oficinas aqui dentro e tudo mais, fazem parceria com faculdade, mas eles estão buscando muito fora. 
+
+37:27
+Rodrigo Carlstrom - NT
+E aí, fala pouquinho sobre esses sistemas, né? Pelo que eu entendi, então, esse captação aqui, que é onde você faz o cadastro, a pessoa pode se, por exemplo, eu quero trabalhar na Globo. 
+
+37:39
+Fernanda Maia - Globo
+Pode se inscrever lá. 
+
+37:42
+Rodrigo Carlstrom - NT
+Pode se inscrever, então, é portal público aí, que provavelmente tem acesso pelo próprio site da Globo, não? 
+
+37:48
+Fernanda Maia - Globo
+É portal público não divulgado, porque tem mais valor pra gente a pessoa que se cadastra com uma indicação nossa. A gente tem até uma forma de indicar, né? Se produtor de elenco foi num teatro e viu uma turma que ele gostou, ele passa o link do captação e passa o link personalizado dele, porque eu até consigo ver que a pessoa cadastrou o nome dele. Algumas vezes o diretor da área já divulgou no Instagram dele, já teve mais gente divulgando o link, mas acaba que isso não é muito proveitoso porque depois desse processo, produtores de elenco e coordenadores da área, tem trabalho de curadoria, que é olhar cadastro por cadastro, identificar se o cara é compatível ou não, para trazer ele para o Estado. E a gente tem mais de 7 mil pessoas cadastradas hoje. 
+
+38:36
+Rodrigo Carlstrom - NT
+Então, se o volume for muito grande, até atrapalha, né? 
+
+38:38
+Fernanda Maia - Globo
+Atrapalha, por isso mesmo. 
+
+38:40
+Rodrigo Carlstrom - NT
+Se vier, por exemplo, vamos divulgar só nos grupos de teatro aí, aí pelo menos já fica melhor. 
+
+38:46
+Fernanda Maia - Globo
+Não, mas já fizeram isso. 
+
+38:48
+Rodrigo Carlstrom - NT
+Já nesse nível já atrapalha bastante. 
+
+38:52
+Fernanda Maia - Globo
+O sistema tem condição de atender isso, mas o pessoal que faz a curadoria não tem muita condição de ficar filtrando Então, acaba sendo assim, eles viajam para uma cidade, vê algum grupo, alguma coisa que eles têm interesse, aí eles passam o link, pede para cadastrar e já avisa lá para a curadoria puxar aquelas pessoas ali para dentro Mas divulga de vez em quando sim, festival, teatro, divulga, tá? 
+
+39:20
+Julio - NT
+Tá legal. 
+
+39:20
+Rodrigo Carlstrom - NT
+Aí, a curadoria é feita no mesmo sistema daí, né? 
+
+39:26
+Fernanda Maia - Globo
+É feito no STAR. 
+
+39:28
+Rodrigo Carlstrom - NT
+O STAR tem módulo... Então vamos dizer assim, que lá é onde você faz a pesca, lá na captação, né? Depois você já traz aqui para o STAR para trabalhar o perfil mesmo, né? 
+
+39:44
+Fernanda Maia - Globo
+É. O HCM e o ART é depois do STAR, tá? Tá invertido. 
+
+39:48
+Julio - NT
+É ao contrário, então. 
+
+39:50
+Fernanda Maia - Globo
+Primeiro eu planejo e o STAR manda o pedido de contratação para o ARC. 
+
+39:59
+Julio - NT
+Mas a curadoria acontece dentro do próprio CAPTAÇÃO? 
+
+40:03
+Fernanda Maia - Globo
+Dentro do próprio STAR. É o canal de comunicação do STAR com CAPTAÇÃO. Curadoria é módulo do STAR. 
+
+40:18
+Julio - NT
+Aí aqui, na verdade, não tem mais estar. 
+
+40:21
+Fernanda Maia - Globo
+Isso, isso, perfeito. HCM, você pode ligar direto ao oráculo, e arte, você pode ligar direto ao space, que por mais que eu tenha uma verba outra distoando disso, é isso que eu estou tentando fazer aqui. 
+
+40:34
+Rodrigo Carlstrom - NT
+Quando você disse ali do estar, que é como se tivesse cadeiras, que você vai alocando ali as cadeiras, né? É bem isso mesmo, como você abriu uma vaga que é uma necessidade de conteúdo. 
+
+40:52
+Fernanda Maia - Globo
+Perfeito. Uma demanda de conteúdo. Eu demandei ator protagonista na novela Maria de Você, que é menino de no máximo 30 anos que vai roubar a mulher. A Chay Suede é uma opção, a Rafa Witt é outra, eles vão blocando essas pessoas lá. A escolher o Chai Suede, eu planejo ele no Star mesmo, porque o Chai Suede é o cara que vai fazer. Deixa eu falar uma coisa, a principal divergência da relação com o MediaPulse não é o prazo de planejamento do Star. Todo mundo que usa o Star adoraria planejar o longo prazo dentro dele. A ferramenta não é amigável o suficiente para eu olhar para o recurso, o grupo de recursos. Eu não tenho uma visão igual eu te falei da do Star lá dentro, para eu conseguir ver os recursos e fazer a distribuição deles. 
+
+41:45
+Fernanda Maia - Globo
+O que eu tenho são ordens de serviço que eu vou preenchendo. Para mim, o MediaPulse tem uma visão muito voltada para o conteúdo, para o produto final. Porque se eu puxar as ordens de serviço do conteúdo, eu vejo todas as demandas dele. Mas eu não consigo ver toda a minha ocupação da área, sabe? Tá. 
+
+42:04
+Rodrigo Carlstrom - NT
+Fernanda, até que no que a gente já viu, né, Tem uma área pré... Pré... Pré-planejamento aqui, né? Vamos dizer assim, que é o planejamento de produção que é feito lá no Excel, né? E lá, eles expressam por temporadas, né? Então, o conteúdo é dividido em temporadas, e aqui também não. Aqui, como que é cadastrado? 
+
+42:29
+Fernanda Maia - Globo
+Essa é assunto que eu volto a repetir com todo mundo, inclusive o pessoal do Mediapus, tá? Não existe temporada, a gente não agrupa Domingão por temporada Existe Domingão 2024, existe Domingão 2025, são produtos diferentes, são programas diferentes Todo saco de dinheiro é diferente, a galera vive insistindo em colocar temporada no sistema Isso tanto fez, tanto faz, ninguém acompanha temporada Se eu quero fazer paralelo entre os Domingões, eu puxo Domingão 2024, puxo Domingão 2025 e sigo a vida Não existe nenhuma área que acompanhe o financeiro de uma temporada, não existe isso E as pessoas vivem repetindo. Eu fui dessa área, fui coordenadora de planejamento de conteúdo já Esse mapa de produtos ali, eu tenho produto diferente, com uma conta contábil diferente, com tudo diferente de produto pro outro. Tá como se fosse produto de uma temporada e outro produto em outro. 
+
+43:26
+Fernanda Maia - Globo
+Se eu chamar Domingão 2024, quiser chamar de Samsung 2025 ser outra, posso, porque é outro produto, entendeu? Só que a galera vive implantando temporada no sistema, tá? A menor diferença é isso. Sacos de dinheiro são totalmente diferentes, são aprovados todo ano o orçamento, tá? Tá. 
+
+43:47
+Rodrigo Carlstrom - NT
+Do ponto de vista informacional, entendi, né? Talvez é só mesmo por uma questão de fazer referência, né? Continuamos aqui com essa turma aqui, vamos, né? Nem isso. Desde o planejamento é tudo do zero mesmo, né? 
+
+44:05
+Fernanda Maia - Globo
+Tudo do zero, a gente começa tudo de novo. A gente replica todas as cadeiras, permeia de novo com as pessoas. A gente pode copiar planejamento de outro conteúdo diferente, que nem seja esse, tá? Essa referência é uma referência que não faz muita diferença no dia a dia daqui de hoje, sabe? 
+
+44:24
+Rodrigo Carlstrom - NT
+E o que você chamou demanda aqui, a gente pode entender que conteúdo tem uma demanda, É uma demanda ou conteúdo que tem muitas demandas? Como funciona isso? 
+
+44:34
+Fernanda Maia - Globo
+Conteúdo, o que eu chamei demanda, é o que precisa para que aquele conteúdo seja feito. O que eu chamei demanda foi... Eu preciso de diretor, três atores, apresentador, uma figurinista, três cabeleireiros. Então, essa demanda do conteúdo é a necessidade dele de ser descrito em forma de... Tipo de pessoa, data de início, data de fim e o percentual de alocação. 
+
+45:06
+Rodrigo Carlstrom - NT
+Então podemos entender que a demanda é aquela cadeirinha que você falou que vai ser preenchida. 
+
+45:13
+Fernanda Maia - Globo
+Sim, podemos. 
+
+45:13
+Rodrigo Carlstrom - NT
+Perfeito. Aí depois, quando alguém senta na cadeira, isso ainda acontece no Star? 
+
+45:22
+Fernanda Maia - Globo
+Sim. 
+
+45:23
+Rodrigo Carlstrom - NT
+Ainda acontece no Star. Qual Qual a integração que existe entre o estar e a captação? 
+
+45:31
+Fernanda Maia - Globo
+Só a curadoria. Eu puxo todo mundo que é interessante para o estar. Aí eu tenho aquele hall de pessoas para eu poder escolher para sentar na cadeira. Quando eu planejo, alguém sentou na cadeira. Eu continuo tendo aquele tanto de gente disponível lá. 
+
+45:43
+Rodrigo Carlstrom - NT
+Tá, mas essa integração é manual ou é automática? 
+
+45:47
+Julio - NT
+Automática, automática. 
+
+45:48
+Rodrigo Carlstrom - NT
+Tem uma integração, você puxa de lá? 
+
+45:50
+Fernanda Maia - Globo
+Tem, puxa. Através do módulo de captação. O módulo de captação é integrado ao... Do módulo de curadoria. O módulo de curadoria é integrado à captação. 
+
+46:00
+Rodrigo Carlstrom - NT
+E o Captação e o Star são produtos da própria Globo ou é de mercado? 
+
+46:04
+Fernanda Maia - Globo
+São, Globo. São da mesma SQED, inclusive. São produtos diferentes, mas da mesma SQED. 
+
+46:13
+Rodrigo Carlstrom - NT
+Tá legal. Aí quando vai do Star para o Arte, você vai definir contratos no Arte. Isso. Certo? 
+
+46:23
+Fernanda Maia - Globo
+Dentro de todo mundo que eu sentei na cadeirinha, eu sentei monte de gente na cadeira. Aquelas pessoas eu tenho. Gente que já tem contrato com a Globo. Gente que nunca esteve na Globo. Gente que já veio na Globo e saiu. E aí dependendo do como eu quero seguir com aquela pessoa Esse que estava na Globo saiu, eu quero contratar de novo, como PJ Ele é integrado ao Arte e manda pedido de contratação. 
+
+46:47
+Rodrigo Carlstrom - NT
+Para o Arte Tá certo, mas também pode ser que você está consumindo contrato resistente, né? 
+
+46:55
+Fernanda Maia - Globo
+Pode, porque quando eu puxo a minha lista de disponíveis Eu estou checando a lista daquele cara, tem contrato ou não tem ativo Então é integrado, a integração vai e vem, dois caminhos ali. 
+
+47:10
+Rodrigo Carlstrom - NT
+Tem, e o arte também é da Globo. 
+
+47:12
+Fernanda Maia - Globo
+É nosso também, da mesma cadeia de pessoas ali. 
+
+47:15
+Rodrigo Carlstrom - NT
+Tá legal. E aí, no fim, o Space, também é da Globo. 
+
+47:21
+Fernanda Maia - Globo
+É nosso também. 
+
+47:22
+Rodrigo Carlstrom - NT
+Então, tem qual linguagem de programação que se usa aí nesse sistema? 
+
+47:26
+Fernanda Maia - Globo
+Ih, vou ter que puxar para você, porque, na verdade, eu tô trazendo tudo para a GCP agora, Tô colocando tudo em .NET no back-end O Captação e o Star eu tô levando pro View E o Art e o Space eu tô levando pro React, por causa dos skills lá Mas hoje o Art tá uma salada de frutas, não tá na mesma nuvem Estou com banco de dados no CI. Estou, neste momento, modernizando a arte para trazer para isso. O Star está em modernização, a arte está em modernização, e o Space acabou de ser feito. Então, tenho ali uma saladinha de frutas de linguagens entre os sistemas, neste momento, que estou tentando tudo equalizar para o mesmo lugar. 
+
+48:13
+Rodrigo Carlstrom - NT
+Entendi. Quais são as dores desse processo, ponta a ponta? 
+
+48:20
+Fernanda Maia - Globo
+As dores desse processo ponta-a-ponta são muito ligadas à área técnica e à relação entre as áreas, porque eles também não eram uma área originalmente juntas, cada tinha uma diretoria, e agora que eles foram juntados, no ano passado Então até que esse ciclo se complemente, todo mundo saia da situação antiga de uma outra diretoria para a situação que estamos trabalhando juntos agora, há diversos conflitos ali E hoje dá muito conflito porque a área de... 
+
+48:53
+Fernanda Maia - Globo
+Contratação atende ao que o conteúdo quer, o conteúdo fala assim, agora eu quero contratar uma pessoa por entrega Quando ela me entregar o texto eu pago, se ela não me entregar o texto ela não vai receber nada Aí ele vai desenvolver uma nova forma de contratar isso rápido porque ele quer atender para ontem E o pessoal do pagamento não vai ter nem tempo de reagir lá no space para adaptar isso ao sistema Pelo pedido do conteúdo ser sempre mandatório em cima de tudo, as pessoas vão tentando atender sem fechar muito o fluxo completo Isso é uma das dores aí que perdura muito tempo e que a gente tenta reduzir o máximo possível, mas às vezes não dá Estão ainda diretorias diferentes, tá? 
+
+49:39
+Fernanda Maia - Globo
+Captação, Star e Arte, é a diretoria de talentos artísticos E o Space atende a diretoria de RH, apesar de pagar só talentos artísticos Como o RH que rege o pagamento das pessoas, o Space, todas as decisões voltadas para o Space, elas não ficam na mão do mesmo diretor que decide Captação, estar e arte, sabe? Então essa partezinha aqui entre o contratar e o pagar dá alguns conflitos, sabe? 
+
+50:13
+Fernanda Maia - Globo
+Hoje, todo o público que está com diretor de talentos artísticos também foi agregado em determinado momento da estrutura da empresa, não é uma coisa antiga, recente Ele planeja metade dos recursos dele no Star, e a gente está adaptando o sistema para outra metade de planejar no Star também Então eu planejo todos os cargos que a gente chama de talentos e não planejo ainda, mas até junho vou estar planejando todos os cargos de produção artística Tem grupo que hoje planeja o longo prazo ainda em planilha Esse Planejar em Planilha que eu tô trazendo aqui para o Star até junho, nesse quartinho E a alocação desse pessoal está no MediaPulse e a gente vai manter lá. Então ainda vou ter uma nova integração entre Star e MediaPulse, porque eu tô separando o Star como sistema de planejamento e o MediaPulse como de alocação, tá? 
+
+51:17
+Rodrigo Carlstrom - NT
+Perfeito. Eu acho que a gente só tinha. 
+
+51:20
+Julio - NT
+Que ir aumentando pouco o costo, mas pegando o gancho aí, porque a Floriana comentou de Excel. Quando nós nos encontramos ali lá no CITA, Ele falou assim, ó, tem muito planejamento em Excel São esses planejamentos que tu te referiu? 
+
+51:33
+Fernanda Maia - Globo
+Perfeito, são Esses planejamentos de talentos eu já tô endereçando nesse quartil aqui pra ir pro Star A gente vai ter que fazer algumas adaptações em sistema ali Porque eu não tenho todas as características necessárias pra planejar, por exemplo, uma figurinista lá Mas tá nesse quartil o planejamento pra adaptar o sistema pra receber essa galera Esses que estão no Excel, que são mais longo prazo, tá indo tudo pro Star A tecnologia também faz planejamento de longo prazo em Excel Ela não tá indo pro Star, eu só tô trazendo o grupo de talentos artísticos pro Star, tá? 
+
+52:09
+Julio - NT
+Sim, a tecnologia usa lá com o Result nas planilhas dele. 
+
+52:17
+Fernanda Maia - Globo
+E lá é pouco mais picado, né? Então tem a similaridade, tudo mais tem Mas não seria legal trazer o longo prazo para cá porque a quantidade de adaptações que a gente teria que fazer no sistema para este outro formato de planejamento Teriam que ser muitas, e nesse momento a gente está dando passo só para o que é similar. 
+
+52:43
+Julio - NT
+É... Suti e Marcelo comentaram de várias diferenças nos processos quanto a entretenimento, jornalismo e esporte. 
+
+52:51
+Fernanda Maia - Globo
+Bastante. 
+
+52:52
+Julio - NT
+Isso se aplica para cá também? 
+
+52:54
+Fernanda Maia - Globo
+Se aplica. Entretenimento é 95% do nosso atendimento. Os talentos de jornalismo e esporte Eles são contratados pelo Jornalismo Esporte, eles não são gerentes por essa turma Só quando tem alguém pouco especial ali que eles querem que a gente entre numa negociação pouco mais pesada Que eles pedem para contratar por aqui Mas o Jornalismo Esporte faz a sua própria gestão de talentos e ele tem pouquíssima gente E essas pessoas são contratadas igual eu, carteira assinada e ficam fixas lá Diferente dos atores que vêm e vão por causa de obra, sabe? 
+
+53:36
+Fernanda Maia - Globo
+Quando é comentarista para as Olimpíadas, eles fazem RPA, que é pagamento manual curto, para pagar para eles Temos oportunidade de atendimento de talentos aqui, para jornalismo principalmente A possibilidade de utilização dos nossos sistemas por eles vai ser uma das minhas próximas discussões Apesar de eu ter que costurar muito bem com o meu diretor e com o diretor de lá Porque não é uma vontade dele usar os nossos sistemas, porque ele entende que isso vai engessar muito mais o processo dele Mas é papo que eu tenho que ter no futuro, sabe? Porque pensa só, a decisão de colocar as planilhas pra dentro agora é porque a gente tá perdendo dados valiosos há anos Eu tô em planilha, planejamento de ciclo orçamentário do ano passado Isso é horrível, eu preciso estar com isso no sistema, gente Entendeu? 
+
+54:32
+Fernanda Maia - Globo
+E aí, do mesmo jeito que o jornalismo esporte tem dados que a gente tá perdendo pra poder analisar, fazer projeções, porque eles contratam de uma forma diferente, controlam em planilha lá, eu acho que vale a pena levantar essa discussão, apesar de não ter sido o diretor de lá que puxou, porque a galera fala muito lá que a gente vai ingerir só processo, mas é caso de ir conversando lá e ver o que dá, entendeu? Tem uma oportunidade ali. 
+
+54:56
+Julio - NT
+Resumindo, então, Galvão Bueno e William Bonner não estão aqui. 
+
+55:02
+Fernanda Maia - Globo
+William Bonner não está. O Galvão Bueno foi desligado do jornalismo e recontratado pelo É de Casa para poder fazer o quadro lá. Ou seja, Galvão Bueno está. Porque ele passou de produto do jornalismo para produto de entretenimento. Mas é essa a ideia mesmo. 
+
+55:20
+Julio - NT
+Mas enquanto esporte ele era, enquanto esporte... 
+
+55:24
+Fernanda Maia - Globo
+Não estava aqui. 
+
+55:25
+Julio - NT
+Nós também, tá. Ok. 
+
+55:28
+Rodrigo Carlstrom - NT
+E, Fernanda, você tinha falado de quatro squads que você cuida, né? 
+
+55:32
+Fernanda Maia - Globo
+Sim. 
+
+55:34
+Rodrigo Carlstrom - NT
+Elas, squads, é uma para cada desses sistemas ou não? Não tem nada a ver com isso? 
+
+55:39
+Fernanda Maia - Globo
+Seria fácil assim, Rodrigo? De jeito nenhum. A gente tem que trazer complicador para essa história. Eu tenho uma squad que cuida do captação estar juntos, uma squad que cuida do arte, E eu tenho duas squads cuidando de processo final de pagamento meu, por quê? Antes que fazia o pagamento dessa turma toda era sistema chamado Agra Esse sistema está sendo desmobilizado há bastante tempo Então uma das minhas squads é focada em desligar o Agra e a outra cuidar do Space Essa esqueleto que é focada em desligar o Agra, ela permeia, ela define os processos ali, permeia em todas as minhas aplicações, porque tem coisas que o Agra fazia, que a gente está endereçando lá para o Star. Tem coisas que o Agra fazia. 
+
+56:31
+Rodrigo Carlstrom - NT
+Você falou, eu estava anotando aqui, o que o Agra faz? 
+
+56:35
+Fernanda Maia - Globo
+O Agra era sistema antigo da Globo de contratação de pessoas Só que ele não é correspondente ao arte Ele também fazia alguns pagamentos, ele não é correspondente ao Space E ele também fazia alguns outros tipos de pagamento e planejamento picado das pessoas Ele não é correspondente ao Star Então é sistema que tinha várias funcionalidades de talentos artísticos que estão sendo desintegradas e distribuídas entre os. 
+
+56:59
+Julio - NT
+Sistemas Lembra dessa imagem, Caustro? 
+
+57:02
+Fernanda Maia - Globo
+Isso. Teoricamente, o Agra, a finalidade dele era o pagamento de talentos, mas para pagar ele tinha ali uma aplicação de talentos que hoje está no Star, ele tinha número de contrato que hoje está no Art, então é exatamente isso. O Space veio para embarcar a maioria das funções que ele tinha antes, mas não 100% delas. Digo que 60. 
+
+57:26
+Rodrigo Carlstrom - NT
+Quanto tempo falta para desligar o Agra? 
+
+57:30
+Fernanda Maia - Globo
+Olha, se você perguntasse há ano atrás, eu não teria resposta, mas as luzes se apagarão em dezembro deste ano. 
+
+57:42
+Julio - NT
+Ele já é integrado com o mídia oposto, Causton. 
+
+57:46
+Fernanda Maia - Globo
+O agra não, né? 
+
+57:47
+Julio - NT
+Não. 
+
+57:49
+Fernanda Maia - Globo
+Isso. E nem será, ele será desintegrado. Eu tenho planos aí de acabar pouco antes essa desmobilização do Agra, apagar as luzes E ainda ter alguns meses para entender se foi efetivo Se o meu plano se mantiver ali junto com a Squad que está desligando o Agra Até o fim do ano está todo mundo já operando todas as funções que antes ele embarcava no pagamento atual, nos sistemas atuais Tem muita coisa, gente, vocês não têm noção. Pagamento de direitos. Vou dar exemplo de uma verba muito maluca aqui que não está em lugar nenhum. Não está no contrato, não está no ator. 
+
+58:29
+Fernanda Maia - Globo
+Se eu repriso uma novela no Vale a Pena Ver de Novo, e eu tive contrato de ator que era longo, que era prazo longo lá de 1960, e nele estava escrito que eu teria que pagar direitos autorais de exibição para aquele ator, E esse ator morreu e tem inventário? Eu tenho que pagar para os herdeiros, proporcionalmente dividido pelo inventário, todos os direitos de imagem que estavam celebrados sem contrato lá atrás O Agra fazia isso, a gente está levando isso para o space, entende? Tem muita verba Que é paga fora simplesmente aquelas cláusulas contratuais atuais que eu tô fazendo gestão aqui no Arte Eu tenho cláusulas contratuais que são de 1960, que são de 1950 Que eu ainda tenho que voltar nela para olhar monte de coisa, sabe? 
+
+59:21
+Fernanda Maia - Globo
+Entendi Eu acho legal aproveitar esse papo, adorecer as ideias, dormir, pensar pouco mais, marcar mais papo, aí vocês perguntam tudo o que vocês quiserem, porque eu venho com... 
+
+59:35
+Julio - NT
+Não precisa. 
+
+59:38
+Fernanda Maia - Globo
+Perguntar mais. O que é isso? Eu acho que é isso. É bem claro aqui pra mim que é o seguinte, eu fui recebendo picadinhos de sistema que cuida de uma cadeia, Agora eu tô no momento de integrar tudo e trazer uma operação mais estável e compatível entre todos eles. O que eu puder, eu vou jogar para o sistema de legado, HCM, no caso da Oracle, para os pagamentos Planejamento aqui, eu vou manter no Star, mas a alocação que vai me levar àquela distribuição dos conteúdos Eu vou jogar para o Media Pulse de todo mundo Eu estou tentando fazer isso para eu trazer fluxo mais enxuto aqui, mais objetivo E usar os sistemas que são de mercado com mais robustez, entendeu? É esse o meu momento agora E ir desligando o Agra, senta o dedo no Agra Preciso desligar o Agra. 
+
+01:00:33
+Julio - NT
+Fernanda, eu tenho outra agenda aqui, nossa agenda se foi de horário. A gente vai precisar conversar mais, acho que a gente vai ter que revisitar o teu vídeo aqui para assimilar tudo novamente aqui, tentar organizar as ideias e voltar a conversar novamente. 
+
+01:00:55
+Fernanda Maia - Globo
+Até lá. 
+
+01:00:57
+Julio - NT
+Captação, Star, Art, Space. Tem alguma documentação desses sistemas que a gente tem ali? Quais as capabilidades de cada. Daqui a pouco o Star. Daqui a pouco talvez seja pouco mais complexo a questão de planejamento. Tem algum fluxo, algum desenho, alguma coisa nessa linha? 
+
+01:01:16
+Fernanda Maia - Globo
+Tem, eu vou levantar algum documento para passar para vocês aqui. Quando vocês estiverem vendo o vídeo ou desenhando alguma coisa, tiverem dúvida, eu funciono bem assim coronamente. Pode mandar notícias, perguntas, que eu vou respondendo. E eu estou disponível aí, quando vocês querem marcar alguma outra agenda, a gente vai trocando por aqui. Desculpa a demora até em receber vocês aí para trocar essa ideia, mas estou disponível para a gente conversar, tá? 
+
+01:01:40
+Julio - NT
+Claro. Carlson, vai deixar uma pré-marcada já ou o que tu acha? 
+
+01:01:43
+Rodrigo Carlstrom - NT
+É, pode ser. 
+
+01:01:48
+Julio - NT
+Eu teria alguma outra aí por quarta, quinta-feira, de outra agenda, Fernanda? 
+
+01:01:53
+Fernanda Maia - Globo
+Sim, quarta geralmente é dia bom para mim, tá? Quando eu não vou presencial. 15 horas quarta-feira, se vocês puderem, ou 17. 
+
+01:02:03
+Rodrigo Carlstrom - NT
+É, talvez até trazer alguém das squads aí, Fernanda. Né? Principalmente dessas duas aí que não estão envolvidas com o Agra, né? 
+
+01:02:12
+Fernanda Maia - Globo
+Artista. É, artista. 
+
+01:02:17
+Julio - NT
+Tá legal. 
+
+01:02:18
+Rodrigo Carlstrom - NT
+Pode ser na parte de qualquer horário, na parte da tarde. Aqui tá dando pra mim também. 
+
+01:02:22
+Julio - NT
+Eu acho que ponto ali que a gente vai precisar entrar no STAAR é essa questão do planejamento ali. Daqui a pouco poderia ser a lenda do STAAR aí, eu acho. 
+
+01:02:36
+Rodrigo Carlstrom - NT
+É, se a gente puder ver o sistema pouquinho, né? 
+
+01:02:39
+Fernanda Maia - Globo
+Dá. Tá sim. Vou trazer Gabi e Joana. Eu trago. Pode mandar agenda aí, o 15 ou 17 na quarta tá bom pra mim. 
+
+01:02:50
+Julio - NT
+E aí, Causton, como é que tá do teu lado? 
+
+01:02:52
+Rodrigo Carlstrom - NT
+Também tranquilo. 
+
+01:02:53
+Julio - NT
+Tá, vou mandar aqui de novo das 15 às 16. 
+
+01:02:59
+Fernanda Maia - Globo
+Pode ser. É, às 16 eu tenho outra. 
+
+01:03:03
+Julio - NT
+Tá, já tô mandando aqui. Joia, muito obrigado pela ajuda, pelos esclarecimentos aí. Vamos assimilar tudo e voltamos a falar novamente. 
+
+01:03:13
+Fernanda Maia - Globo
+Perfeito. Obrigada, gente. 
+
+01:03:14
+Rodrigo Carlstrom - NT
+Prazer falar contigo, Fernando. Obrigado. 
+
+01:03:16
+Fernanda Maia - Globo
+Valeu. Tchau, tchau. 
