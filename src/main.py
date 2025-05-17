@@ -1,12 +1,12 @@
 import os
-
 from dotenv import load_dotenv
-from src.loader import load_documents_from_input
+from src.loader import load_single_document
 from src.splitter import split_text
 from src.embedder import create_embeddings
 from src.rag_chain import run_qa_chain
 from src.utils import delete_vector_store
 import gc
+import csv
 
 #  Limpar o vector store após o uso
 #vector_store.delete_collection()
@@ -21,36 +21,61 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 if not openai_api_key:
     raise ValueError("OPENAI_API_KEY não definida. Adicione ao arquivo .env")
 
-# 1. Carregar todos os documentos (PDF e TXT)
-combined_text = load_documents_from_input("../input_files/gold")
+output_csv = "respostas_llm.csv"
+input_folder="../input_files"
+with open(output_csv, mode="w", newline="", encoding="utf-8") as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(["arquivo", "tipo_entidade", "nome", "identificador"])  # cabeçalho
 
-# 2. Dividir texto em chunks
-chunks = split_text(combined_text)
+# 1. Carregar cada documento separadamente, para fazer o pipeline de perguntas
+for filename in os.listdir(input_folder):
+    file_path = os.path.join(input_folder, filename)
+    if not (file_path.endswith(".pdf") or file_path.endswith(".txt")):
+        continue
 
-# 3. Criar embeddings
-vector_store = create_embeddings(chunks)
+    print (f"\n=== Processando: {filename} ===")
+    text = load_single_document (file_path)
+    if not text:
+        continue
 
-# 4. RAG QA Chain
-qa_chain = run_qa_chain(vector_store)
+    # 2. Dividir texto em chunks
+    chunks = split_text(text)
 
-# 5. Perguntas de exemplo
-questions = ["Qual o nome de todos os stakeholders envolvidos?", "quanto tempo o projeto vai levar?"
-]
+    # 3. Criar embeddings
+    vector_store = create_embeddings(chunks)
 
-for q in questions:
-    print(f"\n Pergunta: {q}")
-    result = qa_chain({"query": q})
-    print(" RESPOSTA:", result["result"])
+    # 4. RAG QA Chain
+    qa_chain = run_qa_chain(vector_store)
 
-    print("\n Fontes:")
-    for i, doc in enumerate(result["source_documents"], 1):
-        print(f"Trecho {i}: {doc.page_content}")
+    # 5. Perguntas de exemplo
+    questions = {
+        "nome_empresa": "Qual é o nome da empresa mencionada no documento? Responda sem inserir informações redundantes, seja específico e coloque apenas o nome encontrado",
+        "cnpj": "Qual é o CNPJ da empresa, responda sem inserir informações redundantes, seja específico e coloque apenas o número encontrado"
+    }
+
+    for q in questions:
+        print(f"\nPergunta: {q}")
+        result = qa_chain({"query": q})
+        resposta = result["result"]
+        fontes = " || ".join([doc.page_content.replace("\n", " ") for doc in result["source_documents"]])
+
+        print("RESPOSTA:", resposta)
+        print("Fontes:", fontes)
+
+        # Gravar no CSV
+        with open(output_csv, mode="a", newline="", encoding="utf-8") as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow([filename, q, resposta, fontes])
+
+
+    #  Limpar o vector store após o uso
+    vector_store.delete_collection ()
+    del vector_store
+    gc.collect ()  # força limpeza de memória
+    delete_vector_store ("embeddings/chroma-openai/")
+
 
 print(" Execução finalizada ")
 
-#  Limpar o vector store após o uso
-vector_store.delete_collection()
-del vector_store
-gc.collect() # força limpeza de memória
-delete_vector_store("embeddings/chroma-openai/")
+
 
