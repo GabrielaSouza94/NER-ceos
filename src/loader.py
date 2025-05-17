@@ -3,38 +3,29 @@ from pypdf import PdfReader
 from langchain_community.document_loaders import TextLoader
 from langchain_community.document_loaders import DirectoryLoader
 
-def load_documents_from_input(folder_path):
-    if not os.path.exists(folder_path):
-        raise FileNotFoundError(f" Pasta não encontrada: {folder_path}")
-    documents = []
+def load_single_document(file_path,max_pages=4):
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"Arquivo não encontrado: {file_path}")
 
-    for file in os.listdir(folder_path):
-        path = os.path.join(folder_path, file)
+    if file_path.endswith(".txt"):
+        print(f"Lendo TXT: {file_path}")
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                return f.read()
+        except UnicodeDecodeError:
+            with open(file_path, "r", encoding="iso-8859-1") as f:
+                return f.read()
 
-        if file.endswith (".txt"):
-            print (f" Lendo TXT: {file}")
-            try:
-                with open (path, "r", encoding="utf-8") as f:
-                    documents.append (f.read ())
-            except UnicodeDecodeError:
-                with open (path, "r", encoding="iso-8859-1") as f:
-                    documents.append (f.read ())
+    elif file_path.endswith(".pdf"):
+        print(f"Lendo PDF: {file_path}")
+        reader = PdfReader(file_path)
+        texts = []
+        for i in range(min(max_pages, len(reader.pages))):
+            text = reader.pages[i].extract_text()
+            if text and text.strip():
+                texts.append(text.strip())
+        return " ".join(texts)
 
-        elif file.endswith(".pdf"):
-            print(f" Lendo PDF: {file}")
-            reader = PdfReader(path)
-            texts = []
-            for i in range(len(reader.pages)):
-                text = reader.pages[i].extract_text()
-                if text and text.strip():
-                    texts.append(text.strip())
-            combined = " ".join(texts)
-            documents.append(combined)
-
-        else:
-            print(f" Tipo de arquivo não suportado: {file}")
-
-    all_text = "\n".join(documents)
-    print(" Texto combinado (início):")
-    print(all_text[:500])
-    return all_text
+    else:
+        print(f"Tipo de arquivo não suportado: {file_path}")
+        return None
