@@ -1,2 +1,2 @@
 # NER-ceos
- Projeto utilizado para recuperação de entidades nomeadas do projeto CEOS para o mestrado em dados. 
+Project used to recover named entities from the CEOS project for the master's degree in data.
