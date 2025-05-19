@@ -39,41 +39,71 @@ for filename in os.listdir(input_folder):
         continue
 
     # 2. Dividir texto em chunks
-    chunks = split_text(text)
+    chunks = split_text (text)
 
     # 3. Criar embeddings
-    vector_store = create_embeddings(chunks)
+    vector_store = create_embeddings (chunks)
 
     # 4. RAG QA Chain
-    qa_chain = run_qa_chain(vector_store)
+    qa_chain = run_qa_chain (vector_store)
 
     # 5. Perguntas de exemplo
-    questions = {
-        "nome_empresa": "Qual é o nome da empresa mencionada no documento? Responda sem inserir informações redundantes, seja específico e coloque apenas o nome encontrado",
-        "cnpj": "Qual é o CNPJ da empresa, responda sem inserir informações redundantes, seja específico e coloque apenas o número encontrado"
+    questions_empresa = {
+        "qual nome e o número de CNPJ de cada empresa do texto? Responda sem inserir informações redundantes, seja específico e coloque apenas o nome encontrado separado por vírgula do cnpj, para casos de mais de um nome, separe por ponto e vírgula"
     }
 
-    for q in questions:
+    for q in questions_empresa:
         print(f"\nPergunta: {q}")
         result = qa_chain({"query": q})
         resposta = result["result"]
         fontes = " || ".join([doc.page_content.replace("\n", " ") for doc in result["source_documents"]])
 
         print("RESPOSTA:", resposta)
-        print("Fontes:", fontes)
+        #print("Fontes:", fontes)
 
-        # Gravar no CSV
-        with open(output_csv, mode="a", newline="", encoding="utf-8") as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerow([filename, q, resposta, fontes])
+        # Gravar cada empresa e CNPJ separadamente no CSV
+        with open (output_csv, mode="a", newline="", encoding="utf-8") as csvfile:
+            writer = csv.writer (csvfile)
+            registros = [r.strip () for r in resposta.split (";") if r.strip ()]  # separa por ponto e vírgula
 
+            for registro in registros:
+                if "," in registro:
+                    nome, cnpj = [x.strip () for x in registro.split (",", 1)]  # separa nome e CNPJ
+                    writer.writerow ([filename, "Empresa", nome, cnpj])
+                else:
+                    # Caso o modelo não retorne nome e CNPJ corretamente
+                    writer.writerow ([filename, "Empresa", registro, ""])
+
+     # 6. Perguntas sobre as pessoas
+    questions_pessoas = {
+    "qual nome e o número de CPF de cada pessoa do texto? Responda sem inserir informações redundantes, seja específico e coloque apenas o nome encontrado separado por vírgula do CPF, para casos de mais de um nome, separe por ponto e vírgula"
+    }
+
+    for q in questions_pessoas:
+        print (f"\nPergunta: {q}")
+        result = qa_chain ({"query": q})
+        resposta = result["result"]
+        fontes = " || ".join ([doc.page_content.replace ("\n", " ") for doc in result["source_documents"]])
+
+        print ("RESPOSTA:", resposta)
+        # print("Fontes:", fontes)
+
+        # Gravar cada nome de pessoa e CPF separadamente no CSV
+        with open (output_csv, mode="a", newline="", encoding="utf-8") as csvfile:
+            writer = csv.writer (csvfile)
+            registros = [r.strip () for r in resposta.split (";") if r.strip ()]  # separa por ponto e vírgula
+
+            for registro in registros:
+                if "," in registro:
+                    nome, cpf = [x.strip () for x in registro.split (",", 1)]  # separa nome e CNPJ
+                    writer.writerow ([filename, "Pessoa", nome, cpf])
+                else:
+                    # Caso o modelo não retorne nome e CNPJ corretamente
+                    writer.writerow ([filename, "Pessoa", registro, ""])
 
     #  Limpar o vector store após o uso
-    vector_store.delete_collection ()
-    del vector_store
-    gc.collect ()  # força limpeza de memória
-    delete_vector_store ("embeddings/chroma-openai/")
-
+    # 5. Liberar memória e apagar vetor store (em memória ou persistido)
+    delete_vector_store(vector_store)
 
 print(" Execução finalizada ")
 

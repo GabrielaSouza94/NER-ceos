@@ -1,13 +1,13 @@
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 
-def create_embeddings(chunks, persist_directory='embeddings/chroma-openai/'):
+def create_embeddings(chunks):
     embedding_model = OpenAIEmbeddings()
     vector_store = Chroma.from_texts(
         chunks,
         embedding_model,
-        persist_directory=persist_directory
+        collection_name="temp_collection"
+        # sem persist_directory = uso em memória
     )
-    #vector_store.persist()
-    print(" Embeddings salvos com sucesso.")
+    print("Embeddings criados em memória com sucesso.")
     return vector_store
