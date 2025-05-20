@@ -19,3 +19,10 @@ def delete_vector_store(vector_store=None, persist_path=None):
     except Exception as e:
         print (f"[✖] Erro ao limpar vector store: {e}")
         return False
+
+def sanitize_text(text):
+    """Remove ou substitui caracteres especiais que podem causar problemas no CSV"""
+    # Substitui vírgulas por espaço seguido de hífen para preservar legibilidade
+    sanitized = text.replace(",", " -")
+    # Pode adicionar mais substituições conforme necessidade
+    return sanitized
