@@ -3,7 +3,7 @@ from pypdf import PdfReader
 from langchain_community.document_loaders import TextLoader
 from langchain_community.document_loaders import DirectoryLoader
 
-def load_single_document(file_path,max_pages=4):
+def load_single_document(file_path,max_pages=8):
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Arquivo não encontrado: {file_path}")
 

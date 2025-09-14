@@ -1,6 +1,6 @@
 import sys
 import os
-from validator2 import validar_entidades_simples
+from validador_estat import validar_entidades_simples
 
 
 def main():

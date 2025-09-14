@@ -6,8 +6,7 @@ from src.embedder import create_embeddings
 from src.rag_chain import run_qa_chain
 from src.utils import delete_vector_store
 from src.utils import sanitize_text
-from src.validator import avaliar_extracao
-from validator2 import validar_entidades_simples
+from src.validador_estat import validar_entidades_simples
 import gc
 import csv
 import sys
@@ -132,14 +131,10 @@ for filename in os.listdir(input_folder):
     delete_vector_store(vector_store)
 
 
-print (f"\n === VALIDADOR DE ESTATÍSTICAS 1 ===")
 arquivo_gold = "../out_files/gold_teste.csv"
 arquivo_respostas = "../out_files/respostas_llm.csv"
 
-stats = avaliar_extracao(arquivo_gold, arquivo_respostas)
-print (stats)
-
-print (f"\n === VALIDADOR DE ESTATÍSTICAS 2 ===")
+print (f"\n === VALIDADOR DE ESTATÍSTICAS ===")
 # Opcionalmente, definir um arquivo de saída para os resultados
 arquivo_saida = "../out_files/resultados_validacao.txt"
 
