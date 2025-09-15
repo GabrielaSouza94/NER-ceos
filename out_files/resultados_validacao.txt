@@ -1,21 +1,21 @@
 ====== ESTATÍSTICAS DE VALIDAÇÃO ======
 Total de entidades a validar: 35
-Entidades encontradas: 33 (94.29%)
-   - Via nome+identificador: 32
-   - Via nome+auxiliar: 1
-Entidades não encontradas: 2
+Entidades encontradas: 25 (71.43%)
+   - Via nome+identificador: 25
+   - Via nome+auxiliar: 0
+Entidades não encontradas: 10
 
 ====== ESTATÍSTICAS POR TIPO DE ENTIDADE ======
 Tipo: EMPRESA
   Total: 12
-  Encontradas: 12 (100.00%)
-    - Via nome+identificador: 12
+  Encontradas: 11 (91.67%)
+    - Via nome+identificador: 11
     - Via nome+auxiliar: 0
 Tipo: PESSOA
   Total: 23
-  Encontradas: 21 (91.30%)
-    - Via nome+identificador: 20
-    - Via nome+auxiliar: 1
+  Encontradas: 14 (60.87%)
+    - Via nome+identificador: 14
+    - Via nome+auxiliar: 0
 
 ====== ESTATÍSTICAS POR ARQUIVO ======
 Arquivo: 3281780
@@ -27,10 +27,10 @@ Arquivo: 3281780
     - CNPJs identificados: 1
 Arquivo: 3994396
   Total de entidades: 3
-  Entidades encontradas: 3 (100.00%)
-    - Pessoas identificadas: 2
+  Entidades encontradas: 1 (33.33%)
+    - Pessoas identificadas: 0
     - Empresas identificadas: 1
-    - CPFs identificados: 2
+    - CPFs identificados: 0
     - CNPJs identificados: 1
 Arquivo: 4839900
   Total de entidades: 4
@@ -41,10 +41,10 @@ Arquivo: 4839900
     - CNPJs identificados: 1
 Arquivo: 5280820
   Total de entidades: 2
-  Entidades encontradas: 2 (100.00%)
-    - Pessoas identificadas: 1
+  Entidades encontradas: 1 (50.00%)
+    - Pessoas identificadas: 0
     - Empresas identificadas: 1
-    - CPFs identificados: 1
+    - CPFs identificados: 0
     - CNPJs identificados: 1
 Arquivo: 5324061
   Total de entidades: 2
@@ -62,31 +62,31 @@ Arquivo: 5848632
     - CNPJs identificados: 1
 Arquivo: 9334302
   Total de entidades: 4
-  Entidades encontradas: 4 (100.00%)
+  Entidades encontradas: 3 (75.00%)
     - Pessoas identificadas: 2
-    - Empresas identificadas: 2
+    - Empresas identificadas: 1
     - CPFs identificados: 2
-    - CNPJs identificados: 2
+    - CNPJs identificados: 1
 Arquivo: 9403835
   Total de entidades: 5
-  Entidades encontradas: 5 (100.00%)
-    - Pessoas identificadas: 3
+  Entidades encontradas: 4 (80.00%)
+    - Pessoas identificadas: 2
     - Empresas identificadas: 2
     - CPFs identificados: 2
     - CNPJs identificados: 2
 Arquivo: 9692237
   Total de entidades: 2
-  Entidades encontradas: 1 (50.00%)
-    - Pessoas identificadas: 0
+  Entidades encontradas: 2 (100.00%)
+    - Pessoas identificadas: 1
     - Empresas identificadas: 1
-    - CPFs identificados: 0
+    - CPFs identificados: 1
     - CNPJs identificados: 1
 Arquivo: 9949818
   Total de entidades: 8
-  Entidades encontradas: 7 (87.50%)
-    - Pessoas identificadas: 6
+  Entidades encontradas: 3 (37.50%)
+    - Pessoas identificadas: 2
     - Empresas identificadas: 1
-    - CPFs identificados: 6
+    - CPFs identificados: 2
     - CNPJs identificados: 1
 
 ====== ENTIDADES NÃO ENCONTRADAS ======

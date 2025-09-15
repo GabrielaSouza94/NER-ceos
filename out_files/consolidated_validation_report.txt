@@ -1,0 +1,118 @@
+================================================================================
+CONSOLIDATED VALIDATION REPORT
+================================================================================
+Generated on: 2025-09-15 11:04:14
+
+SYSTEM CONFIGURATION PARAMETERS:
+----------------------------------------
+MODEL: gpt-3.5-turbo
+EMBEDDING_MODEL: text-embedding-ada-002
+CHUNK_SIZE: 800
+CHUNK_OVERLAP: 300
+SEPARATORS: [';']
+K (Retrieved Documents): 10
+TEMPERATURE: 0
+NUM_PREDICT: none
+
+RESULTADOS VALIDAÇÃO (validar_entidades_simples):
+----------------------------------------
+Total_entidades: 35
+Entidades_encontradas: 27 (77.14%)
+   - Via nome+id: 27
+   - Via nome+aux: 0
+Não_encontradas: 8
+
+ESTATÍSTICAS POR TIPO DE ENTIDADE:
+  EMPRESA:
+    Total: 12
+    Encontradas: 11 (91.67%)
+    Via nome+id: 11
+    Via nome+aux: 0
+  PESSOA:
+    Total: 23
+    Encontradas: 16 (69.57%)
+    Via nome+id: 16
+    Via nome+aux: 0
+
+STATISTICS BY FILE:
+  3281780:
+    Total entidades: 3
+    Entidades encontradas: 3 (100.00%)
+    Pessoas: 2
+    Empresas: 1
+    CPFs: 2
+    CNPJs: 1
+  3994396:
+    Total entidades: 3
+    Entidades encontradas: 1 (33.33%)
+    Pessoas: 0
+    Empresas: 1
+    CPFs: 0
+    CNPJs: 1
+    WARNING: Nenhuma pessoa identificada no arquivo 3994396
+  4839900:
+    Total entidades: 4
+    Entidades encontradas: 4 (100.00%)
+    Pessoas: 3
+    Empresas: 1
+    CPFs: 3
+    CNPJs: 1
+  5280820:
+    Total entidades: 2
+    Entidades encontradas: 1 (50.00%)
+    Pessoas: 0
+    Empresas: 1
+    CPFs: 0
+    CNPJs: 1
+    WARNING: Nenhuma pessoa identificada no arquivo 5280820
+  5324061:
+    Total entidades: 2
+    Entidades encontradas: 2 (100.00%)
+    Pessoas: 1
+    Empresas: 1
+    CPFs: 1
+    CNPJs: 1
+  5848632:
+    Total entidades: 2
+    Entidades encontradas: 2 (100.00%)
+    Pessoas: 1
+    Empresas: 1
+    CPFs: 1
+    CNPJs: 1
+  9334302:
+    Total entidades: 4
+    Entidades encontradas: 3 (75.00%)
+    Pessoas: 2
+    Empresas: 1
+    CPFs: 2
+    CNPJs: 1
+  9403835:
+    Total entidades: 5
+    Entidades encontradas: 4 (80.00%)
+    Pessoas: 2
+    Empresas: 2
+    CPFs: 2
+    CNPJs: 2
+  9692237:
+    Total entidades: 2
+    Entidades encontradas: 2 (100.00%)
+    Pessoas: 1
+    Empresas: 1
+    CPFs: 1
+    CNPJs: 1
+  9949818:
+    Total entidades: 8
+    Entidades encontradas: 5 (62.50%)
+    Pessoas: 4
+    Empresas: 1
+    CPFs: 4
+    CNPJs: 1
+
+RESUMO MÉTRICASS:
+Acurácia geral: 77.14%
+Arquivos com máxima acurácia: 5/10
+Medida de acurácia por arquivo: 80.08%
+
+================================================================================
+FINALIZADO
+================================================================================
