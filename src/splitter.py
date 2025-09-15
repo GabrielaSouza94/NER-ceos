@@ -5,7 +5,8 @@ def split_text(text):
         chunk_size=800,
         chunk_overlap=300,
         add_start_index=True,
-        separators=["\n\n", "\n", ". ", " ", ""],
+       # separators=["\n\n", "\n", ". ", " ", ""], commentei para testar melhora acima de 57.14 %
+        separators=[";"],
     )
     chunks = splitter.split_text(text)
     print(f" Total de chunks: {len(chunks)}")
