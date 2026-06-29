@@ -1,0 +1,9 @@
+# Generated outputs and reports
+output/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

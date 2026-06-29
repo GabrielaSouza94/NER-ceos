@@ -1,0 +1,405 @@
+﻿arquivo,tipo_entidade,nome,identificador,aux
+doc_grupo1_001.txt,Empresa,Cavalcanti & Souza Agronegócios Serviços Logísticos,36.562.756/0001-83,
+doc_grupo1_001.txt,Pessoa,Camila Gomes Nascimento,312.996.451-82,
+doc_grupo1_001.txt,Pessoa,Juliana Costa Cardoso,,9.327.115-7
+doc_grupo1_002.txt,Empresa,Moreira & Carvalho Transportes Holding Executiva,37.285.737/0001-53,
+doc_grupo1_002.txt,Pessoa,Ana Dias Pinto,676.753.349-30,
+doc_grupo1_002.txt,Pessoa,Aline Carvalho Almeida,,2.922.924-9
+doc_grupo1_002.txt,Pessoa,Letícia Marques Silva,,7.629.102-2
+doc_grupo1_002.txt,Pessoa,Rodrigo Teixeira Souza,276.333.610-36,
+doc_grupo1_003.txt,Empresa,Cardoso & Araújo Tecnologia Comércio e Indústria,85.868.113/0001-71,
+doc_grupo1_003.txt,Pessoa,João Silva Cunha,556.363.468-37,
+doc_grupo1_003.txt,Pessoa,Fernanda Rocha Ferreira,156.497.400-24,
+doc_grupo1_003.txt,Pessoa,Larissa Carvalho Gomes,,1.950.120-0
+doc_grupo1_004.txt,Empresa,Araújo & Souza Alimentos Serviços Logísticos,85.715.747/0001-20,
+doc_grupo1_004.txt,Pessoa,Patricia Cardoso Santos,,5.594.533-9
+doc_grupo1_004.txt,Pessoa,Ana Martins Teixeira,550.641.178-47,
+doc_grupo1_004.txt,Pessoa,Luiz Dias Rocha,862.960.626-95,
+doc_grupo1_004.txt,Pessoa,Amanda Cunha Gomes,,8.896.567-4
+doc_grupo1_005.txt,Empresa,Cunha & Marques Transportes Participações S.A.,36.612.898/0001-77,
+doc_grupo1_005.txt,Pessoa,Lucas Melo Cavalcanti,892.851.411-65,
+doc_grupo1_005.txt,Pessoa,Amanda Nascimento Martins,,4.459.864-0
+doc_grupo1_005.txt,Pessoa,Pedro Mendes Gomes,,1.310.281-2
+doc_grupo1_006.txt,Empresa,Lima & Santos Alimentos Serviços Logísticos,76.176.977/0001-24,
+doc_grupo1_006.txt,Pessoa,Luiz Souza Souza,,2.908.228-7
+doc_grupo1_006.txt,Pessoa,Juliana Nascimento Marques,373.304.399-17,
+doc_grupo1_006.txt,Pessoa,Larissa Pereira Dias,,3.553.280-3
+doc_grupo1_007.txt,Empresa,Cavalcanti & Melo Alimentos LTDA,18.774.761/0001-60,
+doc_grupo1_007.txt,Pessoa,Roberto Almeida Silva,,2.200.712-4
+doc_grupo1_007.txt,Pessoa,Letícia Rocha Ferreira,896.331.484-34,
+doc_grupo1_008.txt,Empresa,Silva & Rodrigues Construções Comércio e Indústria,14.543.916/0001-27,
+doc_grupo1_008.txt,Pessoa,Letícia Ribeiro Rocha,,1.565.298-2
+doc_grupo1_008.txt,Pessoa,Diego Cunha Moreira,,6.275.373-4
+doc_grupo1_008.txt,Pessoa,Roberto Melo Gomes,188.625.654-87,
+doc_grupo1_008.txt,Pessoa,Lucas Melo Rodrigues,,3.408.148-4
+doc_grupo1_009.txt,Empresa,Souza & Pinto Saúde Participações S.A.,57.208.621/0001-61,
+doc_grupo1_009.txt,Pessoa,Mariana Marques Araújo,,6.337.889-9
+doc_grupo1_009.txt,Pessoa,Mariana Teixeira Teixeira,,6.915.237-6
+doc_grupo1_009.txt,Pessoa,Roberto Pinto Pinto,111.181.408-70,
+doc_grupo1_010.txt,Empresa,Moreira & Martins Investimentos S/A,26.621.239/0001-64,
+doc_grupo1_010.txt,Pessoa,Sofia Dias Carvalho,458.663.757-42,
+doc_grupo1_010.txt,Pessoa,João Costa Ribeiro,136.609.801-17,
+doc_grupo1_010.txt,Pessoa,Rodrigo Lima Cunha,,7.290.489-1
+doc_grupo1_011.txt,Empresa,Teixeira & Souza Têxtil Holding Executiva,41.196.282/0001-77,
+doc_grupo1_011.txt,Pessoa,Carlos Rodrigues Dias,,6.633.334-0
+doc_grupo1_011.txt,Pessoa,Roberto Lima Rocha,,3.935.758-5
+doc_grupo1_012.txt,Empresa,Cardoso & Almeida Investimentos Consultoria Empresarial,12.758.498/0001-76,
+doc_grupo1_012.txt,Pessoa,Amanda Ribeiro Pinto,525.925.228-39,
+doc_grupo1_012.txt,Pessoa,Camila Rodrigues Silva,,2.685.983-6
+doc_grupo1_012.txt,Pessoa,Aline Santos Dias,215.268.856-17,
+doc_grupo1_012.txt,Pessoa,Gabriel Nascimento Barbosa,211.740.855-39,
+doc_grupo1_013.txt,Empresa,Teixeira & Moreira Construções S/A,98.494.477/0001-40,
+doc_grupo1_013.txt,Pessoa,Sofia Moreira Melo,997.617.885-56,
+doc_grupo1_013.txt,Pessoa,Patricia Silva Barbosa,465.920.155-94,
+doc_grupo1_013.txt,Pessoa,Ricardo Carvalho Melo,,9.387.184-9
+doc_grupo1_014.txt,Empresa,Moreira & Cardoso Agronegócios Consultoria Empresarial,77.293.530/0001-52,
+doc_grupo1_014.txt,Pessoa,Carlos Barbosa Nascimento,,5.373.685-9
+doc_grupo1_014.txt,Pessoa,Diego Nascimento Rodrigues,307.319.528-96,
+doc_grupo1_014.txt,Pessoa,Patricia Moreira Carvalho,215.841.515-76,
+doc_grupo1_015.txt,Empresa,Araújo & Rocha Têxtil Empreendimentos Imobiliários,68.852.780/0001-18,
+doc_grupo1_015.txt,Pessoa,Mariana Cavalcanti Mendes,,4.150.217-1
+doc_grupo1_015.txt,Pessoa,Rodrigo Ferreira Pereira,638.179.878-75,
+doc_grupo1_015.txt,Pessoa,Letícia Mendes Rocha,986.577.241-48,
+doc_grupo1_015.txt,Pessoa,Carlos Mendes Oliveira,512.363.222-75,
+doc_grupo1_016.txt,Empresa,Ribeiro & Moreira Agronegócios Participações S.A.,11.410.891/0001-39,
+doc_grupo1_016.txt,Pessoa,Letícia Marques Mendes,,6.718.444-3
+doc_grupo1_016.txt,Pessoa,Maria Souza Silva,435.252.851-91,
+doc_grupo1_017.txt,Empresa,Cunha & Almeida Transportes Comércio e Indústria,12.815.642/0001-29,
+doc_grupo1_017.txt,Pessoa,Roberto Souza Silva,,6.724.784-3
+doc_grupo1_017.txt,Pessoa,Amanda Teixeira Pinto,973.216.504-52,
+doc_grupo1_017.txt,Pessoa,Beatriz Melo Melo,702.475.427-59,
+doc_grupo1_018.txt,Empresa,Gomes & Santos Transportes LTDA,94.530.477/0001-53,
+doc_grupo1_018.txt,Pessoa,Lucas Martins Dias,550.905.807-67,
+doc_grupo1_018.txt,Pessoa,Felipe Mendes Pinto,932.408.263-12,
+doc_grupo1_019.txt,Empresa,Costa & Pereira Investimentos S/A,22.295.714/0001-31,
+doc_grupo1_019.txt,Pessoa,Pedro Nascimento Nascimento,679.867.798-18,
+doc_grupo1_019.txt,Pessoa,Fernanda Nascimento Souza,402.158.586-73,
+doc_grupo1_020.txt,Empresa,Santos & Cavalcanti Construções Comércio e Indústria,37.852.826/0001-21,
+doc_grupo1_020.txt,Pessoa,Fernanda Dias Moreira,366.730.693-73,
+doc_grupo1_020.txt,Pessoa,Letícia Souza Barbosa,,8.987.891-8
+doc_grupo1_020.txt,Pessoa,Amanda Barbosa Rodrigues,806.605.449-78,
+doc_grupo1_020.txt,Pessoa,Luiz Pinto Carvalho,,6.182.599-1
+doc_grupo1_021.txt,Empresa,Carvalho & Santos Infraestrutura S/A,26.347.737/0001-85,
+doc_grupo1_021.txt,Pessoa,Letícia Almeida Martins,,8.838.117-8
+doc_grupo1_021.txt,Pessoa,Bruno Oliveira Silva,,5.603.667-3
+doc_grupo1_022.txt,Empresa,Barbosa & Pereira Construções Serviços Logísticos,59.186.720/0001-66,
+doc_grupo1_022.txt,Pessoa,Juliana Cardoso Marques,,3.402.360-8
+doc_grupo1_022.txt,Pessoa,Pedro Martins Rodrigues,519.163.485-14,
+doc_grupo1_022.txt,Pessoa,Bruno Costa Araújo,,5.128.998-1
+doc_grupo1_022.txt,Pessoa,Patricia Teixeira Dias,280.441.822-79,
+doc_grupo1_023.txt,Empresa,Mendes & Carvalho Desenvolvimento de Software Consultoria Empresarial,57.869.649/0001-85,
+doc_grupo1_023.txt,Pessoa,Pedro Ferreira Ribeiro,,6.158.630-1
+doc_grupo1_023.txt,Pessoa,Juliana Nascimento Teixeira,837.617.994-78,
+doc_grupo1_023.txt,Pessoa,Fernanda Santos Mendes,,6.527.237-4
+doc_grupo1_024.txt,Empresa,Pereira & Pinto Agronegócios Consultoria Empresarial,35.585.768/0001-47,
+doc_grupo1_024.txt,Pessoa,Maria Araújo Souza,788.970.798-30,
+doc_grupo1_024.txt,Pessoa,Gabriel Carvalho Marques,,5.261.560-0
+doc_grupo1_024.txt,Pessoa,Luiz Martins Pinto,,8.436.297-9
+doc_grupo1_024.txt,Pessoa,Patricia Moreira Ferreira,679.292.955-66,
+doc_grupo1_025.txt,Empresa,Pinto & Marques Saúde Comércio e Indústria,99.980.916/0001-15,
+doc_grupo1_025.txt,Pessoa,Ricardo Dias Teixeira,211.553.559-96,
+doc_grupo1_025.txt,Pessoa,Gustavo Rodrigues Rodrigues,,2.469.411-2
+doc_grupo1_026.txt,Empresa,Souza & Silva Tecnologia S/A,31.850.791/0001-92,
+doc_grupo1_026.txt,Pessoa,Patricia Pereira Barbosa,975.380.774-38,
+doc_grupo1_026.txt,Pessoa,Diego Pinto Lima,358.688.168-29,
+doc_grupo1_027.txt,Empresa,Lima & Silva Investimentos LTDA,54.334.305/0001-65,
+doc_grupo1_027.txt,Pessoa,Diego Moreira Dias,,4.399.813-9
+doc_grupo1_027.txt,Pessoa,Lucas Santos Araújo,764.788.766-11,
+doc_grupo1_028.txt,Empresa,Rodrigues & Rodrigues Transportes Holding Executiva,83.361.237/0001-33,
+doc_grupo1_028.txt,Pessoa,Letícia Teixeira Marques,330.408.847-52,
+doc_grupo1_028.txt,Pessoa,Fernanda Silva Marques,,3.247.439-0
+doc_grupo1_028.txt,Pessoa,Larissa Nascimento Rocha,,5.716.651-6
+doc_grupo1_028.txt,Pessoa,Camila Costa Barbosa,,8.910.998-9
+doc_grupo1_029.txt,Empresa,Martins & Oliveira Construções Participações S.A.,12.207.994/0001-93,
+doc_grupo1_029.txt,Pessoa,Ricardo Cardoso Almeida,826.335.499-90,
+doc_grupo1_029.txt,Pessoa,Rodrigo Barbosa Martins,,6.969.563-4
+doc_grupo1_029.txt,Pessoa,Rodrigo Dias Dias,404.647.347-11,
+doc_grupo1_030.txt,Empresa,Cunha & Araújo Infraestrutura S/A,92.786.877/0001-15,
+doc_grupo1_030.txt,Pessoa,Mariana Santos Lima,,2.914.766-9
+doc_grupo1_030.txt,Pessoa,Lucas Mendes Santos,347.755.719-98,
+doc_grupo1_031.txt,Empresa,Ribeiro & Ribeiro Saúde S/A,21.245.377/0001-79,
+doc_grupo1_031.txt,Pessoa,Beatriz Santos Gomes,581.915.532-82,
+doc_grupo1_031.txt,Pessoa,Carlos Santos Ferreira,948.363.529-88,
+doc_grupo1_032.txt,Empresa,Dias & Dias Construções Empreendimentos Imobiliários,40.589.727/0001-46,
+doc_grupo1_032.txt,Pessoa,Beatriz Cardoso Dias,,5.667.362-1
+doc_grupo1_032.txt,Pessoa,Diego Souza Moreira,,7.835.720-9
+doc_grupo1_032.txt,Pessoa,Beatriz Melo Costa,,9.857.503-6
+doc_grupo1_032.txt,Pessoa,Patricia Ribeiro Dias,316.935.639-58,
+doc_grupo1_033.txt,Empresa,Gomes & Pereira Agronegócios Consultoria Empresarial,79.211.124/0001-16,
+doc_grupo1_033.txt,Pessoa,Ricardo Lima Ferreira,691.764.145-26,
+doc_grupo1_033.txt,Pessoa,Luiz Almeida Rocha,,8.290.500-2
+doc_grupo1_033.txt,Pessoa,Patricia Silva Cavalcanti,,5.584.530-9
+doc_grupo1_034.txt,Empresa,Cavalcanti & Costa Investimentos LTDA,15.482.221/0001-10,
+doc_grupo1_034.txt,Pessoa,Juliana Oliveira Oliveira,617.141.702-79,
+doc_grupo1_034.txt,Pessoa,Sofia Marques Marques,575.815.750-91,
+doc_grupo1_035.txt,Empresa,Cavalcanti & Santos Saúde Holding Executiva,79.510.822/0001-27,
+doc_grupo1_035.txt,Pessoa,Juliana Cunha Nascimento,929.201.847-10,
+doc_grupo1_035.txt,Pessoa,Lucas Araújo Cavalcanti,104.134.595-31,
+doc_grupo1_035.txt,Pessoa,Pedro Ferreira Costa,,1.773.896-9
+doc_grupo1_035.txt,Pessoa,Bruno Nascimento Araújo,219.862.424-61,
+doc_grupo1_036.txt,Empresa,Rodrigues & Martins Saúde Consultoria Empresarial,67.938.327/0001-62,
+doc_grupo1_036.txt,Pessoa,Rodrigo Cavalcanti Ferreira,981.247.108-40,
+doc_grupo1_036.txt,Pessoa,Fernanda Nascimento Pereira,,9.725.554-8
+doc_grupo1_037.txt,Empresa,Cardoso & Martins Investimentos Participações S.A.,55.589.229/0001-80,
+doc_grupo1_037.txt,Pessoa,Gustavo Nascimento Moreira,335.214.607-68,
+doc_grupo1_037.txt,Pessoa,Ricardo Santos Pereira,331.962.713-25,
+doc_grupo1_037.txt,Pessoa,Aline Oliveira Ferreira,,4.985.550-7
+doc_grupo1_037.txt,Pessoa,Juliana Rocha Araújo,622.371.610-17,
+doc_grupo1_038.txt,Empresa,Pereira & Cunha Agronegócios S/A,84.234.584/0001-25,
+doc_grupo1_038.txt,Pessoa,Larissa Cavalcanti Pereira,989.878.807-96,
+doc_grupo1_038.txt,Pessoa,Carlos Cardoso Ferreira,,8.832.174-0
+doc_grupo1_038.txt,Pessoa,Mariana Almeida Pinto,,8.257.262-4
+doc_grupo1_038.txt,Pessoa,Diego Teixeira Marques,818.795.938-65,
+doc_grupo1_039.txt,Empresa,Melo & Barbosa Alimentos Comércio e Indústria,53.705.325/0001-12,
+doc_grupo1_039.txt,Pessoa,Camila Martins Mendes,384.591.132-55,
+doc_grupo1_039.txt,Pessoa,Ana Almeida Marques,312.224.521-93,
+doc_grupo1_039.txt,Pessoa,João Moreira Lima,,2.711.686-8
+doc_grupo1_039.txt,Pessoa,João Ferreira Melo,425.192.397-14,
+doc_grupo1_040.txt,Empresa,Nascimento & Carvalho Energia Holding Executiva,51.703.913/0001-85,
+doc_grupo1_040.txt,Pessoa,Aline Pereira Pereira,869.639.635-38,
+doc_grupo1_040.txt,Pessoa,Juliana Rocha Ribeiro,,6.617.817-4
+doc_grupo1_041.txt,Empresa,Almeida & Ferreira Construções Participações S.A.,39.446.606/0001-73,
+doc_grupo1_041.txt,Pessoa,Gustavo Gomes Mendes,,6.174.319-9
+doc_grupo1_041.txt,Pessoa,Felipe Ribeiro Dias,,7.276.806-7
+doc_grupo1_042.txt,Empresa,Pereira & Pereira Alimentos Participações S.A.,14.152.839/0001-40,
+doc_grupo1_042.txt,Pessoa,Mariana Rocha Cavalcanti,,1.231.396-5
+doc_grupo1_042.txt,Pessoa,Gabriel Rodrigues Pinto,406.803.521-32,
+doc_grupo1_042.txt,Pessoa,Fernanda Ferreira Mendes,,1.335.670-9
+doc_grupo1_042.txt,Pessoa,Letícia Ferreira Teixeira,,6.521.214-4
+doc_grupo1_043.txt,Empresa,Cavalcanti & Costa Tecnologia Comércio e Indústria,24.108.481/0001-96,
+doc_grupo1_043.txt,Pessoa,Ana Pinto Mendes,442.973.101-74,
+doc_grupo1_043.txt,Pessoa,Felipe Ferreira Souza,298.354.168-25,
+doc_grupo1_043.txt,Pessoa,Diego Melo Carvalho,398.248.316-58,
+doc_grupo1_043.txt,Pessoa,Larissa Melo Oliveira,,4.561.139-5
+doc_grupo1_044.txt,Empresa,Barbosa & Barbosa Energia S/A,54.503.112/0001-87,
+doc_grupo1_044.txt,Pessoa,Roberto Rocha Dias,905.850.903-17,
+doc_grupo1_044.txt,Pessoa,Gabriel Silva Rodrigues,,2.278.782-1
+doc_grupo1_045.txt,Empresa,Rocha & Souza Agronegócios Consultoria Empresarial,97.205.143/0001-44,
+doc_grupo1_045.txt,Pessoa,Rodrigo Costa Carvalho,798.778.873-65,
+doc_grupo1_045.txt,Pessoa,Gabriel Cunha Cunha,,6.237.381-0
+doc_grupo1_045.txt,Pessoa,Gabriel Marques Souza,417.363.521-48,
+doc_grupo1_045.txt,Pessoa,Fernanda Cavalcanti Ribeiro,,4.169.422-9
+doc_grupo1_046.txt,Empresa,Ribeiro & Cardoso Investimentos LTDA,88.907.791/0001-84,
+doc_grupo1_046.txt,Pessoa,Felipe Silva Lima,704.327.805-98,
+doc_grupo1_046.txt,Pessoa,Gustavo Dias Pinto,,7.771.268-6
+doc_grupo1_047.txt,Empresa,Ribeiro & Costa Construções Holding Executiva,29.557.966/0001-26,
+doc_grupo1_047.txt,Pessoa,Pedro Teixeira Costa,536.154.718-27,
+doc_grupo1_047.txt,Pessoa,Ana Costa Barbosa,,8.200.247-5
+doc_grupo1_047.txt,Pessoa,Gabriel Cavalcanti Pinto,917.165.656-28,
+doc_grupo1_048.txt,Empresa,Melo & Cavalcanti Alimentos Holding Executiva,28.879.194/0001-47,
+doc_grupo1_048.txt,Pessoa,Luiz Melo Rocha,601.405.400-50,
+doc_grupo1_048.txt,Pessoa,Patricia Mendes Silva,431.122.109-89,
+doc_grupo1_049.txt,Empresa,Costa & Cardoso Construções Participações S.A.,68.231.453/0001-39,
+doc_grupo1_049.txt,Pessoa,Carlos Dias Araújo,,1.143.850-2
+doc_grupo1_049.txt,Pessoa,Gabriel Rocha Melo,954.603.909-25,
+doc_grupo1_049.txt,Pessoa,Roberto Souza Ferreira,567.214.504-28,
+doc_grupo1_050.txt,Empresa,Costa & Pinto Construções Comércio e Indústria,96.374.513/0001-39,
+doc_grupo1_050.txt,Pessoa,Larissa Teixeira Cardoso,,6.876.501-0
+doc_grupo1_050.txt,Pessoa,Ricardo Mendes Ferreira,,8.186.698-4
+doc_grupo1_051.txt,Empresa,Cunha & Nascimento Construções Participações S.A.,48.365.135/0001-31,
+doc_grupo1_051.txt,Pessoa,João Nascimento Melo,,5.468.164-2
+doc_grupo1_051.txt,Pessoa,Camila Silva Moreira,269.125.669-26,
+doc_grupo1_052.txt,Empresa,Carvalho & Moreira Saúde Participações S.A.,50.692.294/0001-69,
+doc_grupo1_052.txt,Pessoa,Bruno Martins Rodrigues,,3.344.524-7
+doc_grupo1_052.txt,Pessoa,Beatriz Teixeira Lima,,7.171.106-8
+doc_grupo1_052.txt,Pessoa,Ricardo Silva Dias,289.172.683-98,
+doc_grupo1_052.txt,Pessoa,Gustavo Ribeiro Nascimento,137.656.556-47,
+doc_grupo1_053.txt,Empresa,Araújo & Rodrigues Tecnologia S/A,14.115.138/0001-60,
+doc_grupo1_053.txt,Pessoa,João Teixeira Ribeiro,,6.963.838-1
+doc_grupo1_053.txt,Pessoa,Bruno Dias Ferreira,,2.252.128-3
+doc_grupo1_053.txt,Pessoa,Juliana Cunha Cavalcanti,685.251.696-42,
+doc_grupo1_053.txt,Pessoa,Gustavo Teixeira Oliveira,,9.720.882-6
+doc_grupo1_054.txt,Empresa,Cavalcanti & Barbosa Agronegócios Consultoria Empresarial,31.678.428/0001-32,
+doc_grupo1_054.txt,Pessoa,Camila Melo Almeida,547.697.753-89,
+doc_grupo1_054.txt,Pessoa,Aline Dias Melo,,1.742.409-4
+doc_grupo1_054.txt,Pessoa,Pedro Nascimento Silva,530.544.221-97,
+doc_grupo1_055.txt,Empresa,Ferreira & Pereira Energia Empreendimentos Imobiliários,81.131.712/0001-82,
+doc_grupo1_055.txt,Pessoa,Ana Ribeiro Souza,838.455.158-78,
+doc_grupo1_055.txt,Pessoa,Fernanda Melo Moreira,,8.132.663-0
+doc_grupo1_055.txt,Pessoa,Bruno Marques Souza,664.812.983-37,
+doc_grupo1_055.txt,Pessoa,Pedro Pinto Moreira,,6.675.344-2
+doc_grupo1_056.txt,Empresa,Ribeiro & Nascimento Tecnologia Comércio e Indústria,47.270.813/0001-29,
+doc_grupo1_056.txt,Pessoa,Pedro Rocha Cunha,891.604.852-80,
+doc_grupo1_056.txt,Pessoa,Diego Oliveira Martins,,8.584.335-3
+doc_grupo1_056.txt,Pessoa,Bruno Cunha Cunha,621.741.354-19,
+doc_grupo1_056.txt,Pessoa,Gabriel Oliveira Gomes,,9.128.787-2
+doc_grupo1_057.txt,Empresa,Moreira & Melo Energia LTDA,17.246.270/0001-70,
+doc_grupo1_057.txt,Pessoa,Beatriz Ribeiro Pinto,,3.248.218-7
+doc_grupo1_057.txt,Pessoa,Fernanda Araújo Melo,809.316.420-67,
+doc_grupo1_057.txt,Pessoa,Patricia Rodrigues Carvalho,140.128.429-34,
+doc_grupo1_057.txt,Pessoa,Beatriz Cunha Dias,443.481.363-57,
+doc_grupo1_058.txt,Empresa,Melo & Almeida Agronegócios S/A,85.545.247/0001-80,
+doc_grupo1_058.txt,Pessoa,Juliana Cavalcanti Pereira,,7.688.574-3
+doc_grupo1_058.txt,Pessoa,Sofia Barbosa Oliveira,407.651.784-38,
+doc_grupo1_059.txt,Empresa,Martins & Pinto Energia LTDA,73.421.998/0001-93,
+doc_grupo1_059.txt,Pessoa,Lucas Dias Carvalho,,6.217.575-4
+doc_grupo1_059.txt,Pessoa,João Santos Oliveira,,6.622.311-4
+doc_grupo1_059.txt,Pessoa,Felipe Costa Souza,313.369.245-75,
+doc_grupo1_060.txt,Empresa,Ribeiro & Santos Alimentos Comércio e Indústria,33.598.289/0001-81,
+doc_grupo1_060.txt,Pessoa,Luiz Oliveira Moreira,798.998.797-72,
+doc_grupo1_060.txt,Pessoa,Aline Ribeiro Ribeiro,323.159.505-80,
+doc_grupo1_061.txt,Empresa,Santos & Mendes Saúde S/A,46.559.682/0001-50,
+doc_grupo1_061.txt,Pessoa,Maria Dias Lima,,5.725.838-3
+doc_grupo1_061.txt,Pessoa,Beatriz Barbosa Marques,,2.990.417-1
+doc_grupo1_061.txt,Pessoa,Carlos Lima Rocha,824.217.805-86,
+doc_grupo1_061.txt,Pessoa,Roberto Martins Almeida,425.238.170-68,
+doc_grupo1_062.txt,Empresa,Souza & Pereira Saúde Consultoria Empresarial,86.102.581/0001-29,
+doc_grupo1_062.txt,Pessoa,Maria Gomes Costa,,2.983.219-5
+doc_grupo1_062.txt,Pessoa,Gustavo Costa Cunha,,1.727.976-3
+doc_grupo1_062.txt,Pessoa,Bruno Pinto Rodrigues,565.882.972-98,
+doc_grupo1_062.txt,Pessoa,Letícia Pinto Costa,,3.855.634-1
+doc_grupo1_063.txt,Empresa,Cardoso & Marques Energia Participações S.A.,10.511.630/0001-66,
+doc_grupo1_063.txt,Pessoa,Felipe Rodrigues Moreira,648.245.818-80,
+doc_grupo1_063.txt,Pessoa,Carlos Araújo Gomes,,4.906.650-6
+doc_grupo1_063.txt,Pessoa,Maria Marques Souza,327.944.763-84,
+doc_grupo1_063.txt,Pessoa,Fernanda Rodrigues Ferreira,,6.526.333-1
+doc_grupo1_064.txt,Empresa,Pereira & Ribeiro Infraestrutura Holding Executiva,63.638.147/0001-48,
+doc_grupo1_064.txt,Pessoa,Gabriel Mendes Mendes,,7.980.538-1
+doc_grupo1_064.txt,Pessoa,Bruno Almeida Costa,828.901.591-51,
+doc_grupo1_064.txt,Pessoa,Rodrigo Oliveira Dias,364.110.562-72,
+doc_grupo1_065.txt,Empresa,Oliveira & Melo Saúde Serviços Logísticos,20.923.143/0001-66,
+doc_grupo1_065.txt,Pessoa,João Dias Moreira,,7.259.759-3
+doc_grupo1_065.txt,Pessoa,Mariana Oliveira Costa,554.906.968-86,
+doc_grupo1_066.txt,Empresa,Araújo & Gomes Energia Consultoria Empresarial,95.424.344/0001-37,
+doc_grupo1_066.txt,Pessoa,Camila Dias Ferreira,,5.810.370-6
+doc_grupo1_066.txt,Pessoa,Felipe Moreira Almeida,,4.634.122-6
+doc_grupo1_066.txt,Pessoa,Pedro Almeida Rodrigues,955.341.184-45,
+doc_grupo1_067.txt,Empresa,Dias & Pinto Construções Consultoria Empresarial,31.609.872/0001-40,
+doc_grupo1_067.txt,Pessoa,Juliana Nascimento Pinto,,3.174.425-0
+doc_grupo1_067.txt,Pessoa,Gabriel Cardoso Cunha,,5.335.438-9
+doc_grupo1_067.txt,Pessoa,Ana Pereira Barbosa,,6.794.572-5
+doc_grupo1_067.txt,Pessoa,Amanda Costa Dias,353.821.529-60,
+doc_grupo1_068.txt,Empresa,Moreira & Dias Saúde Serviços Logísticos,80.134.449/0001-90,
+doc_grupo1_068.txt,Pessoa,Sofia Cavalcanti Martins,,5.676.122-1
+doc_grupo1_068.txt,Pessoa,Carlos Teixeira Pinto,710.970.622-73,
+doc_grupo1_068.txt,Pessoa,Beatriz Almeida Barbosa,,4.416.843-5
+doc_grupo1_069.txt,Empresa,Melo & Carvalho Saúde Participações S.A.,53.693.895/0001-56,
+doc_grupo1_069.txt,Pessoa,Letícia Ribeiro Silva,,4.682.760-2
+doc_grupo1_069.txt,Pessoa,Bruno Costa Pinto,157.477.430-90,
+doc_grupo1_069.txt,Pessoa,Felipe Marques Gomes,965.158.489-92,
+doc_grupo1_069.txt,Pessoa,Gustavo Souza Rocha,,2.563.611-4
+doc_grupo1_070.txt,Empresa,Moreira & Gomes Tecnologia Comércio e Indústria,21.230.890/0001-92,
+doc_grupo1_070.txt,Pessoa,Ana Oliveira Martins,953.610.585-30,
+doc_grupo1_070.txt,Pessoa,Pedro Almeida Martins,145.769.249-36,
+doc_grupo1_070.txt,Pessoa,Ricardo Teixeira Costa,,8.358.360-3
+doc_grupo1_070.txt,Pessoa,Rodrigo Rodrigues Gomes,,8.944.777-6
+doc_grupo1_071.txt,Empresa,Gomes & Marques Têxtil Consultoria Empresarial,33.301.800/0001-33,
+doc_grupo1_071.txt,Pessoa,Fernanda Barbosa Cavalcanti,,2.694.633-9
+doc_grupo1_071.txt,Pessoa,Lucas Martins Nascimento,,2.465.960-2
+doc_grupo1_072.txt,Empresa,Teixeira & Gomes Alimentos Serviços Logísticos,56.632.913/0001-64,
+doc_grupo1_072.txt,Pessoa,Roberto Ribeiro Teixeira,,3.521.646-9
+doc_grupo1_072.txt,Pessoa,Gustavo Melo Rodrigues,348.151.801-85,
+doc_grupo1_073.txt,Empresa,Cavalcanti & Cardoso Infraestrutura Empreendimentos Imobiliários,91.995.467/0001-57,
+doc_grupo1_073.txt,Pessoa,Luiz Cunha Carvalho,359.376.246-45,
+doc_grupo1_073.txt,Pessoa,Sofia Martins Pinto,518.845.107-55,
+doc_grupo1_073.txt,Pessoa,Lucas Melo Araújo,571.603.115-62,
+doc_grupo1_073.txt,Pessoa,Beatriz Santos Martins,,3.523.501-7
+doc_grupo1_074.txt,Empresa,Silva & Cavalcanti Construções Participações S.A.,51.408.987/0001-89,
+doc_grupo1_074.txt,Pessoa,Larissa Nascimento Ribeiro,,1.410.727-0
+doc_grupo1_074.txt,Pessoa,Felipe Martins Silva,,4.972.957-1
+doc_grupo1_075.txt,Empresa,Rodrigues & Oliveira Construções LTDA,86.536.577/0001-15,
+doc_grupo1_075.txt,Pessoa,Camila Marques Melo,124.782.336-17,
+doc_grupo1_075.txt,Pessoa,Aline Melo Ribeiro,479.206.843-59,
+doc_grupo1_075.txt,Pessoa,Camila Santos Cavalcanti,878.253.142-18,
+doc_grupo1_076.txt,Empresa,Cavalcanti & Gomes Construções Holding Executiva,31.470.725/0001-42,
+doc_grupo1_076.txt,Pessoa,Carlos Cavalcanti Almeida,,7.769.306-7
+doc_grupo1_076.txt,Pessoa,Gabriel Costa Pereira,278.703.446-49,
+doc_grupo1_077.txt,Empresa,Silva & Ribeiro Transportes Participações S.A.,20.557.364/0001-46,
+doc_grupo1_077.txt,Pessoa,Camila Dias Cavalcanti,,3.483.231-9
+doc_grupo1_077.txt,Pessoa,Luiz Dias Rocha,242.917.553-11,
+doc_grupo1_077.txt,Pessoa,Luiz Marques Nascimento,690.197.456-10,
+doc_grupo1_078.txt,Empresa,Santos & Ferreira Transportes S/A,92.671.190/0001-33,
+doc_grupo1_078.txt,Pessoa,Luiz Silva Dias,619.240.264-67,
+doc_grupo1_078.txt,Pessoa,Gabriel Ferreira Rodrigues,,8.295.180-3
+doc_grupo1_079.txt,Empresa,Barbosa & Almeida Desenvolvimento de Software LTDA,75.826.438/0001-28,
+doc_grupo1_079.txt,Pessoa,Felipe Silva Cavalcanti,,7.820.645-4
+doc_grupo1_079.txt,Pessoa,Lucas Nascimento Pereira,750.109.235-98,
+doc_grupo1_079.txt,Pessoa,Maria Gomes Dias,,4.253.940-7
+doc_grupo1_080.txt,Empresa,Dias & Pereira Desenvolvimento de Software Comércio e Indústria,33.219.306/0001-84,
+doc_grupo1_080.txt,Pessoa,Letícia Oliveira Teixeira,451.652.546-36,
+doc_grupo1_080.txt,Pessoa,Carlos Cavalcanti Ribeiro,,6.866.988-3
+doc_grupo1_080.txt,Pessoa,Juliana Melo Nascimento,,8.950.966-9
+doc_grupo1_081.txt,Empresa,Costa & Dias Saúde S/A,64.263.911/0001-69,
+doc_grupo1_081.txt,Pessoa,Gustavo Nascimento Araújo,,6.546.169-8
+doc_grupo1_081.txt,Pessoa,Diego Mendes Cardoso,809.700.166-31,
+doc_grupo1_082.txt,Empresa,Souza & Nascimento Investimentos Comércio e Indústria,98.599.716/0001-13,
+doc_grupo1_082.txt,Pessoa,Letícia Martins Rocha,244.781.272-90,
+doc_grupo1_082.txt,Pessoa,Sofia Souza Ribeiro,633.905.160-41,
+doc_grupo1_082.txt,Pessoa,Sofia Marques Nascimento,346.291.246-10,
+doc_grupo1_083.txt,Empresa,Cunha & Oliveira Agronegócios Serviços Logísticos,20.193.848/0001-12,
+doc_grupo1_083.txt,Pessoa,Mariana Costa Teixeira,487.397.768-24,
+doc_grupo1_083.txt,Pessoa,Amanda Melo Pinto,,2.345.374-4
+doc_grupo1_083.txt,Pessoa,Sofia Silva Barbosa,,4.783.392-0
+doc_grupo1_084.txt,Empresa,Cavalcanti & Ferreira Energia S/A,85.612.582/0001-88,
+doc_grupo1_084.txt,Pessoa,Ana Souza Rodrigues,786.171.892-24,
+doc_grupo1_084.txt,Pessoa,Rodrigo Mendes Nascimento,,7.859.308-5
+doc_grupo1_084.txt,Pessoa,Ana Cavalcanti Santos,559.153.329-26,
+doc_grupo1_085.txt,Empresa,Rodrigues & Cardoso Energia LTDA,45.349.860/0001-24,
+doc_grupo1_085.txt,Pessoa,Carlos Cardoso Araújo,873.743.782-20,
+doc_grupo1_085.txt,Pessoa,Felipe Souza Martins,,5.402.210-8
+doc_grupo1_085.txt,Pessoa,Luiz Rocha Ribeiro,448.534.904-56,
+doc_grupo1_086.txt,Empresa,Barbosa & Silva Desenvolvimento de Software Empreendimentos Imobiliários,63.405.474/0001-43,
+doc_grupo1_086.txt,Pessoa,Mariana Ribeiro Oliveira,,2.453.330-1
+doc_grupo1_086.txt,Pessoa,Diego Pinto Carvalho,577.974.847-95,
+doc_grupo1_086.txt,Pessoa,Larissa Pereira Pereira,,3.695.675-0
+doc_grupo1_087.txt,Empresa,Marques & Silva Tecnologia Empreendimentos Imobiliários,89.770.985/0001-89,
+doc_grupo1_087.txt,Pessoa,Bruno Barbosa Dias,,7.778.201-9
+doc_grupo1_087.txt,Pessoa,Bruno Cardoso Pinto,,4.493.253-9
+doc_grupo1_087.txt,Pessoa,Ana Oliveira Mendes,,1.463.491-6
+doc_grupo1_087.txt,Pessoa,Camila Araújo Rodrigues,941.145.408-13,
+doc_grupo1_088.txt,Empresa,Cunha & Araújo Alimentos Comércio e Indústria,39.894.273/0001-48,
+doc_grupo1_088.txt,Pessoa,Maria Cunha Pinto,,4.971.241-2
+doc_grupo1_088.txt,Pessoa,Aline Pereira Oliveira,260.924.475-10,
+doc_grupo1_088.txt,Pessoa,Sofia Martins Almeida,122.997.863-99,
+doc_grupo1_089.txt,Empresa,Melo & Marques Transportes Comércio e Indústria,57.713.191/0001-62,
+doc_grupo1_089.txt,Pessoa,Aline Dias Cavalcanti,,3.974.361-5
+doc_grupo1_089.txt,Pessoa,Gustavo Ribeiro Oliveira,,4.973.796-1
+doc_grupo1_089.txt,Pessoa,Gustavo Carvalho Ribeiro,,5.391.473-9
+doc_grupo1_089.txt,Pessoa,Beatriz Almeida Lima,750.879.437-49,
+doc_grupo1_090.txt,Empresa,Pereira & Marques Agronegócios Empreendimentos Imobiliários,12.922.307/0001-18,
+doc_grupo1_090.txt,Pessoa,João Cunha Cardoso,815.341.429-36,
+doc_grupo1_090.txt,Pessoa,Sofia Nascimento Carvalho,689.861.123-60,
+doc_grupo1_090.txt,Pessoa,Gustavo Martins Cardoso,,1.707.452-2
+doc_grupo1_091.txt,Empresa,Teixeira & Souza Saúde Consultoria Empresarial,34.145.793/0001-80,
+doc_grupo1_091.txt,Pessoa,Carlos Rocha Melo,758.970.872-89,
+doc_grupo1_091.txt,Pessoa,Aline Oliveira Cunha,579.211.501-99,
+doc_grupo1_091.txt,Pessoa,Felipe Nascimento Rodrigues,,2.561.757-4
+doc_grupo1_092.txt,Empresa,Martins & Melo Desenvolvimento de Software Comércio e Indústria,35.924.229/0001-15,
+doc_grupo1_092.txt,Pessoa,Gabriel Teixeira Cavalcanti,,7.472.842-5
+doc_grupo1_092.txt,Pessoa,Felipe Nascimento Oliveira,850.428.939-19,
+doc_grupo1_092.txt,Pessoa,Juliana Nascimento Barbosa,687.751.743-52,
+doc_grupo1_092.txt,Pessoa,Bruno Cardoso Pinto,891.398.819-15,
+doc_grupo1_093.txt,Empresa,Almeida & Marques Infraestrutura Empreendimentos Imobiliários,87.459.520/0001-15,
+doc_grupo1_093.txt,Pessoa,Lucas Barbosa Souza,,1.540.448-0
+doc_grupo1_093.txt,Pessoa,Lucas Lima Oliveira,307.921.648-27,
+doc_grupo1_093.txt,Pessoa,Larissa Dias Santos,187.942.737-51,
+doc_grupo1_094.txt,Empresa,Barbosa & Araújo Alimentos Consultoria Empresarial,67.862.384/0001-70,
+doc_grupo1_094.txt,Pessoa,Felipe Martins Santos,,6.647.695-4
+doc_grupo1_094.txt,Pessoa,Lucas Lima Cardoso,,2.627.514-0
+doc_grupo1_094.txt,Pessoa,Lucas Martins Teixeira,997.654.393-95,
+doc_grupo1_094.txt,Pessoa,Ana Almeida Moreira,,9.876.234-3
+doc_grupo1_095.txt,Empresa,Carvalho & Almeida Saúde Comércio e Indústria,36.782.778/0001-12,
+doc_grupo1_095.txt,Pessoa,João Oliveira Rocha,369.528.518-93,
+doc_grupo1_095.txt,Pessoa,Gustavo Oliveira Martins,,6.780.139-5
+doc_grupo1_095.txt,Pessoa,Roberto Cunha Araújo,,5.742.633-7
+doc_grupo1_095.txt,Pessoa,Patricia Cavalcanti Gomes,326.210.297-43,
+doc_grupo1_096.txt,Empresa,Souza & Cardoso Tecnologia Empreendimentos Imobiliários,81.284.795/0001-12,
+doc_grupo1_096.txt,Pessoa,Bruno Carvalho Almeida,327.488.666-86,
+doc_grupo1_096.txt,Pessoa,Luiz Pereira Melo,,6.511.269-2
+doc_grupo1_096.txt,Pessoa,Carlos Oliveira Araújo,700.193.494-47,
+doc_grupo1_096.txt,Pessoa,Bruno Cavalcanti Silva,217.144.751-79,
+doc_grupo1_097.txt,Empresa,Silva & Gomes Agronegócios S/A,70.266.331/0001-67,
+doc_grupo1_097.txt,Pessoa,Carlos Marques Marques,,4.123.103-2
+doc_grupo1_097.txt,Pessoa,Gabriel Dias Ferreira,874.218.641-85,
+doc_grupo1_098.txt,Empresa,Rocha & Dias Desenvolvimento de Software Consultoria Empresarial,49.116.401/0001-69,
+doc_grupo1_098.txt,Pessoa,Amanda Moreira Pereira,,7.678.201-3
+doc_grupo1_098.txt,Pessoa,Ana Melo Pereira,461.912.578-77,
+doc_grupo1_098.txt,Pessoa,Letícia Pinto Melo,379.794.375-12,
+doc_grupo1_098.txt,Pessoa,Ana Silva Ferreira,,4.209.359-7
+doc_grupo1_099.txt,Empresa,Teixeira & Teixeira Agronegócios Consultoria Empresarial,32.704.673/0001-37,
+doc_grupo1_099.txt,Pessoa,Letícia Souza Teixeira,407.251.792-26,
+doc_grupo1_099.txt,Pessoa,Pedro Gomes Martins,,3.566.924-4
+doc_grupo1_100.txt,Empresa,Oliveira & Martins Infraestrutura Comércio e Indústria,53.661.331/0001-74,
+doc_grupo1_100.txt,Pessoa,Ricardo Cavalcanti Mendes,270.295.435-42,
+doc_grupo1_100.txt,Pessoa,Gustavo Souza Pinto,,1.160.202-1
+doc_grupo1_100.txt,Pessoa,Sofia Barbosa Pinto,,1.960.953-2

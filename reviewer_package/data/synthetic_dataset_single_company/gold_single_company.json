@@ -1,0 +1,2322 @@
+{
+  "doc_grupo1_001.txt": [
+    {
+      "empresa": "Cavalcanti & Souza Agronegócios Serviços Logísticos",
+      "cnpj": "36.562.756/0001-83",
+      "socios": [
+        {
+          "nome": "Camila Gomes Nascimento",
+          "cpf": "312.996.451-82",
+          "rg": ""
+        },
+        {
+          "nome": "Juliana Costa Cardoso",
+          "cpf": "",
+          "rg": "9.327.115-7"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_002.txt": [
+    {
+      "empresa": "Moreira & Carvalho Transportes Holding Executiva",
+      "cnpj": "37.285.737/0001-53",
+      "socios": [
+        {
+          "nome": "Ana Dias Pinto",
+          "cpf": "676.753.349-30",
+          "rg": ""
+        },
+        {
+          "nome": "Aline Carvalho Almeida",
+          "cpf": "",
+          "rg": "2.922.924-9"
+        },
+        {
+          "nome": "Letícia Marques Silva",
+          "cpf": "",
+          "rg": "7.629.102-2"
+        },
+        {
+          "nome": "Rodrigo Teixeira Souza",
+          "cpf": "276.333.610-36",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_003.txt": [
+    {
+      "empresa": "Cardoso & Araújo Tecnologia Comércio e Indústria",
+      "cnpj": "85.868.113/0001-71",
+      "socios": [
+        {
+          "nome": "João Silva Cunha",
+          "cpf": "556.363.468-37",
+          "rg": ""
+        },
+        {
+          "nome": "Fernanda Rocha Ferreira",
+          "cpf": "156.497.400-24",
+          "rg": ""
+        },
+        {
+          "nome": "Larissa Carvalho Gomes",
+          "cpf": "",
+          "rg": "1.950.120-0"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_004.txt": [
+    {
+      "empresa": "Araújo & Souza Alimentos Serviços Logísticos",
+      "cnpj": "85.715.747/0001-20",
+      "socios": [
+        {
+          "nome": "Patricia Cardoso Santos",
+          "cpf": "",
+          "rg": "5.594.533-9"
+        },
+        {
+          "nome": "Ana Martins Teixeira",
+          "cpf": "550.641.178-47",
+          "rg": ""
+        },
+        {
+          "nome": "Luiz Dias Rocha",
+          "cpf": "862.960.626-95",
+          "rg": ""
+        },
+        {
+          "nome": "Amanda Cunha Gomes",
+          "cpf": "",
+          "rg": "8.896.567-4"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_005.txt": [
+    {
+      "empresa": "Cunha & Marques Transportes Participações S.A.",
+      "cnpj": "36.612.898/0001-77",
+      "socios": [
+        {
+          "nome": "Lucas Melo Cavalcanti",
+          "cpf": "892.851.411-65",
+          "rg": ""
+        },
+        {
+          "nome": "Amanda Nascimento Martins",
+          "cpf": "",
+          "rg": "4.459.864-0"
+        },
+        {
+          "nome": "Pedro Mendes Gomes",
+          "cpf": "",
+          "rg": "1.310.281-2"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_006.txt": [
+    {
+      "empresa": "Lima & Santos Alimentos Serviços Logísticos",
+      "cnpj": "76.176.977/0001-24",
+      "socios": [
+        {
+          "nome": "Luiz Souza Souza",
+          "cpf": "",
+          "rg": "2.908.228-7"
+        },
+        {
+          "nome": "Juliana Nascimento Marques",
+          "cpf": "373.304.399-17",
+          "rg": ""
+        },
+        {
+          "nome": "Larissa Pereira Dias",
+          "cpf": "",
+          "rg": "3.553.280-3"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_007.txt": [
+    {
+      "empresa": "Cavalcanti & Melo Alimentos LTDA",
+      "cnpj": "18.774.761/0001-60",
+      "socios": [
+        {
+          "nome": "Roberto Almeida Silva",
+          "cpf": "",
+          "rg": "2.200.712-4"
+        },
+        {
+          "nome": "Letícia Rocha Ferreira",
+          "cpf": "896.331.484-34",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_008.txt": [
+    {
+      "empresa": "Silva & Rodrigues Construções Comércio e Indústria",
+      "cnpj": "14.543.916/0001-27",
+      "socios": [
+        {
+          "nome": "Letícia Ribeiro Rocha",
+          "cpf": "",
+          "rg": "1.565.298-2"
+        },
+        {
+          "nome": "Diego Cunha Moreira",
+          "cpf": "",
+          "rg": "6.275.373-4"
+        },
+        {
+          "nome": "Roberto Melo Gomes",
+          "cpf": "188.625.654-87",
+          "rg": ""
+        },
+        {
+          "nome": "Lucas Melo Rodrigues",
+          "cpf": "",
+          "rg": "3.408.148-4"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_009.txt": [
+    {
+      "empresa": "Souza & Pinto Saúde Participações S.A.",
+      "cnpj": "57.208.621/0001-61",
+      "socios": [
+        {
+          "nome": "Mariana Marques Araújo",
+          "cpf": "",
+          "rg": "6.337.889-9"
+        },
+        {
+          "nome": "Mariana Teixeira Teixeira",
+          "cpf": "",
+          "rg": "6.915.237-6"
+        },
+        {
+          "nome": "Roberto Pinto Pinto",
+          "cpf": "111.181.408-70",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_010.txt": [
+    {
+      "empresa": "Moreira & Martins Investimentos S/A",
+      "cnpj": "26.621.239/0001-64",
+      "socios": [
+        {
+          "nome": "Sofia Dias Carvalho",
+          "cpf": "458.663.757-42",
+          "rg": ""
+        },
+        {
+          "nome": "João Costa Ribeiro",
+          "cpf": "136.609.801-17",
+          "rg": ""
+        },
+        {
+          "nome": "Rodrigo Lima Cunha",
+          "cpf": "",
+          "rg": "7.290.489-1"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_011.txt": [
+    {
+      "empresa": "Teixeira & Souza Têxtil Holding Executiva",
+      "cnpj": "41.196.282/0001-77",
+      "socios": [
+        {
+          "nome": "Carlos Rodrigues Dias",
+          "cpf": "",
+          "rg": "6.633.334-0"
+        },
+        {
+          "nome": "Roberto Lima Rocha",
+          "cpf": "",
+          "rg": "3.935.758-5"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_012.txt": [
+    {
+      "empresa": "Cardoso & Almeida Investimentos Consultoria Empresarial",
+      "cnpj": "12.758.498/0001-76",
+      "socios": [
+        {
+          "nome": "Amanda Ribeiro Pinto",
+          "cpf": "525.925.228-39",
+          "rg": ""
+        },
+        {
+          "nome": "Camila Rodrigues Silva",
+          "cpf": "",
+          "rg": "2.685.983-6"
+        },
+        {
+          "nome": "Aline Santos Dias",
+          "cpf": "215.268.856-17",
+          "rg": ""
+        },
+        {
+          "nome": "Gabriel Nascimento Barbosa",
+          "cpf": "211.740.855-39",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_013.txt": [
+    {
+      "empresa": "Teixeira & Moreira Construções S/A",
+      "cnpj": "98.494.477/0001-40",
+      "socios": [
+        {
+          "nome": "Sofia Moreira Melo",
+          "cpf": "997.617.885-56",
+          "rg": ""
+        },
+        {
+          "nome": "Patricia Silva Barbosa",
+          "cpf": "465.920.155-94",
+          "rg": ""
+        },
+        {
+          "nome": "Ricardo Carvalho Melo",
+          "cpf": "",
+          "rg": "9.387.184-9"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_014.txt": [
+    {
+      "empresa": "Moreira & Cardoso Agronegócios Consultoria Empresarial",
+      "cnpj": "77.293.530/0001-52",
+      "socios": [
+        {
+          "nome": "Carlos Barbosa Nascimento",
+          "cpf": "",
+          "rg": "5.373.685-9"
+        },
+        {
+          "nome": "Diego Nascimento Rodrigues",
+          "cpf": "307.319.528-96",
+          "rg": ""
+        },
+        {
+          "nome": "Patricia Moreira Carvalho",
+          "cpf": "215.841.515-76",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_015.txt": [
+    {
+      "empresa": "Araújo & Rocha Têxtil Empreendimentos Imobiliários",
+      "cnpj": "68.852.780/0001-18",
+      "socios": [
+        {
+          "nome": "Mariana Cavalcanti Mendes",
+          "cpf": "",
+          "rg": "4.150.217-1"
+        },
+        {
+          "nome": "Rodrigo Ferreira Pereira",
+          "cpf": "638.179.878-75",
+          "rg": ""
+        },
+        {
+          "nome": "Letícia Mendes Rocha",
+          "cpf": "986.577.241-48",
+          "rg": ""
+        },
+        {
+          "nome": "Carlos Mendes Oliveira",
+          "cpf": "512.363.222-75",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_016.txt": [
+    {
+      "empresa": "Ribeiro & Moreira Agronegócios Participações S.A.",
+      "cnpj": "11.410.891/0001-39",
+      "socios": [
+        {
+          "nome": "Letícia Marques Mendes",
+          "cpf": "",
+          "rg": "6.718.444-3"
+        },
+        {
+          "nome": "Maria Souza Silva",
+          "cpf": "435.252.851-91",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_017.txt": [
+    {
+      "empresa": "Cunha & Almeida Transportes Comércio e Indústria",
+      "cnpj": "12.815.642/0001-29",
+      "socios": [
+        {
+          "nome": "Roberto Souza Silva",
+          "cpf": "",
+          "rg": "6.724.784-3"
+        },
+        {
+          "nome": "Amanda Teixeira Pinto",
+          "cpf": "973.216.504-52",
+          "rg": ""
+        },
+        {
+          "nome": "Beatriz Melo Melo",
+          "cpf": "702.475.427-59",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_018.txt": [
+    {
+      "empresa": "Gomes & Santos Transportes LTDA",
+      "cnpj": "94.530.477/0001-53",
+      "socios": [
+        {
+          "nome": "Lucas Martins Dias",
+          "cpf": "550.905.807-67",
+          "rg": ""
+        },
+        {
+          "nome": "Felipe Mendes Pinto",
+          "cpf": "932.408.263-12",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_019.txt": [
+    {
+      "empresa": "Costa & Pereira Investimentos S/A",
+      "cnpj": "22.295.714/0001-31",
+      "socios": [
+        {
+          "nome": "Pedro Nascimento Nascimento",
+          "cpf": "679.867.798-18",
+          "rg": ""
+        },
+        {
+          "nome": "Fernanda Nascimento Souza",
+          "cpf": "402.158.586-73",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_020.txt": [
+    {
+      "empresa": "Santos & Cavalcanti Construções Comércio e Indústria",
+      "cnpj": "37.852.826/0001-21",
+      "socios": [
+        {
+          "nome": "Fernanda Dias Moreira",
+          "cpf": "366.730.693-73",
+          "rg": ""
+        },
+        {
+          "nome": "Letícia Souza Barbosa",
+          "cpf": "",
+          "rg": "8.987.891-8"
+        },
+        {
+          "nome": "Amanda Barbosa Rodrigues",
+          "cpf": "806.605.449-78",
+          "rg": ""
+        },
+        {
+          "nome": "Luiz Pinto Carvalho",
+          "cpf": "",
+          "rg": "6.182.599-1"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_021.txt": [
+    {
+      "empresa": "Carvalho & Santos Infraestrutura S/A",
+      "cnpj": "26.347.737/0001-85",
+      "socios": [
+        {
+          "nome": "Letícia Almeida Martins",
+          "cpf": "",
+          "rg": "8.838.117-8"
+        },
+        {
+          "nome": "Bruno Oliveira Silva",
+          "cpf": "",
+          "rg": "5.603.667-3"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_022.txt": [
+    {
+      "empresa": "Barbosa & Pereira Construções Serviços Logísticos",
+      "cnpj": "59.186.720/0001-66",
+      "socios": [
+        {
+          "nome": "Juliana Cardoso Marques",
+          "cpf": "",
+          "rg": "3.402.360-8"
+        },
+        {
+          "nome": "Pedro Martins Rodrigues",
+          "cpf": "519.163.485-14",
+          "rg": ""
+        },
+        {
+          "nome": "Bruno Costa Araújo",
+          "cpf": "",
+          "rg": "5.128.998-1"
+        },
+        {
+          "nome": "Patricia Teixeira Dias",
+          "cpf": "280.441.822-79",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_023.txt": [
+    {
+      "empresa": "Mendes & Carvalho Desenvolvimento de Software Consultoria Empresarial",
+      "cnpj": "57.869.649/0001-85",
+      "socios": [
+        {
+          "nome": "Pedro Ferreira Ribeiro",
+          "cpf": "",
+          "rg": "6.158.630-1"
+        },
+        {
+          "nome": "Juliana Nascimento Teixeira",
+          "cpf": "837.617.994-78",
+          "rg": ""
+        },
+        {
+          "nome": "Fernanda Santos Mendes",
+          "cpf": "",
+          "rg": "6.527.237-4"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_024.txt": [
+    {
+      "empresa": "Pereira & Pinto Agronegócios Consultoria Empresarial",
+      "cnpj": "35.585.768/0001-47",
+      "socios": [
+        {
+          "nome": "Maria Araújo Souza",
+          "cpf": "788.970.798-30",
+          "rg": ""
+        },
+        {
+          "nome": "Gabriel Carvalho Marques",
+          "cpf": "",
+          "rg": "5.261.560-0"
+        },
+        {
+          "nome": "Luiz Martins Pinto",
+          "cpf": "",
+          "rg": "8.436.297-9"
+        },
+        {
+          "nome": "Patricia Moreira Ferreira",
+          "cpf": "679.292.955-66",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_025.txt": [
+    {
+      "empresa": "Pinto & Marques Saúde Comércio e Indústria",
+      "cnpj": "99.980.916/0001-15",
+      "socios": [
+        {
+          "nome": "Ricardo Dias Teixeira",
+          "cpf": "211.553.559-96",
+          "rg": ""
+        },
+        {
+          "nome": "Gustavo Rodrigues Rodrigues",
+          "cpf": "",
+          "rg": "2.469.411-2"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_026.txt": [
+    {
+      "empresa": "Souza & Silva Tecnologia S/A",
+      "cnpj": "31.850.791/0001-92",
+      "socios": [
+        {
+          "nome": "Patricia Pereira Barbosa",
+          "cpf": "975.380.774-38",
+          "rg": ""
+        },
+        {
+          "nome": "Diego Pinto Lima",
+          "cpf": "358.688.168-29",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_027.txt": [
+    {
+      "empresa": "Lima & Silva Investimentos LTDA",
+      "cnpj": "54.334.305/0001-65",
+      "socios": [
+        {
+          "nome": "Diego Moreira Dias",
+          "cpf": "",
+          "rg": "4.399.813-9"
+        },
+        {
+          "nome": "Lucas Santos Araújo",
+          "cpf": "764.788.766-11",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_028.txt": [
+    {
+      "empresa": "Rodrigues & Rodrigues Transportes Holding Executiva",
+      "cnpj": "83.361.237/0001-33",
+      "socios": [
+        {
+          "nome": "Letícia Teixeira Marques",
+          "cpf": "330.408.847-52",
+          "rg": ""
+        },
+        {
+          "nome": "Fernanda Silva Marques",
+          "cpf": "",
+          "rg": "3.247.439-0"
+        },
+        {
+          "nome": "Larissa Nascimento Rocha",
+          "cpf": "",
+          "rg": "5.716.651-6"
+        },
+        {
+          "nome": "Camila Costa Barbosa",
+          "cpf": "",
+          "rg": "8.910.998-9"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_029.txt": [
+    {
+      "empresa": "Martins & Oliveira Construções Participações S.A.",
+      "cnpj": "12.207.994/0001-93",
+      "socios": [
+        {
+          "nome": "Ricardo Cardoso Almeida",
+          "cpf": "826.335.499-90",
+          "rg": ""
+        },
+        {
+          "nome": "Rodrigo Barbosa Martins",
+          "cpf": "",
+          "rg": "6.969.563-4"
+        },
+        {
+          "nome": "Rodrigo Dias Dias",
+          "cpf": "404.647.347-11",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_030.txt": [
+    {
+      "empresa": "Cunha & Araújo Infraestrutura S/A",
+      "cnpj": "92.786.877/0001-15",
+      "socios": [
+        {
+          "nome": "Mariana Santos Lima",
+          "cpf": "",
+          "rg": "2.914.766-9"
+        },
+        {
+          "nome": "Lucas Mendes Santos",
+          "cpf": "347.755.719-98",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_031.txt": [
+    {
+      "empresa": "Ribeiro & Ribeiro Saúde S/A",
+      "cnpj": "21.245.377/0001-79",
+      "socios": [
+        {
+          "nome": "Beatriz Santos Gomes",
+          "cpf": "581.915.532-82",
+          "rg": ""
+        },
+        {
+          "nome": "Carlos Santos Ferreira",
+          "cpf": "948.363.529-88",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_032.txt": [
+    {
+      "empresa": "Dias & Dias Construções Empreendimentos Imobiliários",
+      "cnpj": "40.589.727/0001-46",
+      "socios": [
+        {
+          "nome": "Beatriz Cardoso Dias",
+          "cpf": "",
+          "rg": "5.667.362-1"
+        },
+        {
+          "nome": "Diego Souza Moreira",
+          "cpf": "",
+          "rg": "7.835.720-9"
+        },
+        {
+          "nome": "Beatriz Melo Costa",
+          "cpf": "",
+          "rg": "9.857.503-6"
+        },
+        {
+          "nome": "Patricia Ribeiro Dias",
+          "cpf": "316.935.639-58",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_033.txt": [
+    {
+      "empresa": "Gomes & Pereira Agronegócios Consultoria Empresarial",
+      "cnpj": "79.211.124/0001-16",
+      "socios": [
+        {
+          "nome": "Ricardo Lima Ferreira",
+          "cpf": "691.764.145-26",
+          "rg": ""
+        },
+        {
+          "nome": "Luiz Almeida Rocha",
+          "cpf": "",
+          "rg": "8.290.500-2"
+        },
+        {
+          "nome": "Patricia Silva Cavalcanti",
+          "cpf": "",
+          "rg": "5.584.530-9"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_034.txt": [
+    {
+      "empresa": "Cavalcanti & Costa Investimentos LTDA",
+      "cnpj": "15.482.221/0001-10",
+      "socios": [
+        {
+          "nome": "Juliana Oliveira Oliveira",
+          "cpf": "617.141.702-79",
+          "rg": ""
+        },
+        {
+          "nome": "Sofia Marques Marques",
+          "cpf": "575.815.750-91",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_035.txt": [
+    {
+      "empresa": "Cavalcanti & Santos Saúde Holding Executiva",
+      "cnpj": "79.510.822/0001-27",
+      "socios": [
+        {
+          "nome": "Juliana Cunha Nascimento",
+          "cpf": "929.201.847-10",
+          "rg": ""
+        },
+        {
+          "nome": "Lucas Araújo Cavalcanti",
+          "cpf": "104.134.595-31",
+          "rg": ""
+        },
+        {
+          "nome": "Pedro Ferreira Costa",
+          "cpf": "",
+          "rg": "1.773.896-9"
+        },
+        {
+          "nome": "Bruno Nascimento Araújo",
+          "cpf": "219.862.424-61",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_036.txt": [
+    {
+      "empresa": "Rodrigues & Martins Saúde Consultoria Empresarial",
+      "cnpj": "67.938.327/0001-62",
+      "socios": [
+        {
+          "nome": "Rodrigo Cavalcanti Ferreira",
+          "cpf": "981.247.108-40",
+          "rg": ""
+        },
+        {
+          "nome": "Fernanda Nascimento Pereira",
+          "cpf": "",
+          "rg": "9.725.554-8"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_037.txt": [
+    {
+      "empresa": "Cardoso & Martins Investimentos Participações S.A.",
+      "cnpj": "55.589.229/0001-80",
+      "socios": [
+        {
+          "nome": "Gustavo Nascimento Moreira",
+          "cpf": "335.214.607-68",
+          "rg": ""
+        },
+        {
+          "nome": "Ricardo Santos Pereira",
+          "cpf": "331.962.713-25",
+          "rg": ""
+        },
+        {
+          "nome": "Aline Oliveira Ferreira",
+          "cpf": "",
+          "rg": "4.985.550-7"
+        },
+        {
+          "nome": "Juliana Rocha Araújo",
+          "cpf": "622.371.610-17",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_038.txt": [
+    {
+      "empresa": "Pereira & Cunha Agronegócios S/A",
+      "cnpj": "84.234.584/0001-25",
+      "socios": [
+        {
+          "nome": "Larissa Cavalcanti Pereira",
+          "cpf": "989.878.807-96",
+          "rg": ""
+        },
+        {
+          "nome": "Carlos Cardoso Ferreira",
+          "cpf": "",
+          "rg": "8.832.174-0"
+        },
+        {
+          "nome": "Mariana Almeida Pinto",
+          "cpf": "",
+          "rg": "8.257.262-4"
+        },
+        {
+          "nome": "Diego Teixeira Marques",
+          "cpf": "818.795.938-65",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_039.txt": [
+    {
+      "empresa": "Melo & Barbosa Alimentos Comércio e Indústria",
+      "cnpj": "53.705.325/0001-12",
+      "socios": [
+        {
+          "nome": "Camila Martins Mendes",
+          "cpf": "384.591.132-55",
+          "rg": ""
+        },
+        {
+          "nome": "Ana Almeida Marques",
+          "cpf": "312.224.521-93",
+          "rg": ""
+        },
+        {
+          "nome": "João Moreira Lima",
+          "cpf": "",
+          "rg": "2.711.686-8"
+        },
+        {
+          "nome": "João Ferreira Melo",
+          "cpf": "425.192.397-14",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_040.txt": [
+    {
+      "empresa": "Nascimento & Carvalho Energia Holding Executiva",
+      "cnpj": "51.703.913/0001-85",
+      "socios": [
+        {
+          "nome": "Aline Pereira Pereira",
+          "cpf": "869.639.635-38",
+          "rg": ""
+        },
+        {
+          "nome": "Juliana Rocha Ribeiro",
+          "cpf": "",
+          "rg": "6.617.817-4"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_041.txt": [
+    {
+      "empresa": "Almeida & Ferreira Construções Participações S.A.",
+      "cnpj": "39.446.606/0001-73",
+      "socios": [
+        {
+          "nome": "Gustavo Gomes Mendes",
+          "cpf": "",
+          "rg": "6.174.319-9"
+        },
+        {
+          "nome": "Felipe Ribeiro Dias",
+          "cpf": "",
+          "rg": "7.276.806-7"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_042.txt": [
+    {
+      "empresa": "Pereira & Pereira Alimentos Participações S.A.",
+      "cnpj": "14.152.839/0001-40",
+      "socios": [
+        {
+          "nome": "Mariana Rocha Cavalcanti",
+          "cpf": "",
+          "rg": "1.231.396-5"
+        },
+        {
+          "nome": "Gabriel Rodrigues Pinto",
+          "cpf": "406.803.521-32",
+          "rg": ""
+        },
+        {
+          "nome": "Fernanda Ferreira Mendes",
+          "cpf": "",
+          "rg": "1.335.670-9"
+        },
+        {
+          "nome": "Letícia Ferreira Teixeira",
+          "cpf": "",
+          "rg": "6.521.214-4"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_043.txt": [
+    {
+      "empresa": "Cavalcanti & Costa Tecnologia Comércio e Indústria",
+      "cnpj": "24.108.481/0001-96",
+      "socios": [
+        {
+          "nome": "Ana Pinto Mendes",
+          "cpf": "442.973.101-74",
+          "rg": ""
+        },
+        {
+          "nome": "Felipe Ferreira Souza",
+          "cpf": "298.354.168-25",
+          "rg": ""
+        },
+        {
+          "nome": "Diego Melo Carvalho",
+          "cpf": "398.248.316-58",
+          "rg": ""
+        },
+        {
+          "nome": "Larissa Melo Oliveira",
+          "cpf": "",
+          "rg": "4.561.139-5"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_044.txt": [
+    {
+      "empresa": "Barbosa & Barbosa Energia S/A",
+      "cnpj": "54.503.112/0001-87",
+      "socios": [
+        {
+          "nome": "Roberto Rocha Dias",
+          "cpf": "905.850.903-17",
+          "rg": ""
+        },
+        {
+          "nome": "Gabriel Silva Rodrigues",
+          "cpf": "",
+          "rg": "2.278.782-1"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_045.txt": [
+    {
+      "empresa": "Rocha & Souza Agronegócios Consultoria Empresarial",
+      "cnpj": "97.205.143/0001-44",
+      "socios": [
+        {
+          "nome": "Rodrigo Costa Carvalho",
+          "cpf": "798.778.873-65",
+          "rg": ""
+        },
+        {
+          "nome": "Gabriel Cunha Cunha",
+          "cpf": "",
+          "rg": "6.237.381-0"
+        },
+        {
+          "nome": "Gabriel Marques Souza",
+          "cpf": "417.363.521-48",
+          "rg": ""
+        },
+        {
+          "nome": "Fernanda Cavalcanti Ribeiro",
+          "cpf": "",
+          "rg": "4.169.422-9"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_046.txt": [
+    {
+      "empresa": "Ribeiro & Cardoso Investimentos LTDA",
+      "cnpj": "88.907.791/0001-84",
+      "socios": [
+        {
+          "nome": "Felipe Silva Lima",
+          "cpf": "704.327.805-98",
+          "rg": ""
+        },
+        {
+          "nome": "Gustavo Dias Pinto",
+          "cpf": "",
+          "rg": "7.771.268-6"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_047.txt": [
+    {
+      "empresa": "Ribeiro & Costa Construções Holding Executiva",
+      "cnpj": "29.557.966/0001-26",
+      "socios": [
+        {
+          "nome": "Pedro Teixeira Costa",
+          "cpf": "536.154.718-27",
+          "rg": ""
+        },
+        {
+          "nome": "Ana Costa Barbosa",
+          "cpf": "",
+          "rg": "8.200.247-5"
+        },
+        {
+          "nome": "Gabriel Cavalcanti Pinto",
+          "cpf": "917.165.656-28",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_048.txt": [
+    {
+      "empresa": "Melo & Cavalcanti Alimentos Holding Executiva",
+      "cnpj": "28.879.194/0001-47",
+      "socios": [
+        {
+          "nome": "Luiz Melo Rocha",
+          "cpf": "601.405.400-50",
+          "rg": ""
+        },
+        {
+          "nome": "Patricia Mendes Silva",
+          "cpf": "431.122.109-89",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_049.txt": [
+    {
+      "empresa": "Costa & Cardoso Construções Participações S.A.",
+      "cnpj": "68.231.453/0001-39",
+      "socios": [
+        {
+          "nome": "Carlos Dias Araújo",
+          "cpf": "",
+          "rg": "1.143.850-2"
+        },
+        {
+          "nome": "Gabriel Rocha Melo",
+          "cpf": "954.603.909-25",
+          "rg": ""
+        },
+        {
+          "nome": "Roberto Souza Ferreira",
+          "cpf": "567.214.504-28",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_050.txt": [
+    {
+      "empresa": "Costa & Pinto Construções Comércio e Indústria",
+      "cnpj": "96.374.513/0001-39",
+      "socios": [
+        {
+          "nome": "Larissa Teixeira Cardoso",
+          "cpf": "",
+          "rg": "6.876.501-0"
+        },
+        {
+          "nome": "Ricardo Mendes Ferreira",
+          "cpf": "",
+          "rg": "8.186.698-4"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_051.txt": [
+    {
+      "empresa": "Cunha & Nascimento Construções Participações S.A.",
+      "cnpj": "48.365.135/0001-31",
+      "socios": [
+        {
+          "nome": "João Nascimento Melo",
+          "cpf": "",
+          "rg": "5.468.164-2"
+        },
+        {
+          "nome": "Camila Silva Moreira",
+          "cpf": "269.125.669-26",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_052.txt": [
+    {
+      "empresa": "Carvalho & Moreira Saúde Participações S.A.",
+      "cnpj": "50.692.294/0001-69",
+      "socios": [
+        {
+          "nome": "Bruno Martins Rodrigues",
+          "cpf": "",
+          "rg": "3.344.524-7"
+        },
+        {
+          "nome": "Beatriz Teixeira Lima",
+          "cpf": "",
+          "rg": "7.171.106-8"
+        },
+        {
+          "nome": "Ricardo Silva Dias",
+          "cpf": "289.172.683-98",
+          "rg": ""
+        },
+        {
+          "nome": "Gustavo Ribeiro Nascimento",
+          "cpf": "137.656.556-47",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_053.txt": [
+    {
+      "empresa": "Araújo & Rodrigues Tecnologia S/A",
+      "cnpj": "14.115.138/0001-60",
+      "socios": [
+        {
+          "nome": "João Teixeira Ribeiro",
+          "cpf": "",
+          "rg": "6.963.838-1"
+        },
+        {
+          "nome": "Bruno Dias Ferreira",
+          "cpf": "",
+          "rg": "2.252.128-3"
+        },
+        {
+          "nome": "Juliana Cunha Cavalcanti",
+          "cpf": "685.251.696-42",
+          "rg": ""
+        },
+        {
+          "nome": "Gustavo Teixeira Oliveira",
+          "cpf": "",
+          "rg": "9.720.882-6"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_054.txt": [
+    {
+      "empresa": "Cavalcanti & Barbosa Agronegócios Consultoria Empresarial",
+      "cnpj": "31.678.428/0001-32",
+      "socios": [
+        {
+          "nome": "Camila Melo Almeida",
+          "cpf": "547.697.753-89",
+          "rg": ""
+        },
+        {
+          "nome": "Aline Dias Melo",
+          "cpf": "",
+          "rg": "1.742.409-4"
+        },
+        {
+          "nome": "Pedro Nascimento Silva",
+          "cpf": "530.544.221-97",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_055.txt": [
+    {
+      "empresa": "Ferreira & Pereira Energia Empreendimentos Imobiliários",
+      "cnpj": "81.131.712/0001-82",
+      "socios": [
+        {
+          "nome": "Ana Ribeiro Souza",
+          "cpf": "838.455.158-78",
+          "rg": ""
+        },
+        {
+          "nome": "Fernanda Melo Moreira",
+          "cpf": "",
+          "rg": "8.132.663-0"
+        },
+        {
+          "nome": "Bruno Marques Souza",
+          "cpf": "664.812.983-37",
+          "rg": ""
+        },
+        {
+          "nome": "Pedro Pinto Moreira",
+          "cpf": "",
+          "rg": "6.675.344-2"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_056.txt": [
+    {
+      "empresa": "Ribeiro & Nascimento Tecnologia Comércio e Indústria",
+      "cnpj": "47.270.813/0001-29",
+      "socios": [
+        {
+          "nome": "Pedro Rocha Cunha",
+          "cpf": "891.604.852-80",
+          "rg": ""
+        },
+        {
+          "nome": "Diego Oliveira Martins",
+          "cpf": "",
+          "rg": "8.584.335-3"
+        },
+        {
+          "nome": "Bruno Cunha Cunha",
+          "cpf": "621.741.354-19",
+          "rg": ""
+        },
+        {
+          "nome": "Gabriel Oliveira Gomes",
+          "cpf": "",
+          "rg": "9.128.787-2"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_057.txt": [
+    {
+      "empresa": "Moreira & Melo Energia LTDA",
+      "cnpj": "17.246.270/0001-70",
+      "socios": [
+        {
+          "nome": "Beatriz Ribeiro Pinto",
+          "cpf": "",
+          "rg": "3.248.218-7"
+        },
+        {
+          "nome": "Fernanda Araújo Melo",
+          "cpf": "809.316.420-67",
+          "rg": ""
+        },
+        {
+          "nome": "Patricia Rodrigues Carvalho",
+          "cpf": "140.128.429-34",
+          "rg": ""
+        },
+        {
+          "nome": "Beatriz Cunha Dias",
+          "cpf": "443.481.363-57",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_058.txt": [
+    {
+      "empresa": "Melo & Almeida Agronegócios S/A",
+      "cnpj": "85.545.247/0001-80",
+      "socios": [
+        {
+          "nome": "Juliana Cavalcanti Pereira",
+          "cpf": "",
+          "rg": "7.688.574-3"
+        },
+        {
+          "nome": "Sofia Barbosa Oliveira",
+          "cpf": "407.651.784-38",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_059.txt": [
+    {
+      "empresa": "Martins & Pinto Energia LTDA",
+      "cnpj": "73.421.998/0001-93",
+      "socios": [
+        {
+          "nome": "Lucas Dias Carvalho",
+          "cpf": "",
+          "rg": "6.217.575-4"
+        },
+        {
+          "nome": "João Santos Oliveira",
+          "cpf": "",
+          "rg": "6.622.311-4"
+        },
+        {
+          "nome": "Felipe Costa Souza",
+          "cpf": "313.369.245-75",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_060.txt": [
+    {
+      "empresa": "Ribeiro & Santos Alimentos Comércio e Indústria",
+      "cnpj": "33.598.289/0001-81",
+      "socios": [
+        {
+          "nome": "Luiz Oliveira Moreira",
+          "cpf": "798.998.797-72",
+          "rg": ""
+        },
+        {
+          "nome": "Aline Ribeiro Ribeiro",
+          "cpf": "323.159.505-80",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_061.txt": [
+    {
+      "empresa": "Santos & Mendes Saúde S/A",
+      "cnpj": "46.559.682/0001-50",
+      "socios": [
+        {
+          "nome": "Maria Dias Lima",
+          "cpf": "",
+          "rg": "5.725.838-3"
+        },
+        {
+          "nome": "Beatriz Barbosa Marques",
+          "cpf": "",
+          "rg": "2.990.417-1"
+        },
+        {
+          "nome": "Carlos Lima Rocha",
+          "cpf": "824.217.805-86",
+          "rg": ""
+        },
+        {
+          "nome": "Roberto Martins Almeida",
+          "cpf": "425.238.170-68",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_062.txt": [
+    {
+      "empresa": "Souza & Pereira Saúde Consultoria Empresarial",
+      "cnpj": "86.102.581/0001-29",
+      "socios": [
+        {
+          "nome": "Maria Gomes Costa",
+          "cpf": "",
+          "rg": "2.983.219-5"
+        },
+        {
+          "nome": "Gustavo Costa Cunha",
+          "cpf": "",
+          "rg": "1.727.976-3"
+        },
+        {
+          "nome": "Bruno Pinto Rodrigues",
+          "cpf": "565.882.972-98",
+          "rg": ""
+        },
+        {
+          "nome": "Letícia Pinto Costa",
+          "cpf": "",
+          "rg": "3.855.634-1"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_063.txt": [
+    {
+      "empresa": "Cardoso & Marques Energia Participações S.A.",
+      "cnpj": "10.511.630/0001-66",
+      "socios": [
+        {
+          "nome": "Felipe Rodrigues Moreira",
+          "cpf": "648.245.818-80",
+          "rg": ""
+        },
+        {
+          "nome": "Carlos Araújo Gomes",
+          "cpf": "",
+          "rg": "4.906.650-6"
+        },
+        {
+          "nome": "Maria Marques Souza",
+          "cpf": "327.944.763-84",
+          "rg": ""
+        },
+        {
+          "nome": "Fernanda Rodrigues Ferreira",
+          "cpf": "",
+          "rg": "6.526.333-1"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_064.txt": [
+    {
+      "empresa": "Pereira & Ribeiro Infraestrutura Holding Executiva",
+      "cnpj": "63.638.147/0001-48",
+      "socios": [
+        {
+          "nome": "Gabriel Mendes Mendes",
+          "cpf": "",
+          "rg": "7.980.538-1"
+        },
+        {
+          "nome": "Bruno Almeida Costa",
+          "cpf": "828.901.591-51",
+          "rg": ""
+        },
+        {
+          "nome": "Rodrigo Oliveira Dias",
+          "cpf": "364.110.562-72",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_065.txt": [
+    {
+      "empresa": "Oliveira & Melo Saúde Serviços Logísticos",
+      "cnpj": "20.923.143/0001-66",
+      "socios": [
+        {
+          "nome": "João Dias Moreira",
+          "cpf": "",
+          "rg": "7.259.759-3"
+        },
+        {
+          "nome": "Mariana Oliveira Costa",
+          "cpf": "554.906.968-86",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_066.txt": [
+    {
+      "empresa": "Araújo & Gomes Energia Consultoria Empresarial",
+      "cnpj": "95.424.344/0001-37",
+      "socios": [
+        {
+          "nome": "Camila Dias Ferreira",
+          "cpf": "",
+          "rg": "5.810.370-6"
+        },
+        {
+          "nome": "Felipe Moreira Almeida",
+          "cpf": "",
+          "rg": "4.634.122-6"
+        },
+        {
+          "nome": "Pedro Almeida Rodrigues",
+          "cpf": "955.341.184-45",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_067.txt": [
+    {
+      "empresa": "Dias & Pinto Construções Consultoria Empresarial",
+      "cnpj": "31.609.872/0001-40",
+      "socios": [
+        {
+          "nome": "Juliana Nascimento Pinto",
+          "cpf": "",
+          "rg": "3.174.425-0"
+        },
+        {
+          "nome": "Gabriel Cardoso Cunha",
+          "cpf": "",
+          "rg": "5.335.438-9"
+        },
+        {
+          "nome": "Ana Pereira Barbosa",
+          "cpf": "",
+          "rg": "6.794.572-5"
+        },
+        {
+          "nome": "Amanda Costa Dias",
+          "cpf": "353.821.529-60",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_068.txt": [
+    {
+      "empresa": "Moreira & Dias Saúde Serviços Logísticos",
+      "cnpj": "80.134.449/0001-90",
+      "socios": [
+        {
+          "nome": "Sofia Cavalcanti Martins",
+          "cpf": "",
+          "rg": "5.676.122-1"
+        },
+        {
+          "nome": "Carlos Teixeira Pinto",
+          "cpf": "710.970.622-73",
+          "rg": ""
+        },
+        {
+          "nome": "Beatriz Almeida Barbosa",
+          "cpf": "",
+          "rg": "4.416.843-5"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_069.txt": [
+    {
+      "empresa": "Melo & Carvalho Saúde Participações S.A.",
+      "cnpj": "53.693.895/0001-56",
+      "socios": [
+        {
+          "nome": "Letícia Ribeiro Silva",
+          "cpf": "",
+          "rg": "4.682.760-2"
+        },
+        {
+          "nome": "Bruno Costa Pinto",
+          "cpf": "157.477.430-90",
+          "rg": ""
+        },
+        {
+          "nome": "Felipe Marques Gomes",
+          "cpf": "965.158.489-92",
+          "rg": ""
+        },
+        {
+          "nome": "Gustavo Souza Rocha",
+          "cpf": "",
+          "rg": "2.563.611-4"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_070.txt": [
+    {
+      "empresa": "Moreira & Gomes Tecnologia Comércio e Indústria",
+      "cnpj": "21.230.890/0001-92",
+      "socios": [
+        {
+          "nome": "Ana Oliveira Martins",
+          "cpf": "953.610.585-30",
+          "rg": ""
+        },
+        {
+          "nome": "Pedro Almeida Martins",
+          "cpf": "145.769.249-36",
+          "rg": ""
+        },
+        {
+          "nome": "Ricardo Teixeira Costa",
+          "cpf": "",
+          "rg": "8.358.360-3"
+        },
+        {
+          "nome": "Rodrigo Rodrigues Gomes",
+          "cpf": "",
+          "rg": "8.944.777-6"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_071.txt": [
+    {
+      "empresa": "Gomes & Marques Têxtil Consultoria Empresarial",
+      "cnpj": "33.301.800/0001-33",
+      "socios": [
+        {
+          "nome": "Fernanda Barbosa Cavalcanti",
+          "cpf": "",
+          "rg": "2.694.633-9"
+        },
+        {
+          "nome": "Lucas Martins Nascimento",
+          "cpf": "",
+          "rg": "2.465.960-2"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_072.txt": [
+    {
+      "empresa": "Teixeira & Gomes Alimentos Serviços Logísticos",
+      "cnpj": "56.632.913/0001-64",
+      "socios": [
+        {
+          "nome": "Roberto Ribeiro Teixeira",
+          "cpf": "",
+          "rg": "3.521.646-9"
+        },
+        {
+          "nome": "Gustavo Melo Rodrigues",
+          "cpf": "348.151.801-85",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_073.txt": [
+    {
+      "empresa": "Cavalcanti & Cardoso Infraestrutura Empreendimentos Imobiliários",
+      "cnpj": "91.995.467/0001-57",
+      "socios": [
+        {
+          "nome": "Luiz Cunha Carvalho",
+          "cpf": "359.376.246-45",
+          "rg": ""
+        },
+        {
+          "nome": "Sofia Martins Pinto",
+          "cpf": "518.845.107-55",
+          "rg": ""
+        },
+        {
+          "nome": "Lucas Melo Araújo",
+          "cpf": "571.603.115-62",
+          "rg": ""
+        },
+        {
+          "nome": "Beatriz Santos Martins",
+          "cpf": "",
+          "rg": "3.523.501-7"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_074.txt": [
+    {
+      "empresa": "Silva & Cavalcanti Construções Participações S.A.",
+      "cnpj": "51.408.987/0001-89",
+      "socios": [
+        {
+          "nome": "Larissa Nascimento Ribeiro",
+          "cpf": "",
+          "rg": "1.410.727-0"
+        },
+        {
+          "nome": "Felipe Martins Silva",
+          "cpf": "",
+          "rg": "4.972.957-1"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_075.txt": [
+    {
+      "empresa": "Rodrigues & Oliveira Construções LTDA",
+      "cnpj": "86.536.577/0001-15",
+      "socios": [
+        {
+          "nome": "Camila Marques Melo",
+          "cpf": "124.782.336-17",
+          "rg": ""
+        },
+        {
+          "nome": "Aline Melo Ribeiro",
+          "cpf": "479.206.843-59",
+          "rg": ""
+        },
+        {
+          "nome": "Camila Santos Cavalcanti",
+          "cpf": "878.253.142-18",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_076.txt": [
+    {
+      "empresa": "Cavalcanti & Gomes Construções Holding Executiva",
+      "cnpj": "31.470.725/0001-42",
+      "socios": [
+        {
+          "nome": "Carlos Cavalcanti Almeida",
+          "cpf": "",
+          "rg": "7.769.306-7"
+        },
+        {
+          "nome": "Gabriel Costa Pereira",
+          "cpf": "278.703.446-49",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_077.txt": [
+    {
+      "empresa": "Silva & Ribeiro Transportes Participações S.A.",
+      "cnpj": "20.557.364/0001-46",
+      "socios": [
+        {
+          "nome": "Camila Dias Cavalcanti",
+          "cpf": "",
+          "rg": "3.483.231-9"
+        },
+        {
+          "nome": "Luiz Dias Rocha",
+          "cpf": "242.917.553-11",
+          "rg": ""
+        },
+        {
+          "nome": "Luiz Marques Nascimento",
+          "cpf": "690.197.456-10",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_078.txt": [
+    {
+      "empresa": "Santos & Ferreira Transportes S/A",
+      "cnpj": "92.671.190/0001-33",
+      "socios": [
+        {
+          "nome": "Luiz Silva Dias",
+          "cpf": "619.240.264-67",
+          "rg": ""
+        },
+        {
+          "nome": "Gabriel Ferreira Rodrigues",
+          "cpf": "",
+          "rg": "8.295.180-3"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_079.txt": [
+    {
+      "empresa": "Barbosa & Almeida Desenvolvimento de Software LTDA",
+      "cnpj": "75.826.438/0001-28",
+      "socios": [
+        {
+          "nome": "Felipe Silva Cavalcanti",
+          "cpf": "",
+          "rg": "7.820.645-4"
+        },
+        {
+          "nome": "Lucas Nascimento Pereira",
+          "cpf": "750.109.235-98",
+          "rg": ""
+        },
+        {
+          "nome": "Maria Gomes Dias",
+          "cpf": "",
+          "rg": "4.253.940-7"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_080.txt": [
+    {
+      "empresa": "Dias & Pereira Desenvolvimento de Software Comércio e Indústria",
+      "cnpj": "33.219.306/0001-84",
+      "socios": [
+        {
+          "nome": "Letícia Oliveira Teixeira",
+          "cpf": "451.652.546-36",
+          "rg": ""
+        },
+        {
+          "nome": "Carlos Cavalcanti Ribeiro",
+          "cpf": "",
+          "rg": "6.866.988-3"
+        },
+        {
+          "nome": "Juliana Melo Nascimento",
+          "cpf": "",
+          "rg": "8.950.966-9"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_081.txt": [
+    {
+      "empresa": "Costa & Dias Saúde S/A",
+      "cnpj": "64.263.911/0001-69",
+      "socios": [
+        {
+          "nome": "Gustavo Nascimento Araújo",
+          "cpf": "",
+          "rg": "6.546.169-8"
+        },
+        {
+          "nome": "Diego Mendes Cardoso",
+          "cpf": "809.700.166-31",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_082.txt": [
+    {
+      "empresa": "Souza & Nascimento Investimentos Comércio e Indústria",
+      "cnpj": "98.599.716/0001-13",
+      "socios": [
+        {
+          "nome": "Letícia Martins Rocha",
+          "cpf": "244.781.272-90",
+          "rg": ""
+        },
+        {
+          "nome": "Sofia Souza Ribeiro",
+          "cpf": "633.905.160-41",
+          "rg": ""
+        },
+        {
+          "nome": "Sofia Marques Nascimento",
+          "cpf": "346.291.246-10",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_083.txt": [
+    {
+      "empresa": "Cunha & Oliveira Agronegócios Serviços Logísticos",
+      "cnpj": "20.193.848/0001-12",
+      "socios": [
+        {
+          "nome": "Mariana Costa Teixeira",
+          "cpf": "487.397.768-24",
+          "rg": ""
+        },
+        {
+          "nome": "Amanda Melo Pinto",
+          "cpf": "",
+          "rg": "2.345.374-4"
+        },
+        {
+          "nome": "Sofia Silva Barbosa",
+          "cpf": "",
+          "rg": "4.783.392-0"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_084.txt": [
+    {
+      "empresa": "Cavalcanti & Ferreira Energia S/A",
+      "cnpj": "85.612.582/0001-88",
+      "socios": [
+        {
+          "nome": "Ana Souza Rodrigues",
+          "cpf": "786.171.892-24",
+          "rg": ""
+        },
+        {
+          "nome": "Rodrigo Mendes Nascimento",
+          "cpf": "",
+          "rg": "7.859.308-5"
+        },
+        {
+          "nome": "Ana Cavalcanti Santos",
+          "cpf": "559.153.329-26",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_085.txt": [
+    {
+      "empresa": "Rodrigues & Cardoso Energia LTDA",
+      "cnpj": "45.349.860/0001-24",
+      "socios": [
+        {
+          "nome": "Carlos Cardoso Araújo",
+          "cpf": "873.743.782-20",
+          "rg": ""
+        },
+        {
+          "nome": "Felipe Souza Martins",
+          "cpf": "",
+          "rg": "5.402.210-8"
+        },
+        {
+          "nome": "Luiz Rocha Ribeiro",
+          "cpf": "448.534.904-56",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_086.txt": [
+    {
+      "empresa": "Barbosa & Silva Desenvolvimento de Software Empreendimentos Imobiliários",
+      "cnpj": "63.405.474/0001-43",
+      "socios": [
+        {
+          "nome": "Mariana Ribeiro Oliveira",
+          "cpf": "",
+          "rg": "2.453.330-1"
+        },
+        {
+          "nome": "Diego Pinto Carvalho",
+          "cpf": "577.974.847-95",
+          "rg": ""
+        },
+        {
+          "nome": "Larissa Pereira Pereira",
+          "cpf": "",
+          "rg": "3.695.675-0"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_087.txt": [
+    {
+      "empresa": "Marques & Silva Tecnologia Empreendimentos Imobiliários",
+      "cnpj": "89.770.985/0001-89",
+      "socios": [
+        {
+          "nome": "Bruno Barbosa Dias",
+          "cpf": "",
+          "rg": "7.778.201-9"
+        },
+        {
+          "nome": "Bruno Cardoso Pinto",
+          "cpf": "",
+          "rg": "4.493.253-9"
+        },
+        {
+          "nome": "Ana Oliveira Mendes",
+          "cpf": "",
+          "rg": "1.463.491-6"
+        },
+        {
+          "nome": "Camila Araújo Rodrigues",
+          "cpf": "941.145.408-13",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_088.txt": [
+    {
+      "empresa": "Cunha & Araújo Alimentos Comércio e Indústria",
+      "cnpj": "39.894.273/0001-48",
+      "socios": [
+        {
+          "nome": "Maria Cunha Pinto",
+          "cpf": "",
+          "rg": "4.971.241-2"
+        },
+        {
+          "nome": "Aline Pereira Oliveira",
+          "cpf": "260.924.475-10",
+          "rg": ""
+        },
+        {
+          "nome": "Sofia Martins Almeida",
+          "cpf": "122.997.863-99",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_089.txt": [
+    {
+      "empresa": "Melo & Marques Transportes Comércio e Indústria",
+      "cnpj": "57.713.191/0001-62",
+      "socios": [
+        {
+          "nome": "Aline Dias Cavalcanti",
+          "cpf": "",
+          "rg": "3.974.361-5"
+        },
+        {
+          "nome": "Gustavo Ribeiro Oliveira",
+          "cpf": "",
+          "rg": "4.973.796-1"
+        },
+        {
+          "nome": "Gustavo Carvalho Ribeiro",
+          "cpf": "",
+          "rg": "5.391.473-9"
+        },
+        {
+          "nome": "Beatriz Almeida Lima",
+          "cpf": "750.879.437-49",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_090.txt": [
+    {
+      "empresa": "Pereira & Marques Agronegócios Empreendimentos Imobiliários",
+      "cnpj": "12.922.307/0001-18",
+      "socios": [
+        {
+          "nome": "João Cunha Cardoso",
+          "cpf": "815.341.429-36",
+          "rg": ""
+        },
+        {
+          "nome": "Sofia Nascimento Carvalho",
+          "cpf": "689.861.123-60",
+          "rg": ""
+        },
+        {
+          "nome": "Gustavo Martins Cardoso",
+          "cpf": "",
+          "rg": "1.707.452-2"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_091.txt": [
+    {
+      "empresa": "Teixeira & Souza Saúde Consultoria Empresarial",
+      "cnpj": "34.145.793/0001-80",
+      "socios": [
+        {
+          "nome": "Carlos Rocha Melo",
+          "cpf": "758.970.872-89",
+          "rg": ""
+        },
+        {
+          "nome": "Aline Oliveira Cunha",
+          "cpf": "579.211.501-99",
+          "rg": ""
+        },
+        {
+          "nome": "Felipe Nascimento Rodrigues",
+          "cpf": "",
+          "rg": "2.561.757-4"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_092.txt": [
+    {
+      "empresa": "Martins & Melo Desenvolvimento de Software Comércio e Indústria",
+      "cnpj": "35.924.229/0001-15",
+      "socios": [
+        {
+          "nome": "Gabriel Teixeira Cavalcanti",
+          "cpf": "",
+          "rg": "7.472.842-5"
+        },
+        {
+          "nome": "Felipe Nascimento Oliveira",
+          "cpf": "850.428.939-19",
+          "rg": ""
+        },
+        {
+          "nome": "Juliana Nascimento Barbosa",
+          "cpf": "687.751.743-52",
+          "rg": ""
+        },
+        {
+          "nome": "Bruno Cardoso Pinto",
+          "cpf": "891.398.819-15",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_093.txt": [
+    {
+      "empresa": "Almeida & Marques Infraestrutura Empreendimentos Imobiliários",
+      "cnpj": "87.459.520/0001-15",
+      "socios": [
+        {
+          "nome": "Lucas Barbosa Souza",
+          "cpf": "",
+          "rg": "1.540.448-0"
+        },
+        {
+          "nome": "Lucas Lima Oliveira",
+          "cpf": "307.921.648-27",
+          "rg": ""
+        },
+        {
+          "nome": "Larissa Dias Santos",
+          "cpf": "187.942.737-51",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_094.txt": [
+    {
+      "empresa": "Barbosa & Araújo Alimentos Consultoria Empresarial",
+      "cnpj": "67.862.384/0001-70",
+      "socios": [
+        {
+          "nome": "Felipe Martins Santos",
+          "cpf": "",
+          "rg": "6.647.695-4"
+        },
+        {
+          "nome": "Lucas Lima Cardoso",
+          "cpf": "",
+          "rg": "2.627.514-0"
+        },
+        {
+          "nome": "Lucas Martins Teixeira",
+          "cpf": "997.654.393-95",
+          "rg": ""
+        },
+        {
+          "nome": "Ana Almeida Moreira",
+          "cpf": "",
+          "rg": "9.876.234-3"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_095.txt": [
+    {
+      "empresa": "Carvalho & Almeida Saúde Comércio e Indústria",
+      "cnpj": "36.782.778/0001-12",
+      "socios": [
+        {
+          "nome": "João Oliveira Rocha",
+          "cpf": "369.528.518-93",
+          "rg": ""
+        },
+        {
+          "nome": "Gustavo Oliveira Martins",
+          "cpf": "",
+          "rg": "6.780.139-5"
+        },
+        {
+          "nome": "Roberto Cunha Araújo",
+          "cpf": "",
+          "rg": "5.742.633-7"
+        },
+        {
+          "nome": "Patricia Cavalcanti Gomes",
+          "cpf": "326.210.297-43",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_096.txt": [
+    {
+      "empresa": "Souza & Cardoso Tecnologia Empreendimentos Imobiliários",
+      "cnpj": "81.284.795/0001-12",
+      "socios": [
+        {
+          "nome": "Bruno Carvalho Almeida",
+          "cpf": "327.488.666-86",
+          "rg": ""
+        },
+        {
+          "nome": "Luiz Pereira Melo",
+          "cpf": "",
+          "rg": "6.511.269-2"
+        },
+        {
+          "nome": "Carlos Oliveira Araújo",
+          "cpf": "700.193.494-47",
+          "rg": ""
+        },
+        {
+          "nome": "Bruno Cavalcanti Silva",
+          "cpf": "217.144.751-79",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_097.txt": [
+    {
+      "empresa": "Silva & Gomes Agronegócios S/A",
+      "cnpj": "70.266.331/0001-67",
+      "socios": [
+        {
+          "nome": "Carlos Marques Marques",
+          "cpf": "",
+          "rg": "4.123.103-2"
+        },
+        {
+          "nome": "Gabriel Dias Ferreira",
+          "cpf": "874.218.641-85",
+          "rg": ""
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_098.txt": [
+    {
+      "empresa": "Rocha & Dias Desenvolvimento de Software Consultoria Empresarial",
+      "cnpj": "49.116.401/0001-69",
+      "socios": [
+        {
+          "nome": "Amanda Moreira Pereira",
+          "cpf": "",
+          "rg": "7.678.201-3"
+        },
+        {
+          "nome": "Ana Melo Pereira",
+          "cpf": "461.912.578-77",
+          "rg": ""
+        },
+        {
+          "nome": "Letícia Pinto Melo",
+          "cpf": "379.794.375-12",
+          "rg": ""
+        },
+        {
+          "nome": "Ana Silva Ferreira",
+          "cpf": "",
+          "rg": "4.209.359-7"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_099.txt": [
+    {
+      "empresa": "Teixeira & Teixeira Agronegócios Consultoria Empresarial",
+      "cnpj": "32.704.673/0001-37",
+      "socios": [
+        {
+          "nome": "Letícia Souza Teixeira",
+          "cpf": "407.251.792-26",
+          "rg": ""
+        },
+        {
+          "nome": "Pedro Gomes Martins",
+          "cpf": "",
+          "rg": "3.566.924-4"
+        }
+      ]
+    }
+  ],
+  "doc_grupo1_100.txt": [
+    {
+      "empresa": "Oliveira & Martins Infraestrutura Comércio e Indústria",
+      "cnpj": "53.661.331/0001-74",
+      "socios": [
+        {
+          "nome": "Ricardo Cavalcanti Mendes",
+          "cpf": "270.295.435-42",
+          "rg": ""
+        },
+        {
+          "nome": "Gustavo Souza Pinto",
+          "cpf": "",
+          "rg": "1.160.202-1"
+        },
+        {
+          "nome": "Sofia Barbosa Pinto",
+          "cpf": "",
+          "rg": "1.960.953-2"
+        }
+      ]
+    }
+  ]
+}
