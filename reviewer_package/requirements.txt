@@ -1,0 +1,32 @@
+# Versões fixas e compatíveis entre si (testadas com pip install + imports do code v2).
+# Jupyter
+jupyter==1.1.1
+
+# LangChain — manter o conjunto 0.3.x alinhado (core/community/text-splitters)
+langchain==0.3.28
+langchain-core==0.3.83
+langchain-community==0.3.31
+langchain-ollama==0.3.10
+langchain-openai==0.3.35
+langchain-text-splitters==0.3.11
+
+# APIs e transporte
+openai==2.29.0
+httpx==0.28.1
+ollama==0.6.1
+
+# Schemas (Pydantic v2) e PDF
+pydantic==2.12.5
+pypdf==6.9.2
+
+# Embeddings Hugging Face + Chroma (embedder.py)
+transformers==4.38.2
+sentence-transformers==2.6.1
+chromadb==1.5.5
+
+# NumPy / PyTorch — usados por sentence-transformers; pin evita drift entre ambientes
+numpy==2.0.2
+torch==2.8.0
+
+# Tokenização OpenAI (langchain-openai / tiktoken)
+tiktoken==0.12.0
